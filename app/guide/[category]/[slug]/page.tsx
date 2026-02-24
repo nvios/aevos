@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { notFound } from "next/navigation";
 import { ArticleLayout } from "@/components/article-layout";
-import { getArticleBySlug, getArticlesByCategory } from "@/lib/content/articles";
+import { getArticleBySlug, getArticlesByCategory, getAllArticles } from "@/lib/content/articles";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { marked } from "marked";
 
-export async function generateStaticParams({
-  params,
-}: {
-  params: Promise<{ category: string }>;
-}) {
-  const { category } = await params;
-  const articles = getArticlesByCategory(category);
+export async function generateStaticParams() {
+  const articles = getAllArticles();
   return articles.map((article) => ({
+    category: article.category,
     slug: article.slug,
   }));
 }
