@@ -19,6 +19,9 @@ export type Recipe = {
   benefits: Array<{ title: string; description: string }>;
   tags?: string[];
   content: string; // Additional content/notes
+  author: string;
+  image?: string;
+  faq?: Array<{ question: string; answer: string }>;
 };
 
 export function getRecipeBySlug(slug: string): Recipe | null {
@@ -62,6 +65,9 @@ export function getRecipeBySlug(slug: string): Recipe | null {
       benefits: data.benefits || [],
       tags: data.tags,
       content,
+      author: data.author || "Aevos Health Team",
+      image: data.image,
+      faq: data.faq,
     };
   } catch (error) {
     console.error(`Error reading recipe ${slug}:`, error);

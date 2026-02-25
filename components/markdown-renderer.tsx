@@ -1,5 +1,5 @@
 import React from "react";
-import parse, { DOMNode, Element, Text, Options } from "html-react-parser";
+import parse, { DOMNode, Element, Text, HTMLReactParserOptions } from "html-react-parser";
 import { marked } from "marked";
 import { glossaryTerms } from "@/lib/content/glossary";
 import { GlossaryPopover } from "@/components/glossary-popover";
@@ -14,7 +14,7 @@ export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
   // Sort terms by length (descending) to match longer phrases first
   const sortedTerms = [...glossaryTerms].sort((a, b) => b.term.length - a.term.length);
 
-  const options: Options = {
+  const options: HTMLReactParserOptions = {
     replace: (domNode) => {
       // Check if it's a text node
       if (domNode.type === 'text') {
