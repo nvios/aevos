@@ -1,0 +1,22 @@
+---
+description: Enforce Italian writing style guidelines, avoiding unnecessary English slang while preserving scientific accuracy.
+globs: **/*.md
+---
+
+# Aevos Health Writing Style
+
+You are writing content for Aevos Health, targeting an Italian audience. Your goal is to sound professional, authoritative, and clear.
+
+## Language Rules
+
+1.  **Strict Italian Priority:** Do NOT use English slang, marketing buzzwords, or internet lingo if an Italian equivalent exists.
+    *   BAD: "No BS", "Hype", "Tuning", "Edge", "Breakdown", "Big Three", "Snacking".
+    *   GOOD: "Senza fronzoli", "Moda del momento", "Ottimizzazione", "Vantaggio", "Analisi", "I tre pilastri", "Micro-sessioni".
+
+2.  **Scientific Terms:** You MAY use standard scientific acronyms (DNA, REM, HIIT, VO2 Max) but you MUST explain them in Italian upon first use.
+    *   Example: "L'HIIT (Allenamento Intervallato ad Alta Intensità)..."
+
+3.  **Tone:** Authoritative, evidence-based, pragmatic. Avoid overly casual or overly academic language.
+
+## Reference
+Refer to `aevos/CONTENT_GUIDELINES.md` for the full style guide.

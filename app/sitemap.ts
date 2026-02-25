@@ -3,12 +3,10 @@ import { siteConfig } from "@/lib/site";
 
 const routes = [
   "",
-  "/guide",
-  "/guide/sonno",
-  "/guide/esercizio",
-  "/guide/nutrizione",
-  "/prodotti",
-  "/ricerca",
+  "/articoli",
+  "/articoli/sonno",
+  "/articoli/esercizio",
+  "/articoli/nutrizione",
   "/servizi",
   "/servizi/lombardia/milano",
   "/servizi/lombardia/bergamo",
@@ -16,6 +14,7 @@ const routes = [
   "/eta-biologica",
   "/aspettativa-di-vita",
   "/calcolo-longevita",
+  "/ricette",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

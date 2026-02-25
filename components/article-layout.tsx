@@ -3,10 +3,12 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { faqJsonLd } from "@/lib/seo/schema";
 import Script from "next/script";
 import Link from "next/link";
-import { ChevronLeft, Clock, User } from "lucide-react";
+import { ChevronLeft, Clock, User, ExternalLink, ArrowRight } from "lucide-react";
 
 import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
+
+import type { Article } from "@/lib/content/articles";
 
 type FaqItem = {
   question: string;
@@ -26,8 +28,12 @@ type ArticleProps = {
   };
   faq?: FaqItem[];
   cta?: Array<{ text: string; link: string; description?: string }>;
+  resources?: Array<{ name: string; link: string }>;
+  relatedArticles?: Article[];
   children: React.ReactNode;
 };
+
+import { getCategoryBySlug } from "@/lib/content/categories";
 
 export function ArticleLayout({
   title,
@@ -36,12 +42,14 @@ export function ArticleLayout({
   category,
   faq,
   cta,
+  resources,
+  relatedArticles,
   children,
 }: ArticleProps) {
   const faqSchema = faq ? faqJsonLd(faq) : null;
 
   return (
-    <article className="mx-auto max-w-3xl py-12">
+    <article className="mx-auto max-w-3xl py-8">
       {faqSchema && (
         <Script
           id="article-faq"
@@ -53,16 +61,16 @@ export function ArticleLayout({
       {/* Breadcrumb / Back Link */}
       <div className="mb-4">
         <Link
-          href={`/guide/${category.slug}`}
+          href="/articoli"
           className="inline-flex items-center text-sm font-medium text-zinc-500 hover:text-zinc-900"
         >
           <ChevronLeft className="mr-1 h-4 w-4" />
-          Torna a {category.name}
+          Torna agli articoli
         </Link>
       </div>
 
       {/* Header */}
-      <header className="mb-8 space-y-6">
+      <header className="mb-6 space-y-4">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">
           {title}
         </h1>
@@ -118,6 +126,61 @@ export function ArticleLayout({
           </h2>
           <FaqAccordion items={faq.map(item => ({ question: item.question, answer: item.answer }))} />
           <FaqSubmission />
+        </section>
+      )}
+
+      {/* Related Articles */}
+      {relatedArticles && relatedArticles.length > 0 && (
+        <section className="mt-16 border-t border-zinc-200 pt-10">
+          <h3 className="mb-6 text-2xl font-bold text-zinc-800">Articoli Correlati</h3>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/articoli/${article.category}/${article.slug}`}
+                className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
+              >
+                <div className="space-y-3">
+                  <span className="inline-flex items-center rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-800">
+                    {getCategoryBySlug(article.category)?.title || article.category}
+                  </span>
+                  <h4 className="text-lg font-bold text-zinc-800 group-hover:text-emerald-600 transition-colors line-clamp-2">
+                    {article.title}
+                  </h4>
+                  <p className="text-sm text-zinc-600 line-clamp-3 leading-relaxed">
+                    {article.description}
+                  </p>
+                </div>
+                <div className="mt-4 flex items-center text-sm font-medium text-emerald-600">
+                  Leggi <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Resources */}
+      {resources && resources.length > 0 && (
+        <section className="mt-16 border-t border-zinc-200 pt-10">
+          <h3 className="mb-6 text-2xl font-bold text-zinc-800">Approfondimenti Esterni</h3>
+          <ul className="space-y-3">
+            {resources.map((resource, index) => (
+              <li key={index}>
+                <a
+                  href={resource.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center text-zinc-600 hover:text-emerald-600 transition-colors"
+                >
+                  <ExternalLink className="mr-2 h-4 w-4 text-zinc-400 group-hover:text-emerald-500" />
+                  <span className="underline decoration-zinc-300 underline-offset-4 group-hover:decoration-emerald-500">
+                    {resource.name}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
     </article>

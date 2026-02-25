@@ -53,7 +53,7 @@ export default function EtaBiologicaPage() {
           benchmark avanzati dopo registrazione.
         </p>
         <Link
-          href="/calcolo-longevita"
+          href="/longevity-calculator"
           className="inline-flex rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-white"
         >
           Vai al calcolo longevita

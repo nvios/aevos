@@ -7,41 +7,29 @@ import { MapPin, Activity, Building2, Stethoscope } from "lucide-react";
 export const metadata = buildMetadata({
   title: "Servizi e Partner per la Longevità",
   description:
-    "Assessment personalizzati, partnership esclusive e servizi locali in Lombardia per ottimizzare la tua salute.",
+    "Assessment personalizzati, partnership esclusive e servizi locali per ottimizzare la tua salute.",
   path: "/servizi",
 });
 
 const services = [
   {
-    title: "Assessment Personalizzati",
-    description: "Analisi completa del tuo stato di salute con piano d'azione su misura.",
-    href: "/servizi/assessment",
+    title: "Screening Digitale Avanzato",
+    description: "Un'analisi preliminare del tuo profilo di invecchiamento basata su biomarcatori ematici e stile di vita. Il primo passo verso la consapevolezza.",
+    href: "/servizi/assessment-online",
     icon: Activity,
   },
   {
-    title: "Partner Esclusivi",
-    description: "Accesso a palestre, spa e centri benessere selezionati con vantaggi dedicati.",
-    href: "/servizi/partner",
-    icon: Building2,
-  },
-  {
-    title: "Consulti Specialistici",
-    description: "Mettiti in contatto con medici e nutrizionisti esperti in medicina della longevità.",
-    href: "/servizi/consulti",
+    title: "Protocollo Clinico Aevos",
+    description: "L'esperienza definitiva. Una giornata nel nostro centro per test funzionali, imaging avanzato e valutazione biologica completa.",
+    href: "/servizi/assessment-clinico",
     icon: Stethoscope,
   },
-];
-
-const provinces = [
-  { name: "Milano", href: "/servizi/lombardia/milano" },
-  { name: "Bergamo", href: "/servizi/lombardia/bergamo" },
-  { name: "Brescia", href: "/servizi/lombardia/brescia" },
 ];
 
 export default function ServiziPage() {
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Servizi", path: "/servizi" },
+    { name: "Assessment", path: "/servizi" },
   ]);
 
   return (
@@ -51,48 +39,49 @@ export default function ServiziPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
-      <div className="space-y-4">
+      <div className="space-y-6 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">
-          Servizi e Partner
+          Il Gold Standard per la Longevità
         </h1>
-        <p className="max-w-2xl text-xl text-zinc-600">
-          Accedi a servizi premium e specialisti selezionati per supportare il tuo percorso di longevità.
+        <p className="mx-auto max-w-2xl text-xl text-zinc-600">
+          Oltre i trend del momento. Un approccio clinico consolidato da decenni di ricerca ed esperienza sul campo, per offrirti la massima precisione diagnostica.
         </p>
       </div>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 sm:grid-cols-2 max-w-4xl mx-auto">
         {services.map((service) => (
           <Link
             key={service.href}
             href={service.href}
-            className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
+            className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:border-zinc-300 hover:shadow-lg flex flex-col items-center text-center"
           >
-            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-100 text-zinc-900 transition-colors group-hover:bg-zinc-900 group-hover:text-white">
-              <service.icon className="h-6 w-6" />
+            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-zinc-100 text-zinc-900 transition-colors group-hover:bg-zinc-900 group-hover:text-white">
+              <service.icon className="h-8 w-8" />
             </div>
-            <h2 className="mb-2 text-xl font-bold text-zinc-800">
+            <h2 className="mb-4 text-2xl font-bold text-zinc-800">
               {service.title}
             </h2>
-            <p className="text-zinc-600">{service.description}</p>
+            <p className="text-zinc-600 leading-relaxed mb-6">{service.description}</p>
+            <span className="mt-auto inline-flex items-center text-sm font-semibold text-zinc-900 group-hover:underline">
+              Scopri di più
+            </span>
           </Link>
         ))}
       </div>
 
-      <div className="space-y-6 border-t border-zinc-200 pt-12">
-        <h2 className="text-2xl font-bold text-zinc-800">Servizi Locali in Lombardia</h2>
-        <div className="grid gap-4 sm:grid-cols-3">
-          {provinces.map((province) => (
-            <Link
-              key={province.href}
-              href={province.href}
-              className="group flex items-center justify-between rounded-xl border border-zinc-200 bg-white p-4 transition-all hover:border-zinc-300 hover:shadow-md"
-            >
-              <div className="flex items-center gap-3">
-                <MapPin className="h-5 w-5 text-zinc-500 group-hover:text-zinc-900" />
-                <span className="font-medium text-zinc-800">{province.name}</span>
-              </div>
-            </Link>
-          ))}
+      <div className="mx-auto max-w-3xl space-y-8 border-t border-zinc-200 pt-12 text-center">
+        <h2 className="text-3xl font-bold text-zinc-800">Perché scegliere il protocollo in sede?</h2>
+        <p className="text-lg text-zinc-600 leading-relaxed">
+          Mentre lo screening digitale offre un ottimo punto di partenza, la visita presso la nostra clinica permette misurazioni impossibili da remoto:
+          analisi della composizione corporea avanzata, test VO2 max, valutazione della flessibilità metabolica e screening cognitivo approfondito.
+        </p>
+        <div className="pt-4">
+          <Link
+            href="/contatti"
+            className="inline-flex h-12 items-center justify-center rounded-full bg-zinc-900 px-8 text-base font-semibold text-white transition-colors hover:bg-zinc-800"
+          >
+            Prenota una consulenza orientativa
+          </Link>
         </div>
       </div>
     </div>

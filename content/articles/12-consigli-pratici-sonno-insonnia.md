@@ -10,7 +10,16 @@ faq:
   - question: "La melatonina è sicura per l'uso quotidiano?"
     answer: "Può essere utile per resettare il ritmo circadiano, ma non dovrebbe essere usata come 'sonnifero' cronico senza supervisione medica."
   - question: "Perché mi sveglio sempre alle 3 di notte?"
-    answer: "Spesso è legato a cali glicemici notturni o picchi di cortisolo. Un piccolo snack proteico prima di dormire o la riduzione dell'alcol possono aiutare."
+    answer: "Spesso è legato a cali glicemici notturni o picchi di cortisolo. Un piccolo snack [proteico](/articoli/nutrizione/miti-proteine) prima di dormire o la riduzione dell'alcol possono aiutare."
+tags:
+  - sonno
+  - insonnia
+  - ritmo circadiano
+resources:
+  - name: "Why We Sleep - Matthew Walker"
+    link: "https://www.amazon.it/Why-We-Sleep-Unlocking-Dreams/dp/1501144316"
+  - name: "Huberman Lab - Sleep Toolkit"
+    link: "https://www.hubermanlab.com/newsletter/toolkit-for-sleep"
 cta:
   - text: "Calcola la tua Età Biologica"
     link: "/calcolo-longevita"
@@ -40,7 +49,7 @@ Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica
 7. **Digital Detox Serale.**
    La luce blu degli schermi inganna il cervello facendogli credere che sia ancora giorno. Usa occhiali blue-blocker o attiva la modalità notturna sui dispositivi almeno 2 ore prima di dormire.
 
-8. **Attività Fisica (ma al momento giusto).**
+8. **[Attività Fisica](/articoli/esercizio/esercizio-massimizzare-risultati) (ma al momento giusto).**
    L'esercizio fisico stanca il corpo e aumenta la pressione del sonno. Tuttavia, allenamenti intensi troppo vicini all'ora di andare a letto possono aumentare il cortisolo e la temperatura corporea, rendendo difficile addormentarsi.
 
 9. **Non Mangiare Troppo Tardi.**
@@ -52,5 +61,5 @@ Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica
 11. **Il Letto è Solo per Dormire.**
     Non lavorare, mangiare o guardare la TV a letto. Il cervello deve associare quel luogo esclusivamente al riposo (e all'intimità). Se non dormi dopo 20 minuti, alzati e fai qualcosa di rilassante altrove finché non torna il sonno.
 
-12. **Integrazione Mirata (Opzionale).**
+12. **[Integrazione Mirata](/articoli/nutrizione/guida-integratori) (Opzionale).**
     Prima di ricorrere ai farmaci, valuta con un medico integratori come Magnesio Bisglicinato, L-Teanina o Glicina, che possono favorire il rilassamento senza dare dipendenza.

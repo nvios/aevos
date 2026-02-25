@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getSupabaseClient } from "@/lib/auth/supabase";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Lock } from "lucide-react";
 
 export default function LoginPage() {
@@ -11,7 +11,43 @@ export default function LoginPage() {
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const emailParam = searchParams.get("email");
+  const signupParam = searchParams.get("signup");
   const supabase = getSupabaseClient();
+
+  useEffect(() => {
+    if (emailParam) {
+      setEmail(emailParam);
+    }
+    if (signupParam) {
+      setStatus("Completa la registrazione creando una password.");
+    }
+  }, [emailParam, signupParam]);
+
+  useEffect(() => {
+    if (!supabase) return;
+
+    // Check if already logged in
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) {
+        router.push("/");
+        router.refresh();
+      }
+    });
+
+    // Listen for auth changes (e.g. after OAuth redirect)
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (session) {
+        router.push("/");
+        router.refresh();
+      }
+    });
+
+    return () => subscription.unsubscribe();
+  }, [supabase, router]);
 
   const handleOAuth = async () => {
     if (!supabase) {
@@ -22,7 +58,7 @@ export default function LoginPage() {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/`,
+        redirectTo: `${window.location.origin}/login`,
       },
     });
 
@@ -131,7 +167,7 @@ export default function LoginPage() {
               {loading ? "Elaborazione..." : "Accedi / Registrati"}
             </button>
           </form>
-          
+
           {status && (
             <p className="text-center text-xs text-zinc-600 animate-pulse">
               {status}

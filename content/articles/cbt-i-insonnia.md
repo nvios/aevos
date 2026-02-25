@@ -11,6 +11,16 @@ faq:
     answer: "Sì, è raccomandata come trattamento di prima linea dall'American College of Physicians e dall'European Sleep Research Society, dimostrandosi più efficace dei farmaci nel lungo periodo."
   - question: "Quanto dura il trattamento?"
     answer: "Solitamente un protocollo CBT-I dura dalle 4 alle 8 settimane, con miglioramenti significativi spesso visibili già dopo le prime 2-3 settimane."
+tags:
+  - cbt-i
+  - insonnia
+  - terapia cognitivo comportamentale
+  - psicologia del sonno
+resources:
+  - name: "Sleep Foundation - CBT-I Guide"
+    link: "https://www.sleepfoundation.org/insomnia/treatment/cognitive-behavioral-therapy-insomnia"
+  - name: "Mayo Clinic - Insomnia Treatment"
+    link: "https://www.mayoclinic.org/diseases-conditions/insomnia/in-depth/insomnia-treatment/art-20046677"
 cta:
   - text: "Inizia il Check-up Gratuito"
     link: "/calcolo-longevita"
@@ -32,7 +42,7 @@ Ecco i 5 pilastri fondamentali della CBT-I che puoi iniziare a comprendere oggi:
    - Svegliati alla stessa ora ogni mattina, indipendentemente da quanto hai dormito.
 
 3. **Igiene del Sonno**
-   Queste sono le basi ambientali e comportamentali (trattate nell'articolo sui "12 Consigli"): ambiente buio, fresco, silenzioso, evitare caffeina e alcol prima di dormire, esercizio fisico regolare ma non serale. L'igiene del sonno da sola spesso non cura l'insonnia cronica, ma è il fondamento necessario per la CBT-I.
+   Queste sono le basi ambientali e comportamentali (trattate nell'articolo sui "[12 Consigli](/articoli/sonno/12-consigli-pratici-sonno-insonnia)"): ambiente buio, fresco, silenzioso, evitare caffeina e alcol prima di dormire, [esercizio fisico](/articoli/esercizio/esercizio-massimizzare-risultati) regolare ma non serale. L'igiene del sonno da sola spesso non cura l'insonnia cronica, ma è il fondamento necessario per la CBT-I.
 
 4. **Ristrutturazione Cognitiva**
    Questa parte affronta l'ansia da prestazione legata al sonno. Molti insonni sviluppano credenze catastrofiche ("Se non dormo stanotte, domani non funzionerò", "Mi ammalerò se non dormo 8 ore"). La terapia aiuta a sfidare questi pensieri automatici negativi, riducendo l'attivazione (arousal) che impedisce il sonno. Sostituire "Devo dormire assolutamente" con "Anche se riposo solo un po', domani me la caverò" può paradossalmente facilitare il sonno.

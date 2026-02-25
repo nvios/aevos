@@ -7,9 +7,8 @@ export const siteConfig = {
 } as const;
 
 export const navItems = [
-  { href: "/guide", label: "Guide" },
-  { href: "/prodotti", label: "Prodotti" },
-  { href: "/ricerca", label: "Ricerca" },
+  { href: "/articoli", label: "Articoli" },
+  { href: "/ricette", label: "Ricette" },
   { href: "/servizi", label: "Servizi" },
   { href: "/calcolo-longevita", label: "Calcolo longevità" },
 ] as const;

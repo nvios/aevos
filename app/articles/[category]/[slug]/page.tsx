@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { notFound } from "next/navigation";
 import { ArticleLayout } from "@/components/article-layout";
-import { getArticleBySlug, getArticlesByCategory, getAllArticles } from "@/lib/content/articles";
+import { getArticleBySlug, getArticlesByCategory, getAllArticles, getRelatedArticles, type Article } from "@/lib/content/articles";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { marked } from "marked";
@@ -29,7 +31,7 @@ export async function generateMetadata({
   return buildMetadata({
     title: article.title,
     description: article.description,
-    path: `/guide/${category}/${slug}`,
+    path: `/articles/${category}/${slug}`,
   });
 }
 
@@ -49,10 +51,12 @@ export default async function ArticlePage({
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Guide", path: "/guide" },
-    { name: article.category, path: `/guide/${category}` },
-    { name: article.title, path: `/guide/${category}/${slug}` },
+    { name: "Articoli", path: "/articles" },
+    { name: article.category, path: `/articles/${category}` },
+    { name: article.title, path: `/articles/${category}/${slug}` },
   ]);
+
+  const relatedArticles = getRelatedArticles(slug, category, article.tags);
 
   return (
     <>
@@ -68,6 +72,8 @@ export default async function ArticlePage({
         category={{ name: article.category, slug: category }}
         faq={article.faq}
         cta={article.cta}
+        resources={article.resources}
+        relatedArticles={relatedArticles}
       >
         <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       </ArticleLayout>

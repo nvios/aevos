@@ -4,16 +4,16 @@ import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo/schema";
 import { LongevityCalculator } from "./calculator";
 
 export const metadata = buildMetadata({
-  title: "Calcolo longevita",
+  title: "Calcolo longevità",
   description:
-    "Calcola un profilo iniziale di longevita con insight gratuiti e benchmark avanzati dopo signup.",
-  path: "/calcolo-longevita",
+    "Calcola un profilo iniziale di longevità con insight gratuiti e benchmark avanzati dopo signup.",
+  path: "/longevity-calculator",
 });
 
 export default function CalcoloLongevitaPage() {
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Calcolo longevita", path: "/calcolo-longevita" },
+    { name: "Calcolo longevità", path: "/longevity-calculator" },
   ]);
   const faq = faqJsonLd([
     {
@@ -40,7 +40,7 @@ export default function CalcoloLongevitaPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }}
       />
-      <h1 className="text-3xl font-semibold">Calcolo longevita</h1>
+      <h1 className="text-3xl font-semibold">Calcolo longevità</h1>
       <p className="max-w-3xl text-zinc-700">
         Versione iniziale del motore di valutazione. Oggi parte da dati base,
         domani estendibile a wearable, biomarker e trend longitudinali.

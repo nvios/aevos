@@ -55,7 +55,7 @@ export default function AspettativaDiVitaPage() {
           confronti avanzati dopo iscrizione.
         </p>
         <Link
-          href="/calcolo-longevita"
+          href="/longevity-calculator"
           className="inline-flex rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-white"
         >
           Calcola ora

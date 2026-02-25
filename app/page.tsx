@@ -2,7 +2,8 @@ import Link from "next/link";
 import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/lib/site";
-import { ArrowRight, Activity, ShieldCheck, TrendingUp, Users } from "lucide-react";
+import { NewsletterForm } from "@/components/newsletter-form";
+import { ArrowRight, Activity, ShieldCheck, TrendingUp, Users, Stethoscope } from "lucide-react";
 
 export const metadata = buildMetadata({
   title: "Longevità, prevenzione e performance quotidiana",
@@ -28,26 +29,20 @@ const features = [
   {
     title: "Guide Evidence-Based",
     text: "Analisi approfondite su sonno, nutrizione ed esercizio, basate esclusivamente su studi clinici e meta-analisi.",
-    href: "/guide",
+    href: "/articoli",
     icon: Activity,
   },
   {
-    title: "Strumenti Validati",
-    text: "Selezione rigorosa di supplementi e tecnologie per la longevità, filtrati per efficacia dimostrata e ROI biologico.",
-    href: "/prodotti",
-    icon: ShieldCheck,
-  },
-  {
-    title: "Ricerca e Analisi",
-    text: "Sintesi operative delle ultime scoperte scientifiche. Trasformiamo paper complessi in protocolli applicabili.",
-    href: "/ricerca",
+    title: "Monitoraggio Salute e Longevità",
+    text: "Dashboard interattiva per tracciare progressi e risultati.",
+    href: "/calcolo-longevita",
     icon: TrendingUp,
   },
   {
-    title: "Network Specializzato",
-    text: "Accesso diretto a cliniche e professionisti della longevità selezionati per competenza e strumentazione.",
+    title: "Assessment Clinico",
+    text: "Il gold standard italiano per la diagnostica della longevità. Protocolli validati da decenni di ricerca ed esperienza clinica.",
     href: "/servizi",
-    icon: Users,
+    icon: Stethoscope,
   },
 ];
 
@@ -88,10 +83,10 @@ export default function Home() {
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
-              href="/guide"
+              href="/articoli"
               className="inline-flex h-12 items-center justify-center rounded-full border border-zinc-600 bg-transparent px-8 text-base font-medium text-white transition-colors hover:bg-zinc-800"
             >
-              Esplora le Guide
+              Esplora gli articoli
             </Link>
           </div>
         </div>
@@ -104,7 +99,7 @@ export default function Home() {
       {/* Features Grid */}
       <section className="mx-auto max-w-6xl px-4">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-zinc-600 sm:text-4xl">
             Tutto ciò che serve per vivere meglio, più a lungo.
           </h2>
           <p className="mt-4 text-lg text-zinc-600">
@@ -112,7 +107,7 @@ export default function Home() {
           </p>
         </div>
         
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:w-1/2 [&>*:last-child:nth-child(odd)]:md:mx-auto">
           {features.map((card) => {
             const Icon = card.icon;
             return (
@@ -144,20 +139,7 @@ export default function Home() {
               su longevità e performance, direttamente nella loro inbox.
             </p>
             
-            <form className="mx-auto flex max-w-md flex-col gap-3 sm:flex-row">
-              <input
-                type="email"
-                placeholder="La tua email migliore"
-                className="flex-1 rounded-full border border-zinc-300 bg-white px-5 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900"
-                required
-              />
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-3 font-semibold text-white transition-colors hover:bg-zinc-800"
-              >
-                Iscriviti
-              </button>
-            </form>
+            <NewsletterForm />
             <p className="text-xs text-zinc-500">
               Nessuno spam. Cancellati in qualsiasi momento.
             </p>

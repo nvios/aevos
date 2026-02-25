@@ -6,42 +6,10 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { ArrowRight } from "lucide-react";
 import { getArticlesByCategory } from "@/lib/content/articles";
-
-type CategoryConfig = {
-  title: string;
-  description: string;
-};
-
-const categoryMap: Record<string, CategoryConfig> = {
-  sonno: {
-    title: "Guide Sonno",
-    description:
-      "Scopri come ottimizzare il tuo riposo per massimizzare energia, focus mentale e recupero fisico.",
-  },
-  esercizio: {
-    title: "Guide Esercizio",
-    description:
-      "Costruisci forza e resistenza con protocolli di allenamento sostenibili e scientificamente validati.",
-  },
-  nutrizione: {
-    title: "Guide Nutrizione",
-    description:
-      "Strategie alimentari pratiche per nutrire il tuo corpo, migliorare il metabolismo e sostenere la longevità.",
-  },
-  "skin-care": {
-    title: "Guide Skin Care",
-    description:
-      "Trattamenti e routine per una pelle sana, luminosa e protetta dai segni del tempo.",
-  },
-  hair: {
-    title: "Guide Hair",
-    description:
-      "Strategie per capelli forti e vitali, dalla prevenzione della caduta al mantenimento della densità.",
-  },
-};
+import { categories, getCategoryBySlug } from "@/lib/content/categories";
 
 export function generateStaticParams() {
-  return Object.keys(categoryMap).map((category) => ({ category }));
+  return categories.map((category) => ({ category: category.slug }));
 }
 
 export async function generateMetadata({
@@ -50,15 +18,15 @@ export async function generateMetadata({
   params: Promise<{ category: string }>;
 }): Promise<Metadata> {
   const { category } = await params;
-  const config = categoryMap[category];
+  const config = getCategoryBySlug(category);
   if (!config) {
     return {};
   }
 
   return buildMetadata({
-    title: config.title,
-    description: config.description,
-    path: `/guide/${category}`,
+    title: config.heroTitle,
+    description: config.heroDescription,
+    path: `/articoli/${category}`,
   });
 }
 
@@ -68,7 +36,7 @@ export default async function GuideCategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const { category } = await params;
-  const config = categoryMap[category];
+  const config = getCategoryBySlug(category);
 
   if (!config) {
     notFound();
@@ -78,8 +46,8 @@ export default async function GuideCategoryPage({
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Guide", path: "/guide" },
-    { name: config.title, path: `/guide/${category}` },
+    { name: "Articoli", path: "/articoli" },
+    { name: config.heroTitle, path: `/articoli/${category}` },
   ]);
 
   return (
@@ -91,10 +59,10 @@ export default async function GuideCategoryPage({
       />
       <div className="space-y-4">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800">
-          {config.title}
+          {config.heroTitle}
         </h1>
         <p className="max-w-3xl text-lg text-zinc-600 leading-relaxed">
-          {config.description}
+          {config.heroDescription}
         </p>
       </div>
 
@@ -103,7 +71,7 @@ export default async function GuideCategoryPage({
           {articles.map((article) => (
             <Link
               key={article.slug}
-              href={`/guide/${category}/${article.slug}`}
+              href={`/articoli/${category}/${article.slug}`}
               className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
             >
               <div className="space-y-3">
