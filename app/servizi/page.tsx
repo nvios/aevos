@@ -19,8 +19,8 @@ const services = [
     icon: Activity,
   },
   {
-    title: "Protocollo Clinico Aevos",
-    description: "L'esperienza definitiva. Una giornata nel nostro centro per test funzionali, imaging avanzato e valutazione biologica completa.",
+    title: "Protocollo Clinico",
+    description: "L'esperienza definitiva. Monitoraggio diretto nel nostro centro per test funzionali, imaging avanzato e valutazione biologica completa.",
     href: "/servizi/assessment-clinico",
     icon: Stethoscope,
   },

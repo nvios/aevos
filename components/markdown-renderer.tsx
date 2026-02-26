@@ -60,7 +60,7 @@ export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
                   if (part.toLowerCase() === term.term.toLowerCase()) {
                      newFragments.push(
                       <GlossaryPopover
-                        key={`${term.slug}-${i}-${Math.random()}`} // Random key to avoid collisions
+                        key={`${term.slug}-${i}`} // Deterministic key based on slug and index
                         term={term.term}
                         definition={term.definition}
                         slug={term.slug}

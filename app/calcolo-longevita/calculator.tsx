@@ -18,6 +18,81 @@ type InputState = {
   gripStrength?: number; // kg
 };
 
+function PopulationChart({ score }: { score: number }) {
+  // Generate curve points
+  const points = useMemo(() => {
+    const pts = [];
+    for (let i = 0; i <= 100; i += 1) {
+      // Bell curve centered at 60 (average), spread 15
+      const y = 100 - (80 * Math.exp(-Math.pow(i - 60, 2) / (2 * Math.pow(15, 2))));
+      pts.push(`${i},${y}`);
+    }
+    return pts;
+  }, []);
+
+  const pathData = `M 0,100 L ${points.join(" L ")} L 100,100 Z`;
+
+  // Calculate user Y position on the curve for the dot (percentage from top)
+  // We use the same formula as above for consistency
+  const userY = 100 - (80 * Math.exp(-Math.pow(score - 60, 2) / (2 * Math.pow(15, 2))));
+
+  return (
+    <div className="relative h-48 w-full mt-8 select-none">
+      <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="h-full w-full overflow-visible">
+        <defs>
+          <linearGradient id="curveGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#10b981" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#10b981" stopOpacity="0.05" />
+          </linearGradient>
+        </defs>
+
+        {/* The Curve Area */}
+        <path d={pathData} fill="url(#curveGradient)" stroke="none" />
+
+        {/* The Curve Line */}
+        <path d={`M ${points.join(" L ")}`} fill="none" stroke="#10b981" strokeWidth="0.5" vectorEffect="non-scaling-stroke" />
+
+        {/* User Marker Line */}
+        <line
+          x1={score} y1={userY} x2={score} y2="100"
+          stroke="#18181b" strokeWidth="1" strokeDasharray="2 2" vectorEffect="non-scaling-stroke" opacity="0.3"
+        />
+
+        {/* User Dot */}
+        <circle cx={score} cy={userY} r="1.5" fill="#18181b" stroke="white" strokeWidth="0.5" vectorEffect="non-scaling-stroke" />
+      </svg>
+
+      {/* Labels Overlay */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* User Label */}
+        <div
+          className="absolute -translate-x-1/2 flex flex-col items-center transition-all duration-500 ease-out"
+          style={{ left: `${score}%`, top: `${userY}%`, marginTop: '-2.5rem' }}
+        >
+          <div className="bg-zinc-900 text-white text-[10px] font-bold px-3 py-1.5 rounded-full shadow-lg whitespace-nowrap flex flex-col items-center">
+            <span>Tu</span>
+            <span className="text-[9px] font-normal opacity-80">{score}/100</span>
+          </div>
+          <div className="w-px h-2 bg-zinc-900/50"></div>
+        </div>
+
+        {/* Average Label */}
+        <div
+          className="absolute top-[25%] left-[60%] -translate-x-1/2 flex flex-col items-center opacity-40"
+        >
+          <span className="text-[10px] text-zinc-500 font-medium">Media</span>
+        </div>
+      </div>
+
+      {/* X Axis Labels */}
+      <div className="absolute bottom-0 w-full flex justify-between text-[10px] text-zinc-400 px-1 pt-2 border-t border-zinc-100">
+        <span>0 (Critico)</span>
+        <span>100 (Ottimale)</span>
+      </div>
+    </div>
+  );
+}
+
 function calculateBmi(weightKg: number, heightCm: number) {
   const meters = heightCm / 100;
   return weightKg / (meters * meters);
@@ -31,9 +106,10 @@ function calculateScore(input: InputState) {
   if (input.age > 50) score -= 5;
   if (input.age > 70) score -= 5;
 
-  if (bmi < 18.5) score -= 5; // Underweight
-  if (bmi >= 25 && bmi < 30) score -= 3; // Overweight
-  if (bmi >= 30) score -= 10; // Obese
+  if (bmi < 18.5) score -= 20; // Underweight (Increased penalty)
+  else if (bmi >= 35) score -= 75; // Severe Obesity (Score ~5)
+  else if (bmi >= 30) score -= 60; // Obese (Score ~20)
+  else if (bmi >= 25) score -= 20; // Overweight (Score ~60)
 
   // 2. Advanced Metrics Impact (if provided)
   let advancedDataPoints = 0;
@@ -75,7 +151,7 @@ function calculateScore(input: InputState) {
     score += advancedDataPoints;
   }
 
-  return Math.max(10, Math.min(99, score));
+  return Math.max(1, Math.min(99, score));
 }
 
 export function LongevityCalculator() {
@@ -103,6 +179,41 @@ export function LongevityCalculator() {
 
   const updateInput = <K extends keyof InputState>(key: K, value: InputState[K]) =>
     setInput((prev) => ({ ...prev, [key]: value }));
+
+  const insightMessage = useMemo(() => {
+    const bmiValue = parseFloat(bmi);
+
+    if (bmiValue >= 35) {
+      return "Critico. Il tuo indice di massa corporea indica obesità severa. Il rischio per la salute è molto elevato. È fondamentale consultare un medico specialista per un piano di intervento immediato.";
+    }
+    if (bmiValue >= 30) {
+      return "Attenzione. Il tuo indice di massa corporea indica obesità, un fattore di rischio significativo per la longevità. La priorità assoluta è la gestione del peso sotto supervisione medica.";
+    }
+    if (bmiValue >= 25) {
+      return "Profilo da monitorare. Il sovrappeso è un fattore infiammatorio cronico che accelera l'invecchiamento biologico. Focus su deficit calorico controllato e aumento dell'attività fisica.";
+    }
+    if (bmiValue < 18.5) {
+      return "Attenzione. Il sottopeso può indicare scarsa riserva muscolare e fragilità. Focus su nutrizione adeguata e allenamento di forza per costruire massa magra.";
+    }
+
+    // Normal BMI logic based on score
+    if (score > 85) return "Ottimo lavoro. I tuoi indicatori suggeriscono un profilo metabolico e funzionale superiore alla media. Focus sul mantenimento.";
+    if (score > 60) return "Buona base di partenza. C'è margine per ottimizzare, specialmente lavorando su composizione corporea e capacità aerobica (VO2 Max).";
+    return "Priorità alta. I dati indicano aree di rischio. Concentrati su sonno regolare, camminata quotidiana e riduzione degli zuccheri.";
+  }, [score, bmi]);
+
+  const percentileText = useMemo(() => {
+    if (score >= 95) return "Top 1%";
+    if (score >= 90) return "Top 5%";
+    if (score >= 80) return "Top 15%";
+    if (score >= 70) return "Top 30%";
+    if (score >= 60) return "Top 50%";
+    return "Bottom 40%";
+  }, [score]);
+
+  const gapPoints = 100 - score;
+  const improvementMin = Math.max(1, Math.floor(gapPoints * 0.15));
+  const improvementMax = Math.max(2, Math.ceil(gapPoints * 0.3));
 
   // Auth Effect (Simplified for brevity as logic is same)
   useEffect(() => {
@@ -346,19 +457,36 @@ export function LongevityCalculator() {
               <div className="mt-6 rounded-xl border border-zinc-100 bg-zinc-50/50 p-4">
                 <p className="text-sm font-medium text-zinc-900 mb-2">Insight:</p>
                 <p className="text-sm text-zinc-600">
-                  {score > 85 ? (
-                    "Ottimo lavoro. I tuoi indicatori suggeriscono un profilo metabolico e funzionale superiore alla media. Focus sul mantenimento."
-                  ) : score > 60 ? (
-                    "Buona base di partenza. C'è margine per ottimizzare, specialmente lavorando su composizione corporea e capacità aerobica (VO2 Max)."
-                  ) : (
-                    "Priorità alta. I dati indicano aree di rischio. Concentrati su sonno regolare, camminata quotidiana e riduzione degli zuccheri."
-                  )}
+                  {insightMessage}
                 </p>
                 {!input.vo2max && !input.rhr && (
                   <p className="mt-2 text-xs text-zinc-400 italic">
                     *Stima basata solo su dati antropometrici. Aggiungi RHR o VO2 Max per maggiore precisione.
                   </p>
                 )}
+              </div>
+            </div>
+
+            {/* CTA for Clinical Assessment */}
+            <div className="rounded-2xl bg-zinc-900 p-6 text-white shadow-lg transform transition-all hover:scale-[1.01]">
+              <div className="flex flex-col sm:flex-row items-start gap-4">
+                <div className="rounded-full bg-white/10 p-3 text-emerald-400 shrink-0">
+                  <Activity className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white">
+                    Passa dalla stima alla certezza
+                  </h3>
+                  <p className="mt-2 text-sm text-zinc-300 leading-relaxed max-w-lg">
+                    Il calcolatore offre una stima statistica. Per un piano d'azione clinico e personalizzato, hai bisogno di misurazioni reali e di un team medico dedicato.
+                  </p>
+                  <Link
+                    href="/servizi"
+                    className="mt-4 inline-flex items-center rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-emerald-600 hover:shadow-[0_0_20px_rgba(16,185,129,0.4)]"
+                  >
+                    Scopri il Nostro Protocollo Clinico<ChevronRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -384,24 +512,26 @@ export function LongevityCalculator() {
 
               <div className={clsx("space-y-4 transition-all duration-500", !unlocked && "blur-sm opacity-50 select-none")}>
                 <div className="space-y-4">
-                  <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
-                    <span className="text-sm text-zinc-600">Percentile fascia età</span>
-                    <span className="font-semibold text-zinc-900">Top 42%</span>
+                  <div className="grid grid-cols-3 gap-4 text-center border-b border-zinc-100 pb-4">
+                    <div>
+                      <p className="text-xs text-zinc-500 mb-1">Percentile</p>
+                      <p className="font-bold text-zinc-900">{percentileText}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-zinc-500 mb-1">Gap Ottimale</p>
+                      <p className={clsx("font-bold", gapPoints > 0 ? "text-red-500" : "text-emerald-500")}>
+                        {gapPoints > 0 ? `-${gapPoints}` : "0"}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-zinc-500 mb-1">Potenziale</p>
+                      <p className="font-bold text-emerald-600">+{improvementMin}-{improvementMax}</p>
+                    </div>
                   </div>
-                  <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
-                    <span className="text-sm text-zinc-600">Gap su profilo ottimale</span>
-                    <span className="font-semibold text-red-500">-13 punti</span>
-                  </div>
-                  <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
-                    <span className="text-sm text-zinc-600">Trend atteso (90gg)</span>
-                    <span className="font-semibold text-emerald-600">+4 a +7 punti</span>
-                  </div>
-                  <div className="h-32 w-full bg-zinc-100 rounded-lg flex items-end justify-between px-4 pb-2">
-                    <div className="w-8 bg-zinc-300 h-[40%] rounded-t"></div>
-                    <div className="w-8 bg-zinc-300 h-[60%] rounded-t"></div>
-                    <div className="w-8 bg-zinc-300 h-[50%] rounded-t"></div>
-                    <div className="w-8 bg-zinc-300 h-[70%] rounded-t"></div>
-                    <div className="w-8 bg-zinc-300 h-[80%] rounded-t"></div>
+
+                  <div className="pt-2">
+                    <p className="text-xs font-medium text-zinc-900 mb-2">La tua posizione nella curva di popolazione</p>
+                    <PopulationChart score={score} />
                   </div>
                 </div>
               </div>
@@ -426,28 +556,6 @@ export function LongevityCalculator() {
               )}
             </div>
 
-            {/* CTA for Clinical Assessment */}
-            <div className="rounded-2xl border border-emerald-100 bg-emerald-50/50 p-6 transition-all hover:bg-emerald-50 hover:shadow-sm">
-              <div className="flex items-start gap-4">
-                <div className="rounded-full bg-emerald-100 p-2 text-emerald-600">
-                  <Activity className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-zinc-900">
-                    Passa dalla stima alla certezza
-                  </h3>
-                  <p className="mt-1 text-sm text-zinc-600 leading-relaxed">
-                    Il calcolatore offre una stima statistica. Per un piano d'azione clinico e personalizzato, hai bisogno di misurazioni reali.
-                  </p>
-                  <Link
-                    href="/servizi"
-                    className="mt-4 inline-flex items-center text-sm font-semibold text-emerald-700 hover:text-emerald-800 hover:underline"
-                  >
-                    Scopri il Protocollo Clinico Aevos <ChevronRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         ) : (
           <div className="flex h-full items-center justify-center rounded-2xl border border-dashed border-zinc-200 bg-zinc-50/50 p-12 text-center">

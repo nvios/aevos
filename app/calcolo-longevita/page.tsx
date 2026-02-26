@@ -42,8 +42,7 @@ export default function CalcoloLongevitaPage() {
       />
       <h1 className="text-3xl font-semibold">Calcolo longevità</h1>
       <p className="max-w-3xl text-zinc-700">
-        Versione iniziale del motore di valutazione. Oggi parte da dati base,
-        domani estendibile a wearable, biomarker e trend longitudinali.
+        Questa e' la versione iniziale del nostro motore di valutazione. Il report sarà estendibile a wearable, biomarker e trend longitudinali parte del nostro screening avanzato.
       </p>
       <LongevityCalculator />
     </section>

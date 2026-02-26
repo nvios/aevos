@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import { getSupabaseClient } from "@/lib/auth/supabase";
 import { User, LogOut, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import clsx from "clsx";
 
 export function HeaderAuth() {
@@ -12,6 +13,7 @@ export function HeaderAuth() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const supabase = getSupabaseClient();
+  const router = useRouter();
 
   useEffect(() => {
     if (!supabase) {
@@ -49,7 +51,9 @@ export function HeaderAuth() {
   const handleSignOut = async () => {
     if (!supabase) return;
     await supabase.auth.signOut();
+    setUser(null); // Optimistic update
     setIsOpen(false);
+    router.refresh();
   };
 
   if (loading) {
@@ -60,6 +64,7 @@ export function HeaderAuth() {
     return (
       <div className="relative" ref={dropdownRef}>
         <button
+          type="button"
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center gap-2 rounded-full border border-zinc-200 bg-white p-1 pr-3 hover:bg-zinc-50 transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-200"
         >
@@ -87,6 +92,7 @@ export function HeaderAuth() {
               <p className="text-sm font-medium text-zinc-900 truncate" title={user.email}>{user.email}</p>
             </div>
             <button
+              type="button"
               onClick={handleSignOut}
               className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors"
             >

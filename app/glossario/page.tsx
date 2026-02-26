@@ -80,8 +80,8 @@ export default function GlossaryPage() {
             Glossario della Salute
           </h1>
           <p className="text-lg text-zinc-600 max-w-2xl mx-auto">
-            Una guida completa ai termini scientifici che incontri nei nostri articoli. 
-            Dalla A alla Z, tutto quello che devi sapere per comprendere meglio il tuo corpo, 
+            Una guida completa ai termini scientifici che incontri nei nostri articoli.
+            Dalla A alla Z, tutto quello che devi sapere per comprendere meglio il tuo corpo,
             la nutrizione e le strategie per la longevità.
           </p>
         </div>
@@ -121,7 +121,7 @@ export default function GlossaryPage() {
                         {term.definition}
                       </p>
                     </div>
-                    
+
                     {term.relatedArticles.length > 0 && (
                       <div className="mt-auto pt-4 border-t border-zinc-100">
                         <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-3">

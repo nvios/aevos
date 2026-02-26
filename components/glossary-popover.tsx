@@ -45,7 +45,7 @@ export function GlossaryPopover({
       const rect = popoverRef.current.getBoundingClientRect();
       const popoverHeight = 200; // Approximate height, or measure contentRef if needed
       const spaceBelow = window.innerHeight - rect.bottom;
-      
+
       // If not enough space below (less than popover height + margin), show on top
       if (spaceBelow < popoverHeight) {
         setPosition("top");
@@ -96,11 +96,11 @@ export function GlossaryPopover({
           onMouseLeave={handleMouseLeave}
         >
           {/* Invisible bridge to prevent closing when moving mouse over gap */}
-          <div 
-            className={`absolute left-0 right-0 h-4 ${position === "top" ? "-bottom-4" : "-top-4"}`} 
-            aria-hidden="true" 
+          <div
+            className={`absolute left-0 right-0 h-4 ${position === "top" ? "-bottom-4" : "-top-4"}`}
+            aria-hidden="true"
           />
-          
+
           <div className="flex items-center gap-1.5 mb-1">
             <Info className="w-4 h-4 text-zinc-500 shrink-0" />
             <h4 className="font-semibold text-zinc-900 m-0 leading-tight">{term}</h4>
