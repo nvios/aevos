@@ -4,7 +4,7 @@ import Negotiator from 'negotiator';
 import { match } from '@formatjs/intl-localematcher';
 
 const locales = ['it', 'en'];
-const defaultLocale = 'it'; // This configures next-intl to treat / as Italian
+const defaultLocale = 'it';
 
 const handleI18n = createMiddleware({
   locales,
@@ -15,7 +15,6 @@ const handleI18n = createMiddleware({
 export default async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // Skip internal paths
   if (
     pathname.startsWith('/_next') ||
     pathname.includes('.') ||
@@ -24,31 +23,41 @@ export default async function middleware(request: NextRequest) {
     return;
   }
 
-  // If the path already starts with /en, let next-intl handle it
+  // If the path already starts with /en, let next-intl handle it.
   if (pathname.startsWith('/en')) {
     return handleI18n(request);
   }
 
-  // For paths without locale prefix (which default to Italian in next-intl),
-  // we check if the user should actually be served English.
-  // We use 'en' as the fallback for match(), so non-Italian users get English.
+  // Skip auto-redirect for /login to preserve OAuth callback hash fragments.
+  if (pathname === '/login') {
+    return handleI18n(request);
+  }
+
+  // For root-level paths (no /en prefix):
+  // If user has explicitly chosen a locale via cookie, respect it.
+  const explicitLocale = request.cookies.get('AEVOS_LOCALE')?.value;
+  if (explicitLocale === 'it') {
+    return handleI18n(request);
+  }
+  if (explicitLocale === 'en') {
+    const url = request.nextUrl.clone();
+    url.pathname = `/en${pathname}`;
+    return NextResponse.redirect(url);
+  }
+
+  // No explicit choice — auto-detect from Accept-Language.
   const headers = { 'accept-language': request.headers.get('accept-language') || '' };
   const languages = new Negotiator({ headers }).languages();
-  
-  try {
-    // If user is 'fr', match returns 'en' (our fallback).
-    // If user is 'it', match returns 'it'.
-    const preferredLocale = match(languages, locales, 'en');
 
-    // If preferred is English but we are at a path that implies Italian (no prefix),
-    // redirect to the English version.
+  try {
+    const preferredLocale = match(languages, locales, 'en');
     if (preferredLocale === 'en') {
       const url = request.nextUrl.clone();
       url.pathname = `/en${pathname}`;
       return NextResponse.redirect(url);
     }
-  } catch (error) {
-    console.error('Locale matching error:', error);
+  } catch {
+    // fallthrough to default
   }
 
   return handleI18n(request);

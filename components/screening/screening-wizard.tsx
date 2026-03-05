@@ -10,6 +10,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Progress } from "@/components/ui/progress";
 import Link from "next/link";
 import { ArrowRight, AlertCircle } from "lucide-react";
+import { useLocale } from "next-intl";
+import { localePath } from "@/lib/i18n/paths";
 
 type ScreeningData = {
   [key: string]: number | null; // null means "I don't know"
@@ -32,6 +34,8 @@ const GROUP_ORDER = Object.keys(BIOMARKER_GROUPS);
 export function ScreeningWizard() {
   const [step, setStep] = useState(0);
   const [data, setData] = useState<ScreeningData>({});
+  const locale = useLocale();
+  const lp = (path: string) => localePath(path, locale);
   const [isMounted, setIsMounted] = useState(false);
 
   // Load from localStorage on mount
@@ -198,7 +202,7 @@ export function ScreeningWizard() {
                       <p className="font-medium mb-1">Dati mancanti rilevati</p>
                       <p>
                         Per una valutazione precisa, ti consigliamo di effettuare i test mancanti.
-                        <Link href={`/servizi/protocolli/${recommendedProtocol.slug}`} className="block mt-1 font-semibold underline hover:text-amber-900">
+                        <Link href={lp(`/servizi/protocolli/${recommendedProtocol.slug}`)} className="block mt-1 font-semibold underline hover:text-amber-900">
                           Prenota check-up con 20% di sconto &rarr;
                         </Link>
                       </p>
@@ -227,7 +231,7 @@ export function ScreeningWizard() {
             </div>
 
             <Button size="lg" className="bg-white text-zinc-900 hover:bg-zinc-200 font-semibold px-8 h-12 rounded-full" asChild>
-              <Link href={`/servizi/protocolli/${recommendedProtocol.slug}`}>
+              <Link href={lp(`/servizi/protocolli/${recommendedProtocol.slug}`)}>
                 Scopri il Protocollo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>

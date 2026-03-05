@@ -1,7 +1,8 @@
 {
   "HomePage": {
     "title": "The science of longevity, simplified.",
-    "subtitle": "Discover your real biological age",
+    "subtitle": "Discover your real",
+    "subtitle_highlight": "biological age",
     "description": "Don't just count the years. Get a personalized analysis of your health status and a concrete action plan to slow down aging.",
     "cta_calculate": "Calculate now",
     "cta_explore": "Explore articles"

@@ -6,6 +6,7 @@ import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
 
 import type { Recipe } from "@/lib/content/recipes";
+import { localePath } from "@/lib/i18n/paths";
 
 type FaqItem = {
   question: string;
@@ -19,6 +20,7 @@ type RecipeProps = {
     name: string;
     slug: string;
   };
+  locale: string;
   prepTime: string;
   cookTime: string;
   servings: number;
@@ -35,6 +37,7 @@ type RecipeProps = {
 export function RecipeLayout({
   title,
   description,
+  locale,
   prepTime,
   cookTime,
   servings,
@@ -46,6 +49,7 @@ export function RecipeLayout({
   relatedRecipes,
   children,
 }: RecipeProps) {
+  const lp = (path: string) => localePath(path, locale);
 
   // Basic Schema.org Recipe structured data
   const recipeSchema = {
@@ -81,11 +85,11 @@ export function RecipeLayout({
       {/* Breadcrumb / Back Link */}
       <div className="mb-4 px-4 sm:px-0">
         <Link
-          href="/ricette"
+          href={lp("/ricette")}
           className="inline-flex items-center text-sm font-medium text-zinc-500 hover:text-zinc-900"
         >
           <ChevronLeft className="mr-1 h-4 w-4" />
-          Torna alle ricette
+          {locale === 'en' ? 'Back to recipes' : 'Torna alle ricette'}
         </Link>
       </div>
 
@@ -105,11 +109,11 @@ export function RecipeLayout({
           </div>
           <div className="flex items-center gap-2">
             <ChefHat className="h-5 w-5 text-emerald-600" />
-            <span>Cottura: {cookTime}</span>
+            <span>{locale === 'en' ? 'Cook' : 'Cottura'}: {cookTime}</span>
           </div>
           <div className="flex items-center gap-2">
             <Users className="h-5 w-5 text-emerald-600" />
-            <span>Porzioni: {servings}</span>
+            <span>{locale === 'en' ? 'Servings' : 'Porzioni'}: {servings}</span>
           </div>
           {calories && (
             <div className="flex items-center gap-2">
@@ -135,7 +139,7 @@ export function RecipeLayout({
             <div className="rounded-3xl bg-emerald-50 p-6 sm:p-8 border border-emerald-100">
               <h2 className="text-2xl font-bold text-emerald-900 mb-6 flex items-center gap-2">
                 <Zap className="h-6 w-6 text-emerald-600" />
-                Benefici per la Longevità
+                {locale === 'en' ? 'Longevity Benefits' : 'Benefici per la Longevità'}
               </h2>
               <div className="grid gap-6 sm:grid-cols-2">
                 {benefits.map((benefit, index) => (
@@ -152,7 +156,7 @@ export function RecipeLayout({
 
           {/* Instructions */}
           <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-zinc-200/50 sm:p-8">
-            <h2 className="text-2xl font-bold text-zinc-800 mb-6">Procedimento</h2>
+            <h2 className="text-2xl font-bold text-zinc-800 mb-6">{locale === 'en' ? 'Instructions' : 'Procedimento'}</h2>
             <div className="space-y-6">
               {instructions.map((step, index) => (
                 <div key={index} className="flex gap-4">
@@ -177,7 +181,7 @@ export function RecipeLayout({
         <div className="space-y-8">
           {/* Ingredients Card */}
           <div className="rounded-3xl bg-emerald-50/50 p-6 ring-1 ring-emerald-100/50">
-            <h3 className="text-xl font-bold text-emerald-900 mb-4">Ingredienti</h3>
+            <h3 className="text-xl font-bold text-emerald-900 mb-4">{locale === 'en' ? 'Ingredients' : 'Ingredienti'}</h3>
             <ul className="space-y-3">
               {ingredients.map((ingredient, index) => (
                 <li key={index} className="flex items-start gap-3 text-zinc-700">
@@ -193,12 +197,12 @@ export function RecipeLayout({
       {/* Related Recipes */}
       {relatedRecipes && relatedRecipes.length > 0 && (
         <section className="mt-16 border-t border-zinc-200 pt-10 px-4 sm:px-0">
-          <h3 className="mb-6 text-2xl font-bold text-zinc-800">Potrebbe piacerti anche</h3>
+          <h3 className="mb-6 text-2xl font-bold text-zinc-800">{locale === 'en' ? 'You might also like' : 'Potrebbe piacerti anche'}</h3>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedRecipes.map((recipe) => (
               <Link
                 key={recipe.slug}
-                href={`/ricette/${recipe.category}/${recipe.slug}`}
+                href={lp(`/ricette/${recipe.category}/${recipe.slug}`)}
                 className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
               >
                 <div className="space-y-3">
@@ -211,7 +215,7 @@ export function RecipeLayout({
                   </div>
                 </div>
                 <div className="mt-4 flex items-center text-sm font-medium text-emerald-600">
-                  Scopri <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  {locale === 'en' ? 'Discover' : 'Scopri'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
               </Link>
             ))}

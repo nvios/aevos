@@ -7,6 +7,7 @@ import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
 
 import type { Article } from "@/lib/content/articles";
+import { localePath } from "@/lib/i18n/paths";
 
 type FaqItem = {
   question: string;
@@ -24,6 +25,7 @@ type ArticleProps = {
     name: string;
     slug: string;
   };
+  locale: string;
   faq?: FaqItem[];
   cta?: Array<{ text: string; link: string; description?: string }>;
   resources?: Array<{ name: string; link: string }>;
@@ -37,12 +39,14 @@ export function ArticleLayout({
   title,
   description,
   author,
+  locale,
   faq,
   cta,
   resources,
   relatedArticles,
   children,
 }: ArticleProps) {
+  const lp = (path: string) => localePath(path, locale);
   const faqSchema = faq ? faqJsonLd(faq) : null;
 
   return (
@@ -58,11 +62,11 @@ export function ArticleLayout({
       {/* Breadcrumb / Back Link */}
       <div className="mb-4">
         <Link
-          href="/articoli"
+          href={lp("/articoli")}
           className="inline-flex items-center text-sm font-medium text-zinc-500 hover:text-zinc-900"
         >
           <ChevronLeft className="mr-1 h-4 w-4" />
-          Torna agli articoli
+          {locale === 'en' ? 'Back to articles' : 'Torna agli articoli'}
         </Link>
       </div>
 
@@ -119,7 +123,7 @@ export function ArticleLayout({
       {faq && faq.length > 0 && (
         <section className="mt-16 border-t border-zinc-200 pt-10">
           <h2 className="mb-6 text-2xl font-bold text-zinc-800">
-            Domande Frequenti
+            {locale === 'en' ? 'Frequently Asked Questions' : 'Domande Frequenti'}
           </h2>
           <FaqAccordion items={faq.map(item => ({ question: item.question, answer: item.answer }))} />
           <FaqSubmission />
@@ -129,17 +133,17 @@ export function ArticleLayout({
       {/* Related Articles */}
       {relatedArticles && relatedArticles.length > 0 && (
         <section className="mt-16 border-t border-zinc-200 pt-10">
-          <h3 className="mb-6 text-2xl font-bold text-zinc-800">Articoli Correlati</h3>
+          <h3 className="mb-6 text-2xl font-bold text-zinc-800">{locale === 'en' ? 'Related Articles' : 'Articoli Correlati'}</h3>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedArticles.map((article) => (
               <Link
                 key={article.slug}
-                href={`/articoli/${article.category}/${article.slug}`}
+                href={lp(`/articoli/${article.category}/${article.slug}`)}
                 className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
               >
                 <div className="space-y-3">
                   <span className="inline-flex items-center rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-800">
-                    {getCategoryBySlug(article.category)?.title || article.category}
+                    {getCategoryBySlug(article.category, locale)?.title || article.category}
                   </span>
                   <h4 className="text-lg font-bold text-zinc-800 group-hover:text-emerald-600 transition-colors line-clamp-2">
                     {article.title}
@@ -149,7 +153,7 @@ export function ArticleLayout({
                   </p>
                 </div>
                 <div className="mt-4 flex items-center text-sm font-medium text-emerald-600">
-                  Leggi <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  {locale === 'en' ? 'Read' : 'Leggi'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
               </Link>
             ))}
@@ -160,7 +164,7 @@ export function ArticleLayout({
       {/* Resources */}
       {resources && resources.length > 0 && (
         <section className="mt-16 border-t border-zinc-200 pt-10">
-          <h3 className="mb-6 text-2xl font-bold text-zinc-800">Approfondimenti Esterni</h3>
+          <h3 className="mb-6 text-2xl font-bold text-zinc-800">{locale === 'en' ? 'External Resources' : 'Approfondimenti Esterni'}</h3>
           <ul className="space-y-3">
             {resources.map((resource, index) => (
               <li key={index}>

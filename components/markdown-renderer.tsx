@@ -3,26 +3,33 @@ import parse, { Element, Text, HTMLReactParserOptions } from "html-react-parser"
 import { marked } from "marked";
 import { getAllGlossaryTerms } from "@/lib/content/glossary";
 import { GlossaryPopover } from "@/components/glossary-popover";
+import { localePath } from "@/lib/i18n/paths";
 
 interface MarkdownRendererProps {
-  content: string; // Markdown content
+  content: string;
+  locale?: string;
 }
 
-export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
+export async function MarkdownRenderer({ content, locale = 'it' }: MarkdownRendererProps) {
   const htmlContent = await marked(content, { breaks: true, gfm: true });
-  const glossaryTerms = getAllGlossaryTerms();
+  const glossaryTerms = getAllGlossaryTerms(locale);
 
-  // Sort terms by length (descending) to match longer phrases first
   const sortedTerms = [...glossaryTerms].sort((a, b) => b.term.length - a.term.length);
 
   const options: HTMLReactParserOptions = {
     replace: (domNode) => {
-      // Check if it's a text node
+      // Translate internal link hrefs for non-Italian locales
+      if (domNode instanceof Element && domNode.name === 'a' && domNode.attribs?.href) {
+        const href = domNode.attribs.href;
+        if (href.startsWith('/') && locale !== 'it') {
+          domNode.attribs.href = localePath(href, locale);
+        }
+      }
+
       if (domNode.type === 'text') {
         const textNode = domNode as Text;
         const parent = textNode.parent as Element;
 
-        // Check if parent or any ancestor is a link, code block, header, etc.
         let current = parent;
         while (current) {
           if (current.name && ["a", "code", "pre", "h1", "h2", "h3", "h4", "h5", "h6", "script", "style"].includes(current.name)) {
@@ -33,7 +40,6 @@ export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
 
         const text = textNode.data;
         
-        // Skip empty text nodes
         if (!text || !text.trim()) {
           return;
         }
@@ -42,7 +48,6 @@ export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
         let hasMatch = false;
 
         for (const term of sortedTerms) {
-          // Escape special regex characters in the term
           const escapedTerm = term.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
           const regex = new RegExp(`\\b(${escapedTerm})\\b`, "gi");
 
@@ -57,11 +62,10 @@ export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 
                 for (let i = 0; i < parts.length; i++) {
                   const part = parts[i];
-                  // Check if this part matches the term (case insensitive)
                   if (part.toLowerCase() === term.term.toLowerCase()) {
                      newFragments.push(
                       <GlossaryPopover
-                        key={`${term.slug}-${i}`} // Deterministic key based on slug and index
+                        key={`${term.slug}-${i}`}
                         term={term.term}
                         definition={term.definition}
                         slug={term.slug}
@@ -90,7 +94,6 @@ export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
     },
   };
 
-  // Convert HTML string to React elements
   const parsedContent = parse(htmlContent, options);
 
   return <div className="prose prose-zinc max-w-none">{parsedContent}</div>;

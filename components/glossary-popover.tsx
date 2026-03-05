@@ -3,6 +3,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { Info } from "lucide-react";
+import { useLocale } from "next-intl";
+import { localePath } from "@/lib/i18n/paths";
 
 interface GlossaryPopoverProps {
   term: string;
@@ -22,6 +24,8 @@ export function GlossaryPopover({
   const popoverRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const locale = useLocale();
+  const lp = (path: string) => localePath(path, locale);
 
   // Close popover when clicking outside
   useEffect(() => {
@@ -107,10 +111,10 @@ export function GlossaryPopover({
           </div>
           <p className="text-zinc-600 mb-2 leading-snug">{definition}</p>
           <Link
-            href={`/glossario#${slug}`}
+            href={lp(`/glossario#${slug}`)}
             className="text-xs font-medium text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center"
           >
-            Approfondisci nel glossario &rarr;
+            {locale === 'en' ? 'See in glossary' : 'Approfondisci nel glossario'} &rarr;
           </Link>
         </div>
       )}

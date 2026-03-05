@@ -3,20 +3,37 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Activity, Scale, Dumbbell, ArrowRight } from "lucide-react";
+import { localePath } from "@/lib/i18n/paths";
 
-export const metadata: Metadata = {
-  title: "Test di Laboratorio e Diagnostica | Aevos Health",
-  description: "Tecnologie avanzate per misurare la tua salute: Analisi BIA, Dinamometria e altro.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const isEn = locale === 'en';
+  return {
+    title: isEn ? "Laboratory Tests & Diagnostics | Aevos Health" : "Test di Laboratorio e Diagnostica | Aevos Health",
+    description: isEn
+      ? "Advanced technologies to measure your health: BIA Analysis, Dynamometry and more."
+      : "Tecnologie avanzate per misurare la tua salute: Analisi BIA, Dinamometria e altro.",
+  } satisfies Metadata;
+}
 
-export default function LabTestsPage() {
+export default async function LabTestsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const isEn = locale === 'en';
+  const lp = (path: string) => localePath(path, locale);
   return (
     <div className="container py-12 space-y-12">
       <div className="text-center space-y-4 max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold tracking-tight">Diagnostica Avanzata</h1>
+        <h1 className="text-4xl font-bold tracking-tight">
+          {isEn ? 'Advanced Diagnostics' : 'Diagnostica Avanzata'}
+        </h1>
         <p className="text-xl text-muted-foreground">
-          Misurazioni cliniche precise per monitorare i tuoi progressi e ottimizzare la tua longevità.
-          Disponibili presso il nostro centro.
+          {isEn
+            ? 'Precise clinical measurements to monitor your progress and optimize your longevity. Available at our center.'
+            : 'Misurazioni cliniche precise per monitorare i tuoi progressi e ottimizzare la tua longevità. Disponibili presso il nostro centro.'}
         </p>
       </div>
 
@@ -51,7 +68,7 @@ export default function LabTestsPage() {
           </CardContent>
           <CardFooter>
             <Button className="w-full" asChild>
-              <Link href="/contatti?service=bia">Prenota Analisi (€50)</Link>
+              <Link href="mailto:info@aevos.it?subject=Prenotazione%20Analisi%20BIA">Prenota Analisi (€50)</Link>
             </Button>
           </CardFooter>
         </Card>
@@ -83,7 +100,7 @@ export default function LabTestsPage() {
           </CardContent>
           <CardFooter>
             <Button className="w-full" asChild>
-              <Link href="/contatti?service=grip">Prenota Test (€30)</Link>
+              <Link href="mailto:info@aevos.it?subject=Prenotazione%20Grip%20Test">Prenota Test (€30)</Link>
             </Button>
           </CardFooter>
         </Card>
@@ -95,7 +112,7 @@ export default function LabTestsPage() {
           Ottieni un quadro completo combinando BIA, Grip Strength e analisi dei biomarcatori nel nostro Protocollo Longevità.
         </p>
         <Button size="lg" asChild>
-          <Link href="/servizi/protocolli/longevita">
+          <Link href={lp("/servizi/protocolli/longevita")}>
             Scopri Protocollo Longevità <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>

@@ -3,15 +3,21 @@ import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { Moon, Dumbbell, Utensils, Sparkles, Scissors, Activity, HeartPulse, Brain, Zap } from "lucide-react";
-import { categories } from "@/lib/content/categories";
+import { getAllCategories } from "@/lib/content/categories";
 import { getArticlesByCategory } from "@/lib/content/articles";
+import { localePath } from "@/lib/i18n/paths";
 
-export const metadata = buildMetadata({
-  title: "Articoli salute e longevità",
-  description:
-    "Articoli pratici su sonno, esercizio, nutrizione, skin care e hair per migliorare energia, prevenzione e qualità della vita.",
-  path: "/articoli",
-});
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return buildMetadata({
+    title: "Articoli salute e longevità",
+    titleEn: "Health & longevity articles",
+    description: "Articoli pratici su sonno, esercizio, nutrizione, skin care e hair per migliorare energia, prevenzione e qualità della vita.",
+    descriptionEn: "Practical articles on sleep, exercise, nutrition, skin care and hair to improve energy, prevention and quality of life.",
+    path: "/articoli",
+    locale,
+  });
+}
 
 const iconMap: Record<string, React.ElementType> = {
   Moon,
@@ -25,14 +31,20 @@ const iconMap: Record<string, React.ElementType> = {
   Zap,
 };
 
-export default function GuidePage() {
+export default async function GuidePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const lp = (path: string) => localePath(path, locale);
+
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Articoli", path: "/articoli" },
+    { name: locale === 'en' ? "Articles" : "Articoli", path: lp("/articoli") },
   ]);
 
-  // Filter categories that have at least one article
-  const activeCategories = categories.filter(category => {
+  const activeCategories = getAllCategories(locale).filter(category => {
     const articles = getArticlesByCategory(category.slug);
     return articles.length > 0;
   });
@@ -45,10 +57,13 @@ export default function GuidePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <div className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-900">Guide alla Longevità</h1>
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-900">
+          {locale === 'en' ? 'Longevity Guides' : 'Guide alla Longevità'}
+        </h1>
         <p className="max-w-3xl text-lg text-zinc-600">
-          Risorse pratiche e approfondite per prendere il controllo della tua salute.
-          Ogni guida è progettata per offrirti azioni concrete basate sulle ultime evidenze scientifiche.
+          {locale === 'en'
+            ? 'Practical and in-depth resources to take control of your health. Each guide offers actionable steps based on the latest scientific evidence.'
+            : 'Risorse pratiche e approfondite per prendere il controllo della tua salute. Ogni guida è progettata per offrirti azioni concrete basate sulle ultime evidenze scientifiche.'}
         </p>
       </div>
 
@@ -58,7 +73,7 @@ export default function GuidePage() {
           return (
             <Link
               key={item.slug}
-              href={`/articoli/${item.slug}`}
+              href={lp(`/articoli/${item.slug}`)}
               className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
             >
               <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-50 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-white transition-colors">

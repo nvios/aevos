@@ -3,6 +3,8 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowRight, Clock, Flame, Search, X } from "lucide-react";
+import { useLocale } from "next-intl";
+import { localePath } from "@/lib/i18n/paths";
 import type { Recipe } from "@/lib/content/recipes";
 
 type RecipeListProps = {
@@ -12,6 +14,8 @@ type RecipeListProps = {
 export function RecipeList({ initialRecipes }: RecipeListProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const locale = useLocale();
+  const lp = (path: string) => localePath(path, locale);
 
   // Extract unique benefits from recipes
   const allBenefits = useMemo(() => {
@@ -50,7 +54,7 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
           <input
             type="text"
             className="block w-full rounded-2xl border-0 py-4 pl-12 pr-12 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-base sm:leading-6 bg-white"
-            placeholder="Cerca ricette, ingredienti o benefici..."
+            placeholder={locale === 'en' ? "Search recipes, ingredients or benefits..." : "Cerca ricette, ingredienti o benefici..."}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -72,7 +76,7 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
                 : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
               }`}
           >
-            Tutti
+            {locale === 'en' ? 'All' : 'Tutti'}
           </button>
           {allBenefits.map((benefit) => (
             <button
@@ -91,7 +95,9 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
 
       {/* Results Count */}
       <div className="text-sm text-zinc-500">
-        Mostrando {filteredRecipes.length} {filteredRecipes.length === 1 ? "ricetta" : "ricette"}
+        {locale === 'en'
+          ? `Showing ${filteredRecipes.length} ${filteredRecipes.length === 1 ? "recipe" : "recipes"}`
+          : `Mostrando ${filteredRecipes.length} ${filteredRecipes.length === 1 ? "ricetta" : "ricette"}`}
       </div>
 
       {/* Grid */}
@@ -99,7 +105,7 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
         {filteredRecipes.map((recipe) => (
           <Link
             key={recipe.slug}
-            href={`/ricette/${recipe.category}/${recipe.slug}`}
+            href={lp(`/ricette/${recipe.category}/${recipe.slug}`)}
             className="group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-zinc-200 transition-all hover:shadow-md hover:ring-zinc-300"
           >
             <div className="flex flex-1 flex-col justify-between p-6">
@@ -143,7 +149,7 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
 
       {filteredRecipes.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-zinc-500">Nessuna ricetta trovata con questi criteri.</p>
+          <p className="text-zinc-500">{locale === 'en' ? 'No recipes found with these criteria.' : 'Nessuna ricetta trovata con questi criteri.'}</p>
           <button
             onClick={() => {
               setSearchQuery("");
@@ -151,7 +157,7 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
             }}
             className="mt-4 text-sm font-medium text-emerald-600 hover:text-emerald-500"
           >
-            Resetta filtri
+            {locale === 'en' ? 'Reset filters' : 'Resetta filtri'}
           </button>
         </div>
       )}

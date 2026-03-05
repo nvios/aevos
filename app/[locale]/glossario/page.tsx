@@ -2,36 +2,48 @@ import React from "react";
 import { getAllGlossaryTerms } from "@/lib/content/glossary";
 import { getArticleBySlug } from "@/lib/content/articles";
 import Link from "next/link";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import Script from "next/script";
+import { localePath } from "@/lib/i18n/paths";
 
-export const metadata: Metadata = {
-  title: "Glossario della Salute e Longevità | Aevos",
-  description: "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking. Scopri il significato di ApoB, HRV, Autofagia e molto altro.",
-  alternates: {
-    canonical: "/glossario",
-  },
-  openGraph: {
-    title: "Glossario della Salute e Longevità | Aevos",
-    description: "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking.",
-    type: "website",
-    url: "/glossario",
-  },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const isEn = locale === 'en';
+  return {
+    title: isEn ? "Health & Longevity Glossary | Aevos" : "Glossario della Salute e Longevità | Aevos",
+    description: isEn
+      ? "Clear and simple definitions of scientific terms related to health, longevity, nutrition and biohacking."
+      : "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking.",
+    alternates: { canonical: isEn ? "/en/glossary" : "/glossario" },
+    openGraph: {
+      title: isEn ? "Health & Longevity Glossary | Aevos" : "Glossario della Salute e Longevità | Aevos",
+      description: isEn
+        ? "Clear and simple definitions of scientific terms related to health, longevity, nutrition and biohacking."
+        : "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking.",
+      type: "website" as const,
+      url: isEn ? "/en/glossary" : "/glossario",
+    },
+  } satisfies Metadata;
+}
 
-export default function GlossaryPage() {
-  const terms = getAllGlossaryTerms();
+export default async function GlossaryPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const lp = (path: string) => localePath(path, locale);
+  const terms = getAllGlossaryTerms(locale);
 
-  // Enrich terms with article data
   const enrichedTerms = terms.map((term) => {
     const relatedArticles = term.relatedArticles
       ?.map((slug) => {
-        const article = getArticleBySlug(slug);
+        const article = getArticleBySlug(slug, locale);
         if (article) {
           return {
             title: article.title,
-            href: `/articoli/${article.category}/${article.slug}`,
+            href: lp(`/articoli/${article.category}/${article.slug}`),
           };
         }
         return null;
@@ -41,7 +53,6 @@ export default function GlossaryPage() {
     return { ...term, relatedArticles };
   });
 
-  // Group terms by first letter
   const groupedTerms = enrichedTerms.reduce((acc, term) => {
     const letter = term.term.charAt(0).toUpperCase();
     if (!acc[letter]) {
@@ -53,7 +64,6 @@ export default function GlossaryPage() {
 
   const letters = Object.keys(groupedTerms).sort();
 
-  // Create JSON-LD for DefinedTermSet
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
@@ -63,7 +73,7 @@ export default function GlossaryPage() {
       "@type": "DefinedTerm",
       "name": term.term,
       "description": term.definition,
-      "url": `https://aevos.health/glossario#${term.slug}`
+      "url": `https://aevos.it${lp('/glossario')}#${term.slug}`
     }))
   };
 
@@ -77,12 +87,12 @@ export default function GlossaryPage() {
       <div className="container mx-auto max-w-4xl py-12 px-4 sm:px-6">
         <div className="mb-12 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl mb-4">
-            Glossario della Salute
+            {locale === 'en' ? 'Health Glossary' : 'Glossario della Salute'}
           </h1>
           <p className="text-lg text-zinc-600 max-w-2xl mx-auto">
-            Una guida completa ai termini scientifici che incontri nei nostri articoli.
-            Dalla A alla Z, tutto quello che devi sapere per comprendere meglio il tuo corpo,
-            la nutrizione e le strategie per la longevità.
+            {locale === 'en'
+              ? 'A comprehensive guide to the scientific terms you encounter in our articles. From A to Z, everything you need to better understand your body, nutrition, and longevity strategies.'
+              : 'Una guida completa ai termini scientifici che incontri nei nostri articoli. Dalla A alla Z, tutto quello che devi sapere per comprendere meglio il tuo corpo, la nutrizione e le strategie per la longevità.'}
           </p>
         </div>
 
@@ -125,7 +135,7 @@ export default function GlossaryPage() {
                     {term.relatedArticles.length > 0 && (
                       <div className="mt-auto pt-4 border-t border-zinc-100">
                         <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-3">
-                          Approfondisci in:
+                          {locale === 'en' ? 'Learn more in:' : 'Approfondisci in:'}
                         </span>
                         <ul className="space-y-2">
                           {term.relatedArticles.map((article, idx) => (

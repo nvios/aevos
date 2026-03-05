@@ -1,48 +1,56 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/site";
+import { localePath } from "@/lib/i18n/paths";
 
 type BuildMetaParams = {
   title: string;
+  titleEn?: string;
   description: string;
+  descriptionEn?: string;
   path: string;
+  locale?: string;
 };
 
 export function buildMetadata({
   title,
+  titleEn,
   description,
+  descriptionEn,
   path,
+  locale = 'it',
 }: BuildMetaParams): Metadata {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? siteConfig.domain;
-  
-  // Ensure path starts with /
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  
-  // Canonical URL (defaulting to Italian version as main canonical)
   const canonical = new URL(cleanPath, baseUrl).toString();
+  const enPath = localePath(cleanPath, 'en');
+  const enUrl = new URL(`/en${enPath === '/' ? '' : enPath}`, baseUrl).toString();
+
+  const resolvedTitle = locale === 'en' && titleEn ? titleEn : title;
+  const resolvedDesc = locale === 'en' && descriptionEn ? descriptionEn : description;
 
   return {
-    title,
-    description,
+    title: resolvedTitle,
+    description: resolvedDesc,
     alternates: {
-      canonical,
+      canonical: locale === 'en' ? enUrl : canonical,
       languages: {
         'it': canonical,
-        'en': new URL(`/en${cleanPath === '/' ? '' : cleanPath}`, baseUrl).toString(),
+        'en': enUrl,
         'x-default': canonical,
       },
     },
     openGraph: {
-      title,
-      description,
-      url: canonical,
+      title: resolvedTitle,
+      description: resolvedDesc,
+      url: locale === 'en' ? enUrl : canonical,
       siteName: siteConfig.name,
-      locale: siteConfig.locale,
+      locale: locale === 'en' ? 'en_US' : siteConfig.locale,
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title: resolvedTitle,
+      description: resolvedDesc,
     },
   };
 }

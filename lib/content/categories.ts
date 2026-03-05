@@ -7,6 +7,60 @@ export type CategoryConfig = {
   heroDescription: string;
 };
 
+type CategoryTranslations = Record<string, {
+  title: string;
+  description: string;
+  heroTitle: string;
+  heroDescription: string;
+}>;
+
+const categoryTranslations: Record<string, CategoryTranslations> = {
+  en: {
+    sonno: {
+      title: "Sleep",
+      description: "Sleep is the most powerful predictor of longevity, yet 83% of adults don't reach optimal sleep levels.",
+      heroTitle: "Sleep Articles",
+      heroDescription: "Discover how to optimize your rest to maximize energy, mental focus, and physical recovery.",
+    },
+    esercizio: {
+      title: "Exercise",
+      description: "VO2 max correlates with a 50% reduction in mortality. Build a resilient metabolic engine.",
+      heroTitle: "Exercise Articles",
+      heroDescription: "Build strength and endurance with sustainable, scientifically validated training protocols.",
+    },
+    nutrizione: {
+      title: "Nutrition",
+      description: "Moderate caloric restriction and meal timing can extend healthy lifespan by up to 15%.",
+      heroTitle: "Nutrition Articles",
+      heroDescription: "Practical dietary strategies to nourish your body, improve metabolism, and support longevity.",
+    },
+    "skin-care": {
+      title: "Skin Care",
+      description: "Skin is the first immune barrier. 90% of visible aging is caused by preventable photo-damage.",
+      heroTitle: "Skin Care Articles",
+      heroDescription: "Treatments and routines for healthy, radiant skin protected from the signs of aging.",
+    },
+    capelli: {
+      title: "Hair",
+      description: "Follicle health reflects systemic inflammatory status. Act on biological markers before hair loss becomes visible.",
+      heroTitle: "Hair Articles",
+      heroDescription: "Strategies for strong, vital hair — from preventing loss to maintaining density.",
+    },
+    longevita: {
+      title: "Longevity",
+      description: "Holistic and scientific approaches to extend not just lifespan, but the quality of years lived.",
+      heroTitle: "Longevity Articles",
+      heroDescription: "Protocols, habits, and mindset for those who want to live at their full biological potential.",
+    },
+    tecnologie: {
+      title: "Technology",
+      description: "Advanced devices, gadgets, and tools for health monitoring and optimization.",
+      heroTitle: "Health Technologies",
+      heroDescription: "Reviews and usage guides for wearables, therapeutic lights, and biohacking tools.",
+    },
+  },
+};
+
 export const categories: CategoryConfig[] = [
   {
     slug: "sonno",
@@ -66,10 +120,23 @@ export const categories: CategoryConfig[] = [
   }
 ];
 
-export function getCategoryBySlug(slug: string) {
-  return categories.find(c => c.slug === slug);
+/** Returns the category with locale-aware labels. */
+export function getCategoryBySlug(slug: string, locale: string = 'it') {
+  const base = categories.find(c => c.slug === slug);
+  if (!base) return undefined;
+  if (locale === 'it') return base;
+
+  const t = categoryTranslations[locale]?.[slug];
+  if (!t) return base;
+
+  return { ...base, ...t };
 }
 
-export function getAllCategories() {
-  return categories;
+/** Returns all categories with locale-aware labels. */
+export function getAllCategories(locale: string = 'it') {
+  return categories.map(cat => {
+    if (locale === 'it') return cat;
+    const t = categoryTranslations[locale]?.[cat.slug];
+    return t ? { ...cat, ...t } : cat;
+  });
 }

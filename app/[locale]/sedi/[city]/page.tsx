@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle2, MapPin, ArrowRight } from "lucide-react";
+import { localePath } from "@/lib/i18n/paths";
 
 // Whitelist of supported cities to avoid SEO spam/404s for random strings
 const CITIES: Record<string, { name: string; address?: string; partner?: string }> = {
@@ -19,7 +20,7 @@ const CITIES: Record<string, { name: string; address?: string; partner?: string 
 };
 
 type Props = {
-  params: Promise<{ city: string }>;
+  params: Promise<{ city: string; locale: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `Centro Longevità ${cityData.name} | Aevos Health`,
     description: `Il primo centro per la medicina della longevità e l'ottimizzazione biologica a ${cityData.name}. Test VO2 Max, DEXA e protocolli personalizzati.`,
     alternates: {
-      canonical: `https://aevos.netfly.app/sedi/${city.toLowerCase()}`,
+      canonical: `https://aevos.it/sedi/${city.toLowerCase()}`,
     },
   };
 }
@@ -48,7 +49,8 @@ export async function generateStaticParams() {
 }
 
 export default async function LocalLandingPage({ params }: Props) {
-  const { city } = await params;
+  const { city, locale } = await params;
+  const lp = (path: string) => localePath(path, locale);
   const cityKey = city.toLowerCase();
   const cityData = CITIES[cityKey];
 
@@ -80,13 +82,13 @@ export default async function LocalLandingPage({ params }: Props) {
 
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="h-12 px-8 rounded-full text-base" asChild>
-              <Link href="/contatti">
+              <Link href="mailto:info@aevos.it">
                 Prenota un Check-up a {cityData.name}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button variant="outline" size="lg" className="h-12 px-8 rounded-full text-base bg-transparent text-white border-zinc-600 hover:bg-zinc-800 hover:text-white" asChild>
-              <Link href="/servizi">
+              <Link href={lp("/servizi")}>
                 Scopri i Servizi
               </Link>
             </Button>

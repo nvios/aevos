@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
+import { localePath } from "@/lib/i18n/paths";
 
 const routes = [
   "",
@@ -15,6 +16,7 @@ const routes = [
   "/aspettativa-di-vita",
   "/calcolo-longevita",
   "/ricette",
+  "/glossario",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -24,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapEntries: MetadataRoute.Sitemap = [];
 
   routes.forEach((route) => {
-    // Italian (default)
+    // Italian (default, no prefix)
     sitemapEntries.push({
       url: `${base}${route}`,
       lastModified,
@@ -32,12 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: route === "" ? 1 : 0.7,
     });
 
-    // English
+    // English (with /en prefix and translated path)
+    const enPath = localePath(route || "/", "en");
     sitemapEntries.push({
-      url: `${base}/en${route}`,
+      url: `${base}/en${enPath === "/" ? "" : enPath}`,
       lastModified,
       changeFrequency: route === "" ? "weekly" : "monthly",
-      priority: route === "" ? 1 : 0.7,
+      priority: route === "" ? 0.9 : 0.6,
     });
   });
 

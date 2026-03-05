@@ -6,6 +6,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import type { Metadata } from "next";
+import { localePath } from "@/lib/i18n/paths";
 
 import { getCategoryBySlug } from "@/lib/content/categories";
 
@@ -23,44 +24,46 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ category: string; slug: string }>;
+  params: Promise<{ category: string; slug: string; locale: string }>;
 }): Promise<Metadata> {
-  const { category, slug } = await params;
-  const article = getArticleBySlug(slug);
-  if (!article) {
-    return {};
-  }
+  const { category, slug, locale } = await params;
+  const articleIt = getArticleBySlug(slug, 'it');
+  const articleLocale = getArticleBySlug(slug, locale);
+  if (!articleIt) return {};
 
   return buildMetadata({
-    title: article.title,
-    description: article.description,
+    title: articleIt.title,
+    titleEn: locale === 'en' && articleLocale ? articleLocale.title : undefined,
+    description: articleIt.description,
+    descriptionEn: locale === 'en' && articleLocale ? articleLocale.description : undefined,
     path: `/articoli/${category}/${slug}`,
+    locale,
   });
 }
 
 export default async function ArticlePage({
   params,
 }: {
-  params: Promise<{ category: string; slug: string }>;
+  params: Promise<{ category: string; slug: string; locale: string }>;
 }) {
-  const { category, slug } = await params;
-  const article = getArticleBySlug(slug);
-  const categoryConfig = getCategoryBySlug(category);
+  const { category, slug, locale } = await params;
+  const lp = (path: string) => localePath(path, locale);
+  const article = getArticleBySlug(slug, locale);
+  const categoryConfig = getCategoryBySlug(category, locale);
   const categoryTitle = categoryConfig?.title || category;
 
   if (!article || !article.categories.includes(category)) {
     notFound();
   }
 
-
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Articoli", path: "/articoli" },
-    { name: categoryTitle, path: `/articoli/${category}` },
-    { name: article.title, path: `/articoli/${category}/${slug}` },
+    { name: locale === 'en' ? "Articles" : "Articoli", path: lp("/articoli") },
+    { name: categoryTitle, path: lp(`/articoli/${category}`) },
+    { name: article.title, path: lp(`/articoli/${category}/${slug}`) },
   ]);
 
-  const relatedArticles = getRelatedArticles(slug, category, article.tags);
+  const relatedArticles = getRelatedArticles(slug, category, article.tags, 3, locale);
 
   return (
     <>
@@ -74,12 +77,13 @@ export default async function ArticlePage({
         description={article.description}
         author={{ name: article.author, role: article.authorRole }}
         category={{ name: categoryTitle, slug: category }}
+        locale={locale}
         faq={article.faq}
         cta={article.cta}
         resources={article.resources}
         relatedArticles={relatedArticles}
       >
-        <MarkdownRenderer content={article.content} />
+        <MarkdownRenderer content={article.content} locale={locale} />
       </ArticleLayout>
     </>
   );

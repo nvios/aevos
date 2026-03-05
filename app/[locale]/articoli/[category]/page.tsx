@@ -6,7 +6,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { ArrowRight } from "lucide-react";
 import { getArticlesByCategory } from "@/lib/content/articles";
-import { categories, getCategoryBySlug } from "@/lib/content/categories";
+import { categories, getCategoryBySlug, getAllCategories } from "@/lib/content/categories";
+import { localePath } from "@/lib/i18n/paths";
 
 export function generateStaticParams() {
   return categories.map((category) => ({ category: category.slug }));
@@ -15,39 +16,42 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ category: string }>;
+  params: Promise<{ category: string; locale: string }>;
 }): Promise<Metadata> {
-  const { category } = await params;
-  const config = getCategoryBySlug(category);
-  if (!config) {
-    return {};
-  }
+  const { category, locale } = await params;
+  const configIt = getCategoryBySlug(category, 'it');
+  const configLocale = getCategoryBySlug(category, locale);
+  if (!configIt || !configLocale) return {};
 
   return buildMetadata({
-    title: config.heroTitle,
-    description: config.heroDescription,
+    title: configIt.heroTitle,
+    titleEn: locale === 'en' ? configLocale.heroTitle : undefined,
+    description: configIt.heroDescription,
+    descriptionEn: locale === 'en' ? configLocale.heroDescription : undefined,
     path: `/articoli/${category}`,
+    locale,
   });
 }
 
 export default async function GuideCategoryPage({
   params,
 }: {
-  params: Promise<{ category: string }>;
+  params: Promise<{ category: string; locale: string }>;
 }) {
-  const { category } = await params;
-  const config = getCategoryBySlug(category);
+  const { category, locale } = await params;
+  const lp = (path: string) => localePath(path, locale);
+  const config = getCategoryBySlug(category, locale);
 
   if (!config) {
     notFound();
   }
 
-  const articles = getArticlesByCategory(category);
+  const articles = getArticlesByCategory(category, locale);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
-    { name: "Articoli", path: "/articoli" },
-    { name: config.heroTitle, path: `/articoli/${category}` },
+    { name: locale === 'en' ? "Articles" : "Articoli", path: lp("/articoli") },
+    { name: config.heroTitle, path: lp(`/articoli/${category}`) },
   ]);
 
   return (
@@ -71,7 +75,7 @@ export default async function GuideCategoryPage({
           {articles.map((article) => (
             <Link
               key={article.slug}
-              href={`/articoli/${category}/${article.slug}`}
+              href={lp(`/articoli/${category}/${article.slug}`)}
               className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
             >
               <div className="space-y-3">
@@ -83,7 +87,7 @@ export default async function GuideCategoryPage({
                 </p>
               </div>
               <div className="mt-6 flex items-center text-sm font-medium text-emerald-600">
-                Leggi articolo <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                {locale === 'en' ? 'Read article' : 'Leggi articolo'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </div>
             </Link>
           ))}
@@ -91,7 +95,9 @@ export default async function GuideCategoryPage({
       ) : (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-12 text-center">
           <p className="text-zinc-500 italic">
-            Articoli e approfondimenti per questa categoria saranno disponibili a breve.
+            {locale === 'en'
+              ? 'Articles for this category will be available soon.'
+              : 'Articoli e approfondimenti per questa categoria saranno disponibili a breve.'}
           </p>
         </div>
       )}
