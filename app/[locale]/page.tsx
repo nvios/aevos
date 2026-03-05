@@ -3,7 +3,10 @@ import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/lib/site";
 import { NewsletterForm } from "@/components/newsletter-form";
-import { ArrowRight, Activity, TrendingUp, Stethoscope } from "lucide-react";
+import { TrackedRecommendationLink } from "@/components/article-tracking";
+import { getTrendingArticles } from "@/lib/content/recommendations";
+import { getCategoryBySlug } from "@/lib/content/categories";
+import { ArrowRight, Activity, TrendingUp, Stethoscope, Flame } from "lucide-react";
 import { getTranslations } from 'next-intl/server';
 import { localePath } from "@/lib/i18n/paths";
 
@@ -40,6 +43,7 @@ export default async function Home({
   const { locale } = await params;
   const t = await getTranslations('HomePage');
   const lp = (path: string) => localePath(path, locale);
+  const trendingArticles = await getTrendingArticles(6, locale);
 
   const features = [
     {
@@ -146,6 +150,61 @@ export default async function Home({
           })}
         </div>
       </section>
+
+      {/* Trending Articles Section */}
+      {trendingArticles.length > 0 && (
+        <section className="mx-auto max-w-6xl px-4">
+          <div className="mb-8 flex items-center gap-3">
+            <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-orange-50 text-orange-600">
+              <Flame className="h-5 w-5" />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight text-zinc-900">
+                {locale === 'en' ? 'Trending Now' : 'In Tendenza'}
+              </h2>
+              <p className="text-sm text-zinc-500">
+                {locale === 'en' ? 'Most read this week' : 'I più letti questa settimana'}
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {trendingArticles.map((article, i) => (
+              <TrackedRecommendationLink
+                key={article.slug}
+                href={lp(`/articoli/${article.category}/${article.slug}`)}
+                articleSlug={article.slug}
+                source="trending"
+                position={i + 1}
+                currentPage="/"
+                className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
+              >
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="inline-flex items-center rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-800">
+                      {getCategoryBySlug(article.category, locale)?.title ?? article.category}
+                    </span>
+                    {i < 3 && (
+                      <span className="inline-flex items-center rounded-full bg-orange-100 px-2 py-0.5 text-xs font-semibold text-orange-700">
+                        #{i + 1}
+                      </span>
+                    )}
+                  </div>
+                  <h3 className="text-lg font-bold text-zinc-800 group-hover:text-emerald-600 transition-colors line-clamp-2">
+                    {article.title}
+                  </h3>
+                  <p className="text-sm text-zinc-600 line-clamp-2 leading-relaxed">
+                    {article.description}
+                  </p>
+                </div>
+                <div className="mt-4 flex items-center text-sm font-medium text-emerald-600">
+                  {locale === 'en' ? 'Read' : 'Leggi'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </div>
+              </TrackedRecommendationLink>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Newsletter Section */}
       <section className="mx-auto max-w-4xl px-4">

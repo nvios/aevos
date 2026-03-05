@@ -142,4 +142,14 @@ export const analytics = {
   externalLinkClicked(data: { url: string; text: string; page: string }) {
     posthog.capture("external_link_clicked", data);
   },
+
+  // ── Recommendations ───────────────────────────────────
+  recommendationClicked(data: {
+    article_slug: string;
+    source: "trending" | "related" | "also_read" | "popular";
+    position: number;
+    page: string;
+  }) {
+    posthog.capture("recommendation_clicked", data);
+  },
 } as const;

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { ArticleLayout } from "@/components/article-layout";
 import { getArticleBySlug, getAllArticles, getRelatedArticles } from "@/lib/content/articles";
+import { getAlsoReadArticles, getArticleStatsMap } from "@/lib/content/recommendations";
 import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
@@ -63,7 +64,12 @@ export default async function ArticlePage({
     { name: article.title, path: lp(`/articoli/${category}/${slug}`) },
   ]);
 
-  const relatedArticles = getRelatedArticles(slug, category, article.tags, 3, locale);
+  const [statsMap, alsoReadArticles] = await Promise.all([
+    getArticleStatsMap(),
+    getAlsoReadArticles(slug, 3, locale),
+  ]);
+
+  const relatedArticles = getRelatedArticles(slug, category, article.tags, 3, locale, statsMap);
 
   return (
     <>
@@ -73,6 +79,7 @@ export default async function ArticlePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ArticleLayout
+        slug={slug}
         title={article.title}
         description={article.description}
         author={{ name: article.author, role: article.authorRole }}
@@ -82,6 +89,7 @@ export default async function ArticlePage({
         cta={article.cta}
         resources={article.resources}
         relatedArticles={relatedArticles}
+        alsoReadArticles={alsoReadArticles}
       >
         <MarkdownRenderer content={article.content} locale={locale} />
       </ArticleLayout>

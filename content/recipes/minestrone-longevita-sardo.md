@@ -34,9 +34,12 @@ instructions:
   - "Spegni il fuoco. Aggiungi il finocchietto selvatico tritato e lascia riposare per 10 minuti."
   - "Servi con un generoso giro d'olio EVO a crudo e una spolverata di Pecorino."
 benefits:
-  - "Ricchissimo di fibre prebiotiche per il microbioma"
-  - "Basso indice glicemico grazie ai legumi"
-  - "Polifenoli dell'olio EVO e del finocchietto"
+  - title: "Salute del Microbioma"
+    description: "Ricchissimo di fibre prebiotiche che nutrono i batteri benefici dell'intestino."
+  - title: "Controllo Glicemico"
+    description: "Grazie alla combinazione di legumi e fibre, rilascia energia lentamente senza picchi di insulina."
+  - title: "Potere Antiossidante"
+    description: "I polifenoli dell'olio EVO e del finocchietto combattono lo stress ossidativo e l'infiammazione."
 tags:
   - zona blu
   - sardegna

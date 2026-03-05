@@ -34,9 +34,12 @@ instructions:
   - "Turn off the heat. Add the chopped wild fennel and let rest for 10 minutes."
   - "Serve with a generous drizzle of raw EVOO and a sprinkle of Pecorino."
 benefits:
-  - "Very rich in prebiotic fiber for the microbiome"
-  - "Low glycemic index thanks to legumes"
-  - "Polyphenols from EVOO and fennel"
+  - title: "Microbiome Health"
+    description: "Very rich in prebiotic fibers that nourish beneficial gut bacteria."
+  - title: "Glycemic Control"
+    description: "Thanks to the combination of legumes and fiber, it releases energy slowly without insulin spikes."
+  - title: "Antioxidant Power"
+    description: "Polyphenols from EVOO and fennel fight oxidative stress and inflammation."
 tags:
   - blue zone
   - sardinia

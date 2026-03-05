@@ -120,25 +120,47 @@ export function getArticlesByCategory(category: string, locale: string = 'it'): 
   return allArticles.filter((article) => article.categories.includes(category));
 }
 
-export function getRelatedArticles(currentSlug: string, category: string, tags?: string[], limit: number = 3, locale: string = 'it'): Article[] {
+type ArticleStatsMap = Map<string, { view_count: number; cta_clicks: number }>;
+
+/**
+ * Content-based related articles with optional engagement boost.
+ * Pass a statsMap from `getArticleStatsMap()` to boost articles
+ * that drive higher CTA engagement.
+ */
+export function getRelatedArticles(
+  currentSlug: string,
+  category: string,
+  tags?: string[],
+  limit: number = 3,
+  locale: string = 'it',
+  statsMap?: ArticleStatsMap,
+): Article[] {
   const allArticles = getAllArticles(locale);
 
   return allArticles
     .filter((article) => article.slug !== currentSlug)
     .map((article) => {
-      let score = 0;
+      let contentScore = 0;
 
-      // Category match (check if the article belongs to the current context category)
       if (article.categories.includes(category)) {
-        score += 2;
+        contentScore += 2;
       }
 
       if (tags && article.tags) {
         const matchingTags = article.tags.filter(tag => tags?.includes(tag));
-        score += matchingTags.length;
+        contentScore += matchingTags.length;
       }
 
-      return { article, score };
+      let engagementBoost = 1;
+      if (statsMap) {
+        const stats = statsMap.get(article.slug);
+        if (stats && stats.view_count > 0) {
+          const ctaRate = stats.cta_clicks / stats.view_count;
+          engagementBoost = 1 + ctaRate * 0.5;
+        }
+      }
+
+      return { article, score: contentScore * engagementBoost };
     })
     .filter((item) => item.score > 0)
     .sort((a, b) => b.score - a.score)
