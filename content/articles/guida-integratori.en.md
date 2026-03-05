@@ -55,6 +55,9 @@ However, there are molecules that, due to modern life or soil depletion, can be 
 *   **Fat Burners:** Often just expensive caffeine and herbs with negligible effects. The only real fat burner is a calorie deficit.
 *   **Testosterone Boosters:** Tribulus and similar have null or minimal effects on real hormone levels in healthy men.
 
+### The New Frontier: Senolytics and Geroprotectors
+If you have already optimized the basics (Vitamin D, Magnesium, Omega-3), you might be ready for "phase 2" of supplementation. Molecules like Fisetin, Spermidine, and Urolithin A are revolutionizing the field by acting directly on cellular aging. Read our deep dive on [Senolytic Supplements 2026](/articoli/integratori/integratori-senolitici-2026).
+
 ### Nuance Matters
 Effectiveness depends on **chemical form** and **dosage**. Taking 50mg of Magnesium Oxide is useless. Taking 400mg of Magnesium Bisglycinate before bed can change your life.
 Be an informed skeptic.

@@ -55,3 +55,5 @@ Low-grade chronic inflammation ("inflammaging") underlies almost all aging disea
 
 ### Action Plan
 Don't try to optimize everything at once. Start with physical tests (VO2 Max and Grip Strength) that you can do independently or at the gym. Then, at your next check-up, ask your doctor to include ApoB, HbA1c, and hs-CRP.
+
+For a detailed list of all blood values to monitor (including insulin, ferritin, and vitamin D), consult our [complete guide to blood work](/articoli/salute/analisi-sangue-longevita-guida).

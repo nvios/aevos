@@ -55,3 +55,5 @@ L'infiammazione cronica di basso grado ("inflammaging") è alla base di quasi tu
 
 ### Piano d'Azione
 Non cercare di ottimizzare tutto insieme. Inizia con i test fisici (VO2 Max e Grip Strength) che puoi fare autonomamente o in palestra. Poi, al prossimo check-up, chiedi al tuo medico di includere ApoB, HbA1c e hs-CRP.
+
+Per una lista dettagliata di tutti i valori ematici da monitorare (inclusi insulina, ferritina e vitamina D), consulta la nostra [guida completa alle analisi del sangue](/articoli/salute/analisi-sangue-longevita-guida).

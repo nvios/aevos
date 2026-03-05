@@ -40,7 +40,7 @@ Research over the past two decades has revealed that the microbiome influences a
 Diversity is key. A healthy microbiome is a diverse microbiome. Here's how to promote it:
 
 *   **Eat 30 Plants a Week:** An *American Gut Project* study found that people who eat more than 30 different types of plants per week have significantly more diverse microbiomes than those who eat fewer than 10.
-*   **Fermentable [Fiber](/articoli/nutrizione/miti-fibre) (MACs):** Microbiota-Accessible Carbohydrates (MACs) are found in legumes (like in this [chickpea avocado salad](/ricette/nutrizione/insalata-ceci-avocado)), whole grains, fruit and vegetables. They're the preferred fuel for beneficial bacteria.
+*   **Fermentable [Fiber](/articoli/nutrizione/miti-fibre) (MACs):** Microbiota-Accessible Carbohydrates (MACs) are found in legumes (like in our [Sardinian Longevity Minestrone](/ricette/primi/minestrone-longevita-sardo) or [chickpea salad](/ricette/nutrizione/insalata-ceci-avocado)), whole grains, fruit and vegetables. They're the preferred fuel for beneficial bacteria.
 *   **Fermented Foods:** Kefir, kimchi, sauerkraut and [Miso](/ricette/nutrizione/miso-soup-tofu) introduce transient live bacteria that can stimulate resident flora.
 *   **Polyphenols:** Compounds found in berries, green tea, dark chocolate and extra virgin olive oil, which act as selective prebiotics.
 

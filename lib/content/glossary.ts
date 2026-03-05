@@ -401,7 +401,55 @@ const glossaryTermsIt: GlossaryTerm[] = [
     slug: "zona-5",
     definition: "Allenamento ad altissima intensità (90-100% della frequenza cardiaca massima), tipico dell'HIIT. Utile per migliorare il VO2 Max e la potenza cardiaca.",
     relatedArticles: ["hrv-vo2-rhr-guida", "esercizio-massimizzare-risultati"],
-  }
+  },
+  {
+    term: "Ferritina",
+    slug: "ferritina",
+    definition: "Una proteina che immagazzina il ferro nelle cellule. Livelli troppo bassi indicano carenza di ferro (anemia), mentre livelli troppo alti possono indicare infiammazione o sovraccarico di ferro.",
+    relatedArticles: ["analisi-sangue-longevita-guida"],
+  },
+  {
+    term: "Fisetina",
+    slug: "fisetina",
+    definition: "Un polifenolo vegetale (presente nelle fragole) che agisce come potente senolitico, eliminando le cellule senescenti e riducendo l'infiammazione.",
+    relatedArticles: ["integratori-senolitici-2026"],
+  },
+  {
+    term: "Healthspan",
+    slug: "healthspan",
+    definition: "La durata della vita trascorsa in buona salute, liberi da malattie croniche e disabilità. È il vero obiettivo della medicina della longevità, contrapposto al semplice Lifespan.",
+    relatedArticles: ["healthspan-vs-lifespan-italia"],
+  },
+  {
+    term: "Lifespan",
+    slug: "lifespan",
+    definition: "La durata totale della vita di un organismo, dalla nascita alla morte, indipendentemente dalla qualità della salute in quegli anni.",
+    relatedArticles: ["healthspan-vs-lifespan-italia"],
+  },
+  {
+    term: "Mitofagia",
+    slug: "mitofagia",
+    definition: "Una forma specifica di autofagia che prende di mira e degrada i mitocondri danneggiati o disfunzionali, permettendo la loro sostituzione con mitocondri nuovi ed efficienti.",
+    relatedArticles: ["integratori-senolitici-2026", "esercizio-massimizzare-risultati"],
+  },
+  {
+    term: "Rapamicina",
+    slug: "rapamicina",
+    definition: "Un farmaco immunosoppressore che inibisce mTOR. È considerato uno dei potenziali geroprotettori più promettenti, anche se il suo uso nell'uomo per la longevità è ancora sperimentale e controverso.",
+    relatedArticles: ["il-caso-bryan-johnson-rapamicina"],
+  },
+  {
+    term: "Spermidina",
+    slug: "spermidina",
+    definition: "Una poliammina naturale che stimola l'autofagia, il processo di pulizia cellulare. Si trova in alimenti come il germe di grano, i funghi e i formaggi stagionati.",
+    relatedArticles: ["integratori-senolitici-2026"],
+  },
+  {
+    term: "Urolitina A",
+    slug: "urolitina-a",
+    definition: "Un metabolita prodotto dai batteri intestinali a partire dagli ellagitannini (melograno, noci). È noto per attivare la mitofagia e migliorare la funzione muscolare.",
+    relatedArticles: ["integratori-senolitici-2026"],
+  },
 ].sort((a, b) => a.term.localeCompare(b.term));
 
 const glossaryTermsEn: GlossaryTerm[] = [
@@ -800,6 +848,54 @@ const glossaryTermsEn: GlossaryTerm[] = [
     slug: "zona-5",
     definition: "Very high intensity training (90-100% of maximum heart rate), typical of HIIT. Useful for improving VO2 Max and cardiac output.",
     relatedArticles: ["hrv-vo2-rhr-guida", "esercizio-massimizzare-risultati"],
+  },
+  {
+    term: "Ferritin",
+    slug: "ferritina",
+    definition: "A protein that stores iron in cells. Levels that are too low indicate iron deficiency (anemia), while levels that are too high can indicate inflammation or iron overload.",
+    relatedArticles: ["analisi-sangue-longevita-guida"],
+  },
+  {
+    term: "Fisetin",
+    slug: "fisetina",
+    definition: "A plant polyphenol (found in strawberries) that acts as a potent senolytic, eliminating senescent cells and reducing inflammation.",
+    relatedArticles: ["integratori-senolitici-2026"],
+  },
+  {
+    term: "Healthspan",
+    slug: "healthspan",
+    definition: "The length of time a person lives in good health, free from chronic diseases and disabilities. It is the true goal of longevity medicine, as opposed to simple Lifespan.",
+    relatedArticles: ["healthspan-vs-lifespan-italia"],
+  },
+  {
+    term: "Lifespan",
+    slug: "lifespan",
+    definition: "The total length of an organism's life, from birth to death, regardless of the quality of health during those years.",
+    relatedArticles: ["healthspan-vs-lifespan-italia"],
+  },
+  {
+    term: "Mitophagy",
+    slug: "mitofagia",
+    definition: "A specific form of autophagy that targets and degrades damaged or dysfunctional mitochondria, allowing them to be replaced with new, efficient ones.",
+    relatedArticles: ["integratori-senolitici-2026", "esercizio-massimizzare-risultati"],
+  },
+  {
+    term: "Rapamycin",
+    slug: "rapamicina",
+    definition: "An immunosuppressant drug that inhibits mTOR. Considered one of the most promising potential geroprotectors, although its use in humans for longevity is still experimental and controversial.",
+    relatedArticles: ["il-caso-bryan-johnson-rapamicina"],
+  },
+  {
+    term: "Spermidine",
+    slug: "spermidina",
+    definition: "A natural polyamine that stimulates autophagy, the cellular cleanup process. Found in foods like wheat germ, mushrooms, and aged cheeses.",
+    relatedArticles: ["integratori-senolitici-2026"],
+  },
+  {
+    term: "Urolithin A",
+    slug: "urolitina-a",
+    definition: "A metabolite produced by gut bacteria from ellagitannins (pomegranate, walnuts). Known for activating mitophagy and improving muscle function.",
+    relatedArticles: ["integratori-senolitici-2026"],
   },
 ].sort((a, b) => a.term.localeCompare(b.term))
 

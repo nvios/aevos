@@ -65,13 +65,27 @@ export default async function middleware(request: NextRequest) {
 
   if (pathname.startsWith('/en')) {
     const pathWithoutLocale = pathname.slice(3) || '/';
-    const internalPath = translateEnglishPathToInternal(pathWithoutLocale);
+    const translatedPath = translateEnglishPathToInternal(pathWithoutLocale);
 
-    if (internalPath !== pathWithoutLocale) {
-      const url = request.nextUrl.clone();
-      url.pathname = `/en${internalPath}`;
-      const response = NextResponse.rewrite(url);
-      response.cookies.set('NEXT_LOCALE', 'en', { path: '/' });
+    if (translatedPath !== pathWithoutLocale) {
+      const rewrittenUrl = new URL(request.url);
+      rewrittenUrl.pathname = `/en${translatedPath}`;
+      const modifiedRequest = new NextRequest(rewrittenUrl, request);
+      const i18nResponse = await handleI18n(modifiedRequest);
+
+      const rewriteUrl = request.nextUrl.clone();
+      rewriteUrl.pathname = `/en${translatedPath}`;
+      const response = NextResponse.rewrite(rewriteUrl);
+
+      for (const cookie of i18nResponse.cookies.getAll()) {
+        response.cookies.set(cookie);
+      }
+      i18nResponse.headers.forEach((value, key) => {
+        if (key.startsWith('x-')) {
+          response.headers.set(key, value);
+        }
+      });
+
       return response;
     }
 

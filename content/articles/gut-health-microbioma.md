@@ -40,7 +40,7 @@ La ricerca degli ultimi due decenni ha rivelato che il microbioma influenza quas
 La diversità è la chiave. Un microbioma sano è un microbioma diverso. Ecco come promuoverla:
 
 *   **Mangia 30 Piante a Settimana:** Uno studio del *American Gut Project* ha rilevato che le persone che mangiano più di 30 tipi diversi di piante a settimana hanno microbiomi significativamente più diversi rispetto a chi ne mangia meno di 10.
-*   **[Fibre](/articoli/nutrizione/miti-fibre) Fermentabili (MACs):** I Carboidrati Accessibili al Microbiota (MACs) si trovano in legumi (come in questa [insalata](/ricette/nutrizione/insalata-ceci-avocado)), cereali integrali, frutta e verdura. Sono il carburante preferito dai batteri benefici.
+*   **[Fibre](/articoli/nutrizione/miti-fibre) Fermentabili (MACs):** I Carboidrati Accessibili al Microbiota (MACs) si trovano in legumi (come nel nostro [Minestrone della Longevità Sardo](/ricette/primi/minestrone-longevita-sardo) o nell'[insalata di ceci](/ricette/nutrizione/insalata-ceci-avocado)), cereali integrali, frutta e verdura. Sono il carburante preferito dai batteri benefici.
 *   **Cibi Fermentati:** Kefir, kimchi, crauti e [Miso](/ricette/nutrizione/miso-soup-tofu) introducono batteri vivi transitori che possono stimolare la flora residente.
 *   **Polifenoli:** Composti presenti in frutti di bosco, tè verde, cioccolato fondente e olio d'oliva extravergine, che agiscono come prebiotici selettivi.
 
