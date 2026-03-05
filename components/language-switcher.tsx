@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { localePath, internalPath } from "@/lib/i18n/paths";
 import { Globe } from "lucide-react";
+import { analytics } from "@/lib/analytics/events";
 
 export function LanguageSwitcher() {
   const locale = useLocale();
@@ -25,8 +26,7 @@ export function LanguageSwitcher() {
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    // Set both our cookie and next-intl's NEXT_LOCALE cookie
-    // to prevent next-intl from redirecting based on its stale cookie.
+    analytics.languageSwitched({ from: locale, to: targetLocale, page: pathname });
     document.cookie = `AEVOS_LOCALE=${targetLocale};path=/;max-age=${60 * 60 * 24 * 365};SameSite=Lax`;
     document.cookie = `NEXT_LOCALE=${targetLocale};path=/;max-age=${60 * 60 * 24 * 365};SameSite=Lax`;
     window.location.href = href;

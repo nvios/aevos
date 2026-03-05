@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import Link from "next/link";
 import { ArrowRight, Clock, Flame, Search, X } from "lucide-react";
 import { useLocale } from "next-intl";
 import { localePath } from "@/lib/i18n/paths";
 import type { Recipe } from "@/lib/content/recipes";
+import { analytics } from "@/lib/analytics/events";
 
 type RecipeListProps = {
   initialRecipes: Recipe[];
@@ -26,8 +27,19 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
     return Array.from(benefitsSet).sort();
   }, [initialRecipes]);
 
+  const searchTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const trackSearch = useCallback((query: string, count: number) => {
+    if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
+    searchTimerRef.current = setTimeout(() => {
+      if (query.length >= 2) analytics.recipeSearched(query, count);
+    }, 800);
+  }, []);
+
+  useEffect(() => () => { if (searchTimerRef.current) clearTimeout(searchTimerRef.current); }, []);
+
   const filteredRecipes = useMemo(() => {
-    return initialRecipes.filter((recipe) => {
+    const results = initialRecipes.filter((recipe) => {
       const matchesSearch =
         recipe.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         recipe.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -41,7 +53,9 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
 
       return matchesSearch && matchesCategory;
     });
-  }, [initialRecipes, searchQuery, selectedCategory]);
+    if (searchQuery) trackSearch(searchQuery, results.length);
+    return results;
+  }, [initialRecipes, searchQuery, selectedCategory, trackSearch]);
 
   return (
     <div className="space-y-8">
@@ -70,7 +84,10 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
 
         <div className="flex flex-wrap gap-2">
           <button
-            onClick={() => setSelectedCategory(null)}
+            onClick={() => {
+              setSelectedCategory(null);
+              analytics.recipeFilterApplied(null, initialRecipes.length);
+            }}
             className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${selectedCategory === null
                 ? "bg-emerald-600 text-white shadow-md"
                 : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
@@ -81,7 +98,11 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
           {allBenefits.map((benefit) => (
             <button
               key={benefit}
-              onClick={() => setSelectedCategory(benefit)}
+              onClick={() => {
+                setSelectedCategory(benefit);
+                const count = initialRecipes.filter(r => r.benefits?.some(b => b.title === benefit)).length;
+                analytics.recipeFilterApplied(benefit, count);
+              }}
               className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${selectedCategory === benefit
                   ? "bg-emerald-600 text-white shadow-md"
                   : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"

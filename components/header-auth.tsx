@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { User, LogOut, ChevronDown } from "lucide-react";
 import { useTranslations } from 'next-intl';
+import { analytics } from "@/lib/analytics/events";
 
 export function HeaderAuth() {
   const supabase = getSupabaseClient();
@@ -22,10 +23,15 @@ export function HeaderAuth() {
   useEffect(() => {
     if (!supabase) return;
 
-    // Check active session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUser(session?.user ?? null);
       setLoading(false);
+      if (session?.user) {
+        analytics.identify(session.user.id, {
+          email: session.user.email,
+          auth_method: session.user.app_metadata.provider ?? "unknown",
+        });
+      }
     });
 
     // Listen for changes
@@ -51,8 +57,10 @@ export function HeaderAuth() {
 
   const handleSignOut = async () => {
     if (!supabase) return;
+    analytics.signedOut();
     await supabase.auth.signOut();
-    setUser(null); // Optimistic update
+    analytics.reset();
+    setUser(null);
     setIsOpen(false);
     router.refresh();
   };

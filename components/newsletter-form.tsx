@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { subscribeToNewsletter } from "@/app/[locale]/actions";
 import { useTranslations } from 'next-intl';
+import { analytics } from "@/lib/analytics/events";
 
 export function NewsletterForm() {
   const [email, setEmail] = useState("");
@@ -32,7 +33,7 @@ export function NewsletterForm() {
         console.error("Newsletter error:", result.error);
       }
 
-      // Always redirect to login to complete the "hack"
+      analytics.newsletterSubmitted(email);
       router.push(`/login?email=${encodeURIComponent(email)}&signup=true`);
 
     } catch (error) {

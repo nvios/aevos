@@ -5,6 +5,7 @@ import { getSupabaseClient } from "@/lib/auth/supabase";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useLocale } from "next-intl";
 import { Lock } from "lucide-react";
+import { analytics } from "@/lib/analytics/events";
 
 function LoginForm() {
   const searchParams = useSearchParams();
@@ -26,6 +27,10 @@ function LoginForm() {
 
     supabase.auth.getSession().then(({ data: { session } }) => {
       if (session) {
+        analytics.identify(session.user.id, {
+          email: session.user.email,
+          auth_method: session.user.app_metadata.provider ?? "unknown",
+        });
         router.push("/");
         router.refresh();
       }
@@ -33,8 +38,16 @@ function LoginForm() {
 
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
+    } = supabase.auth.onAuthStateChange((event, session) => {
       if (session) {
+        analytics.identify(session.user.id, {
+          email: session.user.email,
+          auth_method: session.user.app_metadata.provider ?? "unknown",
+        });
+        if (event === "SIGNED_IN") {
+          const method = (session.user.app_metadata.provider === "google" ? "google" : "email") as "google" | "email";
+          analytics.loginCompleted(method, session.user.email ?? "");
+        }
         router.push("/");
         router.refresh();
       }
@@ -49,12 +62,13 @@ function LoginForm() {
       return;
     }
 
-    // Always redirect to /login (without locale prefix) to avoid
-    // middleware redirecting away and losing the OAuth hash fragment.
+    analytics.loginStarted("google");
+
+    const redirectPath = locale === 'en' ? '/en/login' : '/login';
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/login`,
+        redirectTo: `${window.location.origin}${redirectPath}`,
       },
     });
 
@@ -71,8 +85,15 @@ function LoginForm() {
     setLoading(true);
     setStatus("");
 
+    analytics.loginStarted("email");
+
     const signIn = await supabase.auth.signInWithPassword({ email, password });
     if (!signIn.error) {
+      const userId = signIn.data.user?.id;
+      if (userId) {
+        analytics.identify(userId, { email, auth_method: "email" });
+        analytics.loginCompleted("email", email);
+      }
       router.push("/");
       router.refresh();
       return;
@@ -83,6 +104,12 @@ function LoginForm() {
       setStatus(signUp.error.message);
       setLoading(false);
       return;
+    }
+
+    const userId = signUp.data.user?.id;
+    if (userId) {
+      analytics.identify(userId, { email, auth_method: "email" });
+      analytics.signupCompleted("email", email);
     }
 
     setStatus(isEn ? "Account created. Check your email to confirm." : "Account creato. Controlla la tua email per confermare.");

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { getSupabaseClient } from "@/lib/auth/supabase";
 import { Send } from "lucide-react";
+import { analytics } from "@/lib/analytics/events";
 
 export function FaqSubmission() {
   const [question, setQuestion] = useState("");
@@ -46,7 +47,7 @@ export function FaqSubmission() {
     if (!question.trim()) return;
 
     if (!user) {
-      // Save question to local storage before redirecting
+      analytics.faqLoginRedirect();
       localStorage.setItem('pendingFaqQuestion', question);
       window.location.href = '/login';
       return;
@@ -58,6 +59,7 @@ export function FaqSubmission() {
     // Simulate submission for now
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
+    analytics.faqSubmitted();
     setIsSubmitting(false);
     setIsSuccess(true);
     setQuestion("");

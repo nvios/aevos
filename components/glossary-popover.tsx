@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Info } from "lucide-react";
 import { useLocale } from "next-intl";
 import { localePath } from "@/lib/i18n/paths";
+import { analytics } from "@/lib/analytics/events";
 
 interface GlossaryPopoverProps {
   term: string;
@@ -59,10 +60,16 @@ export function GlossaryPopover({
     }
   }, [isOpen, position]);
 
+  const hasTrackedRef = useRef(false);
+
   const handleMouseEnter = () => {
     if (closeTimeoutRef.current) {
       clearTimeout(closeTimeoutRef.current);
       closeTimeoutRef.current = null;
+    }
+    if (!hasTrackedRef.current) {
+      analytics.glossaryTermViewed(term);
+      hasTrackedRef.current = true;
     }
     setIsOpen(true);
   };

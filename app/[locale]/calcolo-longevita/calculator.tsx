@@ -7,6 +7,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useLocale } from "next-intl";
 import { localePath } from "@/lib/i18n/paths";
+import { analytics } from "@/lib/analytics/events";
 
 type InputState = {
   age: number;
@@ -186,6 +187,19 @@ export function LongevityCalculator() {
     return () => { isMounted = false; };
   }, [supabase]);
 
+  useEffect(() => {
+    if (showAdvanced) {
+      analytics.calculatorScoreViewed({
+        score,
+        bmi: parseFloat(bmi),
+        has_rhr: Boolean(input.rhr),
+        has_vo2max: Boolean(input.vo2max),
+        age: input.age,
+        gender: input.gender,
+      });
+    }
+  }, [showAdvanced]); // eslint-disable-line react-hooks/exhaustive-deps
+
   const handleSignOut = async () => {
     if (!supabase) return;
     await supabase.auth.signOut();
@@ -284,12 +298,16 @@ export function LongevityCalculator() {
             )}
 
             {!showAdvanced ? (
-              <button onClick={() => { setShowResult(true); }} className="w-full rounded-full bg-zinc-900 py-3 text-sm font-semibold text-white transition-all hover:bg-zinc-800 hover:shadow-lg active:scale-[0.98]">
+              <button onClick={() => {
+                setShowResult(true);
+                const bmiVal = calculateBmi(input.weightKg, input.heightCm);
+                analytics.calculatorStarted({ age: input.age, gender: input.gender, bmi: parseFloat(bmiVal.toFixed(1)) });
+              }} className="w-full rounded-full bg-zinc-900 py-3 text-sm font-semibold text-white transition-all hover:bg-zinc-800 hover:shadow-lg active:scale-[0.98]">
                 {isEn ? 'Calculate Longevity Profile' : 'Calcola Profilo Longevità'}
               </button>
             ) : (
               activeTab === "basic" && (
-                <button onClick={() => setActiveTab("advanced")} className="w-full rounded-full border border-zinc-200 bg-white py-3 text-sm font-semibold text-zinc-900 transition-all hover:bg-zinc-50 hover:border-zinc-300">
+                <button onClick={() => { setActiveTab("advanced"); analytics.calculatorAdvancedTabOpened(); }} className="w-full rounded-full border border-zinc-200 bg-white py-3 text-sm font-semibold text-zinc-900 transition-all hover:bg-zinc-50 hover:border-zinc-300">
                   {isEn ? 'Have smartwatch data?' : 'Hai dati da smartwatch?'}
                 </button>
               )
@@ -353,7 +371,7 @@ export function LongevityCalculator() {
                       ? 'The calculator offers a statistical estimate. For a clinical and personalized action plan, you need real measurements and a dedicated medical team.'
                       : "Il calcolatore offre una stima statistica. Per un piano d'azione clinico e personalizzato, hai bisogno di misurazioni reali e di un team medico dedicato."}
                   </p>
-                  <Link href={lp("/servizi")} className="mt-4 inline-flex items-center rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-emerald-600 hover:shadow-[0_0_20px_rgba(16,185,129,0.4)]">
+                  <Link href={lp("/servizi")} onClick={() => analytics.calculatorCtaClicked("/servizi")} className="mt-4 inline-flex items-center rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-emerald-600 hover:shadow-[0_0_20px_rgba(16,185,129,0.4)]">
                     {isEn ? 'Discover Our Clinical Protocol' : 'Scopri il Nostro Protocollo Clinico'}<ChevronRight className="ml-1 h-4 w-4" />
                   </Link>
                 </div>
@@ -415,7 +433,7 @@ export function LongevityCalculator() {
                       : "Accedi gratuitamente per vedere come ti posizioni rispetto a profili simili e ricevere il piano d'azione."}
                   </p>
                   <div className="w-full max-w-xs space-y-3">
-                    <Link href="/login" className="flex w-full items-center justify-center gap-2 rounded-full bg-zinc-900 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
+                    <Link href="/login" onClick={() => analytics.calculatorUnlockClicked()} className="flex w-full items-center justify-center gap-2 rounded-full bg-zinc-900 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
                       {isEn ? 'Sign in to unlock' : 'Accedi per sbloccare'}
                     </Link>
                   </div>

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { ScreeningWizard } from "@/components/screening/screening-wizard";
+import { ScreeningWizardLoader } from "./screening-loader";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -33,7 +33,7 @@ export default async function AssessmentOnlinePage({
         </p>
       </div>
 
-      <ScreeningWizard />
+      <ScreeningWizardLoader />
     </div>
   );
 }

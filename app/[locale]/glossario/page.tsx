@@ -64,11 +64,14 @@ export default async function GlossaryPage({
 
   const letters = Object.keys(groupedTerms).sort();
 
+  const isEn = locale === 'en';
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
-    "name": "Glossario Aevos Health",
-    "description": "Definizioni di termini relativi a salute, longevità e biohacking.",
+    "name": isEn ? "Aevos Health Glossary" : "Glossario Aevos Health",
+    "description": isEn
+      ? "Definitions of terms related to health, longevity and biohacking."
+      : "Definizioni di termini relativi a salute, longevità e biohacking.",
     "hasDefinedTerm": terms.map(term => ({
       "@type": "DefinedTerm",
       "name": term.term,

@@ -12,6 +12,7 @@ import Link from "next/link";
 import { ArrowRight, AlertCircle } from "lucide-react";
 import { useLocale } from "next-intl";
 import { localePath } from "@/lib/i18n/paths";
+import { analytics } from "@/lib/analytics/events";
 
 type ScreeningData = {
   [key: string]: number | null; // null means "I don't know"
@@ -165,6 +166,19 @@ export function ScreeningWizard() {
   
   const currentBiomarkers = BIOMARKERS.filter(b => b.category === currentGroupKey);
 
+  useEffect(() => {
+    if (isComplete) {
+      const totalFilled = Object.values(data).filter(v => v !== null && v !== undefined).length;
+      analytics.screeningCompleted({
+        health_score: healthScore,
+        confidence_score: confidenceScore,
+        biomarkers_filled: totalFilled,
+        biomarkers_total: BIOMARKERS.length,
+        recommended_protocol: recommendedProtocol.slug,
+      });
+    }
+  }, [isComplete]); // eslint-disable-line react-hooks/exhaustive-deps
+
   if (isComplete) {
     return (
       <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -231,7 +245,7 @@ export function ScreeningWizard() {
             </div>
 
             <Button size="lg" className="bg-white text-zinc-900 hover:bg-zinc-200 font-semibold px-8 h-12 rounded-full" asChild>
-              <Link href={lp(`/servizi/protocolli/${recommendedProtocol.slug}`)}>
+              <Link href={lp(`/servizi/protocolli/${recommendedProtocol.slug}`)} onClick={() => analytics.screeningProtocolClicked(recommendedProtocol.slug)}>
                 Scopri il Protocollo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -241,6 +255,7 @@ export function ScreeningWizard() {
         
         <div className="text-center">
              <Button variant="ghost" onClick={() => {
+                 analytics.screeningRestarted();
                  setStep(0);
                  setData({});
                  localStorage.removeItem(STORAGE_KEY);
@@ -304,7 +319,16 @@ export function ScreeningWizard() {
           <Button variant="outline" onClick={() => setStep(Math.max(0, step - 1))} disabled={step === 0}>
             Indietro
           </Button>
-          <Button onClick={() => setStep(step + 1)} className="bg-zinc-900 hover:bg-zinc-800 text-white min-w-[120px]">
+          <Button onClick={() => {
+            const filledInStep = currentBiomarkers.filter(b => data[b.id] !== null && data[b.id] !== undefined).length;
+            analytics.screeningStepCompleted({
+              step: step + 1,
+              group: currentGroupKey,
+              biomarkers_filled: filledInStep,
+              biomarkers_total: currentBiomarkers.length,
+            });
+            setStep(step + 1);
+          }} className="bg-zinc-900 hover:bg-zinc-800 text-white min-w-[120px]">
             {step === GROUP_ORDER.length - 1 ? "Vedi Risultati" : "Avanti"}
           </Button>
         </CardFooter>

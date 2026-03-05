@@ -18,17 +18,20 @@ export default async function middleware(request: NextRequest) {
   if (
     pathname.startsWith('/_next') ||
     pathname.includes('.') ||
-    pathname.startsWith('/api')
+    pathname.startsWith('/api') ||
+    pathname.startsWith('/ingest') ||
+    pathname.startsWith('/en/ingest')
   ) {
     return;
   }
 
-  // If the path already starts with /en, let next-intl handle it.
   if (pathname.startsWith('/en')) {
     return handleI18n(request);
   }
 
-  // Skip auto-redirect for /login to preserve OAuth callback hash fragments.
+  // Let next-intl handle /login without custom redirect logic.
+  // OAuth callbacks use locale-aware redirectTo URLs, so hash fragments
+  // are preserved because the URL already has the correct locale prefix.
   if (pathname === '/login') {
     return handleI18n(request);
   }
@@ -64,5 +67,5 @@ export default async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next|.*\\..*).*)']
+  matcher: ['/((?!api|_next|ingest|.*\\..*).*)']
 };

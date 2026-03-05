@@ -56,7 +56,7 @@ export const BIOMARKERS: Biomarker[] = [
     upsellMessage: 'Trigliceridi alti spesso indicano insulino-resistenza. Misurali ora.',
     protocolSlug: 'longevita'
   },
-  
+
   // Inflammation
   {
     id: 'hs_crp',
