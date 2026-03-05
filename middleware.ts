@@ -12,6 +12,44 @@ const handleI18n = createMiddleware({
   localePrefix: 'as-needed'
 });
 
+const PATH_SEGMENTS: [string, string][] = [
+  ['/servizi/protocolli', '/services/protocols'],
+  ['/servizi/assessment-online', '/services/assessment-online'],
+  ['/servizi/lab-tests', '/services/lab-tests'],
+  ['/servizi/lombardia', '/services/lombardia'],
+  ['/articoli', '/articles'],
+  ['/ricette', '/recipes'],
+  ['/servizi', '/services'],
+  ['/calcolo-longevita', '/longevity-calculator'],
+  ['/eta-biologica', '/biological-age'],
+  ['/aspettativa-di-vita', '/life-expectancy'],
+  ['/glossario', '/glossary'],
+  ['/sedi', '/locations'],
+];
+
+const CATEGORY_SLUGS_EN_TO_IT: Record<string, string> = {
+  'sleep': 'sonno',
+  'exercise': 'esercizio',
+  'nutrition': 'nutrizione',
+  'hair': 'capelli',
+  'longevity': 'longevita',
+  'technology': 'tecnologie',
+};
+
+function translateEnglishPathToInternal(enPath: string): string {
+  let result = enPath;
+
+  for (const [it, en] of PATH_SEGMENTS) {
+    if (result === en || result.startsWith(en + '/')) {
+      result = result.replace(en, it);
+      break;
+    }
+  }
+
+  const parts = result.split('/');
+  return parts.map(p => CATEGORY_SLUGS_EN_TO_IT[p] || p).join('/');
+}
+
 export default async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
@@ -26,18 +64,24 @@ export default async function middleware(request: NextRequest) {
   }
 
   if (pathname.startsWith('/en')) {
+    const pathWithoutLocale = pathname.slice(3) || '/';
+    const internalPath = translateEnglishPathToInternal(pathWithoutLocale);
+
+    if (internalPath !== pathWithoutLocale) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/en${internalPath}`;
+      const response = NextResponse.rewrite(url);
+      response.cookies.set('NEXT_LOCALE', 'en', { path: '/' });
+      return response;
+    }
+
     return handleI18n(request);
   }
 
-  // Let next-intl handle /login without custom redirect logic.
-  // OAuth callbacks use locale-aware redirectTo URLs, so hash fragments
-  // are preserved because the URL already has the correct locale prefix.
   if (pathname === '/login') {
     return handleI18n(request);
   }
 
-  // For root-level paths (no /en prefix):
-  // If user has explicitly chosen a locale via cookie, respect it.
   const explicitLocale = request.cookies.get('AEVOS_LOCALE')?.value;
   if (explicitLocale === 'it') {
     return handleI18n(request);
@@ -48,7 +92,6 @@ export default async function middleware(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  // No explicit choice — auto-detect from Accept-Language.
   const headers = { 'accept-language': request.headers.get('accept-language') || '' };
   const languages = new Negotiator({ headers }).languages();
 

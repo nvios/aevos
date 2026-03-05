@@ -12,7 +12,11 @@ import { getArticlesByCategory } from "@/lib/content/articles";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { localePath } from "@/lib/i18n/paths";
+import { localePath, locales } from "@/lib/i18n/paths";
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
