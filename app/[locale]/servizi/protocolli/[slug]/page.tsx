@@ -11,7 +11,7 @@ type Props = {
 };
 
 // Map icon names to components
-const IconMap: Record<string, any> = {
+const IconMap: Record<string, React.ElementType> = {
   Zap, Brain, Activity, Sun, Clock, Shield, TrendingUp, Calendar, Smile, Heart
 };
 

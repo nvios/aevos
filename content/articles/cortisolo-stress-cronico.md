@@ -42,7 +42,7 @@ Se lo stress è costante (lavoro, traffico, notifiche), queste funzioni rimangon
 
 ### Protocollo di Gestione (Evidence-Based)
 
-1.  **Respirazione Fisiologica (Sigh):** Due inspirazioni brevi dal naso, una espirazione lunga dalla bocca. Questo "sospiro fisiologico" (studiato dal Dr. Andrew Huberman) è il modo più veloce per attivare il sistema parasimpatico in tempo reale.
+1.  **Respirazione e Suono:** Due inspirazioni brevi dal naso, una espirazione lunga dalla bocca ("sospiro fisiologico"). Anche l'uso di [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali) (onde Theta o Alpha) può indurre rapidamente uno stato di rilassamento.
 2.  **Esposizione alla Natura:** 20 minuti in un ambiente naturale abbassano significativamente i livelli di cortisolo salivare rispetto allo stesso tempo in città.
 3.  **Gestione della Luce:** Evitare la luce blu la sera e cercare il buio totale per il [sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia) è cruciale, poiché la melatonina contrasta il cortisolo.
 4.  **Magnesio e Fosfatidilserina:** Integratori che possono modulare la risposta allo stress. Vedi la nostra [guida agli integratori](/articoli/nutrizione/guida-integratori).

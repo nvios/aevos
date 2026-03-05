@@ -1,7 +1,7 @@
 import React from "react";
-import parse, { DOMNode, Element, Text, HTMLReactParserOptions } from "html-react-parser";
+import parse, { Element, Text, HTMLReactParserOptions } from "html-react-parser";
 import { marked } from "marked";
-import { glossaryTerms } from "@/lib/content/glossary";
+import { getAllGlossaryTerms } from "@/lib/content/glossary";
 import { GlossaryPopover } from "@/components/glossary-popover";
 
 interface MarkdownRendererProps {
@@ -10,6 +10,7 @@ interface MarkdownRendererProps {
 
 export async function MarkdownRenderer({ content }: MarkdownRendererProps) {
   const htmlContent = await marked(content, { breaks: true, gfm: true });
+  const glossaryTerms = getAllGlossaryTerms();
 
   // Sort terms by length (descending) to match longer phrases first
   const sortedTerms = [...glossaryTerms].sort((a, b) => b.term.length - a.term.length);

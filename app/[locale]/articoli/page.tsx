@@ -13,7 +13,7 @@ export const metadata = buildMetadata({
   path: "/articoli",
 });
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ElementType> = {
   Moon,
   Dumbbell,
   Utensils,

@@ -6,24 +6,13 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Lock } from "lucide-react";
 
 function LoginForm() {
-  const [email, setEmail] = useState("");
+  const searchParams = useSearchParams();
+  const [email, setEmail] = useState(searchParams.get("email") || "");
   const [password, setPassword] = useState("");
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState(searchParams.get("signup") ? "Completa la registrazione creando una password." : "");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const emailParam = searchParams.get("email");
-  const signupParam = searchParams.get("signup");
   const supabase = getSupabaseClient();
-
-  useEffect(() => {
-    if (emailParam) {
-      setEmail(emailParam);
-    }
-    if (signupParam) {
-      setStatus("Completa la registrazione creando una password.");
-    }
-  }, [emailParam, signupParam]);
 
   useEffect(() => {
     if (!supabase) return;

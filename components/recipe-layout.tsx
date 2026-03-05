@@ -1,7 +1,6 @@
-import type { Metadata } from "next";
 import Script from "next/script";
 import Link from "next/link";
-import { ChevronLeft, Clock, ExternalLink, ArrowRight, ChefHat, Flame, Users, Heart, Brain, Zap } from "lucide-react";
+import { ChevronLeft, Clock, ArrowRight, ChefHat, Flame, Users, Zap } from "lucide-react";
 
 import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
@@ -36,7 +35,6 @@ type RecipeProps = {
 export function RecipeLayout({
   title,
   description,
-  category,
   prepTime,
   cookTime,
   servings,
@@ -45,7 +43,6 @@ export function RecipeLayout({
   instructions,
   benefits,
   image,
-  faq,
   relatedRecipes,
   children,
 }: RecipeProps) {

@@ -9,17 +9,18 @@ export function FaqSubmission() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState<React.ReactNode | null>(null);
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<unknown>(null);
   const supabase = getSupabaseClient();
 
   // Load pending question on mount
   useEffect(() => {
     // Check for pending question
-    const pendingQuestion = localStorage.getItem('pendingFaqQuestion');
-    if (pendingQuestion) {
-      setQuestion(pendingQuestion);
-      // Optional: clear it immediately or keep it until successful submission
-      // localStorage.removeItem('pendingFaqQuestion'); 
+    if (typeof window !== 'undefined') {
+      const pendingQuestion = localStorage.getItem('pendingFaqQuestion');
+      if (pendingQuestion) {
+        // Use timeout to avoid synchronous state update warning
+        setTimeout(() => setQuestion(pendingQuestion), 0);
+      }
     }
   }, []);
 

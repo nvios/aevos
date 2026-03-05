@@ -2,7 +2,7 @@ import Link from "next/link";
 import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
-import { MapPin, Activity, Building2, Stethoscope } from "lucide-react";
+import { Activity, Stethoscope } from "lucide-react";
 
 export const metadata = buildMetadata({
   title: "Servizi e Partner per la Longevità",

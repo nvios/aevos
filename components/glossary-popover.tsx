@@ -47,13 +47,13 @@ export function GlossaryPopover({
       const spaceBelow = window.innerHeight - rect.bottom;
 
       // If not enough space below (less than popover height + margin), show on top
-      if (spaceBelow < popoverHeight) {
-        setPosition("top");
-      } else {
-        setPosition("bottom");
+      const newPosition = spaceBelow < popoverHeight ? "top" : "bottom";
+      // Use a timeout to avoid synchronous state update during render/effect cycle
+      if (position !== newPosition) {
+        setTimeout(() => setPosition(newPosition), 0);
       }
     }
-  }, [isOpen]);
+  }, [isOpen, position]);
 
   const handleMouseEnter = () => {
     if (closeTimeoutRef.current) {
@@ -101,9 +101,9 @@ export function GlossaryPopover({
             aria-hidden="true"
           />
 
-          <div className="flex items-center gap-1.5 mb-1">
-            <Info className="w-4 h-4 text-zinc-500 shrink-0" />
-            <h4 className="font-semibold text-zinc-900 m-0 leading-tight">{term}</h4>
+          <div className="flex items-center gap-1.5">
+            <Info className="w-4 h-4 text-zinc-500 shrink-0 mt-4.5" />
+            <h4 className="font-semibold text-zinc-900 m-0 leading-snug">{term}</h4>
           </div>
           <p className="text-zinc-600 mb-2 leading-snug">{definition}</p>
           <Link

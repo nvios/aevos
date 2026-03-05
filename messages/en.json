@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "title": "The science of longevity, simplified.",
+    "subtitle": "Discover your real biological age",
+    "description": "Don't just count the years. Get a personalized analysis of your health status and a concrete action plan to slow down aging.",
+    "cta_calculate": "Calculate now",
+    "cta_explore": "Explore articles"
+  },
+  "Navigation": {
+    "articles": "Articles",
+    "recipes": "Recipes",
+    "services": "Services",
+    "longevity_calc": "Longevity Calculator"
+  },
+  "Auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "logged_in_as": "Logged in as"
+  },
+  "Newsletter": {
+    "placeholder": "Your best email",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing..."
+  }
+}

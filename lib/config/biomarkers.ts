@@ -2,7 +2,7 @@ export interface Biomarker {
   id: string;
   name: string;
   unit: string;
-  category: 'metabolic' | 'inflammation' | 'hormonal' | 'nutritional';
+  category: 'metabolic' | 'inflammation' | 'hormonal' | 'nutritional' | 'functional' | 'body_comp';
   description: string;
   normalRange: { min: number; max: number };
   optimalRange: { min: number; max: number };
@@ -11,6 +11,7 @@ export interface Biomarker {
 }
 
 export const BIOMARKERS: Biomarker[] = [
+  // Metabolic
   {
     id: 'hba1c',
     name: 'Emoglobina Glicata (HbA1c)',
@@ -55,6 +56,8 @@ export const BIOMARKERS: Biomarker[] = [
     upsellMessage: 'Trigliceridi alti spesso indicano insulino-resistenza. Misurali ora.',
     protocolSlug: 'longevita'
   },
+  
+  // Inflammation
   {
     id: 'hs_crp',
     name: 'Proteina C Reattiva (hs-CRP)',
@@ -64,8 +67,10 @@ export const BIOMARKERS: Biomarker[] = [
     normalRange: { min: 0, max: 3.0 },
     optimalRange: { min: 0, max: 0.5 },
     upsellMessage: 'L\'infiammazione cronica è il killer silenzioso. Il test hs-CRP è incluso nel nostro pacchetto infiammazione.',
-    protocolSlug: 'longevita' // Could be specific inflammation protocol if created
+    protocolSlug: 'longevita'
   },
+
+  // Nutritional / Hormonal
   {
     id: 'vitamin_d',
     name: 'Vitamina D (25-OH)',
@@ -83,7 +88,7 @@ export const BIOMARKERS: Biomarker[] = [
     unit: 'ng/mL',
     category: 'nutritional',
     description: 'Riserva di ferro dell\'organismo.',
-    normalRange: { min: 30, max: 400 }, // Wide range, varies by sex
+    normalRange: { min: 30, max: 400 },
     optimalRange: { min: 50, max: 150 },
     upsellMessage: 'Stanchezza cronica? Potrebbe essere la ferritina. Controllala con noi.',
     protocolSlug: 'longevita'
@@ -97,6 +102,65 @@ export const BIOMARKERS: Biomarker[] = [
     normalRange: { min: 0.4, max: 4.0 },
     optimalRange: { min: 1.0, max: 2.5 },
     upsellMessage: 'La tiroide regola il tuo metabolismo. Un controllo TSH è rapido e fondamentale.',
+    protocolSlug: 'longevita'
+  },
+
+  // Functional / Wearable Data
+  {
+    id: 'hrv',
+    name: 'HRV (Variabilità Cardiaca)',
+    unit: 'ms',
+    category: 'functional',
+    description: 'Misura della variazione di tempo tra i battiti cardiaci. Indica lo stato di recupero e stress.',
+    normalRange: { min: 20, max: 150 },
+    optimalRange: { min: 50, max: 100 }, // Highly individual, but >50 is generally good
+    upsellMessage: 'L\'HRV è un potente indicatore di stress. Possiamo misurarlo con precisione clinica.',
+    protocolSlug: 'sonno'
+  },
+  {
+    id: 'rhr',
+    name: 'RHR (Battiti a Riposo)',
+    unit: 'bpm',
+    category: 'functional',
+    description: 'Frequenza cardiaca a riposo. Più è bassa (entro limiti fisiologici), più il cuore è efficiente.',
+    normalRange: { min: 50, max: 90 },
+    optimalRange: { min: 40, max: 60 },
+    upsellMessage: 'Un RHR elevato può indicare sovrallenamento o stress. Verificalo nel nostro check-up.',
+    protocolSlug: 'longevita'
+  },
+  {
+    id: 'vo2max',
+    name: 'VO2 Max',
+    unit: 'ml/kg/min',
+    category: 'functional',
+    description: 'Il massimo volume di ossigeno che il corpo può utilizzare. Il miglior predittore di longevità.',
+    normalRange: { min: 30, max: 60 },
+    optimalRange: { min: 45, max: 70 },
+    upsellMessage: 'Il VO2 Max è il parametro #1 per la longevità. Misuralo con il nostro test da sforzo.',
+    protocolSlug: 'longevita'
+  },
+
+  // Lab / Physical
+  {
+    id: 'lean_mass',
+    name: 'Massa Magra (Lean Mass)',
+    unit: '%',
+    category: 'body_comp',
+    description: 'Percentuale di peso corporeo non grasso (muscoli, ossa, acqua).',
+    normalRange: { min: 70, max: 90 },
+    optimalRange: { min: 80, max: 95 }, // Higher is generally better (lower body fat)
+    upsellMessage: 'La massa muscolare è la tua "pensione" di salute. Misurala con la nostra analisi BIA professionale.',
+    protocolSlug: 'longevita'
+  },
+  {
+    id: 'grip_strength',
+    name: 'Grip Strength (Forza Presa)',
+    unit: 'kg',
+    category: 'functional',
+    description: 'Forza della presa della mano. Correlata alla forza totale e alla longevità.',
+    normalRange: { min: 25, max: 70 },
+    optimalRange: { min: 40, max: 80 }, // Men >40, Women >25 roughly
+    upsellMessage: 'La forza della presa predice la mortalità meglio della pressione sanguigna. Testala ora con il nostro dinamometro digitale.',
     protocolSlug: 'longevita'
   }
 ];

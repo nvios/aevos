@@ -2,12 +2,14 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { subscribeToNewsletter } from "@/app/actions";
+import { subscribeToNewsletter } from "@/app/[locale]/actions";
+import { useTranslations } from 'next-intl';
 
 export function NewsletterForm() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const t = useTranslations('Newsletter');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -21,7 +23,7 @@ export function NewsletterForm() {
     // However, let's try to handle errors gracefully.
     try {
       const result = await subscribeToNewsletter(formData);
-      
+
       if (result.error) {
         // If error is about missing table, we can ignore it and proceed?
         // Or show error?
@@ -29,10 +31,10 @@ export function NewsletterForm() {
         // But if I can't create the table, I should probably just proceed.
         console.error("Newsletter error:", result.error);
       }
-      
+
       // Always redirect to login to complete the "hack"
       router.push(`/login?email=${encodeURIComponent(email)}&signup=true`);
-      
+
     } catch (error) {
       console.error("Unexpected error:", error);
       // Fallback redirect
@@ -46,7 +48,7 @@ export function NewsletterForm() {
     <form onSubmit={handleSubmit} className="mx-auto flex max-w-md flex-col gap-3 sm:flex-row">
       <input
         type="email"
-        placeholder="La tua email migliore"
+        placeholder={t('placeholder')}
         className="flex-1 rounded-full border border-zinc-300 bg-white px-5 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900"
         required
         value={email}
@@ -58,7 +60,7 @@ export function NewsletterForm() {
         disabled={loading}
         className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-3 font-semibold text-white transition-colors hover:bg-zinc-800 disabled:opacity-50"
       >
-        {loading ? "Iscrizione..." : "Iscriviti"}
+        {loading ? t('subscribing') : t('subscribe')}
       </button>
     </form>
   );

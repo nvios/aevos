@@ -3,7 +3,8 @@ import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/lib/site";
 import { NewsletterForm } from "@/components/newsletter-form";
-import { ArrowRight, Activity, ShieldCheck, TrendingUp, Users, Stethoscope } from "lucide-react";
+import { ArrowRight, Activity, TrendingUp, Stethoscope } from "lucide-react";
+import { getTranslations } from 'next-intl/server';
 
 export const metadata = buildMetadata({
   title: "Longevità, prevenzione e performance quotidiana",
@@ -25,28 +26,34 @@ const websiteSchema = {
   },
 };
 
-const features = [
-  {
-    title: "Guide Evidence-Based",
-    text: "Analisi approfondite su sonno, nutrizione ed esercizio, basate esclusivamente su studi clinici e meta-analisi.",
-    href: "/articoli",
-    icon: Activity,
-  },
-  {
-    title: "Monitoraggio Salute e Longevità",
-    text: "Dashboard interattiva per tracciare progressi e risultati.",
-    href: "/calcolo-longevita",
-    icon: TrendingUp,
-  },
-  {
-    title: "Assessment Clinico",
-    text: "Il gold standard italiano per la diagnostica della longevità. Protocolli validati da decenni di ricerca ed esperienza clinica.",
-    href: "/servizi",
-    icon: Stethoscope,
-  },
-];
+export default async function Home() {
+  const t = await getTranslations('HomePage');
+  const tNav = await getTranslations('Navigation');
 
-export default function Home() {
+  const features = [
+    {
+      title: "Guide Evidence-Based", // Should be translated
+      text: "Analisi approfondite su sonno, nutrizione ed esercizio, basate esclusivamente su studi clinici e meta-analisi.",
+      href: "/articoli",
+      icon: Activity,
+    },
+    {
+      title: "Monitoraggio Salute e Longevità",
+      text: "Dashboard interattiva per tracciare progressi e risultati.",
+      href: "/calcolo-longevita",
+      icon: TrendingUp,
+    },
+    {
+      title: "Assessment Clinico",
+      text: "Il gold standard italiano per la diagnostica della longevità. Protocolli validati da decenni di ricerca ed esperienza clinica.",
+      href: "/servizi",
+      icon: Stethoscope,
+    },
+  ];
+
+  // For now I'm using static features text because I haven't added them to messages.json yet.
+  // But I will use t() for the main sections.
+
   return (
     <div className="space-y-24 pb-12">
       <Script
@@ -59,38 +66,37 @@ export default function Home() {
         <div className="relative z-10 mx-auto max-w-4xl space-y-8">
           <div className="inline-flex items-center rounded-full border border-zinc-700 bg-zinc-800/50 px-4 py-1.5 text-sm font-medium text-zinc-300 backdrop-blur-sm">
             <span className="mr-2 h-2 w-2 rounded-full bg-emerald-500"></span>
-            La scienza della longevità, semplificata.
+            {t('title')}
           </div>
-          
+
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
-            Scopri la tua reale <br className="hidden sm:block" />
+            {t('subtitle')} <br className="hidden sm:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
               età biologica
             </span>
           </h1>
-          
+
           <p className="mx-auto max-w-2xl text-lg text-zinc-400 sm:text-xl leading-relaxed">
-            Non limitarti a contare gli anni. Ottieni un'analisi personalizzata del tuo stato di salute 
-            e un piano d'azione concreto per rallentare l'invecchiamento.
+            {t('description')}
           </p>
-          
+
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/calcolo-longevita"
               className="group inline-flex h-12 items-center justify-center rounded-full bg-white px-8 text-base font-semibold text-zinc-900 transition-all hover:bg-zinc-100 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"
             >
-              Calcola ora
+              {t('cta_calculate')}
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
               href="/articoli"
               className="inline-flex h-12 items-center justify-center rounded-full border border-zinc-600 bg-transparent px-8 text-base font-medium text-white transition-colors hover:bg-zinc-800"
             >
-              Esplora gli articoli
+              {t('cta_explore')}
             </Link>
           </div>
         </div>
-        
+
         {/* Abstract Background Elements */}
         <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-emerald-500/10 blur-[100px]" />
         <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-[500px] h-[500px] rounded-full bg-cyan-500/10 blur-[100px]" />
@@ -106,7 +112,7 @@ export default function Home() {
             Risorse curate per ottimizzare ogni aspetto della tua salute.
           </p>
         </div>
-        
+
         <div className="grid gap-8 md:grid-cols-2 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:w-1/2 [&>*:last-child:nth-child(odd)]:md:mx-auto">
           {features.map((card) => {
             const Icon = card.icon;
@@ -135,10 +141,10 @@ export default function Home() {
               Scienza, non hype.
             </h2>
             <p className="mx-auto max-w-xl text-lg text-zinc-600">
-              Unisciti a oltre 2.000 iscritti che ricevono ogni settimana consigli pratici 
+              Unisciti a oltre 2.000 iscritti che ricevono ogni settimana consigli pratici
               su longevità e performance, direttamente nella loro inbox.
             </p>
-            
+
             <NewsletterForm />
             <p className="text-xs text-zinc-500">
               Nessuno spam. Cancellati in qualsiasi momento.

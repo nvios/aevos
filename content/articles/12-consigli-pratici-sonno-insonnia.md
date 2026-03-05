@@ -56,7 +56,7 @@ Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica
    La digestione richiede energia e aumenta la temperatura corporea. Cerca di finire l'ultimo pasto importante almeno 3 ore prima di coricarti.
 
 10. **Gestione dello Stress (Cortisolo).**
-    Se la mente corre appena ti sdrai, il cortisolo è troppo alto. Pratiche come la respirazione 4-7-8, la meditazione o il journaling (scrivere i pensieri) possono abbassare l'attivazione del sistema nervoso simpatico.
+    Se la mente corre appena ti sdrai, il cortisolo è troppo alto. Pratiche come la respirazione 4-7-8, la meditazione, il journaling o l'ascolto di [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali) possono abbassare l'attivazione del sistema nervoso simpatico.
 
 11. **Il Letto è Solo per Dormire.**
     Non lavorare, mangiare o guardare la TV a letto. Il cervello deve associare quel luogo esclusivamente al riposo (e all'intimità). Se non dormi dopo 20 minuti, alzati e fai qualcosa di rilassante altrove finché non torna il sonno.

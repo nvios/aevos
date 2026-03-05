@@ -13,13 +13,23 @@ export function buildMetadata({
   path,
 }: BuildMetaParams): Metadata {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? siteConfig.domain;
-  const canonical = new URL(path, baseUrl).toString();
+  
+  // Ensure path starts with /
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  
+  // Canonical URL (defaulting to Italian version as main canonical)
+  const canonical = new URL(cleanPath, baseUrl).toString();
 
   return {
     title,
     description,
     alternates: {
       canonical,
+      languages: {
+        'it': canonical,
+        'en': new URL(`/en${cleanPath === '/' ? '' : cleanPath}`, baseUrl).toString(),
+        'x-default': canonical,
+      },
     },
     openGraph: {
       title,

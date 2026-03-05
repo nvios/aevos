@@ -1,13 +1,11 @@
-import type { Metadata } from "next";
-import Script from "next/script";
 import { notFound } from "next/navigation";
 import { ArticleLayout } from "@/components/article-layout";
-import { getArticleBySlug, getArticlesByCategory, getAllArticles, getRelatedArticles, type Article } from "@/lib/content/articles";
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
+import { getArticleBySlug, getAllArticles, getRelatedArticles } from "@/lib/content/articles";
+import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { marked } from "marked";
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   const articles = getAllArticles();

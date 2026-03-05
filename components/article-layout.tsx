@@ -1,9 +1,7 @@
-import type { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo/metadata";
 import { faqJsonLd } from "@/lib/seo/schema";
 import Script from "next/script";
 import Link from "next/link";
-import { ChevronLeft, Clock, User, ExternalLink, ArrowRight } from "lucide-react";
+import { ChevronLeft, User, ExternalLink, ArrowRight } from "lucide-react";
 
 import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
@@ -39,7 +37,6 @@ export function ArticleLayout({
   title,
   description,
   author,
-  category,
   faq,
   cta,
   resources,

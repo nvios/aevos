@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { ArrowRight, Clock, Flame, Zap, Search, X } from "lucide-react";
+import { ArrowRight, Clock, Flame, Search, X } from "lucide-react";
 import type { Recipe } from "@/lib/content/recipes";
 
 type RecipeListProps = {

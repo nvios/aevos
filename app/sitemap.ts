@@ -20,10 +20,26 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL ?? siteConfig.domain;
   const lastModified = new Date();
-  return routes.map((route) => ({
-    url: `${base}${route}`,
-    lastModified,
-    changeFrequency: route === "" ? "weekly" : "monthly",
-    priority: route === "" ? 1 : 0.7,
-  }));
+  
+  const sitemapEntries: MetadataRoute.Sitemap = [];
+
+  routes.forEach((route) => {
+    // Italian (default)
+    sitemapEntries.push({
+      url: `${base}${route}`,
+      lastModified,
+      changeFrequency: route === "" ? "weekly" : "monthly",
+      priority: route === "" ? 1 : 0.7,
+    });
+
+    // English
+    sitemapEntries.push({
+      url: `${base}/en${route}`,
+      lastModified,
+      changeFrequency: route === "" ? "weekly" : "monthly",
+      priority: route === "" ? 1 : 0.7,
+    });
+  });
+
+  return sitemapEntries;
 }

@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { getSupabaseClient } from "@/lib/auth/supabase";
-import { ChevronRight, Lock, Unlock, User, Activity, Scale, Ruler, Calendar, Heart, Zap, Dumbbell, Watch } from "lucide-react";
+import { ChevronRight, Lock, Unlock, User, Activity, Scale, Ruler, Calendar, Heart, Zap } from "lucide-react";
 import Link from "next/link";
 import clsx from "clsx";
 
@@ -14,8 +14,6 @@ type InputState = {
   // Advanced Metrics (Optional)
   rhr?: number; // Resting Heart Rate
   vo2max?: number;
-  hrv?: number; // ms
-  gripStrength?: number; // kg
 };
 
 function PopulationChart({ score }: { score: number }) {
@@ -131,21 +129,6 @@ function calculateScore(input: InputState) {
     else if (input.vo2max < 30) score -= 5;
   }
 
-  // HRV (Highly individual, but generally higher is better)
-  if (input.hrv) {
-    advancedDataPoints++;
-    if (input.hrv > 60) score += 3;
-    else if (input.hrv < 20) score -= 2;
-  }
-
-  // Grip Strength
-  if (input.gripStrength) {
-    advancedDataPoints++;
-    const threshold = input.gender === "donna" ? 25 : 40;
-    if (input.gripStrength > threshold) score += 5;
-    else if (input.gripStrength < (threshold - 10)) score -= 3;
-  }
-
   // Precision Bonus: Reward for knowing your data
   if (advancedDataPoints > 0) {
     score += advancedDataPoints;
@@ -190,7 +173,7 @@ export function LongevityCalculator() {
       return "Attenzione. Il tuo indice di massa corporea indica obesità, un fattore di rischio significativo per la longevità. La priorità assoluta è la gestione del peso sotto supervisione medica.";
     }
     if (bmiValue >= 25) {
-      return "Profilo da monitorare. Il sovrappeso è un fattore infiammatorio cronico che accelera l'invecchiamento biologico. Focus su deficit calorico controllato e aumento dell'attività fisica.";
+      return "Profilo da monitorare. Il sovrappeso è un fattore infiammatorio cronico che accelera l&apos;invecchiamento biologico. Focus su deficit calorico controllato e aumento dell&apos;attività fisica.";
     }
     if (bmiValue < 18.5) {
       return "Attenzione. Il sottopeso può indicare scarsa riserva muscolare e fragilità. Focus su nutrizione adeguata e allenamento di forza per costruire massa magra.";
@@ -366,40 +349,6 @@ export function LongevityCalculator() {
                     />
                   </div>
                 </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-zinc-700 flex items-center justify-between">
-                    <span>HRV (Variabilità cardiaca)</span>
-                    <span className="text-xs text-zinc-400 font-normal">ms</span>
-                  </label>
-                  <div className="relative">
-                    <Watch className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-zinc-400" />
-                    <input
-                      type="number"
-                      placeholder="es. 60"
-                      value={input.hrv || ""}
-                      onChange={(e) => updateInput("hrv", e.target.value ? Number(e.target.value) : undefined)}
-                      className="w-full rounded-lg border border-zinc-300 py-2.5 pl-10 pr-3 text-sm focus:border-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-zinc-700 flex items-center justify-between">
-                    <span>Grip Strength (Presa)</span>
-                    <span className="text-xs text-zinc-400 font-normal">kg</span>
-                  </label>
-                  <div className="relative">
-                    <Dumbbell className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-zinc-400" />
-                    <input
-                      type="number"
-                      placeholder="es. 40"
-                      value={input.gripStrength || ""}
-                      onChange={(e) => updateInput("gripStrength", e.target.value ? Number(e.target.value) : undefined)}
-                      className="w-full rounded-lg border border-zinc-300 py-2.5 pl-10 pr-3 text-sm focus:border-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900"
-                    />
-                  </div>
-                </div>
               </div>
             )}
 
@@ -478,7 +427,7 @@ export function LongevityCalculator() {
                     Passa dalla stima alla certezza
                   </h3>
                   <p className="mt-2 text-sm text-zinc-300 leading-relaxed max-w-lg">
-                    Il calcolatore offre una stima statistica. Per un piano d'azione clinico e personalizzato, hai bisogno di misurazioni reali e di un team medico dedicato.
+                    Il calcolatore offre una stima statistica. Per un piano d&apos;azione clinico e personalizzato, hai bisogno di misurazioni reali e di un team medico dedicato.
                   </p>
                   <Link
                     href="/servizi"
@@ -539,9 +488,9 @@ export function LongevityCalculator() {
               {!unlocked && !checkingSession && (
                 <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white/60 backdrop-blur-[2px] p-6 text-center">
                   <Lock className="h-8 w-8 text-zinc-900 mb-3" />
-                  <h3 className="text-lg font-semibold text-zinc-900 mb-2">Sblocca l'analisi completa</h3>
+                  <h3 className="text-lg font-semibold text-zinc-900 mb-2">Sblocca l&apos;analisi completa</h3>
                   <p className="text-sm text-zinc-600 mb-6 max-w-xs">
-                    Accedi gratuitamente per vedere come ti posizioni rispetto a profili simili e ricevere il piano d'azione.
+                    Accedi gratuitamente per vedere come ti posizioni rispetto a profili simili e ricevere il piano d&apos;azione.
                   </p>
 
                   <div className="w-full max-w-xs space-y-3">

@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "title": "La scienza della longevità, semplificata.",
+    "subtitle": "Scopri la tua reale età biologica",
+    "description": "Non limitarti a contare gli anni. Ottieni un'analisi personalizzata del tuo stato di salute e un piano d'azione concreto per rallentare l'invecchiamento.",
+    "cta_calculate": "Calcola ora",
+    "cta_explore": "Esplora gli articoli"
+  },
+  "Navigation": {
+    "articles": "Articoli",
+    "recipes": "Ricette",
+    "services": "Servizi",
+    "longevity_calc": "Calcolo longevità"
+  },
+  "Auth": {
+    "login": "Accedi",
+    "logout": "Esci",
+    "logged_in_as": "Loggato come"
+  },
+  "Newsletter": {
+    "placeholder": "La tua email migliore",
+    "subscribe": "Iscriviti",
+    "subscribing": "Iscrizione..."
+  }
+}

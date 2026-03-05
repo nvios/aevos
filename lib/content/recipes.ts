@@ -24,9 +24,22 @@ export type Recipe = {
   faq?: Array<{ question: string; answer: string }>;
 };
 
-export function getRecipeBySlug(slug: string): Recipe | null {
+export function getRecipeBySlug(slug: string, locale: string = 'it'): Recipe | null {
   try {
-    const fullPath = path.join(recipesDirectory, `${slug}.md`);
+    let fullPath = path.join(recipesDirectory, `${slug}.${locale}.md`);
+    
+    if (!fs.existsSync(fullPath)) {
+      if (locale === 'it') {
+         fullPath = path.join(recipesDirectory, `${slug}.md`);
+      } else {
+         const defaultPath = path.join(recipesDirectory, `${slug}.md`);
+         if (fs.existsSync(defaultPath)) {
+            fullPath = defaultPath;
+         } else {
+            return null;
+         }
+      }
+    }
 
     if (!fs.existsSync(fullPath)) {
       return null;
@@ -75,30 +88,35 @@ export function getRecipeBySlug(slug: string): Recipe | null {
   }
 }
 
-export function getAllRecipes(): Recipe[] {
+export function getAllRecipes(locale: string = 'it'): Recipe[] {
   if (!fs.existsSync(recipesDirectory)) {
     return [];
   }
 
   const fileNames = fs.readdirSync(recipesDirectory);
-  const recipes = fileNames
-    .filter((fileName) => fileName.endsWith(".md"))
-    .map((fileName) => {
-      const slug = fileName.replace(/\.md$/, "");
-      return getRecipeBySlug(slug);
-    })
+  
+  const slugs = new Set<string>();
+  fileNames.forEach(fileName => {
+    if (fileName.endsWith(".md")) {
+      const slug = fileName.replace(/\.en\.md$/, "").replace(/\.it\.md$/, "").replace(/\.md$/, "");
+      slugs.add(slug);
+    }
+  });
+
+  const recipes = Array.from(slugs)
+    .map((slug) => getRecipeBySlug(slug, locale))
     .filter((recipe): recipe is Recipe => recipe !== null);
 
   return recipes;
 }
 
-export function getRecipesByCategory(category: string): Recipe[] {
-  const allRecipes = getAllRecipes();
+export function getRecipesByCategory(category: string, locale: string = 'it'): Recipe[] {
+  const allRecipes = getAllRecipes(locale);
   return allRecipes.filter((recipe) => recipe.categories.includes(category));
 }
 
-export function getRelatedRecipes(currentSlug: string, category: string, tags?: string[], limit: number = 3): Recipe[] {
-  const allRecipes = getAllRecipes();
+export function getRelatedRecipes(currentSlug: string, category: string, tags?: string[], limit: number = 3, locale: string = 'it'): Recipe[] {
+  const allRecipes = getAllRecipes(locale);
 
   return allRecipes
     .filter((recipe) => recipe.slug !== currentSlug)

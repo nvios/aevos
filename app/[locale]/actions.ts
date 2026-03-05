@@ -4,7 +4,7 @@ import { createClient } from "@supabase/supabase-js";
 
 export async function subscribeToNewsletter(formData: FormData) {
   const email = formData.get("email") as string;
-  
+
   if (!email) {
     return { error: "Email richiesta" };
   }

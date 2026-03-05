@@ -5,7 +5,7 @@ export type GlossaryTerm = {
   relatedArticles?: string[]; // Slugs of related articles
 };
 
-export const glossaryTerms: GlossaryTerm[] = [
+const glossaryTermsIt: GlossaryTerm[] = [
   {
     term: "AGEs",
     slug: "ages",
@@ -193,6 +193,36 @@ export const glossaryTerms: GlossaryTerm[] = [
     relatedArticles: ["respirazione-biologia-scienza", "hrv-vo2-rhr-guida"],
   },
   {
+    term: "Onde Alpha",
+    slug: "onde-alpha",
+    definition: "Onde cerebrali (8-13 Hz) associate a uno stato di veglia rilassata, calma e 'flow' leggero. Si attivano chiudendo gli occhi e rilassandosi.",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
+    term: "Onde Beta",
+    slug: "onde-beta",
+    definition: "Onde cerebrali (13-30 Hz) tipiche dello stato di veglia attiva, attenzione focalizzata e pensiero logico. Se eccessive, possono indicare ansia.",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
+    term: "Onde Delta",
+    slug: "onde-delta",
+    definition: "Onde cerebrali lente (0.5-4 Hz) dominanti durante il sonno profondo senza sogni. Fondamentali per la rigenerazione fisica e il rilascio dell'ormone della crescita.",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
+    term: "Onde Gamma",
+    slug: "onde-gamma",
+    definition: "Le onde cerebrali più veloci (30-100 Hz), associate a picchi di concentrazione, insight, apprendimento complesso e memoria.",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
+    term: "Onde Theta",
+    slug: "onde-theta",
+    definition: "Onde cerebrali (4-8 Hz) legate al rilassamento profondo, alla meditazione, alla creatività e alla fase REM del sonno.",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
     term: "ORAC",
     slug: "orac",
     definition: "Oxygen Radical Absorbance Capacity. Un metodo di misurazione della capacità antiossidante di alimenti e sostanze biologiche.",
@@ -374,10 +404,16 @@ export const glossaryTerms: GlossaryTerm[] = [
   }
 ].sort((a, b) => a.term.localeCompare(b.term));
 
-export function getAllGlossaryTerms(): GlossaryTerm[] {
-  return glossaryTerms;
+const glossaryTermsEn: GlossaryTerm[] = []; // Placeholder for English translations
+
+export function getAllGlossaryTerms(locale: string = 'it'): GlossaryTerm[] {
+  if (locale === 'en' && glossaryTermsEn.length > 0) {
+    return glossaryTermsEn;
+  }
+  return glossaryTermsIt;
 }
 
-export function getGlossaryTermBySlug(slug: string): GlossaryTerm | undefined {
-  return glossaryTerms.find((term) => term.slug === slug);
+export function getGlossaryTermBySlug(slug: string, locale: string = 'it'): GlossaryTerm | undefined {
+  const terms = getAllGlossaryTerms(locale);
+  return terms.find((term) => term.slug === slug);
 }

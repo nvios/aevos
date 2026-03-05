@@ -24,7 +24,7 @@ export interface Protocol {
   }[];
 }
 
-export const PROTOCOLS: Record<string, Protocol> = {
+const PROTOCOLS_IT: Record<string, Protocol> = {
   'sonno': {
     slug: 'sonno',
     title: 'Protocollo Sonno e Recupero',
@@ -283,3 +283,15 @@ export const PROTOCOLS: Record<string, Protocol> = {
     ]
   }
 };
+
+const PROTOCOLS_EN: Record<string, Protocol> = {}; // Placeholder for English translations
+
+export function getProtocols(locale: string = 'it'): Record<string, Protocol> {
+  if (locale === 'en' && Object.keys(PROTOCOLS_EN).length > 0) {
+    return PROTOCOLS_EN;
+  }
+  return PROTOCOLS_IT;
+}
+
+// Keep export for backward compatibility if needed, but prefer getProtocols
+export const PROTOCOLS = PROTOCOLS_IT;
