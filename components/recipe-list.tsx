@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback, useRef, useEffect } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import Link from "next/link";
 import { ArrowRight, Clock, Flame, Search, X } from "lucide-react";
 import { useLocale } from "next-intl";
@@ -29,15 +29,6 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
 
   const searchTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  const trackSearch = useCallback((query: string, count: number) => {
-    if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
-    searchTimerRef.current = setTimeout(() => {
-      if (query.length >= 2) analytics.recipeSearched(query, count);
-    }, 800);
-  }, []);
-
-  useEffect(() => () => { if (searchTimerRef.current) clearTimeout(searchTimerRef.current); }, []);
-
   const filteredRecipes = useMemo(() => {
     const results = initialRecipes.filter((recipe) => {
       const matchesSearch =
@@ -53,9 +44,20 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
 
       return matchesSearch && matchesCategory;
     });
-    if (searchQuery) trackSearch(searchQuery, results.length);
     return results;
-  }, [initialRecipes, searchQuery, selectedCategory, trackSearch]);
+  }, [initialRecipes, searchQuery, selectedCategory]);
+
+  useEffect(() => {
+    if (searchQuery.length >= 2) {
+      if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
+      searchTimerRef.current = setTimeout(() => {
+        analytics.recipeSearched(searchQuery, filteredRecipes.length);
+      }, 800);
+    }
+    return () => {
+      if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
+    };
+  }, [searchQuery, filteredRecipes.length]);
 
   return (
     <div className="space-y-8">
