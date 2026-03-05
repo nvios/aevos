@@ -1,11 +1,15 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
 import { Info } from "lucide-react";
 import { useLocale } from "next-intl";
 import { localePath } from "@/lib/i18n/paths";
 import { analytics } from "@/lib/analytics/events";
+
+const POPOVER_WIDTH = 288; // w-72 = 18rem
+const POPOVER_HEIGHT_ESTIMATE = 200;
+const VIEWPORT_MARGIN = 12;
 
 interface GlossaryPopoverProps {
   term: string;
@@ -22,13 +26,13 @@ export function GlossaryPopover({
 }: GlossaryPopoverProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState<"top" | "bottom">("bottom");
+  const [xOffset, setXOffset] = useState(0);
   const popoverRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const locale = useLocale();
   const lp = (path: string) => localePath(path, locale);
 
-  // Close popover when clicking outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (popoverRef.current && !popoverRef.current.contains(event.target as Node)) {
@@ -44,21 +48,33 @@ export function GlossaryPopover({
     };
   }, [isOpen]);
 
-  // Calculate position when opening
-  useEffect(() => {
-    if (isOpen && popoverRef.current) {
-      const rect = popoverRef.current.getBoundingClientRect();
-      const popoverHeight = 200; // Approximate height, or measure contentRef if needed
-      const spaceBelow = window.innerHeight - rect.bottom;
-
-      // If not enough space below (less than popover height + margin), show on top
-      const newPosition = spaceBelow < popoverHeight ? "top" : "bottom";
-      // Use a timeout to avoid synchronous state update during render/effect cycle
-      if (position !== newPosition) {
-        setTimeout(() => setPosition(newPosition), 0);
-      }
+  // Position the popover within viewport bounds (vertical + horizontal)
+  useLayoutEffect(() => {
+    if (!isOpen || !popoverRef.current) {
+      setXOffset(0);
+      return;
     }
-  }, [isOpen, position]);
+
+    const triggerRect = popoverRef.current.getBoundingClientRect();
+
+    // Vertical: flip above trigger if not enough space below
+    const spaceBelow = window.innerHeight - triggerRect.bottom;
+    setPosition(spaceBelow < POPOVER_HEIGHT_ESTIMATE + VIEWPORT_MARGIN ? "top" : "bottom");
+
+    // Horizontal: popover is left-aligned with trigger by default (left-0).
+    // Shift it so it stays within the viewport.
+    const popoverLeft = triggerRect.left;
+    const popoverRight = popoverLeft + POPOVER_WIDTH;
+
+    let offset = 0;
+    if (popoverRight > window.innerWidth - VIEWPORT_MARGIN) {
+      offset = window.innerWidth - VIEWPORT_MARGIN - popoverRight;
+    }
+    if (popoverLeft + offset < VIEWPORT_MARGIN) {
+      offset = VIEWPORT_MARGIN - popoverLeft;
+    }
+    setXOffset(offset);
+  }, [isOpen]);
 
   const hasTrackedRef = useRef(false);
 
@@ -77,7 +93,7 @@ export function GlossaryPopover({
   const handleMouseLeave = () => {
     closeTimeoutRef.current = setTimeout(() => {
       setIsOpen(false);
-    }, 300); // 300ms delay to allow moving mouse to popover
+    }, 300);
   };
 
   return (
@@ -102,7 +118,8 @@ export function GlossaryPopover({
           ref={contentRef}
           className={`absolute z-50 w-72 p-3 text-sm bg-white border border-zinc-200 rounded-lg shadow-xl font-normal normal-case tracking-normal leading-normal text-left
             ${position === "top" ? "bottom-full mb-2" : "top-full mt-2"}
-            -left-1/2 transform -translate-x-1/4 md:left-0 md:translate-x-0 animate-in fade-in zoom-in-95 duration-200`}
+            left-0 animate-in fade-in zoom-in-95 duration-200`}
+          style={xOffset ? { transform: `translateX(${xOffset}px)` } : undefined}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >

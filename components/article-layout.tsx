@@ -5,6 +5,7 @@ import { ChevronLeft, User, ExternalLink, ArrowRight } from "lucide-react";
 
 import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
+import { ArticleViewTracker, TrackedCTALink, TrackedRecommendationLink } from "@/components/article-tracking";
 
 import type { Article } from "@/lib/content/articles";
 import { localePath } from "@/lib/i18n/paths";
@@ -15,6 +16,7 @@ type FaqItem = {
 };
 
 type ArticleProps = {
+  slug: string;
   title: string;
   description: string;
   author: {
@@ -30,15 +32,34 @@ type ArticleProps = {
   cta?: Array<{ text: string; link: string; description?: string }>;
   resources?: Array<{ name: string; link: string }>;
   relatedArticles?: Article[];
+  alsoReadArticles?: Article[];
   children: React.ReactNode;
 };
 
 import { getCategoryBySlug } from "@/lib/content/categories";
 
-function RelatedArticleCard({ article, locale, lp }: { article: Article; locale: string; lp: (path: string) => string }) {
+function RecommendationCard({
+  article,
+  locale,
+  lp,
+  source,
+  position,
+  currentPage,
+}: {
+  article: Article;
+  locale: string;
+  lp: (path: string) => string;
+  source: "related" | "also_read" | "trending" | "popular";
+  position: number;
+  currentPage: string;
+}) {
   return (
-    <Link
+    <TrackedRecommendationLink
       href={lp(`/articoli/${article.category}/${article.slug}`)}
+      articleSlug={article.slug}
+      source={source}
+      position={position}
+      currentPage={currentPage}
       className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-5 transition-all hover:border-zinc-300 hover:shadow-lg"
     >
       <div className="space-y-2">
@@ -55,11 +76,12 @@ function RelatedArticleCard({ article, locale, lp }: { article: Article; locale:
       <div className="mt-3 flex items-center text-sm font-medium text-emerald-600">
         {locale === 'en' ? 'Read' : 'Leggi'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
       </div>
-    </Link>
+    </TrackedRecommendationLink>
   );
 }
 
 export function ArticleLayout({
+  slug,
   title,
   description,
   author,
@@ -68,11 +90,15 @@ export function ArticleLayout({
   cta,
   resources,
   relatedArticles,
+  alsoReadArticles,
   children,
 }: ArticleProps) {
   const lp = (path: string) => localePath(path, locale);
   const faqSchema = faq ? faqJsonLd(faq) : null;
   const hasRelated = relatedArticles && relatedArticles.length > 0;
+  const hasAlsoRead = alsoReadArticles && alsoReadArticles.length > 0;
+  const hasSidebar = hasRelated || hasAlsoRead;
+  const currentPage = `/articoli/${slug}`;
 
   return (
     <div className="mx-auto max-w-3xl py-8 xl:max-w-6xl">
@@ -84,7 +110,9 @@ export function ArticleLayout({
         />
       )}
 
-      <div className={hasRelated ? "xl:flex xl:gap-10" : ""}>
+        <ArticleViewTracker slug={slug} />
+
+      <div className={hasSidebar ? "xl:flex xl:gap-10" : ""}>
         {/* Main article column */}
         <article className="min-w-0 xl:flex-1 xl:max-w-3xl">
           {/* Breadcrumb / Back Link */}
@@ -117,7 +145,7 @@ export function ArticleLayout({
           </header>
 
           {/* Content */}
-          <div className="rounded-3xl bg-white/90 p-8 shadow-sm ring-1 ring-zinc-200/50 backdrop-blur-sm sm:p-12">
+          <div className="relative z-10 rounded-3xl bg-white/90 p-8 shadow-sm ring-1 ring-zinc-200/50 backdrop-blur-sm sm:p-12">
             <div className="prose prose-lg prose-zinc max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-zinc-800 prose-p:my-6 prose-p:leading-relaxed prose-a:text-emerald-600 prose-a:no-underline hover:prose-a:underline prose-li:marker:text-zinc-500 prose-ol:list-decimal prose-ul:list-disc prose-ol:pl-6 prose-ul:pl-6 prose-li:pl-2 [&_ol]:list-decimal [&_ol]:pl-6 [&_ul]:list-disc [&_ul]:pl-6 [&_li]:mb-2 [&_p]:mb-6">
               {children}
             </div>
@@ -126,22 +154,13 @@ export function ArticleLayout({
             {cta && cta.length > 0 && (
               <div className="mt-12 space-y-6 border-t border-zinc-100 pt-8">
                 {cta.map((action, index) => (
-                  <div
+                  <TrackedCTALink
                     key={index}
-                    className="flex flex-col gap-4 rounded-2xl bg-zinc-50 p-6 sm:flex-row sm:items-center sm:justify-between"
-                  >
-                    {action.description && (
-                      <p className="text-lg font-medium text-zinc-800 sm:max-w-[60%]">
-                        {action.description}
-                      </p>
-                    )}
-                    <Link
-                      href={action.link}
-                      className="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-zinc-900 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-zinc-800"
-                    >
-                      {action.text}
-                    </Link>
-                  </div>
+                    slug={slug}
+                    href={action.link}
+                    text={action.text}
+                    description={action.description}
+                  />
                 ))}
               </div>
             )}
@@ -158,13 +177,23 @@ export function ArticleLayout({
             </section>
           )}
 
-          {/* Related Articles — below article on smaller viewports */}
+          {/* Recommendations — below article on smaller viewports */}
           {hasRelated && (
             <section className="mt-16 border-t border-zinc-200 pt-10 xl:hidden">
               <h3 className="mb-6 text-2xl font-bold text-zinc-800">{locale === 'en' ? 'Related Articles' : 'Articoli Correlati'}</h3>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {relatedArticles.map((article) => (
-                  <RelatedArticleCard key={article.slug} article={article} locale={locale} lp={lp} />
+                {relatedArticles.map((article, i) => (
+                  <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="related" position={i + 1} currentPage={currentPage} />
+                ))}
+              </div>
+            </section>
+          )}
+          {hasAlsoRead && (
+            <section className="mt-16 border-t border-zinc-200 pt-10 xl:hidden">
+              <h3 className="mb-6 text-2xl font-bold text-zinc-800">{locale === 'en' ? 'Readers Also Read' : 'Chi ha letto questo ha letto anche'}</h3>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {alsoReadArticles.map((article, i) => (
+                  <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="also_read" position={i + 1} currentPage={currentPage} />
                 ))}
               </div>
             </section>
@@ -195,16 +224,30 @@ export function ArticleLayout({
           )}
         </article>
 
-        {/* Sidebar — related articles on wide viewports */}
-        {hasRelated && (
+        {/* Sidebar — recommendations on wide viewports */}
+        {hasSidebar && (
           <aside className="hidden xl:block xl:w-72 xl:shrink-0">
             <div className="sticky top-24 max-h-[calc(100dvh-8rem)] overflow-y-auto overscroll-contain space-y-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
-                {locale === 'en' ? 'Related Articles' : 'Articoli Correlati'}
-              </h3>
-              {relatedArticles.map((article) => (
-                <RelatedArticleCard key={article.slug} article={article} locale={locale} lp={lp} />
-              ))}
+              {hasRelated && (
+                <>
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
+                    {locale === 'en' ? 'Related Articles' : 'Articoli Correlati'}
+                  </h3>
+                  {relatedArticles.map((article, i) => (
+                    <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="related" position={i + 1} currentPage={currentPage} />
+                  ))}
+                </>
+              )}
+              {hasAlsoRead && (
+                <>
+                  <h3 className="mt-6 text-sm font-semibold uppercase tracking-wider text-zinc-500">
+                    {locale === 'en' ? 'Readers Also Read' : 'Letti anche'}
+                  </h3>
+                  {alsoReadArticles.map((article, i) => (
+                    <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="also_read" position={i + 1} currentPage={currentPage} />
+                  ))}
+                </>
+              )}
             </div>
           </aside>
         )}
