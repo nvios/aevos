@@ -35,7 +35,7 @@ Il problema non è solo l'inquinamento, ma l'effetto sui nostri ormoni. Molte pl
 2.  **Ftalati (Cosmetici, profumi, plastica morbida):** Bloccano il testosterone. Dannosi per la fertilità maschile.
 3.  **PFAS (Pentole antiaderenti, vestiti impermeabili):** Le "chimiche eterne". Si accumulano nel fegato e non si degradano mai.
 
-### Il Protocollo di Difesa (Detox Scientifico)
+### Il Protocollo di Difesa - Detox Scientifico
 
 Non puoi vivere in una bolla, ma puoi ridurre drasticamente il carico.
 

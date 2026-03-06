@@ -32,13 +32,13 @@ Vitamin D receptors are found in almost every cell in the body, from the brain t
 We are "indoor animals." We work in offices, commute by car, live indoors. When we go out, we cover up or use sunscreen (rightly so for the skin, but this blocks Vit D production).
 Furthermore, with age, the skin becomes less efficient at synthesizing it from the sun.
 
-### The Benefits (Beyond Bones)
+### The Benefits - Beyond Bones
 Everyone knows it's needed for bones (osteoporosis prevention). But optimal levels are associated with:
 *   **Enhanced Immunity:** Modulates the immune response, reducing the risk of respiratory infections and autoimmune diseases.
 *   **Mood:** Low levels are correlated with depression and seasonal affective disorder (SAD).
 *   **Metabolic Health:** Deficiency is associated with a higher risk of [insulin resistance](/articoli/longevita/insulina-resistenza-metabolismo).
 
-### How to Supplement (Safe Protocol)
+### How to Supplement - Safe Protocol
 See our [general supplement guide](/articoli/nutrizione/guida-integratori) for context.
 1.  **Test:** Don't guess. Get a blood test (25-OH Vitamin D).
 2.  **Form:** Choose Vitamin D3 (Cholecalciferol), the active form, not D2.

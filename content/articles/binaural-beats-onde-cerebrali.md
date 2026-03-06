@@ -67,7 +67,7 @@ Per capire come usarli, dobbiamo conoscere le "marce" del nostro cervello. Le on
 *   **Uso dei Binaural:** Focus estremo, memoria.
 *   **Realtà:** Ancora oggetto di studio, ma promettente per la cognizione.
 
-### Cosa Dice la Scienza (Debunking e Conferme)
+### Cosa Dice la Scienza - Debunking e Conferme
 
 Non è magia, è neurofisiologia, e come tale ha dei limiti.
 

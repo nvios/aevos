@@ -29,7 +29,7 @@ resources:
 
 "What you don't measure you can't improve." This management mantra applies to sleep too. Until a few years ago, the only way to know how you slept was... to ask yourself in the morning. Today we have labs on our fingers.
 
-### 1. Wearables (Oura Ring, Whoop, Apple Watch)
+### 1. Wearables - Oura Ring, Whoop, Apple Watch
 These devices measure [heart rate variability](/articoli/longevita/hrv-vo2-rhr-guida) (HRV), temperature and movement.
 *   **What they're for:** Not to "sleep better" directly, but to **understand the causes**.
 *   **Example:** If you see that your deep sleep plummets every time you have a glass of wine or eat late, you have data to act on. It's a behavioral awareness tool.
@@ -38,7 +38,7 @@ These devices measure [heart rate variability](/articoli/longevita/hrv-vo2-rhr-g
 The simplest and most effective technology. They filter the blue light from screens that suppresses melatonin.
 *   **Tip:** Look for orange/red lenses for the evening (they block 99% of blue). The transparent "computer" ones only block 10-20% and are useless for sleep.
 
-### 3. Neurostimulation Devices (Optional)
+### 3. Neurostimulation Devices - Optional
 Tools like **Apollo Neuro** or vagal stimulation devices emit imperceptible vibrations that "reassure" the nervous system, shifting it from "fight or flight" (sympathetic) mode to "rest and digest" (parasympathetic). Useful for those with pre-sleep anxiety.
 
 ### 4. Smart Masks

@@ -52,11 +52,11 @@ Foods like soy (edamame, tofu), flaxseeds, and legumes contain weak phytoestroge
 *   **Black Cohosh:** Studied to reduce hot flashes.
 *   **Sage:** Useful for night sweats.
 
-#### 4. The HRT Question (Hormone Therapy)
+#### 4. The HRT Question - Hormone Therapy
 Don't demonize it. Bioidentical Hormone Replacement Therapy, if prescribed correctly in the right time window (within 10 years of the last period), is the most powerful tool for preserving long-term health. It's not "cheating," it's preventive medicine.
 *   **Note:** Transdermal HRT (patches, gels) has a much lower thrombotic risk compared to oral.
 
-### The Microbiome in Menopause (Estrobolome)
+### The Microbiome in Menopause - Estrobolome
 There is a subset of gut bacteria called the "Estrobolome" that recycles estrogens. A healthy gut helps maintain more stable hormone levels. Eat fermentable fibers and probiotic foods, avoiding endocrine disruptors like [microplastics](/articoli/longevita/microplastiche-detox-scientifico).
 
 Menopause is a wake-up call: your body no longer tolerates the abuses of before (poor sleep, alcohol, sugar). Listen to it and adapt.

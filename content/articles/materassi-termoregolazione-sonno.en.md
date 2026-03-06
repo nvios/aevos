@@ -39,7 +39,7 @@ Advanced biohacking devices (similar to tech used by [Bryan Johnson](/articoli/l
 *   **Deep Sleep:** They keep it cold in the first part of the night to maximize Deep Sleep.
 *   **Waking:** They gradually warm up in the morning, waking you gently without the violence of an alarm (simulating thermal dawn). This pairs well with techniques like [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali).
 
-### Low-Tech Alternatives (Free)
+### Low-Tech Alternatives - Free
 You don't need to spend thousands of euros to get started (similar to the natural approach of [red light therapy](/articoli/capelli/terapia-luce-rossa-capelli)):
 1.  **Warm Shower:** Paradoxically, taking a warm shower 1 hour before bed helps. It dilates the blood vessels in the skin, allowing heat to escape from the body's core (radiator effect).
 2.  **Hands and Feet Out:** Extremities are our natural radiators. Sleeping with a foot outside the covers helps dissipate heat.

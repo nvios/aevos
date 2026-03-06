@@ -9,11 +9,11 @@ author: "Aevos Health Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Is it like tanning?"
-    answer: "No. There are no UV rays (which damage DNA). Red and near-infrared light is safe and does not burn."
+    answer: "No. There are no UV rays which damage DNA. Red and near-infrared light is safe and does not burn."
   - question: "Do I need to protect my eyes?"
-    answer: "Red light is not harmful to the retina (in fact, some studies show benefits), but the *very* intense light from modern panels can be uncomfortable. Better to close your eyes or use goggles if the panel is close to your face."
+    answer: "Red light is not harmful to the retina. In fact some studies show benefits. However the very intense light from modern panels can be uncomfortable. It is better to close your eyes or use goggles if the panel is close to your face."
   - question: "Does it work through clothing?"
-    answer: "No. The light must hit bare skin directly to penetrate the tissues."
+    answer: "No. The light must hit bare skin directly to penetrate the tissues effectively."
 cta:
   - text: "Assess your energy"
     link: "/calcolo-longevita"
@@ -28,26 +28,31 @@ resources:
     link: "https://docs.google.com/spreadsheets/d/1ZKl5Me4XwPj4YgJCBes3VSCJjiVO4XI0tIR04GTsLIg/edit#gid=0"
 ---
 
-Red Light Therapy (or Photobiomodulation) is not New Age magic. It's biophysics. NASA used it to grow plants in space and heal astronauts' wounds. Today it's accessible at home.
+Red Light Therapy, scientifically known as Photobiomodulation, is not New Age magic. It is pure biophysics applied to health. NASA originally used it to grow plants in space and to accelerate wound healing in astronauts. Today, this technology is accessible to anyone right at home.
 
-### How It Works (The Mechanism)
-Everything revolves around **mitochondria**, the power plants of cells.
-1.  **Red Light (660nm):** Absorbed by superficial layers (skin). Stimulates [collagen](/articoli/skin-care/collagene-creme-vs-realta) production and reduces wrinkles.
-2.  **Near-Infrared Light (850nm):** Penetrates deeper (muscles, joints, bones).
+### How the Mechanism Works
 
-When these wavelengths hit the *Cytochrome C Oxidase* enzyme in mitochondria, they unlock the cellular respiratory chain.
-**Result:** The cell produces more **ATP** (energy) more efficiently and with less waste (oxidative stress).
+Everything revolves around **mitochondria**, the power plants found inside our cells. The therapy utilizes two specific wavelengths of light:
 
-### Systemic Benefits
-*   **Skin:** Reduced inflammation (acne, rosacea) and increased elasticity.
-*   **Pain:** Drastically reduces joint and muscle pain (excellent post-injury).
-*   **Thyroid:** Some studies suggest benefits for thyroid function (Hashimoto's) by reducing local autoimmunity.
-*   **Hair:** As seen in the [specific article](/articoli/capelli/terapia-luce-rossa-capelli), it stimulates regrowth.
+1.  **Red Light at 660nm:** This is absorbed primarily by the superficial layers of the skin. Its main role is to stimulate [collagen](/articoli/skin-care/collagene-creme-vs-realta) production and reduce wrinkles and scars.
+2.  **Near-Infrared Light at 850nm:** This penetrates much deeper into the body, reaching muscles, joints, and even bones.
 
-### How to Choose a Panel
-Not all red lights work. A Christmas red bulb does nothing.
-You need:
-*   **Specific wavelengths:** 660nm and 850nm (verified).
-*   **Irradiance (Power):** Must be powerful enough (>100 mW/cm²) to penetrate the skin in reasonable time (10-20 min).
+When these specific wavelengths hit an enzyme called *Cytochrome C Oxidase* inside the mitochondria, they unlock the cellular respiratory chain. This process allows the cell to produce more **ATP**, the fundamental molecule of energy, more efficiently and with less waste in the form of oxidative stress.
 
-It's one of the most versatile technological investments for long-term health.
+### Systemic Benefits for the Body
+
+The increase in cellular energy translates into tangible benefits for the entire organism:
+
+*   **Skin:** There is a clear reduction in inflammation in conditions such as acne and rosacea, as well as a significant increase in skin elasticity.
+*   **Pain and Recovery:** It drastically reduces joint and muscle pain, making it an excellent tool for post-injury recovery or after intense workouts.
+*   **Thyroid:** Some preliminary studies suggest benefits for thyroid function, particularly for those suffering from Hashimoto's thyroiditis, by reducing local autoimmunity.
+*   **Hair:** As detailed in the [specific article](/articoli/capelli/terapia-luce-rossa-capelli), red light stimulates dormant follicles promoting regrowth.
+
+### How to Choose an Effective Panel
+
+Not all red lights work the same way. A simple decorative red bulb will have no therapeutic effect. To achieve clinical results, you need a device with precise characteristics:
+
+*   **Specific wavelengths:** Ensure the panel emits at verified 660nm and 850nm.
+*   **Irradiance:** Power is fundamental. It must be greater than 100 mW/cm² to penetrate the skin in reasonable times, usually sessions of 10 or 20 minutes.
+
+Red light therapy represents one of the most versatile and safe technological investments to support long-term health and longevity.

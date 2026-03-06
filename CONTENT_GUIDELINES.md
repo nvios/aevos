@@ -39,3 +39,19 @@ Acronimi e termini scientifici standard internazionali sono ammessi, ma **devono
 2.  **Il "Perché" (Meccanismo):** Spiegazione biologica semplificata (es. come funziona l'insulina).
 3.  **Il "Cosa Fare" (Protocollo):** Lista di azioni pratiche numerate.
 4.  **Conclusione:** Riassunto motivazionale o prospettiva a lungo termine.
+
+## 5. Regole del Content Linter
+
+Per garantire la qualità e l'ottimizzazione SEO, tutti gli articoli vengono analizzati automaticamente da un linter. Le seguenti regole devono essere rispettate:
+
+*   **Lunghezza:** Gli articoli devono avere una lunghezza compresa tra **800 e 1500 parole**.
+*   **Link Interni:**
+    *   **Vietato** inserire link nei titoli (H1-H6).
+    *   **Vietato** inserire link su testo in grassetto (per evitare problemi di formattazione).
+    *   Ogni articolo deve contenere **almeno 3 link interni** verso altri contenuti del sito.
+    *   La densità dei link non deve superare il **3%** del totale delle parole (per evitare keyword stuffing).
+*   **Parentesi (AI Detection):**
+    *   La densità delle parentesi nel corpo del testo non deve superare il **2.5%**. Un uso eccessivo è spesso indicatore di testo generato da AI.
+    *   **Vietato** usare parentesi nei titoli (H1-H6), ad eccezione di numeri (es. anni) o acronimi in maiuscolo (es. "FMD", "HIIT").
+*   **Glossario:** Tutti gli acronimi utilizzati devono essere definiti nel glossario del sito.
+*   **Metadati:** La categoria indicata nel frontmatter deve corrispondere a una delle categorie valide del sito.

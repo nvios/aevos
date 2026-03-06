@@ -32,13 +32,13 @@ Recettori per la Vitamina D si trovano in quasi ogni cellula del corpo, dal cerv
 Siamo "animali da interno". Lavoriamo in ufficio, ci spostiamo in auto, viviamo in casa. Quando usciamo, ci copriamo o usiamo creme solari (giustamente, per la pelle, ma questo blocca la produzione di Vit D).
 Inoltre, con l'età, la pelle diventa meno efficiente nel sintetizzarla dal sole.
 
-### I Benefici (Oltre le Ossa)
+### I Benefici - Oltre le Ossa
 Tutti sanno che serve per le ossa (prevenzione osteoporosi). Ma livelli ottimali sono associati a:
 *   **Immunità Potenziata:** Modula la risposta immunitaria, riducendo il rischio di infezioni respiratorie e malattie autoimmuni.
 *   **Umore:** Bassi livelli sono correlati a depressione e disturbo affettivo stagionale (SAD).
 *   **Salute Metabolica:** La carenza è associata a un rischio maggiore di [resistenza all'insulina](/articoli/longevita/insulina-resistenza-metabolismo).
 
-### Come Integrarla (Protocollo Sicuro)
+### Come Integrarla - Protocollo Sicuro
 Vedi la nostra [guida generale agli integratori](/articoli/nutrizione/guida-integratori) per il contesto.
 1.  **Testare:** Non indovinare. Fai un esame del sangue (25-OH Vitamina D).
 2.  **Forma:** Scegli Vitamina D3 (Colecalciferolo), la forma attiva, non la D2.

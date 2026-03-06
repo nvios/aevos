@@ -30,7 +30,7 @@ resources:
 
 La Terapia Laser a Bassa Intensità (LLLT), o fotobiomodulazione, sembra troppo bella per essere vera: metti un casco luminoso in testa mentre guardi la TV e i capelli ricrescono. Eppure, è uno dei pochi trattamenti approvati dalla FDA per l'alopecia androgenetica.
 
-### Come Funziona (Il Meccanismo)
+### Come Funziona - Il Meccanismo
 Non è magia, è biochimica. La luce rossa (a lunghezze d'onda specifiche, tipicamente 650-670 nm) penetra nel cuoio capelluto e raggiunge i mitocondri delle cellule dei follicoli piliferi.
 Qui avviene la reazione chiave:
 1.  **Stimolazione dell'ATP:** La luce stimola l'enzima Citocromo C Ossidasi, aumentando la produzione di ATP (energia cellulare).

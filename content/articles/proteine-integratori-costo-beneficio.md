@@ -38,7 +38,7 @@ Prima di aprire il portafoglio: hai davvero bisogno di proteine in polvere? Se s
 
 Il mercato delle proteine in polvere vale miliardi. Questo significa una cosa: il marketing è aggressivo e la confusione è voluta. Analizziamo le opzioni principali per quello che sono realmente.
 
-### Whey Protein: Il Re Indiscusso (Per Un Motivo)
+### Whey Protein: Il Re Indiscusso - Per Un Motivo
 
 La whey (siero del latte) domina il mercato e, per una volta, il marketing non mente del tutto. Ha il profilo aminoacidico più completo, il contenuto di leucina più alto (l'aminoacido chiave per la sintesi proteica muscolare) e una velocità di assorbimento ottimale.
 

@@ -9,7 +9,8 @@
     "lint": "eslint",
     "new-page": "node scripts/new-page.mjs",
     "seo-check": "node scripts/seo-check.mjs",
-    "audit-links": "node scripts/audit-links.mjs"
+    "audit-links": "node scripts/audit-links.mjs",
+    "lint-content": "node scripts/lint-content.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

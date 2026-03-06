@@ -33,7 +33,7 @@ La molecola di collagene è **enorme** (circa 300.000 Dalton). La barriera cutan
 Spalmarsi collagene in faccia è come cercare di far passare un divano attraverso la cruna di un ago. Rimane in superficie, idrata un po', ma non si integra nella struttura della pelle.
 **Soluzione:** Usa [Retinoidi](/articoli/skin-care/skincare-science-protocollo-base) che stimolano la tua pelle a *produrre* il proprio collagene.
 
-### Integratori (Polveri e Drink): Funzionano?
+### Integratori - Polveri e Drink: Funzionano?
 Qui la storia è diversa. Quando ingerisci collagene **idrolizzato** (cioè spezzettato in piccoli peptidi), viene assorbito dall'intestino.
 Studi recenti (meta-analisi) mostrano risultati promettenti:
 *   Miglioramento dell'elasticità e idratazione della pelle dopo 8-12 settimane.

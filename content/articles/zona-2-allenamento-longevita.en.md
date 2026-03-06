@@ -50,7 +50,7 @@ It improves cardiac output (how much blood the heart pumps with each beat) witho
 #### 4. Prevention of Chronic Diseases
 Mitochondrial dysfunction is at the root of almost all metabolic diseases, including type 2 diabetes, obesity, and cardiovascular diseases. Zone 2 acts directly on the root cause, improving insulin sensitivity and reducing systemic inflammation (visible in [blood work](/articoli/longevita/analisi-sangue-longevita-guida)).
 
-### How to Do It (Practical Protocol)
+### How to Do It - Practical Protocol
 
 *   **Activity:** Slow jogging, cycling (indoor or outdoor), swimming, rowing, uphill walking.
 *   **Heart Rate:** About 60-70% of your maximum heart rate.

@@ -67,7 +67,7 @@ To understand how to use them, we need to know our brain's "gears." Brain waves 
 *   **Binaural Use:** Extreme focus, memory.
 *   **Reality:** Still under study, but promising for cognition.
 
-### What Science Says (Debunking and Confirmations)
+### What Science Says - Debunking and Confirmations
 
 It's not magic, it's neurophysiology, and as such it has limits.
 

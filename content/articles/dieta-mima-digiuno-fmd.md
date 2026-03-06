@@ -32,11 +32,11 @@ resources:
 Il [digiuno ad acqua](/articoli/nutrizione/digiuno-intermittente-autofagia) prolungato (3-5 giorni) è potentissimo per la salute, ma è difficile, socialmente isolante e potenzialmente rischioso se non supervisionato.
 Il Prof. Valter Longo (Università della California) ha sviluppato la **Dieta Mima Digiuno (FMD)**: un protocollo di 5 giorni che "inganna" il corpo facendogli credere di essere in digiuno, pur permettendo di mangiare circa 800-1100 calorie al giorno.
 
-### Come Funziona (Il Trucco Metabolico)
+### Come Funziona - Il Trucco Metabolico
 Il corpo non ha un contatore di calorie, ha sensori di nutrienti (insulina, IGF-1, mTOR).
 La FMD è progettata specificamente per **non attivare** questi sensori. È poverissima di proteine e zuccheri, ma fornisce grassi vegetali e micronutrienti per nutrire il corpo senza interrompere lo stato di digiuno cellulare.
 
-### I Benefici Clinici (Provati)
+### I Benefici Clinici - Provati
 1.  **Rigenerazione Staminale:** Durante la FMD, il corpo elimina le cellule immunitarie vecchie (autofagia). Quando ricominci a mangiare (refeeding), le cellule staminali si attivano per produrre globuli bianchi nuovi e giovani. È un "reset" del sistema immunitario.
 2.  **Grasso Viscerale:** La FMD colpisce selettivamente il grasso addominale preservando la massa magra (a differenza delle diete ipocaloriche croniche).
 3.  **Marker di Longevità:** Riduce drasticamente IGF-1 (fattore di crescita legato all'invecchiamento e al cancro), proteina C-reattiva (infiammazione) e colesterolo.

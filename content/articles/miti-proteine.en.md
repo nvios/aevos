@@ -36,7 +36,7 @@ Proteins are the building blocks of life, essential for building muscles, hormon
 ### Myth 3: "Animal protein causes cancer"
 **Reality:** The issue is *source* and *processing*. Epidemiological studies associate high consumption of *[processed](/articoli/nutrizione/cibi-processati-impatto)* red meats (cured meats, sausages) with increased colon cancer risk. However, white meat, fish, eggs, and dairy do not show the same association. Context matters: a steak with salad (rich in [fiber](/articoli/nutrizione/miti-fibre)) is metabolically different from a hot dog with fries.
 
-### The Longevity Paradox (mTOR)
+### The Longevity Paradox - mTOR
 Here science gets interesting. Protein, especially the amino acid leucine, activates a pathway called mTOR, which stimulates cell growth. This is great for muscles but, if perpetually activated, can accelerate cellular aging.
 For longevity, the ideal approach seems to be:
 1.  **Adequacy, not excess:** Eat enough protein to prevent sarcopenia (muscle loss), which is a silent killer in the elderly.

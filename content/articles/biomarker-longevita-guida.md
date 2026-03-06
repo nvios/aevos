@@ -27,28 +27,28 @@ cta:
 
 La medicina tradizionale spesso si concentra sul diagnosticare malattie quando sono già presenti. La medicina della longevità (o medicina 3.0) si concentra sull'ottimizzare la salute per prevenire il declino. Ecco i 5 biomarker su cui dovresti concentrarti.
 
-## 1. VO2 Max (Potenza Aerobica)
+## 1. VO2 Max - Potenza Aerobica
 Come discusso nell'[articolo dedicato](/articoli/longevita/hrv-vo2-rhr-guida), il VO2 Max è il re dei biomarker di longevità. Rappresenta l'integrazione funzionale di cuore, polmoni, sistema vascolare e muscoli.
 *   **Come misurarlo:** 
     *   *Gold Standard:* Test con metabolimetro in laboratorio sportivo.
     *   *Fai da te:* Cooper Test (correre il più lontano possibile in 12 min) o stima tramite Smartwatch (Apple Watch, Garmin).
 
-## 2. Grip Strength (Forza della Presa)
+## 2. Grip Strength - Forza della Presa
 La forza della presa non serve solo per aprire barattoli. È un proxy affidabile per la forza muscolare complessiva e la robustezza fisica. La debolezza muscolare è strettamente correlata alla fragilità e alla mortalità negli anziani.
 *   **Come misurarlo:** Dinamometro manuale (costa poche decine di euro).
 *   **Obiettivo:** Essere nel quartile superiore per la tua età.
 
-## 3. ApoB (Apolipoproteina B)
+## 3. ApoB - Apolipoproteina B
 Mentre il colesterolo totale e l'LDL sono standard, l'ApoB è una misura superiore del rischio cardiovascolare. Ogni particella che causa placca nelle arterie (LDL, VLDL, IDL) porta una proteina ApoB. Una dieta ricca di Omega-3 (es. [salmone](/ricette/nutrizione/salmone-croccante-asparagi)) può aiutare a migliorare il profilo lipidico. Contare le ApoB significa contare esattamente quante particelle pericolose hai nel sangue.
 *   **Come misurarlo:** Esame del sangue specifico (spesso da richiedere extra).
 *   **Obiettivo:** < 80 mg/dL (o < 60 mg/dL per alto rischio).
 
-## 4. HbA1c (Emoglobina Glicata)
+## 4. HbA1c - Emoglobina Glicata
 Misura la media della glicemia negli ultimi 3 mesi. È fondamentale per capire la tua sensibilità all'insulina e il rischio di diabete molto prima che la glicemia a digiuno diventi problematica.
 *   **Come misurarlo:** Esame del sangue standard.
 *   **Obiettivo:** < 5.4% (ottimale). Valori tra 5.7% e 6.4% indicano pre-diabete.
 
-## 5. hs-CRP (Proteina C-Reattiva ad alta sensibilità)
+## 5. hs-CRP - Proteina C-Reattiva ad alta sensibilità
 L'infiammazione cronica di basso grado ("inflammaging") è alla base di quasi tutte le malattie dell'invecchiamento, dal cancro all'Alzheimer. La hs-CRP è un indicatore sistemico di questa infiammazione.
 *   **Come misurarlo:** Esame del sangue.
 *   **Obiettivo:** < 1.0 mg/L (basso rischio).

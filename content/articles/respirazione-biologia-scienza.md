@@ -62,14 +62,14 @@ La respirazione è il modo più rapido per comunicare con il nervo vago, l'autos
 
 Non serve meditare per ore. Ecco tre interventi basati sulla scienza per cambiare stato in pochi minuti:
 
-#### Respirazione 4-7-8 (Per Dormire e Calmare l'Ansia)
+#### Respirazione 4-7-8 - Per Dormire e Calmare l'Ansia
 Sviluppata dal Dr. Andrew Weil, è un tranquillante naturale per il sistema nervoso.
 1.  Inspira dal naso per **4** secondi.
 2.  Trattieni il respiro per **7** secondi.
 3.  Espira dalla bocca (facendo un suono *whoosh*) per **8** secondi.
 Ripeti per 4 cicli. L'espirazione prolungata attiva profondamente il parasimpatico.
 
-#### Box Breathing (Per Focus e Lucidità)
+#### Box Breathing - Per Focus e Lucidità
 Usata dai Navy SEALs per mantenere la calma sotto pressione.
 1.  Inspira (4s)
 2.  Trattieni a polmoni pieni (4s)
@@ -77,7 +77,7 @@ Usata dai Navy SEALs per mantenere la calma sotto pressione.
 4.  Trattieni a polmoni vuoti (4s)
 Stabilizza la CO2 e calma la mente senza addormentare.
 
-#### Mouth Taping (Per il Sonno Profondo)
+#### Mouth Taping - Per il Sonno Profondo
 La respirazione orale notturna è devastante per il sonno: causa russamento, apnee, bocca secca e risvegli frequenti. Usare un piccolo pezzo di cerotto microporoso (apposito per la pelle) per tenere le labbra chiuse forza la respirazione nasale, migliorando l'ossigenazione notturna e il recupero.
 
 ### Conclusione

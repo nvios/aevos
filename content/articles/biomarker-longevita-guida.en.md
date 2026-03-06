@@ -27,28 +27,28 @@ cta:
 
 Traditional medicine often focuses on diagnosing diseases when they're already present. Longevity medicine (or medicine 3.0) focuses on optimizing health to prevent decline. Here are the 5 biomarkers you should focus on.
 
-## 1. VO2 Max (Aerobic Power)
+## 1. VO2 Max - Aerobic Power
 As discussed in the [dedicated article](/articoli/longevita/hrv-vo2-rhr-guida), VO2 Max is the king of longevity biomarkers. It represents the functional integration of heart, lungs, vascular system, and muscles.
 *   **How to measure it:** 
     *   *Gold Standard:* Metabolic test in a sports lab.
     *   *DIY:* Cooper Test (run as far as possible in 12 minutes) or estimate via Smartwatch (Apple Watch, Garmin).
 
-## 2. Grip Strength (Hand Grip)
+## 2. Grip Strength - Hand Grip
 Grip strength isn't just for opening jars. It's a reliable proxy for overall muscle strength and physical robustness. Muscle weakness is strongly correlated with frailty and mortality in the elderly.
 *   **How to measure it:** Hand dynamometer (costs a few dozen euros).
 *   **Goal:** Be in the top quartile for your age.
 
-## 3. ApoB (Apolipoprotein B)
+## 3. ApoB - Apolipoprotein B
 While total cholesterol and LDL are standard, ApoB is a superior measure of cardiovascular risk. Every particle that causes plaque in arteries (LDL, VLDL, IDL) carries an ApoB protein. An Omega-3 rich diet (e.g. [salmon](/ricette/nutrizione/salmone-croccante-asparagi)) can help improve the lipid profile. Counting ApoB means counting exactly how many dangerous particles you have in your blood.
 *   **How to measure it:** Specific blood test (often needs to be requested separately).
 *   **Goal:** < 80 mg/dL (or < 60 mg/dL for high risk).
 
-## 4. HbA1c (Glycated Hemoglobin)
+## 4. HbA1c - Glycated Hemoglobin
 Measures average blood sugar over the last 3 months. It's essential for understanding your insulin sensitivity and diabetes risk long before fasting blood sugar becomes problematic.
 *   **How to measure it:** Standard blood test.
 *   **Goal:** < 5.4% (optimal). Values between 5.7% and 6.4% indicate pre-diabetes.
 
-## 5. hs-CRP (High-Sensitivity C-Reactive Protein)
+## 5. hs-CRP - High-Sensitivity C-Reactive Protein
 Low-grade chronic inflammation ("inflammaging") underlies almost all aging diseases, from cancer to Alzheimer's. hs-CRP is a systemic indicator of this inflammation.
 *   **How to measure it:** Blood test.
 *   **Goal:** < 1.0 mg/L (low risk).

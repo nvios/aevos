@@ -29,7 +29,7 @@ For most men (and many women), hair loss isn't "bad luck," it's biology. It's ca
 The main cause is genetic: a sensitivity of hair follicles to a hormone called **DHT** (Dihydrotestosterone), a derivative of testosterone.
 DHT binds to the follicle and "miniaturizes" it: with each cycle, the hair grows back thinner and shorter, until it stops growing.
 
-### What Works (The Three Approved Treatments)
+### What Works - The Three Approved Treatments
 
 If you want to stop the process, you need to intervene biologically. Caffeine shampoos and cosmetic serums cannot fight genetics.
 

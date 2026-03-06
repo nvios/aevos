@@ -29,7 +29,7 @@ Per la maggior parte degli uomini (e molte donne), la perdita di capelli non è 
 La causa principale è genetica: una sensibilità dei follicoli piliferi a un ormone chiamato **DHT** (Diidrotestosterone), un derivato del testosterone.
 Il DHT si lega al follicolo e lo "miniaturizza": ad ogni ciclo, il capello ricresce più sottile e corto, finché smette di crescere.
 
-### Cosa Funziona (I Tre Trattamenti Approvati)
+### Cosa Funziona - I Tre Trattamenti Approvati
 
 Se vuoi fermare il processo, devi intervenire biologicamente. Shampoo alla caffeina e fiale cosmetiche non possono combattere la genetica.
 

@@ -34,12 +34,12 @@ Nel 2019, il ricercatore del NIH Kevin Hall ha condotto uno studio fondamentale.
 **Risultato:** Quando mangiavano ultra-processato, i soggetti assumevano spontaneamente **500 calorie in più al giorno** e guadagnavano peso.
 Perché? Perché gli UPF aggirano i segnali di sazietà.
 
-### Il "Punto di Beatitudine" (Bliss Point)
+### Il "Punto di Beatitudine" - Bliss Point
 Gli ingegneri alimentari cercano il "punto di beatitudine": la combinazione perfetta di [zucchero](/articoli/nutrizione/miti-zuccheri), grasso e sale che accende i centri del piacere nel cervello (dopamina) superando i segnali di stop dello stomaco. È una forma di dipendenza biologica.
 
 ### Danni Oltre le Calorie
 
-1.  **Deplezione del [Microbioma](/articoli/nutrizione/gut-health-microbioma):** Gli UPF sono sterili e poveri di [fibre](/articoli/nutrizione/miti-fibre) fermentabili. Peggio ancora, emulsionanti come la carbossimetilcellulosa possono alterare il muco intestinale, promuovendo colite e sindrome metabolica.
+1.  **Deplezione del Microbioma:** Gli UPF sono sterili e poveri di [fibre](/articoli/nutrizione/miti-fibre) fermentabili, con effetti devastanti sul [microbioma](/articoli/nutrizione/gut-health-microbioma). Peggio ancora, emulsionanti come la carbossimetilcellulosa possono alterare il muco intestinale, promuovendo colite e sindrome metabolica.
 2.  **Densità Calorica e Masticazione:** Gli UPF sono spesso morbidi, facili da masticare e deglutire velocemente. Mangi più calorie al minuto, prima che il segnale di sazietà raggiunga il cervello (che impiega circa 20 minuti).
 3.  **Infiammazione:** Oli vegetali raffinati (soia, mais) ricchi di Omega-6 ossidati e zuccheri aggiunti creano un ambiente pro-infiammatorio cronico.
 

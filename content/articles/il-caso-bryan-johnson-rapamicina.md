@@ -30,7 +30,7 @@ Nel mondo del biohacking estremo, Bryan Johnson è una figura polarizzante ma in
 
 Recentemente, però, ha annunciato di averne interrotto l'assunzione. Perché? E cosa possiamo imparare noi "comuni mortali" da questa decisione?
 
-### Il "Gold Standard" della Longevità (nei topi)
+### Il "Gold Standard" della Longevità - nei topi
 
 La rapamicina è forse la molecola più promettente nella scienza della longevità. Inibisce **mTOR**, una via metabolica che regola la crescita cellulare. Quando mTOR è inibito (come nel digiuno), le cellule entrano in una modalità di "pulizia e riparazione" chiamata **autofagia**.
 

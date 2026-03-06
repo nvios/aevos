@@ -40,7 +40,7 @@ Se lo stress è costante (lavoro, traffico, notifiche), queste funzioni rimangon
 *   **Resistenza all'Insulina:** Mantenendo la glicemia alta, il cortisolo contrasta l'azione dell'[insulina](/articoli/longevita/insulina-resistenza-metabolismo), portando al pre-diabete.
 *   **Atrofia dell'Ippocampo:** Lo stress cronico uccide letteralmente i neuroni nella zona del cervello responsabile della memoria.
 
-### Protocollo di Gestione (Evidence-Based)
+### Protocollo di Gestione - Evidence-Based
 
 1.  **Respirazione e Suono:** Due inspirazioni brevi dal naso, una espirazione lunga dalla bocca ("sospiro fisiologico"). Anche l'uso di [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali) (onde Theta o Alpha) può indurre rapidamente uno stato di rilassamento.
 2.  **Esposizione alla Natura:** 20 minuti in un ambiente naturale abbassano significativamente i livelli di cortisolo salivare rispetto allo stesso tempo in città.

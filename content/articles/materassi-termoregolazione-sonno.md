@@ -39,7 +39,7 @@ Dispositivi come **Eight Sleep** o **ChiliSleep** (ora SleepMe) sono coprimatera
 *   **Sonno Profondo:** Mantengono il freddo nella prima parte della notte per massimizzare il Deep Sleep.
 *   **Risveglio:** Si scaldano gradualmente la mattina, svegliandoti dolcemente senza la violenza della sveglia sonora (simulando l'alba termica). Questo approccio si abbina bene a tecniche come i [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali).
 
-### Alternative Low-Tech (Gratuite)
+### Alternative Low-Tech - Gratuite
 Non serve spendere migliaia di euro per iniziare (simile all'approccio naturale della [terapia a luce rossa](/articoli/capelli/terapia-luce-rossa-capelli)):
 1.  **Doccia Calda:** Paradossalmente, fare una doccia calda 1 ora prima di letto aiuta. Dilata i vasi sanguigni della pelle, permettendo al calore di uscire dal centro del corpo (effetto radiatore).
 2.  **Mani e Piedi Fuori:** Le estremità sono i nostri radiatori naturali. Dormire con un piede fuori dalle coperte aiuta a disperdere calore.

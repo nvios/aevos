@@ -42,12 +42,12 @@ Non perdere tempo con esercizi di isolamento (bicipiti, polpacci). Fai i **movim
 
 Un circuito di questi 5 esercizi, fatto per 3-4 giri senza lunghe pause, costruisce forza e condizionamento cardiovascolare contemporaneamente.
 
-### Protocollo B: Cardio "Snack" (Tutti i giorni)
+### Protocollo B: Cardio "Snack" - Tutti i giorni
 Non serve l'ora di corsa.
 *   **Zone 2 (Bassa intensità):** Scopri l'[allenamento per la longevità](/articoli/esercizio/zona-2-allenamento-longevita). Cammina velocemente o pedala mentre ascolti un podcast o fai una call. È la base per la salute mitocondriale.
 *   **HIIT (Allenamento Intervallato ad Alta Intensità):** Una volta a settimana, spingi il cuore al massimo. Esempio: 4 minuti totali di Tabata (20 secondi sprint, 10 riposo, x8). Finito.
 
-### "Micro-sessioni" di Movimento (Movement Snacking)
+### "Micro-sessioni" di Movimento - Movement Snacking
 Se non hai 30 minuti di fila, spezzali.
 *   10 squat ogni volta che vai in bagno.
 *   20 flessioni prima di pranzo.

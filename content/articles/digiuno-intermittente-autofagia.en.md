@@ -33,7 +33,7 @@ When you don't eat for a prolonged period (generally 16+ hours), cells, deprived
 It's a deep cleanup that rejuvenates the cell. Eating constantly inhibits this process because it keeps [mTOR](/articoli/nutrizione/miti-proteine) (growth) always active and suppresses AMPK (repair).
 
 ### Metabolic Benefits
-1.  **Sensitivity to [Insulin](/articoli/longevita/insulina-resistenza-metabolismo):** Drastically lowering insulin for hours allows cells to "reset" and become sensitive to the hormonal signal again.
+1.  **Sensitivity to Insulin:** Drastically lowering [insulin](/articoli/longevita/insulina-resistenza-metabolismo) for hours allows cells to "reset" and become sensitive to the hormonal signal again.
 2.  **Metabolic Flexibility:** The body learns to switch from burning sugar (glycolysis) to burning fat (beta-oxidation) and ketones.
 3.  **Reduced Inflammation:** Less oxidative stress from continuous digestion.
 

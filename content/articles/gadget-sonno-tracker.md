@@ -29,7 +29,7 @@ resources:
 
 "Ciò che non misuri non puoi migliorare". Questo mantra del management vale anche per il sonno. Fino a pochi anni fa, l'unico modo per sapere come avevi dormito era... chiedertelo la mattina. Oggi abbiamo laboratori al dito.
 
-### 1. Wearable (Oura Ring, Whoop, Apple Watch)
+### 1. Wearable - Oura Ring, Whoop, Apple Watch
 Questi dispositivi misurano [variabilità cardiaca](/articoli/longevita/hrv-vo2-rhr-guida) (HRV), temperatura e movimento.
 *   **A cosa servono:** Non a "dormire meglio" direttamente, ma a **capire le cause**.
 *   **Esempio:** Se vedi che il tuo sonno profondo crolla ogni volta che bevi un bicchiere di vino o mangi tardi, hai un dato su cui agire. È uno strumento di consapevolezza comportamentale.
@@ -38,7 +38,7 @@ Questi dispositivi misurano [variabilità cardiaca](/articoli/longevita/hrv-vo2-
 La tecnologia più semplice ed efficace. Filtrano la luce blu degli schermi che sopprime la melatonina.
 *   **Consiglio:** Cerca lenti arancioni/rosse per la sera (bloccano il 99% del blu). Quelle trasparenti "da computer" bloccano solo il 10-20% e sono inutili per il sonno.
 
-### 3. Dispositivi di Neurostimolazione (Opzionali)
+### 3. Dispositivi di Neurostimolazione - Opzionali
 Strumenti come **Apollo Neuro** o dispositivi di stimolazione vagale emettono vibrazioni impercettibili che "rassicurano" il sistema nervoso, spostandolo dalla modalità "combatti o fuggi" (simpatico) a "riposa e digerisci" (parasimpatico). Utili per chi ha ansia pre-sonno.
 
 ### 4. Mascherine Intelligenti

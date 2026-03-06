@@ -42,12 +42,12 @@ Don't waste time with isolation exercises (biceps, calves). Do the **fundamental
 
 A circuit of these 5 exercises, done for 3-4 rounds without long breaks, builds strength and cardiovascular conditioning simultaneously.
 
-### Protocol B: Cardio "Snacks" (Every day)
+### Protocol B: Cardio "Snacks" - Every day
 You don't need an hour of running.
 *   **Zone 2 (Low intensity):** Discover [training for longevity](/articoli/esercizio/zona-2-allenamento-longevita). Walk briskly or pedal while listening to a podcast or on a call. It's the foundation for mitochondrial health.
 *   **HIIT (High Intensity Interval Training):** Once a week, push your heart to the max. Example: 4 minutes total of Tabata (20 seconds sprint, 10 rest, x8). Done.
 
-### "Micro-sessions" of Movement (Movement Snacking)
+### "Micro-sessions" of Movement - Movement Snacking
 If you don't have 30 minutes in a row, break it up.
 *   10 squats every time you go to the bathroom.
 *   20 push-ups before lunch.

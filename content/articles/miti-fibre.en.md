@@ -36,7 +36,7 @@ For decades, fiber has been considered the "indigestible" part of food, useful o
 ### Myth 3: "Fruit juice is the same as whole fruit"
 **Reality:** When you extract juice, you remove the fiber matrix. This turns a healthy fruit into a rapid fructose injection that hits the liver almost like a soda. The fiber in whole fruit acts as a metabolic "brake," modulating the release of nutrients into the blood.
 
-### How to Add More Fiber (Without Bloating)
+### How to Add More Fiber - Without Bloating
 
 1.  **"Progressive Replacement" Rule (Crowding Out):** Instead of removing foods, add vegetables to every meal. Start lunch with a salad or raw vegetables.
 2.  **Legumes in Rotation:** Chickpeas, lentils, and beans are among the densest sources of fiber and [protein](/articoli/nutrizione/miti-proteine). Start with small portions if you're not used to them.

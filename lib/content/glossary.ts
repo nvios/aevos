@@ -474,6 +474,42 @@ const glossaryTermsIt: GlossaryTerm[] = [
     definition: "Un metabolita prodotto dai batteri intestinali a partire dagli ellagitannini (melograno, noci). È noto per attivare la mitofagia e migliorare la funzione muscolare.",
     relatedArticles: ["integratori-senolitici-2026"],
   },
+  {
+    term: "ATP",
+    slug: "atp",
+    definition: "Adenosina Trifosfato. La 'moneta energetica' universale delle cellule. Ogni processo biologico — dalla contrazione muscolare alla sintesi proteica — richiede ATP. I mitocondri sono i principali produttori.",
+    relatedArticles: ["esercizio-massimizzare-risultati", "luce-rossa-fotobiomodulazione-generale"],
+  },
+  {
+    term: "BCAA",
+    slug: "bcaa",
+    definition: "Branched-Chain Amino Acids (Amminoacidi a Catena Ramificata). Un gruppo di tre amminoacidi essenziali (leucina, isoleucina, valina) coinvolti nella sintesi proteica muscolare e nel recupero post-esercizio.",
+    relatedArticles: ["guida-integratori", "proteine-integratori-costo-beneficio"],
+  },
+  {
+    term: "CBT-I",
+    slug: "cbt-i",
+    definition: "Cognitive Behavioral Therapy for Insomnia (Terapia Cognitivo-Comportamentale per l'Insonnia). Un protocollo strutturato considerato il trattamento di prima linea per l'insonnia cronica, più efficace e duraturo dei farmaci.",
+    relatedArticles: ["cbt-i-insonnia", "12-consigli-pratici-sonno-insonnia"],
+  },
+  {
+    term: "EEG",
+    slug: "eeg",
+    definition: "Elettroencefalogramma. Una tecnica di misurazione dell'attività elettrica del cervello tramite elettrodi posizionati sul cuoio capelluto. Rileva le onde cerebrali (Alpha, Beta, Theta, Delta, Gamma).",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
+    term: "HPA",
+    slug: "hpa",
+    definition: "Asse Ipotalamo-Ipofisi-Surrene (Hypothalamic-Pituitary-Adrenal). Il sistema neuroendocrino che regola la risposta allo stress attraverso il rilascio di cortisolo. La sua iperattivazione cronica è alla base di molti disturbi metabolici e mentali.",
+    relatedArticles: ["cortisolo-stress-cronico"],
+  },
+  {
+    term: "TRE",
+    slug: "tre",
+    definition: "Time-Restricted Eating (Alimentazione a Tempo Ristretto). Una forma di digiuno intermittente che limita l'assunzione di cibo a una finestra temporale giornaliera (tipicamente 8-12 ore), allineandosi al ritmo circadiano per ottimizzare il metabolismo.",
+    relatedArticles: ["digiuno-intermittente-autofagia", "pilastri-salute-80-20"],
+  },
 ].sort((a, b) => a.term.localeCompare(b.term));
 
 const glossaryTermsEn: GlossaryTerm[] = [
@@ -944,6 +980,42 @@ const glossaryTermsEn: GlossaryTerm[] = [
     slug: "urolitina-a",
     definition: "A metabolite produced by gut bacteria from ellagitannins (pomegranate, walnuts). Known for activating mitophagy and improving muscle function.",
     relatedArticles: ["integratori-senolitici-2026"],
+  },
+  {
+    term: "ATP",
+    slug: "atp",
+    definition: "Adenosine Triphosphate. The universal 'energy currency' of cells. Every biological process — from muscle contraction to protein synthesis — requires ATP. Mitochondria are the primary producers.",
+    relatedArticles: ["esercizio-massimizzare-risultati", "luce-rossa-fotobiomodulazione-generale"],
+  },
+  {
+    term: "BCAA",
+    slug: "bcaa",
+    definition: "Branched-Chain Amino Acids. A group of three essential amino acids (leucine, isoleucine, valine) involved in muscle protein synthesis and post-exercise recovery.",
+    relatedArticles: ["guida-integratori", "proteine-integratori-costo-beneficio"],
+  },
+  {
+    term: "CBT-I",
+    slug: "cbt-i",
+    definition: "Cognitive Behavioral Therapy for Insomnia. A structured protocol considered the first-line treatment for chronic insomnia, more effective and longer-lasting than medication.",
+    relatedArticles: ["cbt-i-insonnia", "12-consigli-pratici-sonno-insonnia"],
+  },
+  {
+    term: "EEG",
+    slug: "eeg",
+    definition: "Electroencephalogram. A technique for measuring the brain's electrical activity through electrodes placed on the scalp. It detects brain waves (Alpha, Beta, Theta, Delta, Gamma).",
+    relatedArticles: ["binaural-beats-onde-cerebrali"],
+  },
+  {
+    term: "HPA",
+    slug: "hpa",
+    definition: "Hypothalamic-Pituitary-Adrenal axis. The neuroendocrine system that regulates the stress response through cortisol release. Its chronic overactivation underlies many metabolic and mental health disorders.",
+    relatedArticles: ["cortisolo-stress-cronico"],
+  },
+  {
+    term: "TRE",
+    slug: "tre",
+    definition: "Time-Restricted Eating. A form of intermittent fasting that limits food intake to a daily window (typically 8-12 hours), aligning with the circadian rhythm to optimize metabolism.",
+    relatedArticles: ["digiuno-intermittente-autofagia", "pilastri-salute-80-20"],
   },
 ].sort((a, b) => a.term.localeCompare(b.term))
 

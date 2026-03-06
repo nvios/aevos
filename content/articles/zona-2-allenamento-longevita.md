@@ -50,7 +50,7 @@ Migliora la gittata cardiaca (quanto sangue il cuore pompa a ogni battito) senza
 #### 4. Prevenzione delle Malattie Croniche
 La disfunzione mitocondriale è alla base di quasi tutte le malattie metaboliche, tra cui il diabete di tipo 2, l'obesità e le malattie cardiovascolari. La Zona 2 agisce direttamente sulla causa radice, migliorando la sensibilità all'insulina e riducendo l'infiammazione sistemica (visibile nelle [analisi del sangue](/articoli/longevita/analisi-sangue-longevita-guida)).
 
-### Come Farlo (Protocollo Pratico)
+### Come Farlo - Protocollo Pratico
 
 *   **Attività:** Corsa lenta, bicicletta (indoor o outdoor), nuoto, vogatore, camminata in salita.
 *   **Frequenza Cardiaca:** Circa il 60-70% della tua frequenza cardiaca massima.

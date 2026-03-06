@@ -33,7 +33,7 @@ Quando non mangi per un periodo prolungato (generalmente 16+ ore), le cellule, p
 È una pulizia profonda che ringiovanisce la cellula. Mangiare costantemente inibisce questo processo perché tiene sempre attivo [mTOR](/articoli/nutrizione/miti-proteine) (crescita) e sopprime AMPK (riparazione).
 
 ### Benefici Metabolici
-1.  **Sensibilità all'[Insulina](/articoli/longevita/insulina-resistenza-metabolismo):** Abbassare drasticamente l'insulina per ore permette alle cellule di "resettarsi" e tornare sensibili al segnale ormonale.
+1.  **Sensibilità all'Insulina:** Abbassare drasticamente l'[insulina](/articoli/longevita/insulina-resistenza-metabolismo) per ore permette alle cellule di "resettarsi" e tornare sensibili al segnale ormonale.
 2.  **Flessibilità Metabolica:** Il corpo impara a switchare dal bruciare zucchero (glicolisi) al bruciare grassi (beta-ossidazione) e chetoni.
 3.  **Riduzione dell'Infiammazione:** Meno stress ossidativo derivante dalla digestione continua.
 

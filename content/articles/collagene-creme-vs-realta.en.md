@@ -33,7 +33,7 @@ The collagen molecule is **enormous** (about 300,000 Daltons). The skin barrier 
 Slathering collagen on your face is like trying to push a sofa through the eye of a needle. It stays on the surface, hydrates a bit, but doesn't integrate into the skin structure.
 **Solution:** Use [Retinoids](/articoli/skin-care/skincare-science-protocollo-base) that stimulate your skin to *produce* its own collagen.
 
-### Supplements (Powders and Drinks): Do They Work?
+### Supplements - Powders and Drinks: Do They Work?
 Here the story is different. When you ingest **hydrolyzed** collagen (i.e., broken into small peptides), it's absorbed by the intestine.
 Recent studies (meta-analyses) show promising results:
 *   Improvement in skin elasticity and hydration after 8-12 weeks.
