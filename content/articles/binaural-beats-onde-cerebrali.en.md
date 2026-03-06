@@ -59,7 +59,7 @@ To understand how to use them, we need to know our brain's "gears." Brain waves 
 
 #### 4. Beta (13 - 30 Hz) | Conscious Activity
 *   **State:** Focused attention, logical thinking, problem solving. If too high, it can indicate anxiety or stress.
-*   **Binaural Use:** Study, analytical work, mental energy (coffee substitute).
+*   **Binaural Use:** Study, analytical work, mental energy (substitute for coffee and [nootropics](/articoli/longevita/nootropi-naturali-guida-focus)).
 *   **Reality:** Effective for attention, but prolonged listening can be tiring.
 
 #### 5. Gamma (30 - 100 Hz) | Insight and Processing
@@ -86,4 +86,4 @@ If you want to experiment, avoid low-quality compressed YouTube videos. Use high
 
 ### Conclusion
 
-Binaural beats won't make you a genius or cure chronic diseases overnight. They are, however, a non-invasive, safe, and affordable **biohacking** tool for modulating your mental state. Use them as "support routines" to enter the desired state faster, whether it's deep sleep or intense concentration.
+Binaural beats won't make you a genius or cure chronic diseases overnight. They are, however, a non-invasive [biohacking](/articoli/longevita/il-caso-bryan-johnson-rapamicina) tool for modulating your mental state. Use them as "support routines" to enter the desired state faster, whether it's deep sleep or intense concentration.

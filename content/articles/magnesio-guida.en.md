@@ -42,5 +42,5 @@ Not all magnesium supplements are equal. The magnesium atom must be bound to a c
 4.  **Magnesium Malate:** Bound to malic acid. Excellent for muscle energy and fibromyalgia.
 
 ### Supplementation Strategy
-Start with 200-400mg of Magnesium Bisglycinate in the evening. It's one of the safest interventions with the best cost/benefit ratio for improving immediate quality of life.
+Start with 200-400mg of Magnesium Bisglycinate in the evening. It's one of the safest [supplementation strategies](/articoli/nutrizione/guida-integratori) with the best cost/benefit ratio for improving immediate quality of life.
 As always, consult your doctor, especially if you have kidney or heart problems.

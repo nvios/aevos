@@ -42,5 +42,5 @@ Non tutti i magnesi sono uguali. L'atomo di magnesio deve essere legato a un tra
 4.  **Magnesio Malato:** Legato all'acido malico. Ottimo per l'energia muscolare e la fibromialgia.
 
 ### Strategia di Integrazione
-Inizia con 200-400mg di Magnesio Bisglicinato la sera. È uno degli interventi più sicuri e con il miglior rapporto costo/beneficio per migliorare la qualità della vita immediata.
+Inizia con 200-400mg di Magnesio Bisglicinato la sera. È una delle [strategie di integrazione](/articoli/nutrizione/guida-integratori) più sicure e con il miglior rapporto costo/beneficio per migliorare la qualità della vita immediata.
 Come sempre, consulta il medico, specialmente se hai problemi renali o cardiaci.

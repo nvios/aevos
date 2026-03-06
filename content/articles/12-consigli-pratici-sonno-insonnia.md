@@ -26,7 +26,7 @@ cta:
     description: "Scopri quanto il tuo sonno sta influenzando la tua longevità con il nostro test gratuito."
 ---
 
-Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica e mentale. Eppure, l'insonnia e la scarsa qualità del sonno sono epidemiche. Questo protocollo non si basa su rimedi della nonna, ma sulla fisiologia del ritmo circadiano.
+Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica e mentale. Eppure, l'[insonnia](/articoli/sonno/cbt-i-insonnia) e la scarsa qualità del sonno sono epidemiche. Questo protocollo non si basa su rimedi della nonna, ma sulla fisiologia del ritmo circadiano.
 
 1. **Regolarità: Il Re dei Fattori.**
    Il tuo corpo ama la prevedibilità. Andare a letto e svegliarsi alla stessa ora, anche nel weekend, ancora il tuo [ritmo circadiano](/articoli/sonno/ritmo-circadiano-master-clock). Questo "addestra" il cervello a rilasciare ormoni del sonno (come la melatonina) al momento giusto.
@@ -62,4 +62,4 @@ Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica
     Non lavorare, mangiare o guardare la TV a letto. Il cervello deve associare quel luogo esclusivamente al riposo (e all'intimità). Se non dormi dopo 20 minuti, alzati e fai qualcosa di rilassante altrove finché non torna il sonno.
 
 12. **[Integrazione Mirata](/articoli/nutrizione/guida-integratori) (Opzionale).**
-    Prima di ricorrere ai farmaci, valuta con un medico integratori come Magnesio Bisglicinato, L-Teanina o Glicina, che possono favorire il rilassamento senza dare dipendenza.
+    Prima di ricorrere ai farmaci, valuta con un medico integratori come [Magnesio](/articoli/nutrizione/magnesio-guida) Bisglicinato, L-Teanina o Glicina, che possono favorire il rilassamento senza dare dipendenza.

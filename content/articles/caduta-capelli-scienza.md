@@ -42,6 +42,8 @@ Se vuoi fermare il processo, devi intervenire biologicamente. Shampoo alla caffe
 3.  **Microneedling (Dermaroller):**
     *   *Meccanismo:* Creare micro-ferite nel cuoio capelluto stimola i fattori di crescita e la rigenerazione tissutale. Aumenta drasticamente l'assorbimento del Minoxidil.
     *   *Protocollo:* Solitamente 1 volta a settimana (aghi 1.0-1.5mm).
+4.  **[Terapia a Luce Rossa](/articoli/capelli/terapia-luce-rossa-capelli) (LLLT):**
+    *   *Meccanismo:* Stimola i mitocondri del follicolo per prolungare la fase di crescita e ridurre l'infiammazione.
 
 ### Integratori per Capelli: Utili?
 La biotina è famosa, ma serve **solo se sei carente** (cosa rara).

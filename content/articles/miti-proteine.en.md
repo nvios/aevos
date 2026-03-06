@@ -31,10 +31,10 @@ Proteins are the building blocks of life, essential for building muscles, hormon
 **Reality:** There's a ceiling. For muscle protein synthesis, research indicates that beyond 1.6 - 2.2 grams of protein per kg of body weight per day, there are no significant additional benefits in terms of hypertrophy for natural athletes. Excess is oxidized for energy or converted to fat (if there's a caloric surplus), not into extra muscle.
 
 ### Myth 2: "The body can only absorb 30g of protein per meal"
-**Reality:** This is false. Absorption doesn't stop at 30g; digestion simply slows down. If you eat 60g of protein, your body will take longer to release amino acids into the blood, but it will use them anyway. However, distributing protein across 3-4 daily meals (e.g., 30-40g each) optimizes protein synthesis peaks better than one giant meal.
+**Reality:** This is false. Absorption doesn't stop at 30g; digestion simply slows down. If you eat 60g of protein, your body will take longer to release amino acids into the blood, but it will use them anyway. However, distributing protein (even via [supplements](/articoli/nutrizione/proteine-integratori-costo-beneficio) if necessary) across 3-4 daily meals (e.g., 30-40g each) optimizes protein synthesis peaks better than one giant meal.
 
 ### Myth 3: "Animal protein causes cancer"
-**Reality:** The issue is *source* and *processing*. Epidemiological studies associate high consumption of *[processed](/articoli/nutrizione/cibi-processati-impatto)* red meats (cured meats, sausages) with increased colon cancer risk. However, white meat, fish, eggs, and dairy do not show the same association. Context matters: a steak with salad is metabolically different from a hot dog with fries.
+**Reality:** The issue is *source* and *processing*. Epidemiological studies associate high consumption of *[processed](/articoli/nutrizione/cibi-processati-impatto)* red meats (cured meats, sausages) with increased colon cancer risk. However, white meat, fish, eggs, and dairy do not show the same association. Context matters: a steak with salad (rich in [fiber](/articoli/nutrizione/miti-fibre)) is metabolically different from a hot dog with fries.
 
 ### The Longevity Paradox (mTOR)
 Here science gets interesting. Protein, especially the amino acid leucine, activates a pathway called mTOR, which stimulates cell growth. This is great for muscles but, if perpetually activated, can accelerate cellular aging.

@@ -39,7 +39,7 @@ For decades, fiber has been considered the "indigestible" part of food, useful o
 ### How to Add More Fiber (Without Bloating)
 
 1.  **"Progressive Replacement" Rule (Crowding Out):** Instead of removing foods, add vegetables to every meal. Start lunch with a salad or raw vegetables.
-2.  **Legumes in Rotation:** Chickpeas, lentils, and beans are among the densest sources of fiber and protein. Start with small portions if you're not used to them.
+2.  **Legumes in Rotation:** Chickpeas, lentils, and beans are among the densest sources of fiber and [protein](/articoli/nutrizione/miti-proteine). Start with small portions if you're not used to them.
 3.  **Truly Whole Grains:** Choose whole grains (spelt, barley, quinoa) instead of reconstituted "whole grain" flours.
 4.  **Nuts and Seeds:** Almonds, chia seeds, and flax seeds are excellent fiber-rich snacks.
 

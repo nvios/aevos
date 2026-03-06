@@ -39,7 +39,7 @@ Per decenni, le fibre sono state considerate la parte "non digeribile" del cibo,
 ### Come Integrare Più Fibre (Senza Gonfiore)
 
 1.  **Regola della "Sostituzione Progressiva" (Crowding Out):** Invece di togliere cibi, aggiungi verdure a ogni pasto. Inizia il pranzo con un'insalata o verdure crude.
-2.  **Legumi a Rotazione:** Ceci, lenticchie e fagioli sono tra le fonti più dense di fibre e proteine. Inizia con piccole porzioni se non sei abituato.
+2.  **Legumi a Rotazione:** Ceci, lenticchie e fagioli sono tra le fonti più dense di fibre e [proteine](/articoli/nutrizione/miti-proteine). Inizia con piccole porzioni se non sei abituato.
 3.  **Cereali Veramente Integrali:** Scegli chicchi interi (farro, orzo, quinoa) invece di farine "integrali" ricostituite.
 4.  **Frutta a Guscio e Semi:** Mandorle, semi di chia e lino sono ottimi snack ricchi di fibre.
 

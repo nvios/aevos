@@ -59,7 +59,7 @@ Per capire come usarli, dobbiamo conoscere le "marce" del nostro cervello. Le on
 
 #### 4. Beta (13 - 30 Hz) | Attività Consapevole
 *   **Stato:** Attenzione focalizzata, pensiero logico, risoluzione di problemi. Se troppo alta, può indicare ansia o stress.
-*   **Uso dei Binaural:** Studio, lavoro analitico, energia mentale (sostituto del caffè).
+*   **Uso dei Binaural:** Studio, lavoro analitico, energia mentale (sostituto di caffè e [nootropi](/articoli/longevita/nootropi-naturali-guida-focus)).
 *   **Realtà:** Efficace per l'attenzione, ma l'ascolto prolungato può essere stancante.
 
 #### 5. Gamma (30 - 100 Hz) | Insight e Processazione
@@ -86,4 +86,4 @@ Se vuoi sperimentare, evita i video YouTube compressi di bassa qualità. Usa fil
 
 ### Conclusione
 
-I battiti binaurali non ti renderanno un genio né cureranno malattie croniche in una notte. Sono però uno strumento di **biohacking** non invasivo, sicuro ed economico per modulare il tuo stato mentale. Usali come "ruotine di supporto" per entrare più velocemente nello stato desiderato, che sia il sonno profondo o la concentrazione intensa.
+I battiti binaurali non ti renderanno un genio né cureranno malattie croniche in una notte. Sono però uno strumento di [biohacking](/articoli/longevita/il-caso-bryan-johnson-rapamicina) non invasivo, sicuro ed economico per modulare il tuo stato mentale. Usali come "ruotine di supporto" per entrare più velocemente nello stato desiderato, che sia il sonno profondo o la concentrazione intensa.

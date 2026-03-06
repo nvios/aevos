@@ -26,7 +26,7 @@ cta:
     description: "Discover how much your sleep is affecting your longevity with our free test."
 ---
 
-Sleeping well is the most powerful action you can take for your physical and mental health. Yet insomnia and poor sleep quality are epidemic. This protocol is not based on old wives' tales, but on the physiology of the circadian rhythm.
+Sleeping well is the most powerful action you can take for your physical and mental health. Yet [insomnia](/articoli/sonno/cbt-i-insonnia) and poor sleep quality are epidemic. This protocol is not based on old wives' tales, but on the physiology of the circadian rhythm.
 
 1. **Regularity: The King of Factors.**
    Your body loves predictability. Going to bed and waking up at the same time, even on weekends, anchors your [circadian rhythm](/articoli/sonno/ritmo-circadiano-master-clock). This "trains" the brain to release sleep hormones (like melatonin) at the right time.
@@ -62,4 +62,4 @@ Sleeping well is the most powerful action you can take for your physical and men
     Don't work, eat, or watch TV in bed. The brain must associate that place exclusively with rest (and intimacy). If you don't fall asleep within 20 minutes, get up and do something relaxing elsewhere until sleep returns.
 
 12. **[Targeted Supplementation](/articoli/nutrizione/guida-integratori) (Optional).**
-    Before resorting to medication, consider with a doctor supplements like Magnesium Bisglycinate, L-Theanine, or Glycine, which can promote relaxation without causing dependence.
+    Before resorting to medication, consider with a doctor supplements like [Magnesium](/articoli/nutrizione/magnesio-guida) Bisglycinate, L-Theanine, or Glycine, which can promote relaxation without causing dependence.
