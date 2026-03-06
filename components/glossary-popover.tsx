@@ -7,9 +7,9 @@ import { useLocale } from "next-intl";
 import { localePath } from "@/lib/i18n/paths";
 import { analytics } from "@/lib/analytics/events";
 
-const POPOVER_WIDTH = 288; // w-72 = 18rem
 const POPOVER_HEIGHT_ESTIMATE = 200;
 const VIEWPORT_MARGIN = 12;
+const MD_BREAKPOINT = 768;
 
 interface GlossaryPopoverProps {
   term: string;
@@ -34,32 +34,44 @@ export function GlossaryPopover({
   const lp = (path: string) => localePath(path, locale);
 
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
+    function handleOutside(event: Event) {
       if (popoverRef.current && !popoverRef.current.contains(event.target as Node)) {
         setIsOpen(false);
       }
     }
 
     if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("mousedown", handleOutside);
+      document.addEventListener("touchstart", handleOutside, { passive: true });
     }
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("mousedown", handleOutside);
+      document.removeEventListener("touchstart", handleOutside);
     };
   }, [isOpen]);
 
   useLayoutEffect(() => {
-    if (!isOpen || !popoverRef.current || !contentRef.current) {
+    if (!isOpen || !popoverRef.current) {
+      setXOffset(0);
+      return;
+    }
+
+    // Mobile uses fixed positioning at the bottom — no calc needed
+    if (window.innerWidth < MD_BREAKPOINT) {
       setXOffset(0);
       return;
     }
 
     const triggerRect = popoverRef.current.getBoundingClientRect();
-    const contentWidth = contentRef.current.getBoundingClientRect().width;
 
     const spaceBelow = window.innerHeight - triggerRect.bottom;
     setPosition(spaceBelow < POPOVER_HEIGHT_ESTIMATE + VIEWPORT_MARGIN ? "top" : "bottom");
 
+    if (!contentRef.current) {
+      setXOffset(0);
+      return;
+    }
+    const contentWidth = contentRef.current.getBoundingClientRect().width;
     const popoverLeft = triggerRect.left;
     const popoverRight = popoverLeft + contentWidth;
 
@@ -113,16 +125,18 @@ export function GlossaryPopover({
       {isOpen && (
         <div
           ref={contentRef}
-          className={`absolute z-50 w-72 max-w-[calc(100vw-2rem)] p-3 text-sm bg-white border border-zinc-200 rounded-lg shadow-xl font-normal normal-case tracking-normal leading-normal text-left
-            ${position === "top" ? "bottom-full mb-2" : "top-full mt-2"}
-            left-0 animate-in fade-in zoom-in-95 duration-200`}
+          className={`fixed inset-x-3 bottom-20 z-[100] p-4 rounded-xl shadow-2xl
+            md:absolute md:inset-x-auto md:z-50 md:left-0 md:w-72 md:max-w-[calc(100vw-2rem)] md:p-3 md:rounded-lg md:shadow-xl
+            ${position === "top" ? "md:bottom-full md:mb-2" : "md:bottom-auto md:top-full md:mt-2"}
+            text-sm bg-white border border-zinc-200
+            font-normal normal-case tracking-normal leading-normal text-left
+            animate-in fade-in zoom-in-95 duration-200`}
           style={xOffset ? { transform: `translateX(${xOffset}px)` } : undefined}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          {/* Invisible bridge to prevent closing when moving mouse over gap */}
           <div
-            className={`absolute left-0 right-0 h-4 ${position === "top" ? "-bottom-4" : "-top-4"}`}
+            className={`hidden md:block absolute left-0 right-0 h-4 ${position === "top" ? "-bottom-4" : "-top-4"}`}
             aria-hidden="true"
           />
 
