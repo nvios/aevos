@@ -32,8 +32,8 @@ Ma per la longevità, "normale" non è abbastanza. Vogliamo "ottimale".
 
 Ecco i [biomarker](/articoli/longevita/biomarker-longevita-guida) che dovresti richiedere per avere un quadro reale della tua salute metabolica e cellulare.
 
-### 1. Salute Metabolica (Il Motore, potenziato dalla [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita))
-Il metabolismo è la base di tutto. Se questo non funziona, il resto crolla.
+### 1. Salute Metabolica (Il Motore)
+Il metabolismo è la base di tutto. Se questo non funziona, il resto crolla. Questo motore è potenziato potenziato da esercizi in [zona 2](/articoli/esercizio/zona-2-allenamento-longevita). La salute metabolica si misura tramite:
 *   **Emoglobina Glicata (HbA1c):** Indicatore chiave di [insulino-resistenza](/articoli/nutrizione/insulina-resistenza-metabolismo), misura la media degli [zuccheri](/articoli/nutrizione/miti-zuccheri) negli ultimi 3 mesi.
     *   *Target Longevità:* < 5.4% (sotto il 5.0% è eccellente).
 *   **Insulina a Digiuno:** Spesso ignorata (ma cruciale per valutare l'efficacia del [digiuno intermittente](/articoli/nutrizione/digiuno-intermittente-autofagia)), ma si alza anni prima della glicemia.

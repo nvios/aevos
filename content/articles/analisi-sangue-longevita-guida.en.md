@@ -32,8 +32,8 @@ But for longevity, "normal" isn't enough. We want "optimal".
 
 Here are the [biomarkers](/articoli/longevita/biomarker-longevita-guida) you should request to get a real picture of your metabolic and cellular health.
 
-### 1. Metabolic Health (The Engine, boosted by [Zone 2](/articoli/esercizio/zona-2-allenamento-longevita))
-Metabolism is the foundation of everything. If this doesn't work, the rest crumbles.
+### 1. Metabolic Health (The Engine)
+Metabolism is the foundation of everything. If this doesn't work, the rest crumbles. The secret to boosting this engine is [zone 2](/articoli/esercizio/zona-2-allenamento-longevita) exercise. The key markers for metabolic health are:
 *   **Glycated Hemoglobin (HbA1c):** Key indicator of [insulin resistance](/articoli/nutrizione/insulina-resistenza-metabolismo), measures average blood [sugar](/articoli/nutrizione/miti-zuccheri) over the last 3 months.
     *   *Longevity Target:* < 5.4% (below 5.0% is excellent).
 *   **Fasting Insulin:** Often ignored (but crucial for evaluating [intermittent fasting](/articoli/nutrizione/digiuno-intermittente-autofagia)), but rises years before blood sugar.

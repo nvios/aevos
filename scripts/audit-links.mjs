@@ -18,19 +18,55 @@ function getArticles() {
     const content = fs.readFileSync(filePath, 'utf8');
     const parsed = matter(content);
     const linkCount = (content.match(/\]\(\/(articoli|ricette)\//g) || []).length;
+    const wordCount = content.replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1').split(/\s+/).length;
+    const linkDensity = wordCount > 0 ? (linkCount / wordCount) * 100 : 0;
+
     return {
       file,
       slug: file.replace('.md', ''),
       title: parsed.data.title,
       tags: parsed.data.tags || [],
       content: parsed.content,
-      linkCount
+      linkCount,
+      wordCount,
+      linkDensity
     };
   });
 }
 
 function auditLinks() {
   const articles = getArticles();
+  
+  // --- PART 1: OVER-LINKING CHECK ---
+  console.log('\n🚨 Link Density Audit: Potential Keyword Stuffing\n');
+  
+  // Filter for articles with at least some links to avoid noise
+  const denseArticles = articles
+    .filter(a => a.linkCount > 3) 
+    .sort((a, b) => b.linkDensity - a.linkDensity);
+
+  if (denseArticles.length === 0) {
+      console.log('No articles found with significant link density.');
+  } else {
+      let highDensityFound = false;
+      denseArticles.slice(0, 5).forEach(a => {
+        // Threshold: > 3% density (approx 1 link every 33 words) is getting high for readability
+        const isHigh = a.linkDensity > 3.0;
+        if (isHigh) highDensityFound = true;
+        
+        const status = isHigh ? '⚠️ HIGH' : '✅ OK';
+        console.log(`${status} "${a.title}"`);
+        console.log(`   Density: ${a.linkDensity.toFixed(2)}% (${a.linkCount} links / ~${a.wordCount} words)`);
+        if (isHigh) console.log(`   Suggestion: Consider removing 1-2 less relevant links to improve readability.`);
+        console.log('');
+      });
+      
+      if (!highDensityFound) {
+          console.log('All top articles are within safe link density limits (< 3%).');
+      }
+  }
+
+  // --- PART 2: MISSED OPPORTUNITIES ---
   const tagMap = {};
 
   // Build Tag Map
