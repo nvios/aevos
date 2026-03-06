@@ -76,7 +76,6 @@ export default async function RecipePage({ params }: Props) {
       instructions={recipe.instructions}
       benefits={recipe.benefits}
       image={recipe.image}
-      faq={recipe.faq}
       relatedRecipes={relatedRecipes}
     >
       <MarkdownRenderer content={recipe.content} locale={locale} />
