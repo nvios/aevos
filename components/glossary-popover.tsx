@@ -52,12 +52,12 @@ export function GlossaryPopover({
 
   useLayoutEffect(() => {
     if (!isOpen || !popoverRef.current) {
-      setXOffset(0);
       return;
     }
 
     // Mobile uses fixed positioning at the bottom — no calc needed
     if (window.innerWidth < MD_BREAKPOINT) {
+      // eslint-disable-next-line
       setXOffset(0);
       return;
     }

@@ -2,16 +2,8 @@ import Script from "next/script";
 import Link from "next/link";
 import { ChevronLeft, Clock, ArrowRight, ChefHat, Flame, Users, Zap } from "lucide-react";
 
-import { FaqAccordion } from "@/components/faq-accordion";
-import { FaqSubmission } from "@/components/faq-submission";
-
 import type { Recipe } from "@/lib/content/recipes";
 import { localePath } from "@/lib/i18n/paths";
-
-type FaqItem = {
-  question: string;
-  answer: string;
-};
 
 type RecipeProps = {
   title: string;
@@ -29,7 +21,6 @@ type RecipeProps = {
   instructions: string[];
   benefits?: Array<{ title: string; description: string }>;
   image?: string;
-  faq?: FaqItem[];
   relatedRecipes?: Recipe[];
   children: React.ReactNode;
 };

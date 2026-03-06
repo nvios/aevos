@@ -25,9 +25,17 @@ export type ViewContext = {
 
 // ── OS detection ──────────────────────────────────────────────
 
+interface NavigatorWithExtensions extends Navigator {
+  userAgentData?: {
+    platform: string;
+    mobile: boolean;
+  };
+  deviceMemory?: number;
+}
+
 function detectOS(): string {
   const ua = navigator.userAgent;
-  const uad = (navigator as any).userAgentData;
+  const uad = (navigator as unknown as NavigatorWithExtensions).userAgentData;
 
   if (uad?.platform) {
     const p = uad.platform.toLowerCase();
@@ -51,7 +59,7 @@ function detectOS(): string {
 
 // ── Device tier scoring ───────────────────────────────────────
 
-const mem = () => (navigator as any).deviceMemory as number | undefined;
+const mem = () => (navigator as unknown as NavigatorWithExtensions).deviceMemory;
 const cores = () => navigator.hardwareConcurrency ?? 0;
 const dpr = () => window.devicePixelRatio ?? 1;
 const sw = () => screen.width;
@@ -142,7 +150,7 @@ export function getDeviceProfile(): DeviceProfile {
   const os_name = detectOS();
   const is_mobile =
     /Mobi|Android/i.test(navigator.userAgent) ||
-    (navigator as any).userAgentData?.mobile === true ||
+    (navigator as unknown as NavigatorWithExtensions).userAgentData?.mobile === true ||
     (os_name === "iOS" && !isIPad());
 
   let device_tier: DeviceTier;
