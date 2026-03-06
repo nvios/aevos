@@ -65,7 +65,7 @@ export default async function ArticlePage({
   ]);
 
   const [statsMap, alsoReadArticles] = await Promise.all([
-    getArticleStatsMap(),
+    getArticleStatsMap(locale),
     getAlsoReadArticles(slug, 3, locale),
   ]);
 

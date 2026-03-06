@@ -16,7 +16,7 @@ type ArticleStats = {
   cta_clicks: number;
 };
 
-// ── Trending (exponential time-decay) ──────────────────
+// ── Trending (exponential time-decay, locale-aware) ──────────
 
 const DECAY = 0.85;
 const TRENDING_WINDOW_DAYS = 7;
@@ -31,10 +31,14 @@ export async function getTrendingArticles(
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - TRENDING_WINDOW_DAYS);
 
-  const { data: sessions } = await supabase
+  let query = supabase
     .from("reading_sessions")
     .select("article_slug, created_at")
     .gte("created_at", cutoff.toISOString());
+
+  query = query.eq("locale", locale);
+
+  const { data: sessions } = await query;
 
   if (!sessions || sessions.length === 0) return [];
 
@@ -68,17 +72,16 @@ export async function getAlsoReadArticles(
   const supabase = getSupabase();
   if (!supabase) return [];
 
-  // Find all sessions that include the current article
   const { data: matchingSessions } = await supabase
     .from("reading_sessions")
     .select("session_id")
-    .eq("article_slug", currentSlug);
+    .eq("article_slug", currentSlug)
+    .eq("locale", locale);
 
   if (!matchingSessions || matchingSessions.length === 0) return [];
 
   const sessionIds = matchingSessions.map((s) => s.session_id);
 
-  // Find all articles read in those sessions (excluding current)
   const { data: coReads } = await supabase
     .from("reading_sessions")
     .select("article_slug")
@@ -87,17 +90,16 @@ export async function getAlsoReadArticles(
 
   if (!coReads || coReads.length === 0) return [];
 
-  // Count co-occurrences
   const coOccurrence = new Map<string, number>();
   for (const r of coReads) {
     coOccurrence.set(r.article_slug, (coOccurrence.get(r.article_slug) ?? 0) + 1);
   }
 
-  // Get view counts for normalization (cosine similarity)
   const slugs = [currentSlug, ...coOccurrence.keys()];
   const { data: stats } = await supabase
     .from("article_stats")
     .select("slug, view_count")
+    .eq("locale", locale)
     .in("slug", slugs);
 
   const viewCounts = new Map<string, number>();
@@ -107,7 +109,6 @@ export async function getAlsoReadArticles(
 
   const currentViews = viewCounts.get(currentSlug) ?? 1;
 
-  // score(A, B) = co_reads(A, B) / sqrt(views(A) * views(B))
   const scored = Array.from(coOccurrence.entries()).map(([slug, count]) => {
     const views = viewCounts.get(slug) ?? 1;
     const score = count / Math.sqrt(currentViews * views);
@@ -123,25 +124,29 @@ export async function getAlsoReadArticles(
   return topSlugs.map((slug) => bySlug.get(slug)).filter((a): a is Article => a != null);
 }
 
-// ── Article stats for engagement boost ──────────────────
+// ── Article stats for engagement boost (locale-aware) ────────
 
-export async function getArticleStatsMap(): Promise<Map<string, ArticleStats>> {
+export async function getArticleStatsMap(
+  locale: string = "it"
+): Promise<Map<string, ArticleStats>> {
   const supabase = getSupabase();
   if (!supabase) return new Map();
 
   const { data } = await supabase
     .from("article_stats")
-    .select("slug, view_count, cta_clicks");
+    .select("slug, view_count, cta_clicks")
+    .eq("locale", locale);
 
   if (!data) return new Map();
 
   return new Map(data.map((s) => [s.slug, s]));
 }
 
-// ── Most popular articles (by view count) ───────────────
+// ── Most popular articles by view count (locale-aware) ───────
 
 export async function getPopularArticleSlugs(
-  limit: number = 10
+  limit: number = 10,
+  locale: string = "it"
 ): Promise<Set<string>> {
   const supabase = getSupabase();
   if (!supabase) return new Set();
@@ -149,6 +154,7 @@ export async function getPopularArticleSlugs(
   const { data } = await supabase
     .from("article_stats")
     .select("slug")
+    .eq("locale", locale)
     .order("view_count", { ascending: false })
     .limit(limit);
 

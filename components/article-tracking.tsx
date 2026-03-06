@@ -5,8 +5,15 @@ import Link from "next/link";
 import { usePostHog } from "posthog-js/react";
 import { trackArticleView, trackArticleCTAClick } from "@/app/[locale]/actions";
 import { analytics } from "@/lib/analytics/events";
+import { collectViewContext } from "@/lib/analytics/device-profile";
 
-export function ArticleViewTracker({ slug }: { slug: string }) {
+export function ArticleViewTracker({
+  slug,
+  locale,
+}: {
+  slug: string;
+  locale: string;
+}) {
   const posthog = usePostHog();
   const tracked = useRef(false);
 
@@ -14,19 +21,22 @@ export function ArticleViewTracker({ slug }: { slug: string }) {
     if (tracked.current || !slug) return;
     tracked.current = true;
     const sessionId = posthog?.get_session_id?.() ?? crypto.randomUUID();
-    trackArticleView(slug, sessionId);
-  }, [slug, posthog]);
+    const context = collectViewContext(locale);
+    trackArticleView(slug, sessionId, context);
+  }, [slug, locale, posthog]);
 
   return null;
 }
 
 export function TrackedCTALink({
   slug,
+  locale,
   href,
   text,
   description,
 }: {
   slug: string;
+  locale: string;
   href: string;
   text: string;
   description?: string;
@@ -38,7 +48,7 @@ export function TrackedCTALink({
       page: `/articoli/${slug}`,
       section: "article_cta",
     });
-    trackArticleCTAClick(slug);
+    trackArticleCTAClick(slug, locale);
   };
 
   return (

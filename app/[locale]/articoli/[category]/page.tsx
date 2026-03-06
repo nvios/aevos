@@ -48,7 +48,7 @@ export default async function GuideCategoryPage({
   }
 
   const articles = getArticlesByCategory(category, locale);
-  const popularSlugs = await getPopularArticleSlugs(10);
+  const popularSlugs = await getPopularArticleSlugs(10, locale);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },

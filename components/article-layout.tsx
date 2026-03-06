@@ -110,7 +110,7 @@ export function ArticleLayout({
         />
       )}
 
-        <ArticleViewTracker slug={slug} />
+        <ArticleViewTracker slug={slug} locale={locale} />
 
       <div className={hasSidebar ? "xl:flex xl:gap-10" : ""}>
         {/* Main article column */}
@@ -157,6 +157,7 @@ export function ArticleLayout({
                   <TrackedCTALink
                     key={index}
                     slug={slug}
+                    locale={locale}
                     href={action.link}
                     text={action.text}
                     description={action.description}

@@ -1,6 +1,19 @@
 "use server";
 
+import { headers } from "next/headers";
 import { createClient } from "@supabase/supabase-js";
+
+type ViewContext = {
+  locale: string;
+  device_tier: string;
+  os_name: string;
+  is_mobile: boolean;
+  referrer_type: string;
+  utm_source: string | null;
+  utm_medium: string | null;
+  utm_campaign: string | null;
+  is_entry: boolean;
+};
 
 function getSupabase() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -9,26 +22,53 @@ function getSupabase() {
   return createClient(url, key);
 }
 
-export async function trackArticleView(slug: string, sessionId: string) {
+export async function trackArticleView(
+  slug: string,
+  sessionId: string,
+  context: ViewContext
+) {
   const supabase = getSupabase();
   if (!supabase || !slug || !sessionId) return;
 
+  const hdrs = await headers();
+  const country_code =
+    hdrs.get("x-vercel-ip-country") ??
+    hdrs.get("cf-ipcountry") ??
+    null;
+
   await Promise.all([
-    supabase.rpc("increment_article_views", { article_slug: slug }),
-    supabase
-      .from("reading_sessions")
-      .upsert(
-        { session_id: sessionId, article_slug: slug },
-        { onConflict: "session_id,article_slug", ignoreDuplicates: true }
-      ),
+    supabase.rpc("increment_article_views", {
+      article_slug: slug,
+      p_locale: context.locale,
+    }),
+    supabase.from("reading_sessions").upsert(
+      {
+        session_id: sessionId,
+        article_slug: slug,
+        locale: context.locale,
+        country_code,
+        device_tier: context.device_tier,
+        os_name: context.os_name,
+        is_mobile: context.is_mobile,
+        referrer_type: context.referrer_type,
+        utm_source: context.utm_source,
+        utm_medium: context.utm_medium,
+        utm_campaign: context.utm_campaign,
+        is_entry: context.is_entry,
+      },
+      { onConflict: "session_id,article_slug", ignoreDuplicates: true }
+    ),
   ]);
 }
 
-export async function trackArticleCTAClick(slug: string) {
+export async function trackArticleCTAClick(slug: string, locale: string) {
   const supabase = getSupabase();
   if (!supabase || !slug) return;
 
-  await supabase.rpc("increment_article_cta_clicks", { article_slug: slug });
+  await supabase.rpc("increment_article_cta_clicks", {
+    article_slug: slug,
+    p_locale: locale,
+  });
 }
 
 export async function subscribeToNewsletter(formData: FormData) {
