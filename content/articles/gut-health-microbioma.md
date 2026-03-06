@@ -40,14 +40,14 @@ La ricerca degli ultimi due decenni ha rivelato che il microbioma influenza quas
 La diversità è la chiave. Un microbioma sano è un microbioma diverso. Ecco come promuoverla:
 
 *   **Mangia 30 Piante a Settimana:** Uno studio del *American Gut Project* ha rilevato che le persone che mangiano più di 30 tipi diversi di piante a settimana hanno microbiomi significativamente più diversi rispetto a chi ne mangia meno di 10.
-*   **[Fibre](/articoli/nutrizione/miti-fibre) Fermentabili (MACs):** I Carboidrati Accessibili al Microbiota (MACs) si trovano in legumi (come nel nostro [Minestrone della Longevità Sardo](/ricette/primi/minestrone-longevita-sardo) o nell'[insalata di ceci](/ricette/nutrizione/insalata-ceci-avocado)), cereali integrali, frutta e verdura. Sono il carburante preferito dai batteri benefici.
+*   **Fibre Fermentabili (MACs):** Leggi i [miti sulle fibre](/articoli/nutrizione/miti-fibre). I Carboidrati Accessibili al Microbiota (MACs) si trovano in legumi (come nel nostro [Minestrone della Longevità Sardo](/ricette/primi/minestrone-longevita-sardo) o nell'[insalata di ceci](/ricette/nutrizione/insalata-ceci-avocado)), cereali integrali, frutta e verdura. Sono il carburante preferito dai batteri benefici.
 *   **Cibi Fermentati:** Kefir, kimchi, crauti e [Miso](/ricette/nutrizione/miso-soup-tofu) introducono batteri vivi transitori che possono stimolare la flora residente.
 *   **Polifenoli:** Composti presenti in frutti di bosco, tè verde, cioccolato fondente e olio d'oliva extravergine, che agiscono come prebiotici selettivi.
 
 ### I Nemici del Microbioma
 
 *   **Zuccheri Raffinati e Dolcificanti Artificiali:** Possono nutrire batteri patogeni o alterare la tolleranza al glucosio.
-*   **[Cibi Ultra-Processati](/articoli/nutrizione/cibi-processati-impatto):** Emulsionanti e additivi possono erodere lo strato di muco protettivo dell'intestino, portando a infiammazione sistemica ("leaky gut").
+*   **Cibi Ultra-Processati:** Vedi l'[impatto sulla salute](/articoli/nutrizione/cibi-processati-impatto). Emulsionanti e additivi possono erodere lo strato di muco protettivo dell'intestino, portando a infiammazione sistemica ("leaky gut").
 *   **Stress Cronico:** Lo stress altera la motilità intestinale e la composizione batterica, creando un circolo vizioso tra cervello e intestino.
 
 Prendersi cura del proprio microbioma è forse l'investimento più redditizio per la salute a lungo termine. Non sei solo un individuo; sei un ecosistema.

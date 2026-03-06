@@ -38,7 +38,7 @@ Quando consumiamo eccesso di fruttosio (da bibite, dolci, succhi), il fegato vie
 ### Zuccheri Aggiunti vs. Intrinseci
 
 L'Organizzazione Mondiale della Sanità raccomanda di limitare gli zuccheri *aggiunti* a meno del 5-10% delle calorie totali.
-*   **[Zuccheri Intrinseci](/articoli/nutrizione/miti-zuccheri):** Quelli dentro una fragola o nel latte. Non sono associati a effetti negativi sulla salute nella popolazione generale.
+*   **Zuccheri Intrinseci:** Quelli dentro una fragola o nel latte. Non sono associati a effetti negativi sulla salute nella popolazione generale.
 *   **Zuccheri Aggiunti:** Quelli messi nel caffè, nei biscotti, nelle salse pronte. Sono calorie vuote che creano picchi glicemici violenti.
 
 ### Il Costo Metabolico dei Picchi Glicemici
@@ -46,7 +46,7 @@ L'Organizzazione Mondiale della Sanità raccomanda di limitare gli zuccheri *agg
 Ogni volta che inondi il sangue di zucchero, il pancreas deve pompare insulina per gestirlo.
 1.  **Glicazione:** Lo zucchero in eccesso si lega alle proteine nel sangue, formando AGEs (Advanced Glycation End-products). Questo processo "caramella" i tessuti dall'interno, irrigidendo i vasi sanguigni e invecchiando la pelle (rughe).
 2.  **Infiammazione:** I picchi e i crolli glicemici scatenano stress ossidativo e infiammazione cronica di basso grado.
-3.  **[Resistenza all'Insulina](/articoli/longevita/insulina-resistenza-metabolismo):** Con il tempo, le cellule smettono di ascoltare l'insulina. Il pancreas ne produce sempre di più, fino a esaurirsi (Diabete di Tipo 2).
+3.  **Resistenza all'Insulina:** Vedi l'articolo su [insulina e metabolismo](/articoli/longevita/insulina-resistenza-metabolismo). Con il tempo, le cellule smettono di ascoltare l'insulina. Il pancreas ne produce sempre di più, fino a esaurirsi (Diabete di Tipo 2).
 
 ### Strategie di Difesa
 

@@ -36,7 +36,7 @@ However, there are molecules that, due to modern life or soil depletion, can be 
 1.  **Vitamin D3 (+ K2):**
     *   *Why:* Most of us spend our lives indoors. Deficiency is endemic and linked to depression, low immunity and bone fragility.
     *   *Tip:* Test blood levels. Often 2000-5000 IU per day are needed in winter. K2 helps direct calcium to bones and not to arteries.
-2.  **[Magnesium](/articoli/nutrizione/magnesio-guida) (Bisglycinate or Citrate):**
+2.  **Magnesium (Bisglycinate or Citrate):** Read the [complete guide](/articoli/nutrizione/magnesio-guida).
     *   *Why:* Involved in 300+ enzymatic reactions. Stress burns it quickly. Helps with [sleep](/articoli/sonno/12-consigli-pratici-sonno-insonnia) and muscle relaxation.
     *   *Avoid:* Magnesium Oxide (poorly absorbable, laxative effect).
 3.  **Omega-3 (EPA/DHA):**
@@ -46,7 +46,7 @@ However, there are molecules that, due to modern life or soil depletion, can be 
 ### Those That Work (For Specific Goals)
 
 *   **Creatine Monohydrate:** Not just for bodybuilders. It's one of the most studied supplements. Improves strength, but also cognitive ability and memory, especially in vegetarians and the elderly.
-*   **[Protein](/articoli/nutrizione/miti-proteine) Powder (Whey or Plant-based):** Pure convenience. Useful for reaching protein quota when you have little time.
+*   **Protein Powder (Whey or Plant-based):** See [protein myths](/articoli/nutrizione/miti-proteine). Pure convenience. Useful for reaching protein quota when you have little time.
 *   **Hydrolyzed Collagen:** Emerging evidence shows benefits for skin elasticity and joint pain.
 
 ### Those to Avoid (Or Use with Caution)

@@ -39,7 +39,7 @@ Food engineers seek the "bliss point": the perfect combination of [sugar](/artic
 
 ### Damage Beyond Calories
 
-1.  **[Microbiome](/articoli/nutrizione/gut-health-microbioma) Depletion:** UPFs are sterile and poor in fermentable [fiber](/articoli/nutrizione/miti-fibre). Worse, emulsifiers like carboxymethylcellulose can alter intestinal mucus, promoting colitis and metabolic syndrome.
+1.  **Microbiome Depletion:** See [gut health](/articoli/nutrizione/gut-health-microbioma). UPFs are sterile and poor in fermentable [fiber](/articoli/nutrizione/miti-fibre). Worse, emulsifiers like carboxymethylcellulose can alter intestinal mucus, promoting colitis and metabolic syndrome.
 2.  **Caloric Density and Chewing:** UPFs are often soft, easy to chew and swallow quickly. You eat more calories per minute, before the satiety signal reaches the brain (which takes about 20 minutes).
 3.  **Inflammation:** Refined vegetable oils (soy, corn) rich in oxidized Omega-6 and added sugars create a chronic pro-inflammatory environment.
 

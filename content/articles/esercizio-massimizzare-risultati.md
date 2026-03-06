@@ -44,7 +44,7 @@ Un circuito di questi 5 esercizi, fatto per 3-4 giri senza lunghe pause, costrui
 
 ### Protocollo B: Cardio "Snack" (Tutti i giorni)
 Non serve l'ora di corsa.
-*   **[Zone 2](/articoli/esercizio/zona-2-allenamento-longevita) (Bassa intensità):** Cammina velocemente o pedala mentre ascolti un podcast o fai una call. È la base per la salute mitocondriale.
+*   **Zone 2 (Bassa intensità):** Scopri l'[allenamento per la longevità](/articoli/esercizio/zona-2-allenamento-longevita). Cammina velocemente o pedala mentre ascolti un podcast o fai una call. È la base per la salute mitocondriale.
 *   **HIIT (Allenamento Intervallato ad Alta Intensità):** Una volta a settimana, spingi il cuore al massimo. Esempio: 4 minuti totali di Tabata (20 secondi sprint, 10 riposo, x8). Finito.
 
 ### "Micro-sessioni" di Movimento (Movement Snacking)

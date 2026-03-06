@@ -44,7 +44,7 @@ It's the most important investment. A quality water filter (not just the basic p
 *   **Action:** Look for filters certified to remove PFAS and microplastics.
 
 #### 2. Sweating is Medicine
-The liver and kidneys do a great job, but for some fat-soluble toxins, the skin is a crucial exit route. The **[sauna](/articoli/longevita/sauna-longevita-calore)** (traditional or infrared) mobilizes toxins stored in fat. Remember to use a binder (like activated charcoal) if recommended by a doctor, and to rehydrate.
+The liver and kidneys do a great job, but for some fat-soluble toxins, the skin is a crucial exit route. The **sauna** (traditional or infrared) mobilizes toxins stored in fat. Read more about [sauna benefits](/articoli/longevita/sauna-longevita-calore). Remember to use a binder (like activated charcoal) if recommended by a doctor, and to rehydrate.
 *   **Protocol:** 20 minutes of sauna at 80°C, followed by a cold shower, 3 times a week.
 
 #### 3. Choose "Fragrance-Free"

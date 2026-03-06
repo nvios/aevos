@@ -44,7 +44,7 @@ Non puoi vivere in una bolla, ma puoi ridurre drasticamente il carico.
 *   **Azione:** Cerca filtri certificati per la rimozione di PFAS e microplastiche.
 
 #### 2. Sudare è Medicina
-Il fegato e i reni fanno un ottimo lavoro, ma per alcune tossine liposolubili, la pelle è una via di uscita cruciale. La **[sauna](/articoli/longevita/sauna-longevita-calore)** (tradizionale o infrarossi) mobilita le tossine immagazzinate nel grasso. Ricorda di usare un legante (come il carbone vegetale) se consigliato dal medico, e di reidratarti.
+Il fegato e i reni fanno un ottimo lavoro, ma per alcune tossine liposolubili, la pelle è una via di uscita cruciale. La **sauna** (tradizionale o infrarossi) mobilita le tossine immagazzinate nel grasso. Leggi di più sui benefici della [sauna](/articoli/longevita/sauna-longevita-calore). Ricorda di usare un legante (come il carbone vegetale) se consigliato dal medico, e di reidratarti.
 *   **Protocollo:** 20 minuti di sauna a 80°C, seguiti da doccia fredda, 3 volte a settimana.
 
 #### 3. Scegli "Fragrance-Free"

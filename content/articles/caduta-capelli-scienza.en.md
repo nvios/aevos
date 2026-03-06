@@ -42,8 +42,8 @@ If you want to stop the process, you need to intervene biologically. Caffeine sh
 3.  **Microneedling (Dermaroller):**
     *   *Mechanism:* Creating micro-wounds in the scalp stimulates growth factors and tissue regeneration. Dramatically increases Minoxidil absorption.
     *   *Protocol:* Usually once a week (1.0-1.5mm needles).
-4.  **[Red Light Therapy](/articoli/capelli/terapia-luce-rossa-capelli) (LLLT):**
-    *   *Mechanism:* Stimulates follicle mitochondria to prolong the growth phase and reduce inflammation.
+4.  **Red Light Therapy (LLLT):**
+    *   *Mechanism:* Stimulates follicle mitochondria to prolong the growth phase and reduce inflammation. See dedicated article on [photobiomodulation](/articoli/capelli/terapia-luce-rossa-capelli).
 
 ### Hair Supplements: Useful?
 Biotin is famous, but it only helps **if you're deficient** (which is rare).

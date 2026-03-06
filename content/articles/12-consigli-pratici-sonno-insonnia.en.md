@@ -49,8 +49,8 @@ Sleeping well is the most powerful action you can take for your physical and men
 7. **Evening Digital Detox.**
    Blue light from screens tricks the brain into thinking it's still daytime. Use blue-blocker glasses or enable night mode on devices at least 2 hours before bed.
 
-8. **[Physical Activity](/articoli/esercizio/esercizio-massimizzare-risultati) (but at the right time).**
-   Exercise tires the body and increases sleep pressure. However, intense workouts too close to bedtime can raise cortisol and body temperature, making it harder to fall asleep.
+8. **Physical Activity (but at the right time).**
+   Exercise tires the body and increases sleep pressure. See how to [maximize results](/articoli/esercizio/esercizio-massimizzare-risultati). However, intense workouts too close to bedtime can raise cortisol and body temperature, making it harder to fall asleep.
 
 9. **Don't Eat Too Late.**
    Digestion requires energy and raises body temperature. Try to finish your last substantial meal at least 3 hours before bed.
@@ -61,5 +61,5 @@ Sleeping well is the most powerful action you can take for your physical and men
 11. **The Bed is Only for Sleeping.**
     Don't work, eat, or watch TV in bed. The brain must associate that place exclusively with rest (and intimacy). If you don't fall asleep within 20 minutes, get up and do something relaxing elsewhere until sleep returns.
 
-12. **[Targeted Supplementation](/articoli/nutrizione/guida-integratori) (Optional).**
-    Before resorting to medication, consider with a doctor supplements like [Magnesium](/articoli/nutrizione/magnesio-guida) Bisglycinate, L-Theanine, or Glycine, which can promote relaxation without causing dependence.
+12. **Targeted Supplementation (Optional).**
+    Before resorting to medication, consider with a doctor supplements like [Magnesium](/articoli/nutrizione/magnesio-guida) Bisglycinate, L-Theanine, or Glycine. Read our [supplement guide](/articoli/nutrizione/guida-integratori).

@@ -31,14 +31,14 @@ Ecco la gerarchia dei bisogni biologici. Non passare al livello successivo finch
 
 ### Livello 1: Le Fondamenta (L'80% dei Risultati)
 Queste azioni sono non-negoziabili. Sono gratuite, ma richiedono disciplina.
-1.  **[Sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia):** 7-9 ore di qualità. È quando il cervello si pulisce (sistema glinfatico) e il corpo ripara i danni al DNA. Senza sonno, nessuna dieta o allenamento funziona al 100%.
+1.  **Sonno:** 7-9 ore di qualità. È quando il cervello si pulisce (sistema glinfatico) e il corpo ripara i danni al DNA. Senza [sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia), nessuna dieta o allenamento funziona al 100%.
 2.  **Nutrizione:** Cibo vero, non [processato](/articoli/nutrizione/cibi-processati-impatto). Controllo glicemico. Abbastanza [proteine](/articoli/nutrizione/miti-proteine). Idratazione.
-3.  **[Movimento](/articoli/esercizio/esercizio-massimizzare-risultati):** Non solo "palestra". Costruisci una base aerobica con la [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita) e combatti la [sarcopenia](/articoli/esercizio/sarcopenia-forza-over-50) con i pesi.
+3.  **Movimento:** Non solo "palestra". Costruisci una base [aerobica](/articoli/esercizio/esercizio-massimizzare-risultati) con la [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita) e combatti la [sarcopenia](/articoli/esercizio/sarcopenia-forza-over-50) con i pesi.
 4.  **Luce:** Sole di giorno, buio di notte. Regola il ritmo circadiano che orchestra ogni ormone nel corpo.
 
 ### Livello 2: L'Ottimizzazione (Il 15% dei Risultati)
 Una volta che dormi bene e mangi bene, puoi guardare qui.
-*   **[Integrazione](/articoli/nutrizione/guida-integratori):** Colmare le carenze (Vit D, Omega-3). Solo dopo aver coperto le basi, considera molecole avanzate come i [senolitici](/articoli/nutrizione/integratori-senolitici-2026).
+*   **Integrazione:** Colmare le [carenze](/articoli/nutrizione/guida-integratori) (Vit D, Omega-3). Solo dopo aver coperto le basi, considera molecole avanzate come i [senolitici](/articoli/nutrizione/integratori-senolitici-2026).
 *   **Digiuno Intermittente / TRE:** Per la salute metabolica e l'autofagia.
 *   **Gestione dello Stress:** Meditazione, respirazione, natura.
 *   **Ambiente:** Ridurre il carico tossico da [microplastiche](/articoli/longevita/microplastiche-detox-scientifico) e interferenti endocrini.
@@ -47,8 +47,8 @@ Una volta che dormi bene e mangi bene, puoi guardare qui.
 
 ### Livello 3: Il Biohacking Avanzato (Il 5% dei Risultati)
 Solo per chi ha già tutto il resto perfetto e vuole quel vantaggio in più.
-*   **[Gadget Costosi](/articoli/tecnologie/gadget-sonno-tracker):** [Anelli smart](/articoli/tecnologie/gadget-sonno-tracker), [materassi raffreddanti](/articoli/tecnologie/materassi-termoregolazione-sonno), [luci infrarossi](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
-*   **[Nootropi Esotici](/articoli/longevita/nootropi-naturali-guida-focus):** Molecole per la concentrazione.
+*   **Gadget Costosi:** [Anelli smart](/articoli/tecnologie/gadget-sonno-tracker), [materassi raffreddanti](/articoli/tecnologie/materassi-termoregolazione-sonno), [luci infrarossi](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
+*   **Nootropi Esotici:** [Molecole per la concentrazione](/articoli/longevita/nootropi-naturali-guida-focus).
 *   **Protocolli Complessi:** Diete iper-specifiche, terapie endovenose.
 
 ### L'Errore Comune

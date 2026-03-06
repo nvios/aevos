@@ -47,7 +47,7 @@ Diversity is key. A healthy microbiome is a diverse microbiome. Here's how to pr
 ### The Enemies of the Microbiome
 
 *   **Refined Sugars and Artificial Sweeteners:** Can feed pathogenic bacteria or alter glucose tolerance.
-*   **[Ultra-Processed Foods](/articoli/nutrizione/cibi-processati-impatto):** Emulsifiers and additives can erode the protective mucus layer of the gut, leading to systemic inflammation ("leaky gut").
+*   **Ultra-Processed Foods:** See [health impact](/articoli/nutrizione/cibi-processati-impatto). Emulsifiers and additives can erode the protective mucus layer of the gut, leading to systemic inflammation ("leaky gut").
 *   **Chronic Stress:** Stress alters gut motility and bacterial composition, creating a vicious cycle between brain and gut.
 
 Taking care of your microbiome is perhaps the most profitable investment for long-term health. You're not just an individual; you're an ecosystem.
