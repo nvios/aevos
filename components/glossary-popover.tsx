@@ -48,23 +48,20 @@ export function GlossaryPopover({
     };
   }, [isOpen]);
 
-  // Position the popover within viewport bounds (vertical + horizontal)
   useLayoutEffect(() => {
-    if (!isOpen || !popoverRef.current) {
+    if (!isOpen || !popoverRef.current || !contentRef.current) {
       setXOffset(0);
       return;
     }
 
     const triggerRect = popoverRef.current.getBoundingClientRect();
+    const contentWidth = contentRef.current.getBoundingClientRect().width;
 
-    // Vertical: flip above trigger if not enough space below
     const spaceBelow = window.innerHeight - triggerRect.bottom;
     setPosition(spaceBelow < POPOVER_HEIGHT_ESTIMATE + VIEWPORT_MARGIN ? "top" : "bottom");
 
-    // Horizontal: popover is left-aligned with trigger by default (left-0).
-    // Shift it so it stays within the viewport.
     const popoverLeft = triggerRect.left;
-    const popoverRight = popoverLeft + POPOVER_WIDTH;
+    const popoverRight = popoverLeft + contentWidth;
 
     let offset = 0;
     if (popoverRight > window.innerWidth - VIEWPORT_MARGIN) {
@@ -116,7 +113,7 @@ export function GlossaryPopover({
       {isOpen && (
         <div
           ref={contentRef}
-          className={`absolute z-50 w-72 p-3 text-sm bg-white border border-zinc-200 rounded-lg shadow-xl font-normal normal-case tracking-normal leading-normal text-left
+          className={`absolute z-50 w-72 max-w-[calc(100vw-2rem)] p-3 text-sm bg-white border border-zinc-200 rounded-lg shadow-xl font-normal normal-case tracking-normal leading-normal text-left
             ${position === "top" ? "bottom-full mb-2" : "top-full mt-2"}
             left-0 animate-in fade-in zoom-in-95 duration-200`}
           style={xOffset ? { transform: `translateX(${xOffset}px)` } : undefined}

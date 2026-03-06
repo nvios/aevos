@@ -136,7 +136,7 @@ export function RecipeLayout({
 
           {/* Benefits Section - Prominent */}
           {benefits && benefits.length > 0 && (
-            <div className="rounded-3xl bg-emerald-50 p-6 sm:p-8 border border-emerald-100">
+            <div className="rounded-2xl md:rounded-3xl bg-emerald-50 p-4 sm:p-6 lg:p-8 border border-emerald-100">
               <h2 className="text-2xl font-bold text-emerald-900 mb-6 flex items-center gap-2">
                 <Zap className="h-6 w-6 text-emerald-600" />
                 {locale === 'en' ? 'Longevity Benefits' : 'Benefici per la Longevità'}
@@ -155,7 +155,7 @@ export function RecipeLayout({
           )}
 
           {/* Instructions */}
-          <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-zinc-200/50 sm:p-8">
+          <div className="rounded-2xl md:rounded-3xl bg-white p-4 shadow-sm ring-1 ring-zinc-200/50 sm:p-6 lg:p-8">
             <h2 className="text-2xl font-bold text-zinc-800 mb-6">{locale === 'en' ? 'Instructions' : 'Procedimento'}</h2>
             <div className="space-y-6">
               {instructions.map((step, index) => (
@@ -180,7 +180,7 @@ export function RecipeLayout({
         {/* Sidebar */}
         <div className="space-y-8">
           {/* Ingredients Card */}
-          <div className="rounded-3xl bg-emerald-50/50 p-6 ring-1 ring-emerald-100/50">
+          <div className="rounded-2xl md:rounded-3xl bg-emerald-50/50 p-4 sm:p-6 ring-1 ring-emerald-100/50">
             <h3 className="text-xl font-bold text-emerald-900 mb-4">{locale === 'en' ? 'Ingredients' : 'Ingredienti'}</h3>
             <ul className="space-y-3">
               {ingredients.map((ingredient, index) => (

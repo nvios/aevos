@@ -145,7 +145,7 @@ export function ArticleLayout({
           </header>
 
           {/* Content */}
-          <div className="relative z-10 rounded-3xl bg-white/90 p-8 shadow-sm ring-1 ring-zinc-200/50 backdrop-blur-sm sm:p-12">
+          <div className="relative z-10 rounded-2xl md:rounded-3xl bg-white/90 p-4 shadow-sm ring-1 ring-zinc-200/50 backdrop-blur-sm sm:p-8 lg:p-12">
             <div className="prose prose-lg prose-zinc max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-zinc-800 prose-p:my-6 prose-p:leading-relaxed prose-a:text-emerald-600 prose-a:no-underline hover:prose-a:underline prose-li:marker:text-zinc-500 prose-ol:list-decimal prose-ul:list-disc prose-ol:pl-6 prose-ul:pl-6 prose-li:pl-2 [&_ol]:list-decimal [&_ol]:pl-6 [&_ul]:list-disc [&_ul]:pl-6 [&_li]:mb-2 [&_p]:mb-6">
               {children}
             </div>

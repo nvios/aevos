@@ -5,6 +5,7 @@ import "../globals.css";
 import { navItemsByLocale, siteConfig } from "@/lib/site";
 import { HeaderAuth } from "@/components/header-auth";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { MobileNav } from "@/components/mobile-nav";
 import { CSPostHogProvider } from "@/components/posthog-provider";
 import PostHogPageView from "@/components/posthog-pageview";
 import { getAllCategories } from "@/lib/content/categories";
@@ -70,8 +71,8 @@ export default async function RootLayout({
             </Suspense>
             <div className="fixed inset-0 z-[-1] h-full w-full bg-[radial-gradient(#000000_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-10"></div>
             <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 py-6 md:px-8">
-              <header className="mb-10 flex flex-col gap-4 pb-5 md:flex-row md:items-center md:justify-between relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-zinc-300 after:[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-                <div className="flex items-center justify-between w-full md:w-auto">
+              <header className="mb-6 md:mb-10 pb-5 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-zinc-300 after:[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+                <div className="flex items-center justify-between">
                   <Link href="/" className="flex items-center gap-2">
                     <div className="h-6 w-6 text-zinc-400">
                       <svg
@@ -87,45 +88,46 @@ export default async function RootLayout({
                       </svg>
                     </div>
                   </Link>
-                </div>
-                <div className="flex flex-col md:flex-row md:items-center gap-6 w-full md:w-auto">
-                  <nav className="flex flex-wrap gap-6 text-sm font-medium">
-                    {navItems.map((item) => (
-                      <div key={item.href} className="group relative py-2">
-                        <Link
-                          href={item.href}
-                          className="text-zinc-600 transition-colors hover:text-zinc-900"
-                        >
-                          {item.label}
-                        </Link>
-                        {item.href === articlesHref && (
-                          <div className="absolute left-0 top-full z-50 mt-0 hidden w-48 rounded-xl border border-zinc-200 bg-white p-2 shadow-lg group-hover:block">
-                            <div className="absolute -top-2 left-0 h-2 w-full bg-transparent"></div>
-                            {activeCategories.map((cat) => (
-                              <Link
-                                key={cat.slug}
-                                href={localePath(`/articoli/${cat.slug}`, locale)}
-                                className="block rounded-lg px-4 py-2 text-sm text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
-                              >
-                                {cat.title}
-                              </Link>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </nav>
-                  <div className="flex items-center gap-3">
-                    <LanguageSwitcher />
-                    <HeaderAuth />
+                  <div className="flex items-center gap-6">
+                    <nav className="hidden md:flex flex-wrap gap-6 text-sm font-medium">
+                      {navItems.map((item) => (
+                        <div key={item.href} className="group relative py-2">
+                          <Link
+                            href={item.href}
+                            className="text-zinc-600 transition-colors hover:text-zinc-900"
+                          >
+                            {item.label}
+                          </Link>
+                          {item.href === articlesHref && (
+                            <div className="absolute left-0 top-full z-50 mt-0 hidden w-48 rounded-xl border border-zinc-200 bg-white p-2 shadow-lg group-hover:block">
+                              <div className="absolute -top-2 left-0 h-2 w-full bg-transparent"></div>
+                              {activeCategories.map((cat) => (
+                                <Link
+                                  key={cat.slug}
+                                  href={localePath(`/articoli/${cat.slug}`, locale)}
+                                  className="block rounded-lg px-4 py-2 text-sm text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
+                                >
+                                  {cat.title}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </nav>
+                    <div className="flex items-center gap-2 md:gap-3">
+                      <LanguageSwitcher />
+                      <HeaderAuth />
+                    </div>
                   </div>
                 </div>
               </header>
-              <main className="grow">{children}</main>
-              <footer className="mt-12 pt-5 text-sm text-zinc-500 relative before:absolute before:top-0 before:left-0 before:right-0 before:h-[1px] before:bg-zinc-200/50 before:[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] text-center">
+              <main className="grow pb-16 md:pb-0">{children}</main>
+              <footer className="mt-12 pb-16 md:pb-0 pt-5 text-sm text-zinc-500 relative before:absolute before:top-0 before:left-0 before:right-0 before:h-[1px] before:bg-zinc-200/50 before:[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] text-center">
                 &copy; {new Date().getFullYear()} Aevos. {locale === 'it' ? 'Tutti i diritti riservati.' : 'All rights reserved.'}
               </footer>
             </div>
+            <MobileNav items={navItems} />
           </NextIntlClientProvider>
         </body>
       </CSPostHogProvider>
