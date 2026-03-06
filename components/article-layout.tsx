@@ -228,7 +228,7 @@ export function ArticleLayout({
         {/* Sidebar — recommendations on wide viewports */}
         {hasSidebar && (
           <aside className="hidden xl:block xl:w-72 xl:shrink-0">
-            <div className="sticky top-24 max-h-[calc(100dvh-8rem)] overflow-y-auto overscroll-contain space-y-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <div className="sticky top-24 max-h-[calc(100dvh-8rem)] overflow-y-auto overscroll-contain space-y-4 pb-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
               {hasRelated && (
                 <>
                   <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
