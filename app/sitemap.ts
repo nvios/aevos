@@ -20,7 +20,7 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? siteConfig.domain;
+  const base = siteConfig.domain;
   const lastModified = new Date();
   
   const sitemapEntries: MetadataRoute.Sitemap = [];
