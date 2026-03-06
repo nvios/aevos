@@ -6,7 +6,7 @@ author: "Aevos Health Medical Team"
 authorRole: "Team Medico"
 faq:
   - question: "Perché ingrasso anche se mangio uguale?"
-    answer: "Il calo degli estrogeni riduce la sensibilità all'insulina e il metabolismo basale. Il corpo tende ad accumulare grasso viscerale (pancia) invece che sottocutaneo."
+    answer: "Il calo degli estrogeni riduce la sensibilità all'insulina e il metabolismo basale. Il corpo tende ad accumulare grasso viscerale (pancia), spesso aggravato dal [cortisolo](/articoli/longevita/cortisolo-stress-cronico) alto."
   - question: "La TOS (Terapia Ormonale Sostitutiva) è sicura?"
     answer: "Le linee guida moderne indicano che, se iniziata entro 10 anni dalla menopausa (la 'finestra di opportunità'), i benefici cardiovascolari e ossei superano spesso i rischi. Parlane con un ginecologo aggiornato."
   - question: "Quali integratori aiutano davvero?"
@@ -39,12 +39,12 @@ Gli estrogeni non servono solo per la fertilità. Sono un potente scudo antinfia
 ### Strategie di Difesa Attiva
 
 #### 1. Muscoli come Priorità Assoluta
-Non fare solo cardio. L'allenamento di forza è l'unico modo per stimolare le ossa e compensare il rallentamento metabolico. I muscoli migliorano la sensibilità all'insulina che gli ormoni non regolano più come prima.
+Non fare solo cardio (anche se la [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita) è fondamentale). L'allenamento di forza è l'unico modo per stimolare le ossa e compensare il rallentamento metabolico. I muscoli migliorano la sensibilità all'[insulina](/articoli/nutrizione/insulina-resistenza-metabolismo) e la gestione degli [zuccheri](/articoli/nutrizione/miti-zuccheri) che gli ormoni non regolano più come prima.
 *   **Azione:** Solleva pesi pesanti (per te) 2-3 volte a settimana. Punta a 3-5 ripetizioni con carichi elevati per stimolare l'osso, non solo "tonificare".
 
 #### 2. Proteine in Ogni Pasto
 La "resistenza anabolica" aumenta. Hai bisogno di più proteine (1.6-2g/kg) per mantenere la stessa massa muscolare di prima.
-*   **Azione:** Non saltare la colazione proteica. Assicurati di avere almeno 30g di proteine (es. uova, yogurt greco, whey) appena sveglia per spegnere il catabolismo notturno.
+*   **Azione:** Non saltare la colazione proteica. Assicurati di avere almeno 30g di proteine (es. uova, yogurt greco, whey) appena sveglia per spegnere il catabolismo notturno e sincronizzare il [ritmo circadiano](/articoli/sonno/ritmo-circadiano-master-clock).
 
 #### 3. Fitoestrogeni e Adattogeni
 Alimenti come soia (edamame, tofu), semi di lino e legumi contengono fitoestrogeni deboli che possono modulare i recettori.
@@ -57,6 +57,6 @@ Non demonizzarla. La Terapia Ormonale Sostitutiva bioidentica, se prescritta cor
 *   **Nota:** La TOS transdermica (cerotti, gel) ha un rischio trombotico molto inferiore rispetto a quella orale.
 
 ### Il Microbioma in Menopausa (Estroboloma)
-Esiste un sottoinsieme di batteri intestinali chiamato "Estroboloma" che ricicla gli estrogeni. Un intestino sano aiuta a mantenere i livelli ormonali più stabili. Mangia fibre fermentabili e cibi probiotici.
+Esiste un sottoinsieme di batteri intestinali chiamato "Estroboloma" che ricicla gli estrogeni. Un intestino sano aiuta a mantenere i livelli ormonali più stabili. Mangia fibre fermentabili e cibi probiotici, evitando interferenti endocrini come le [microplastiche](/articoli/longevita/microplastiche-detox-scientifico).
 
 La menopausa è un campanello d'allarme: il tuo corpo non tollera più gli abusi di prima (poco sonno, alcol, zuccheri). Ascoltalo e adattati.

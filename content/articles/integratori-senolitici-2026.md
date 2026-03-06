@@ -32,7 +32,7 @@ Dimentica il vecchio multivitaminico. La frontiera dell'integrazione nel 2026 no
 Stiamo parlando di **Senolitici** e **Geroprotettori**: molecole progettate per agire sulle cause profonde dell'invecchiamento.
 
 ### 1. Fisetina: Il Cacciatore di Zombie
-La Fisetina è un polifenolo (presente nelle fragole) che ha dimostrato una capacità unica di eliminare le **cellule senescenti** (o "zombie"). Queste cellule accumulano danni e infiammano i tessuti circostanti.
+La Fisetina è un polifenolo (presente nelle fragole, utile anche per la [pelle](/articoli/skin-care/skincare-science-protocollo-base)) che ha dimostrato una capacità unica di eliminare le **cellule senescenti** (o "zombie"). Queste cellule accumulano danni e infiammano i tessuti circostanti.
 *   **Il Protocollo:** A differenza delle vitamine, la Fisetina spesso si usa a cicli (es. dosi alte per 2-3 giorni consecutivi, poi pausa per un mese) per "pulire" il corpo senza interferire con la crescita cellulare sana.
 
 ### 2. Spermidina: L'Autofagia in Pillole
@@ -40,7 +40,7 @@ L'autofagia è il processo con cui le cellule "mangiano" i propri scarti per pro
 *   **Benefici:** Salute cardiaca, funzione cognitiva e crescita dei capelli.
 
 ### 3. Urolitina A: Il Rinnovamento dei Mitocondri
-I mitocondri sono le centrali elettriche delle cellule. Invecchiando, diventano difettosi. L'Urolitina A attiva la **mitofagia**, distruggendo i mitocondri rotti e facendone nascere di nuovi e potenti.
+I mitocondri (potenziati anche dalla [luce rossa](/articoli/longevita/luce-rossa-fotobiomodulazione-generale) e dalla [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita)) sono le centrali elettriche delle cellule. Invecchiando, diventano difettosi. L'Urolitina A attiva la **mitofagia**, distruggendo i mitocondri rotti e facendone nascere di nuovi e potenti.
 *   **Il Problema:** Anche se mangi chili di melograno, potresti non produrla. Dipende tutto dal tuo microbioma. Ecco perché l'integrazione diretta è diventata un trend enorme nel 2025-2026.
 
 ### Attenzione alla Qualità

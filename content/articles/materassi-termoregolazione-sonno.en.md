@@ -34,13 +34,13 @@ The ideal room temperature for sleeping is surprisingly low: **between 16°C and
 Modern memory foam mattresses are very comfortable for the back, but terrible for thermoregulation. They trap body heat, creating an "oven effect" that wakes you up or fragments REM sleep around 3-4 in the morning.
 
 ### The Technological Solution: Active Thermoregulation
-Devices like **Eight Sleep** or **ChiliSleep** (now SleepMe) are hydraulic mattress toppers. They circulate temperature-controlled water under the sheets.
+Advanced biohacking devices (similar to tech used by [Bryan Johnson](/articoli/longevita/il-caso-bryan-johnson-rapamicina)) like **Eight Sleep** or **ChiliSleep** (now SleepMe) are hydraulic mattress toppers. They circulate temperature-controlled water under the sheets.
 *   **Falling Asleep:** They cool the bed to help you fall asleep faster.
 *   **Deep Sleep:** They keep it cold in the first part of the night to maximize Deep Sleep.
-*   **Waking:** They gradually warm up in the morning, waking you gently without the violence of an alarm (simulating thermal dawn).
+*   **Waking:** They gradually warm up in the morning, waking you gently without the violence of an alarm (simulating thermal dawn). This pairs well with techniques like [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali).
 
 ### Low-Tech Alternatives (Free)
-You don't need to spend thousands of euros to get started:
+You don't need to spend thousands of euros to get started (similar to the natural approach of [red light therapy](/articoli/capelli/terapia-luce-rossa-capelli)):
 1.  **Warm Shower:** Paradoxically, taking a warm shower 1 hour before bed helps. It dilates the blood vessels in the skin, allowing heat to escape from the body's core (radiator effect).
 2.  **Hands and Feet Out:** Extremities are our natural radiators. Sleeping with a foot outside the covers helps dissipate heat.
 3.  **Natural Fibers:** Use only cotton, linen, or bamboo sheets. Avoid polyester like the plague.

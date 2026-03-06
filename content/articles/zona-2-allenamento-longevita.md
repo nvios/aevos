@@ -39,16 +39,16 @@ In termini pratici: è uno sforzo "facile ma non troppo". Non è una passeggiata
 ### Perché è Fondamentale per la Longevità
 
 #### 1. Salute Mitocondriale
-I mitocondri sono le centrali elettriche delle tue cellule. La Zona 2 è l'unico tipo di allenamento che stimola specificamente la crescita di *nuovi* mitocondri e ne migliora l'efficienza. Mitocondri sani = meno invecchiamento, più energia.
+I mitocondri sono le centrali elettriche delle tue cellule. La Zona 2 è l'unico tipo di allenamento che stimola specificamente la crescita di *nuovi* mitocondri (un processo supportato anche da [integratori senolitici](/articoli/nutrizione/integratori-senolitici-2026) come l'Urolitina A) e ne migliora l'efficienza. Mitocondri sani = meno invecchiamento, più energia. La salute mitocondriale può essere ulteriormente potenziata dalla [luce rossa](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
 
 #### 2. Flessibilità Metabolica
-Allenarsi in Zona 2 insegna al tuo corpo a bruciare grassi in modo efficiente. Se ti alleni sempre ad alta intensità (Zona 4-5), il tuo corpo impara a bruciare solo zuccheri (glicogeno). Vogliamo un motore ibrido che sappia usare entrambi i carburanti.
+Allenarsi in Zona 2 insegna al tuo corpo a bruciare grassi in modo efficiente (simile a quanto accade durante il [digiuno intermittente](/articoli/nutrizione/digiuno-intermittente-autofagia)). Se ti alleni sempre ad alta intensità (Zona 4-5), il tuo corpo impara a bruciare solo zuccheri (glicogeno). Vogliamo un motore ibrido che sappia usare entrambi i carburanti.
 
 #### 3. Recupero e Cuore
 Migliora la gittata cardiaca (quanto sangue il cuore pompa a ogni battito) senza stressare eccessivamente il sistema nervoso simpatico. Anzi, aiuta a bilanciare lo stress.
 
 #### 4. Prevenzione delle Malattie Croniche
-La disfunzione mitocondriale è alla base di quasi tutte le malattie metaboliche, tra cui il diabete di tipo 2, l'obesità e le malattie cardiovascolari. La Zona 2 agisce direttamente sulla causa radice, migliorando la sensibilità all'insulina e riducendo l'infiammazione sistemica.
+La disfunzione mitocondriale è alla base di quasi tutte le malattie metaboliche, tra cui il diabete di tipo 2, l'obesità e le malattie cardiovascolari. La Zona 2 agisce direttamente sulla causa radice, migliorando la sensibilità all'insulina e riducendo l'infiammazione sistemica (visibile nelle [analisi del sangue](/articoli/longevita/analisi-sangue-longevita-guida)).
 
 ### Come Farlo (Protocollo Pratico)
 

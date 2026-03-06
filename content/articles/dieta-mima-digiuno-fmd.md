@@ -29,7 +29,7 @@ resources:
     link: "https://pubmed.ncbi.nlm.nih.gov/28202779/"
 ---
 
-Il digiuno ad acqua prolungato (3-5 giorni) è potentissimo per la salute, ma è difficile, socialmente isolante e potenzialmente rischioso se non supervisionato.
+Il [digiuno ad acqua](/articoli/nutrizione/digiuno-intermittente-autofagia) prolungato (3-5 giorni) è potentissimo per la salute, ma è difficile, socialmente isolante e potenzialmente rischioso se non supervisionato.
 Il Prof. Valter Longo (Università della California) ha sviluppato la **Dieta Mima Digiuno (FMD)**: un protocollo di 5 giorni che "inganna" il corpo facendogli credere di essere in digiuno, pur permettendo di mangiare circa 800-1100 calorie al giorno.
 
 ### Come Funziona (Il Trucco Metabolico)

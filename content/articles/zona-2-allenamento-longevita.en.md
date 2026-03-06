@@ -39,16 +39,16 @@ In practical terms: it's an effort that's "easy but not too easy". It's not a wa
 ### Why It's Fundamental for Longevity
 
 #### 1. Mitochondrial Health
-Mitochondria are the power plants of your cells. Zone 2 is the only type of training that specifically stimulates the growth of *new* mitochondria and improves their efficiency. Healthy mitochondria = less aging, more energy.
+Mitochondria are the power plants of your cells. Zone 2 is the only type of training that specifically stimulates the growth of *new* mitochondria (a process also supported by [senolytic supplements](/articoli/nutrizione/integratori-senolitici-2026) like Urolithin A) and improves their efficiency. Healthy mitochondria = less aging, more energy. Mitochondrial health can be further boosted by [red light](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
 
 #### 2. Metabolic Flexibility
-Training in Zone 2 teaches your body to burn fat efficiently. If you always train at high intensity (Zone 4-5), your body learns to burn only sugar (glycogen). We want a hybrid engine that knows how to use both fuels.
+Training in Zone 2 teaches your body to burn fat efficiently (similar to what happens during [intermittent fasting](/articoli/nutrizione/digiuno-intermittente-autofagia)). If you always train at high intensity (Zone 4-5), your body learns to burn only sugar (glycogen). We want a hybrid engine that knows how to use both fuels.
 
 #### 3. Recovery and Heart
 It improves cardiac output (how much blood the heart pumps with each beat) without excessively stressing the sympathetic nervous system. In fact, it helps balance stress.
 
 #### 4. Prevention of Chronic Diseases
-Mitochondrial dysfunction is at the root of almost all metabolic diseases, including type 2 diabetes, obesity, and cardiovascular diseases. Zone 2 acts directly on the root cause, improving insulin sensitivity and reducing systemic inflammation.
+Mitochondrial dysfunction is at the root of almost all metabolic diseases, including type 2 diabetes, obesity, and cardiovascular diseases. Zone 2 acts directly on the root cause, improving insulin sensitivity and reducing systemic inflammation (visible in [blood work](/articoli/longevita/analisi-sangue-longevita-guida)).
 
 ### How to Do It (Practical Protocol)
 

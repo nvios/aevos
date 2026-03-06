@@ -29,7 +29,7 @@ resources:
     link: "https://pubmed.ncbi.nlm.nih.gov/28202779/"
 ---
 
-Prolonged water fasting (3-5 days) is extremely powerful for health, but it is difficult, socially isolating, and potentially risky if unsupervised.
+Prolonged [water fasting](/articoli/nutrizione/digiuno-intermittente-autofagia) (3-5 days) is extremely powerful for health, but it is difficult, socially isolating, and potentially risky if unsupervised.
 Prof. Valter Longo (University of Southern California) has developed the **Fasting Mimicking Diet (FMD)**: a 5-day protocol that "tricks" the body into believing it is fasting, while allowing you to eat approximately 800-1100 calories per day.
 
 ### How It Works (The Metabolic Trick)

@@ -32,7 +32,7 @@ Forget the old multivitamin. The frontier of supplementation in 2026 is no longe
 We are talking about **Senolytics** and **Geroprotectors**: molecules designed to act on the root causes of aging.
 
 ### 1. Fisetin: The Zombie Hunter
-Fisetin is a polyphenol (found in strawberries) that has shown a unique ability to eliminate **senescent cells** (or "zombies"). These cells accumulate damage and inflame surrounding tissues.
+Fisetin is a polyphenol (found in strawberries, also useful for [skin](/articoli/skin-care/skincare-science-protocollo-base)) that has shown a unique ability to eliminate **senescent cells** (or "zombies"). These cells accumulate damage and inflame surrounding tissues.
 *   **The Protocol:** Unlike vitamins, Fisetin is often cycled (e.g., high doses for 2-3 consecutive days, then a break for a month) to "clean" the body without interfering with healthy cell growth.
 
 ### 2. Spermidine: Autophagy in a Pill
@@ -40,7 +40,7 @@ Autophagy is the process by which cells "eat" their own waste to produce energy.
 *   **Benefits:** Heart health, cognitive function, and hair growth.
 
 ### 3. Urolithin A: Mitochondrial Renewal
-Mitochondria are the power plants of cells. As we age, they become defective. Urolithin A activates **mitophagy**, destroying broken mitochondria and birthing new, powerful ones.
+Mitochondria (also boosted by [red light](/articoli/longevita/luce-rossa-fotobiomodulazione-generale) and [Zone 2](/articoli/esercizio/zona-2-allenamento-longevita)) are the power plants of cells. As we age, they become defective. Urolithin A activates **mitophagy**, destroying broken mitochondria and birthing new, powerful ones.
 *   **The Problem:** Even if you eat kilos of pomegranates, you might not produce it. It all depends on your microbiome. That's why direct supplementation has become a huge trend in 2025-2026.
 
 ### Warning on Quality

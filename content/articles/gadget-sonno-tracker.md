@@ -30,7 +30,7 @@ resources:
 "Ciò che non misuri non puoi migliorare". Questo mantra del management vale anche per il sonno. Fino a pochi anni fa, l'unico modo per sapere come avevi dormito era... chiedertelo la mattina. Oggi abbiamo laboratori al dito.
 
 ### 1. Wearable (Oura Ring, Whoop, Apple Watch)
-Questi dispositivi misurano variabilità cardiaca (HRV), temperatura e movimento.
+Questi dispositivi misurano [variabilità cardiaca](/articoli/longevita/hrv-vo2-rhr-guida) (HRV), temperatura e movimento.
 *   **A cosa servono:** Non a "dormire meglio" direttamente, ma a **capire le cause**.
 *   **Esempio:** Se vedi che il tuo sonno profondo crolla ogni volta che bevi un bicchiere di vino o mangi tardi, hai un dato su cui agire. È uno strumento di consapevolezza comportamentale.
 

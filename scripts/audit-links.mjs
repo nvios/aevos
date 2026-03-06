@@ -17,12 +17,14 @@ function getArticles() {
     const filePath = path.join(articlesDir, file);
     const content = fs.readFileSync(filePath, 'utf8');
     const parsed = matter(content);
+    const linkCount = (content.match(/\]\(\/(articoli|ricette)\//g) || []).length;
     return {
       file,
       slug: file.replace('.md', ''),
       title: parsed.data.title,
       tags: parsed.data.tags || [],
-      content: parsed.content
+      content: parsed.content,
+      linkCount
     };
   });
 }
@@ -68,11 +70,18 @@ function auditLinks() {
       if (!linkRegex.test(article.content)) {
         const otherArticle = articles.find(a => a.slug === otherSlug);
         if (otherArticle) {
+             // Penalize based on existing link count to avoid overcrowding
+             // Formula: Score - (Existing Links * 0.15)
+             // Example: 2 shared tags - (10 existing links * 0.15) = 0.5 score
+             const adjustedScore = score - (article.linkCount * 0.15);
+             
              opportunities.push({
                 source: article.title,
                 target: otherArticle.title,
                 targetSlug: otherSlug,
-                score: score,
+                score: adjustedScore,
+                rawScore: score,
+                existingLinks: article.linkCount,
                 sharedTags: article.tags.filter(t => otherArticle.tags.map(ot => ot.toLowerCase()).includes(t.toLowerCase()))
             });
         }
@@ -80,16 +89,28 @@ function auditLinks() {
     });
   });
 
-  // Sort by score (relevance)
-  opportunities.sort((a, b) => b.score - a.score);
+  // Sort by adjusted score (relevance - penalty)
+  opportunities.sort((a, b) => {
+      // Primary sort: Adjusted Score (Descending)
+      if (Math.abs(b.score - a.score) > 0.001) {
+          return b.score - a.score;
+      }
+      // Tie-breaker 1: Raw score descending (more shared tags is better)
+      if (b.rawScore !== a.rawScore) {
+          return b.rawScore - a.rawScore;
+      }
+      // Tie-breaker 2: Existing links ascending (fewer links is better/more urgent)
+      return a.existingLinks - b.existingLinks;
+  });
 
-  console.log('\n🔗 Link Audit: Missed Opportunities\n');
+  console.log('\n🔗 Link Audit: Missed Opportunities (Weighted by existing link density)\n');
   if (opportunities.length === 0) {
       console.log('Great job! No obvious missed linking opportunities found based on tags.');
   } else {
       opportunities.slice(0, 20).forEach(op => {
         console.log(`❌ "${op.source}" could link to "${op.target}"`);
-        console.log(`   Reason: Shared tags [${op.sharedTags.join(', ')}] (Score: ${op.score})`);
+        console.log(`   Reason: Shared tags [${op.sharedTags.join(', ')}]`);
+        console.log(`   Metrics: Tag Score ${op.rawScore} | Existing Links: ${op.existingLinks} | Adj. Score: ${op.score.toFixed(2)}`);
         console.log(`   Suggestion: Add a link to /articoli/category/${op.targetSlug}\n`);
       });
       

@@ -30,7 +30,7 @@ resources:
 "What you don't measure you can't improve." This management mantra applies to sleep too. Until a few years ago, the only way to know how you slept was... to ask yourself in the morning. Today we have labs on our fingers.
 
 ### 1. Wearables (Oura Ring, Whoop, Apple Watch)
-These devices measure heart rate variability (HRV), temperature and movement.
+These devices measure [heart rate variability](/articoli/longevita/hrv-vo2-rhr-guida) (HRV), temperature and movement.
 *   **What they're for:** Not to "sleep better" directly, but to **understand the causes**.
 *   **Example:** If you see that your deep sleep plummets every time you have a glass of wine or eat late, you have data to act on. It's a behavioral awareness tool.
 
