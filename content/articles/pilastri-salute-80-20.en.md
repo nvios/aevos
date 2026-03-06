@@ -31,14 +31,14 @@ Here is the hierarchy of biological needs. Don't move to the next level until yo
 
 ### Level 1: The Foundations (80% of Results)
 These actions are non-negotiable. They're free, but they require discipline.
-1.  **[Sleep](/articoli/sonno/12-consigli-pratici-sonno-insonnia):** 7-9 hours of quality. It's when the brain cleans itself (glymphatic system) and the body repairs DNA damage. Without sleep, no diet or workout works at 100%.
+1.  **Sleep:** 7-9 hours of quality. It's when the brain cleans itself (glymphatic system) and the body repairs DNA damage. Without [sleep](/articoli/sonno/12-consigli-pratici-sonno-insonnia), no diet or workout works at 100%.
 2.  **Nutrition:** Real food, not [processed](/articoli/nutrizione/cibi-processati-impatto). Glycemic control. Enough [protein](/articoli/nutrizione/miti-proteine). Hydration.
-3.  **[Movement](/articoli/esercizio/esercizio-massimizzare-risultati):** Not just "gym." Build an aerobic base with [Zone 2](/articoli/esercizio/zona-2-allenamento-longevita) and fight [sarcopenia](/articoli/esercizio/sarcopenia-forza-over-50) with weights.
+3.  **Movement:** Not just "gym." Build an [aerobic base](/articoli/esercizio/esercizio-massimizzare-risultati) with [Zone 2](/articoli/esercizio/zona-2-allenamento-longevita) and fight [sarcopenia](/articoli/esercizio/sarcopenia-forza-over-50) with weights.
 4.  **Light:** Sun during the day, darkness at night. Regulates the circadian rhythm that orchestrates every hormone in the body.
 
 ### Level 2: Optimization (15% of Results)
 Once you sleep well and eat well, you can look here.
-*   **[Supplementation](/articoli/nutrizione/guida-integratori):** Filling deficiencies (Vit D, Omega-3). Only after covering the basics, consider advanced molecules like [senolytics](/articoli/nutrizione/integratori-senolitici-2026).
+*   **Supplementation:** Filling [deficiencies](/articoli/nutrizione/guida-integratori) (Vit D, Omega-3). Only after covering the basics, consider advanced molecules like [senolytics](/articoli/nutrizione/integratori-senolitici-2026).
 *   **Intermittent Fasting / TRE:** For metabolic health and autophagy.
 *   **Stress Management:** Meditation, breathing, nature.
 *   **Environment:** Reduce toxic load from [microplastics](/articoli/longevita/microplastiche-detox-scientifico) and endocrine disruptors.
@@ -47,8 +47,8 @@ Once you sleep well and eat well, you can look here.
 
 ### Level 3: Advanced Biohacking (5% of Results)
 Only for those who already have everything else perfect and want that extra edge.
-*   **[Expensive Gadgets](/articoli/tecnologie/gadget-sonno-tracker):** [Smart rings](/articoli/tecnologie/gadget-sonno-tracker), [cooling mattresses](/articoli/tecnologie/materassi-termoregolazione-sonno), [infrared lights](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
-*   **[Exotic Nootropics](/articoli/longevita/nootropi-naturali-guida-focus):** Molecules for concentration.
+*   **Expensive Gadgets:** [Smart rings](/articoli/tecnologie/gadget-sonno-tracker), [cooling mattresses](/articoli/tecnologie/materassi-termoregolazione-sonno), [infrared lights](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
+*   **Exotic Nootropics:** [Molecules for concentration](/articoli/longevita/nootropi-naturali-guida-focus).
 *   **Complex Protocols:** Hyper-specific diets, intravenous therapies.
 
 ### The Common Mistake
