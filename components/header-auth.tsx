@@ -16,6 +16,7 @@ export function HeaderAuth() {
   const [user, setUser] = useState<SupabaseUser | null>(null);
   const [loading, setLoading] = useState(!!supabase);
   const [isOpen, setIsOpen] = useState(false);
+  const [avatarError, setAvatarError] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
   const t = useTranslations('Auth');
@@ -77,13 +78,14 @@ export function HeaderAuth() {
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center gap-2 rounded-full border border-zinc-200 bg-white p-1 pr-3 hover:bg-zinc-50 transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-200"
         >
-            {user.user_metadata?.avatar_url ? (
+            {user.user_metadata?.avatar_url && !avatarError ? (
             <Image
               src={user.user_metadata.avatar_url}
               alt={user.email || ""}
               width={32}
               height={32}
               className="h-8 w-8 rounded-full object-cover border border-zinc-100"
+              onError={() => setAvatarError(true)}
             />
           ) : (
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-zinc-100 border border-zinc-200 text-zinc-500">
