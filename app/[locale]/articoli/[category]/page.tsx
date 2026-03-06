@@ -53,7 +53,7 @@ export default async function GuideCategoryPage({
     const bViews = statsMap.get(b.slug)?.view_count ?? 0;
     return bViews - aViews;
   });
-  const topViewCount = articles.length > 0 ? (statsMap.get(articles[0].slug)?.view_count ?? 0) : 0;
+  const maxPopular = Math.max(1, Math.floor(articles.length * 0.3));
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
@@ -79,9 +79,9 @@ export default async function GuideCategoryPage({
 
       {articles.length > 0 ? (
         <div className="grid gap-6 md:grid-cols-2">
-          {articles.map((article) => {
+          {articles.map((article, index) => {
             const views = statsMap.get(article.slug)?.view_count ?? 0;
-            const isPopular = topViewCount > 0 && views >= topViewCount * 0.3;
+            const isPopular = views > 0 && index < maxPopular;
             return (
               <Link
                 key={article.slug}
