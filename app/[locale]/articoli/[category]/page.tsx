@@ -7,7 +7,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { ArrowRight, Flame } from "lucide-react";
 import { getArticlesByCategory } from "@/lib/content/articles";
 import { categories, getCategoryBySlug } from "@/lib/content/categories";
-import { getPopularArticleSlugs } from "@/lib/content/recommendations";
+import { getArticleStatsMap } from "@/lib/content/recommendations";
 import { localePath } from "@/lib/i18n/paths";
 
 export function generateStaticParams() {
@@ -47,8 +47,13 @@ export default async function GuideCategoryPage({
     notFound();
   }
 
-  const articles = getArticlesByCategory(category, locale);
-  const popularSlugs = await getPopularArticleSlugs(10, locale);
+  const statsMap = await getArticleStatsMap(locale);
+  const articles = getArticlesByCategory(category, locale).sort((a, b) => {
+    const aViews = statsMap.get(a.slug)?.view_count ?? 0;
+    const bViews = statsMap.get(b.slug)?.view_count ?? 0;
+    return bViews - aViews;
+  });
+  const topViewCount = articles.length > 0 ? (statsMap.get(articles[0].slug)?.view_count ?? 0) : 0;
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
@@ -75,7 +80,8 @@ export default async function GuideCategoryPage({
       {articles.length > 0 ? (
         <div className="grid gap-6 md:grid-cols-2">
           {articles.map((article) => {
-            const isPopular = popularSlugs.has(article.slug);
+            const views = statsMap.get(article.slug)?.view_count ?? 0;
+            const isPopular = topViewCount > 0 && views >= topViewCount * 0.3;
             return (
               <Link
                 key={article.slug}
