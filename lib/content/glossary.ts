@@ -334,7 +334,7 @@ const glossaryTermsIt: GlossaryTerm[] = [
     term: "Zona 2",
     slug: "zona-2",
     definition: "Allenamento a bassa intensità (60-70% della frequenza cardiaca massima) che migliora la funzione mitocondriale e la capacità di ossidare i grassi. Fondamentale per la salute metabolica e la longevità.",
-    relatedArticles: ["hrv-vo2-rhr-guida", "esercizio-massimizzare-risultati"],
+    relatedArticles: ["hrv-vo2-rhr-guida", "esercizio-massimizzare-risultati", "zona-2-allenamento-longevita"],
   },
   {
     term: "Glicina",
@@ -437,6 +437,30 @@ const glossaryTermsIt: GlossaryTerm[] = [
     slug: "rapamicina",
     definition: "Un farmaco immunosoppressore che inibisce mTOR. È considerato uno dei potenziali geroprotettori più promettenti, anche se il suo uso nell'uomo per la longevità è ancora sperimentale e controverso.",
     relatedArticles: ["il-caso-bryan-johnson-rapamicina"],
+  },
+  {
+    term: "Flessibilità Metabolica",
+    slug: "flessibilita-metabolica",
+    definition: "La capacità del corpo di passare efficientemente dall'uso di carboidrati a quello di grassi come fonte di energia, a seconda della disponibilità e dell'intensità dell'esercizio.",
+    relatedArticles: ["zona-2-allenamento-longevita", "insulina-resistenza-metabolismo"],
+  },
+  {
+    term: "Lattato",
+    slug: "lattato",
+    definition: "Un sottoprodotto del metabolismo del glucosio prodotto durante l'esercizio intenso. Non è un rifiuto, ma un carburante. La sua concentrazione nel sangue (soglia del lattato) segna il confine tra Zona 2 e intensità superiori.",
+    relatedArticles: ["zona-2-allenamento-longevita"],
+  },
+  {
+    term: "Miochine",
+    slug: "miochine",
+    definition: "Molecole di segnalazione (citochine) rilasciate dalle cellule muscolari durante la contrazione. Hanno effetti antinfiammatori e benefici su cervello, ossa e metabolismo.",
+    relatedArticles: ["sarcopenia-forza-over-50", "esercizio-massimizzare-risultati"],
+  },
+  {
+    term: "Sarcopenia",
+    slug: "sarcopenia",
+    definition: "La progressiva perdita di massa muscolare, forza e funzione legata all'invecchiamento. È un fattore di rischio primario per fragilità, cadute e mortalità precoce.",
+    relatedArticles: ["sarcopenia-forza-over-50"],
   },
   {
     term: "Spermidina",
@@ -781,7 +805,7 @@ const glossaryTermsEn: GlossaryTerm[] = [
     term: "Zone 2",
     slug: "zona-2",
     definition: "Low-intensity training (60-70% of maximum heart rate) that improves mitochondrial function and fat oxidation capacity. Essential for metabolic health and longevity.",
-    relatedArticles: ["hrv-vo2-rhr-guida", "esercizio-massimizzare-risultati"],
+    relatedArticles: ["hrv-vo2-rhr-guida", "esercizio-massimizzare-risultati", "zona-2-allenamento-longevita"],
   },
   {
     term: "Glycine",
@@ -884,6 +908,30 @@ const glossaryTermsEn: GlossaryTerm[] = [
     slug: "rapamicina",
     definition: "An immunosuppressant drug that inhibits mTOR. Considered one of the most promising potential geroprotectors, although its use in humans for longevity is still experimental and controversial.",
     relatedArticles: ["il-caso-bryan-johnson-rapamicina"],
+  },
+  {
+    term: "Metabolic Flexibility",
+    slug: "flessibilita-metabolica",
+    definition: "The body's ability to efficiently switch between using carbohydrates and fats as energy sources, depending on availability and exercise intensity.",
+    relatedArticles: ["zona-2-allenamento-longevita", "insulina-resistenza-metabolismo"],
+  },
+  {
+    term: "Lactate",
+    slug: "lattato",
+    definition: "A byproduct of glucose metabolism produced during intense exercise. It is not waste, but fuel. Its concentration in the blood (lactate threshold) marks the boundary between Zone 2 and higher intensities.",
+    relatedArticles: ["zona-2-allenamento-longevita"],
+  },
+  {
+    term: "Myokines",
+    slug: "miochine",
+    definition: "Signaling molecules (cytokines) released by muscle cells during contraction. They have anti-inflammatory effects and benefits for the brain, bones, and metabolism.",
+    relatedArticles: ["sarcopenia-forza-over-50", "esercizio-massimizzare-risultati"],
+  },
+  {
+    term: "Sarcopenia",
+    slug: "sarcopenia",
+    definition: "The progressive loss of muscle mass, strength, and function linked to aging. It is a primary risk factor for frailty, falls, and early mortality.",
+    relatedArticles: ["sarcopenia-forza-over-50"],
   },
   {
     term: "Spermidine",

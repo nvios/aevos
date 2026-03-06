@@ -51,7 +51,7 @@ Il VO2 Max è il massimo volume di ossigeno che il tuo corpo può utilizzare dur
 
 *   **Cosa indica:** Non è solo per atleti. Il VO2 Max è **il singolo più potente predittore di longevità** a nostra disposizione.
 *   **I Dati:** Studi mostrano che passare da un VO2 Max "basso" a "sotto la media" riduce il rischio di morte più di quanto faccia smettere di fumare. Avere un VO2 Max nel top 2% per la propria età e sesso offre una protezione straordinaria contro quasi tutte le malattie croniche.
-*   **Come migliorarlo:** Allenamento a intervalli ad alta intensità (HIIT) e allenamento di resistenza a bassa intensità (Zona 2).
+*   **Come migliorarlo:** Allenamento a intervalli ad alta intensità (HIIT) e allenamento di resistenza a bassa intensità ([Zona 2](/articoli/esercizio/zona-2-allenamento-longevita)).
 
 ### Come Iniziare a Monitorarli
 

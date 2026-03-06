@@ -51,7 +51,7 @@ VO2 Max is the maximum volume of oxygen your body can use during maximal effort.
 
 *   **What it indicates:** It's not just for athletes. VO2 Max is **the single most powerful predictor of longevity** at our disposal.
 *   **The Data:** Studies show that moving from a "low" to "below average" VO2 Max reduces death risk more than quitting smoking. Having a VO2 Max in the top 2% for your age and sex offers extraordinary protection against almost all chronic diseases.
-*   **How to improve it:** High-intensity interval training (HIIT) and low-intensity endurance training (Zone 2).
+*   **How to improve it:** High-intensity interval training (HIIT) and low-intensity endurance training ([Zone 2](/articoli/esercizio/zona-2-allenamento-longevita)).
 
 ### How to Start Monitoring Them
 

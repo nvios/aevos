@@ -39,7 +39,7 @@ export default async function ServiziPage({
       description: locale === 'en'
         ? "The definitive experience. Direct monitoring at our center for functional tests, advanced imaging, and complete biological assessment."
         : "L'esperienza definitiva. Monitoraggio diretto nel nostro centro per test funzionali, imaging avanzato e valutazione biologica completa.",
-      href: lp("/servizi/assessment-clinico"),
+      href: lp("/servizi/protocolli/longevita"),
       icon: Stethoscope,
     },
   ];

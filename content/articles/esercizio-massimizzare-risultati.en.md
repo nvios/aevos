@@ -32,7 +32,7 @@ Science shows that the **Minimum Effective Dose (MED)** for health and aesthetic
 30 minutes a day for 5 days (150 min total) always beats one grueling 2-hour session once a week. The body responds to the frequency of the stimulus.
 
 ### Protocol A: Strength Training (2-3 times a week, 30-40 min)
-If you want to live long and well, you need muscles. Muscle mass is your "armor" against aging and diabetes. To build it, nutritional recovery is essential (try this [turmeric chicken](/ricette/esercizio/pollo-curcuma-zucchine)).
+If you want to live long and well, you need muscles. Muscle mass is your "armor" against aging and [sarcopenia](/articoli/esercizio/sarcopenia-forza-over-50). To build it, nutritional recovery is essential (try this [turmeric chicken](/ricette/esercizio/pollo-curcuma-zucchine)).
 Don't waste time with isolation exercises (biceps, calves). Do the **fundamental movements** that involve the whole body:
 1.  **Push:** Push-ups, Bench press, Military press.
 2.  **Pull:** Pull-ups, Rows.
@@ -44,7 +44,7 @@ A circuit of these 5 exercises, done for 3-4 rounds without long breaks, builds 
 
 ### Protocol B: Cardio "Snacks" (Every day)
 You don't need an hour of running.
-*   **Zone 2 (Low intensity):** Walk briskly or pedal while listening to a podcast or on a call.
+*   **[Zone 2](/articoli/esercizio/zona-2-allenamento-longevita) (Low intensity):** Walk briskly or pedal while listening to a podcast or on a call. It's the foundation for mitochondrial health.
 *   **HIIT (High Intensity Interval Training):** Once a week, push your heart to the max. Example: 4 minutes total of Tabata (20 seconds sprint, 10 rest, x8). Done.
 
 ### "Micro-sessions" of Movement (Movement Snacking)
