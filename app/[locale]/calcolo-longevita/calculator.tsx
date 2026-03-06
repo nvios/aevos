@@ -10,9 +10,9 @@ import { localePath } from "@/lib/i18n/paths";
 import { analytics } from "@/lib/analytics/events";
 
 type InputState = {
-  age: number;
-  heightCm: number;
-  weightKg: number;
+  age: number | "";
+  heightCm: number | "";
+  weightKg: number | "";
   gender: "uomo" | "donna" | "altro";
   rhr?: number;
   vo2max?: number;
@@ -66,7 +66,8 @@ function PopulationChart({ score, locale }: { score: number; locale: string }) {
   );
 }
 
-function calculateBmi(weightKg: number, heightCm: number) {
+function calculateBmi(weightKg: number | "", heightCm: number | "") {
+  if (weightKg === "" || heightCm === "" || heightCm === 0) return 0;
   const meters = heightCm / 100;
   return weightKg / (meters * meters);
 }
@@ -74,8 +75,9 @@ function calculateBmi(weightKg: number, heightCm: number) {
 function calculateScore(input: InputState) {
   const bmi = calculateBmi(input.weightKg, input.heightCm);
   let score = 80;
-  if (input.age > 50) score -= 5;
-  if (input.age > 70) score -= 5;
+  const age = input.age || 0;
+  if (age > 50) score -= 5;
+  if (age > 70) score -= 5;
   if (bmi < 18.5) score -= 20;
   else if (bmi >= 35) score -= 75;
   else if (bmi >= 30) score -= 60;
@@ -99,8 +101,12 @@ function calculateScore(input: InputState) {
 
 function handleNumericChange(
   e: React.ChangeEvent<HTMLInputElement>,
-  setter: (val: number) => void
+  setter: (val: number | "") => void
 ) {
+  if (e.target.value === "") {
+    setter("");
+    return;
+  }
   const val = e.target.valueAsNumber;
   if (!isNaN(val)) setter(val);
 }
@@ -194,7 +200,7 @@ export function LongevityCalculator() {
         bmi: parseFloat(bmi),
         has_rhr: Boolean(input.rhr),
         has_vo2max: Boolean(input.vo2max),
-        age: input.age,
+        age: input.age || 0,
         gender: input.gender,
       });
     }
@@ -298,11 +304,11 @@ export function LongevityCalculator() {
             )}
 
             {!showAdvanced ? (
-              <button onClick={() => {
+              <button disabled={input.age === "" || input.heightCm === "" || input.weightKg === ""} onClick={() => {
                 setShowResult(true);
                 const bmiVal = calculateBmi(input.weightKg, input.heightCm);
-                analytics.calculatorStarted({ age: input.age, gender: input.gender, bmi: parseFloat(bmiVal.toFixed(1)) });
-              }} className="w-full rounded-full bg-zinc-900 py-3 text-sm font-semibold text-white transition-all hover:bg-zinc-800 hover:shadow-lg active:scale-[0.98]">
+                analytics.calculatorStarted({ age: input.age || 0, gender: input.gender, bmi: parseFloat(bmiVal.toFixed(1)) });
+              }} className="w-full rounded-full bg-zinc-900 py-3 text-sm font-semibold text-white transition-all hover:bg-zinc-800 hover:shadow-lg active:scale-[0.98] disabled:opacity-40 disabled:cursor-not-allowed">
                 {isEn ? 'Calculate Longevity Profile' : 'Calcola Profilo Longevità'}
               </button>
             ) : (
