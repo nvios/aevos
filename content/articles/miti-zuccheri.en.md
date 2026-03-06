@@ -38,7 +38,7 @@ When we consume excess fructose (from sodas, sweets, juices), the liver is overl
 ### Added vs. Intrinsic Sugars
 
 The World Health Organization recommends limiting *added* sugars to less than 5-10% of total calories.
-*   **Intrinsic Sugars:** Those inside a strawberry or in milk. They are not associated with negative health effects in the general population.
+*   **[Intrinsic Sugars](/articoli/nutrizione/miti-zuccheri):** Those inside a strawberry or in milk. They are not associated with negative health effects in the general population.
 *   **Added Sugars:** Those put in coffee, cookies, ready-made sauces. They are empty calories that create violent glycemic spikes.
 
 ### The Metabolic Cost of Glycemic Spikes
@@ -46,7 +46,7 @@ The World Health Organization recommends limiting *added* sugars to less than 5-
 Every time you flood the blood with sugar, the pancreas must pump insulin to manage it.
 1.  **Glycation:** Excess sugar binds to proteins in the blood, forming AGEs (Advanced Glycation End-products). This process "caramelizes" tissues from the inside, stiffening blood vessels and aging the skin (wrinkles).
 2.  **Inflammation:** Glycemic spikes and crashes trigger oxidative stress and low-grade chronic inflammation.
-3.  **Insulin Resistance:** Over time, cells stop listening to insulin. The pancreas produces more and more, until it exhausts itself (Type 2 Diabetes).
+3.  **[Insulin Resistance](/articoli/longevita/insulina-resistenza-metabolismo):** Over time, cells stop listening to insulin. The pancreas produces more and more, until it exhausts itself (Type 2 Diabetes).
 
 ### Defense Strategies
 

@@ -50,9 +50,21 @@ Un fungo medicinale che sembra un pompon bianco.
 ### 4. Omega-3 (DHA)
 Non lo "senti" subito come la caffeina, ma è strutturale. Il tuo cervello è fatto per il 60% di grasso. Il DHA è il mattone fondamentale delle membrane neuronali. Senza DHA, i segnali elettrici viaggiano più lenti.
 
+### 5. Rhodiola Rosea: L'Antistress
+Un adattogeno usato dai Vichinghi. Riduce la fatica mentale e il burnout.
+*   **Quando usarla:** Nei periodi di lavoro intenso o scadenze ravvicinate. Aiuta a mantenere la lucidità quando il cervello vorrebbe spegnersi.
+
 ### Strategia, non Magia
 I nootropi non riparano un cervello rotto da sonno pessimo e junk food. Sono il turbo, non il motore.
 Prima di integrare:
 1.  Ottimizza il [sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia).
 2.  Riduci l'infiammazione con la dieta.
 3.  Poi, aggiungi i nootropi per quel 10% extra di performance.
+
+### Esempio di "Morning Stack" per la Produttività
+*   Caffè (1 tazza)
+*   L-Teanina (200mg)
+*   Creatina (5g)
+*   Omega-3 (1g DHA)
+
+Semplice, sicuro, efficace.

@@ -41,14 +41,22 @@ You can't live in a bubble, but you can drastically reduce the load.
 
 #### 1. Filter Water and Air
 It's the most important investment. A quality water filter (not just the basic pitcher) and a HEPA air purifier in the bedroom reduce exposure by 50-70%.
+*   **Action:** Look for filters certified to remove PFAS and microplastics.
 
 #### 2. Sweating is Medicine
-The liver and kidneys do a great job, but for some fat-soluble toxins, the skin is a crucial exit route. The **sauna** (traditional or infrared) mobilizes toxins stored in fat. Remember to use a binder (like activated charcoal) if recommended by a doctor, and to rehydrate.
+The liver and kidneys do a great job, but for some fat-soluble toxins, the skin is a crucial exit route. The **[sauna](/articoli/longevita/sauna-longevita-calore)** (traditional or infrared) mobilizes toxins stored in fat. Remember to use a binder (like activated charcoal) if recommended by a doctor, and to rehydrate.
+*   **Protocol:** 20 minutes of sauna at 80°C, followed by a cold shower, 3 times a week.
 
 #### 3. Choose "Fragrance-Free"
 The word "Parfum" or "Fragrance" on a label is often a hiding place for phthalates. Choose household and personal care products without synthetic fragrances.
+*   **Tip:** Use natural essential oils if you want to scent your home.
 
 #### 4. Real Food, Unpackaged
 Less packaging = less plastic. Buy bulk when you can. Fatty foods (cheese, meat) absorb toxins from plastic more easily, so store them in glass.
+*   **Kitchen:** Replace scratched non-stick pans with stainless steel or cast iron.
+
+#### 5. Natural Clothing
+Synthetic fibers (polyester, nylon) release microplastics with every wash and are in contact with your skin all day.
+*   **Choice:** Prefer cotton, wool, linen, and hemp, especially for underwear.
 
 You don't need obsession, just awareness. Every step counts.

@@ -39,12 +39,13 @@ Non si tratta di estetica. Il muscolo scheletrico è:
 
 ### Il Protocollo Anti-Sarcopenia
 
-Per costruire muscolo, devi dargli un motivo per crescere. Camminare non basta. Serve l'allenamento di resistenza (pesi).
+Per costruire muscolo, devi dargli un motivo per crescere. Camminare non basta. Serve l'[allenamento di resistenza](/articoli/esercizio/esercizio-massimizzare-risultati) (pesi).
 
 #### 1. Intensità, non solo Volume
 Devi sollevare carichi che ti sfidano. Se puoi fare 50 ripetizioni senza fatica, stai allenando la resistenza, non la forza.
 *   **Target:** 3-4 serie per esercizio.
 *   **Ripetizioni:** 6-12 (con un peso che ti fa arrivare vicino al cedimento all'ultima ripetizione).
+*   **Recupero:** 2-3 minuti tra le serie. Il muscolo deve recuperare per poter spingere di nuovo al massimo.
 
 #### 2. I Movimenti Fondamentali
 Non perdere tempo con esercizi isolati complicati. Concentrati sui movimenti che replicano la vita reale:
@@ -57,7 +58,16 @@ Non perdere tempo con esercizi isolati complicati. Concentrati sui movimenti che
 #### 3. Proteine: Il Mattoni
 L'allenamento è lo stimolo, le proteine sono il materiale. Gli anziani hanno bisogno di *più* proteine dei giovani a causa della "resistenza anabolica".
 *   **Target:** 1.6 - 2.0 grammi di proteine per kg di peso corporeo al giorno.
-*   Distribuiscile in ogni pasto (almeno 30g per pasto) per attivare la sintesi proteica.
+*   Distribuiscile in ogni pasto (almeno 30g per pasto) per attivare la sintesi proteica. La leucina è l'amminoacido chiave: assicurati che le tue fonti proteiche ne siano ricche (carne, pesce, uova, siero del latte).
 
 ### La Sicurezza Prima di Tutto
 Se sei nuovo ai pesi, la tecnica è fondamentale. Inizia con un coach o con macchine guidate prima di passare ai pesi liberi. L'obiettivo è costruire, non distruggere.
+
+### Esempio di Scheda "Full Body" (2 Volte a Settimana)
+
+1.  **Goblet Squat:** 3 serie x 10 rip (tenendo un peso al petto)
+2.  **Push-up (o Chest Press):** 3 serie x 10 rip
+3.  **Lat Machine (o Trazioni assistite):** 3 serie x 10 rip
+4.  **Farmer's Walk:** 3 giri x 30 metri (camminata con pesi)
+
+Semplice, brutale, efficace. Questo è tutto ciò che serve per combattere la sarcopenia.

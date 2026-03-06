@@ -47,12 +47,16 @@ Training in Zone 2 teaches your body to burn fat efficiently. If you always trai
 #### 3. Recovery and Heart
 It improves cardiac output (how much blood the heart pumps with each beat) without excessively stressing the sympathetic nervous system. In fact, it helps balance stress.
 
+#### 4. Prevention of Chronic Diseases
+Mitochondrial dysfunction is at the root of almost all metabolic diseases, including type 2 diabetes, obesity, and cardiovascular diseases. Zone 2 acts directly on the root cause, improving insulin sensitivity and reducing systemic inflammation.
+
 ### How to Do It (Practical Protocol)
 
 *   **Activity:** Slow jogging, cycling (indoor or outdoor), swimming, rowing, uphill walking.
 *   **Heart Rate:** About 60-70% of your maximum heart rate.
     *   *Rough formula:* 180 - your age.
 *   **Duration:** Sessions must be long to be effective. At least 45 continuous minutes. Mitochondria start responding well after the first 30-40 minutes.
+*   **Frequency:** 3-4 times a week. Consistency is more important than intensity.
 
 ### The Common Mistake: The "Junk Zone"
 
@@ -60,3 +64,16 @@ Many people think they are doing Zone 2, but they are actually in **Zone 3** ("M
 Zone 3 is too intense for the pure mitochondrial benefits of Zone 2, but too light for the cardiovascular benefits of Zone 5 (HIIT). It's a "middle ground" that accumulates fatigue without maximizing results.
 
 **Golden Rule:** If in doubt, slow down. Better to be a little too slow than too fast.
+
+### How to Integrate Zone 2 into Your Week
+
+You don't have to overhaul your life. Here's how to fit Zone 2 into a balanced program:
+*   **Mon:** Weights (Strength)
+*   **Tue:** Zone 2 (45-60 min)
+*   **Wed:** Weights (Strength)
+*   **Thu:** Zone 2 (45-60 min)
+*   **Fri:** HIIT (15-20 min) or Rest
+*   **Sat:** Free activity (hiking, team sports) or Long Zone 2
+*   **Sun:** Active recovery (walking)
+
+Remember: Zone 2 is the base of the pyramid. Without a solid aerobic base, you cannot build a high performance peak.

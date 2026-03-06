@@ -40,14 +40,23 @@ Gli estrogeni non servono solo per la fertilità. Sono un potente scudo antinfia
 
 #### 1. Muscoli come Priorità Assoluta
 Non fare solo cardio. L'allenamento di forza è l'unico modo per stimolare le ossa e compensare il rallentamento metabolico. I muscoli migliorano la sensibilità all'insulina che gli ormoni non regolano più come prima.
+*   **Azione:** Solleva pesi pesanti (per te) 2-3 volte a settimana. Punta a 3-5 ripetizioni con carichi elevati per stimolare l'osso, non solo "tonificare".
 
 #### 2. Proteine in Ogni Pasto
 La "resistenza anabolica" aumenta. Hai bisogno di più proteine (1.6-2g/kg) per mantenere la stessa massa muscolare di prima.
+*   **Azione:** Non saltare la colazione proteica. Assicurati di avere almeno 30g di proteine (es. uova, yogurt greco, whey) appena sveglia per spegnere il catabolismo notturno.
 
 #### 3. Fitoestrogeni e Adattogeni
-Alimenti come soia (edamame, tofu), semi di lino e legumi contengono fitoestrogeni deboli che possono modulare i recettori. Adattogeni come la Maca o l'Ashwagandha possono aiutare a stabilizzare l'umore e l'energia.
+Alimenti come soia (edamame, tofu), semi di lino e legumi contengono fitoestrogeni deboli che possono modulare i recettori.
+*   **Maca:** Un adattogeno andino che può aiutare con energia e libido.
+*   **Cimicifuga (Black Cohosh):** Studiata per ridurre le vampate di calore.
+*   **Salvia:** Utile per la sudorazione notturna.
 
 #### 4. La Questione TOS (Terapia Ormonale)
-Non demonizzarla. La Terapia Ormonale Sostitutiva bioidentica, se prescritta correttamente nella finestra temporale giusta, è lo strumento più potente per preservare la salute a lungo termine. Non è "barare", è medicina preventiva.
+Non demonizzarla. La Terapia Ormonale Sostitutiva bioidentica, se prescritta correttamente nella finestra temporale giusta (entro 10 anni dall'ultimo ciclo), è lo strumento più potente per preservare la salute a lungo termine. Non è "barare", è medicina preventiva.
+*   **Nota:** La TOS transdermica (cerotti, gel) ha un rischio trombotico molto inferiore rispetto a quella orale.
 
-La menopausa è un campanello d'allarme: il tuo corpo non tollera più gli abusi di prima (poco sonno, alcol, zuccheri). Ascoltalo.
+### Il Microbioma in Menopausa (Estroboloma)
+Esiste un sottoinsieme di batteri intestinali chiamato "Estroboloma" che ricicla gli estrogeni. Un intestino sano aiuta a mantenere i livelli ormonali più stabili. Mangia fibre fermentabili e cibi probiotici.
+
+La menopausa è un campanello d'allarme: il tuo corpo non tollera più gli abusi di prima (poco sonno, alcol, zuccheri). Ascoltalo e adattati.

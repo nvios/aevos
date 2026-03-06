@@ -39,12 +39,13 @@ It's not about aesthetics. Skeletal muscle is:
 
 ### The Anti-Sarcopenia Protocol
 
-To build muscle, you have to give it a reason to grow. Walking isn't enough. You need resistance training (weights).
+To build muscle, you have to give it a reason to grow. Walking isn't enough. You need [resistance training](/articoli/esercizio/esercizio-massimizzare-risultati) (weights).
 
 #### 1. Intensity, Not Just Volume
 You must lift loads that challenge you. If you can do 50 reps without fatigue, you're training endurance, not strength.
 *   **Target:** 3-4 sets per exercise.
 *   **Reps:** 6-12 (with a weight that brings you close to failure on the last rep).
+*   **Rest:** 2-3 minutes between sets. The muscle needs to recover to push to the max again.
 
 #### 2. The Fundamental Movements
 Don't waste time with complicated isolation exercises. Focus on movements that replicate real life:
@@ -57,7 +58,16 @@ Don't waste time with complicated isolation exercises. Focus on movements that r
 #### 3. Protein: The Bricks
 Training is the stimulus, protein is the material. Seniors need *more* protein than young people due to "anabolic resistance".
 *   **Target:** 1.6 - 2.0 grams of protein per kg of body weight per day.
-*   Distribute them in every meal (at least 30g per meal) to trigger protein synthesis.
+*   Distribute them in every meal (at least 30g per meal) to trigger protein synthesis. Leucine is the key amino acid: make sure your protein sources are rich in it (meat, fish, eggs, whey).
 
 ### Safety First
 If you're new to weights, technique is paramount. Start with a coach or guided machines before moving to free weights. The goal is to build, not destroy.
+
+### Example "Full Body" Routine (2 Times a Week)
+
+1.  **Goblet Squat:** 3 sets x 10 reps (holding a weight at chest)
+2.  **Push-up (or Chest Press):** 3 sets x 10 reps
+3.  **Lat Machine (or Assisted Pull-ups):** 3 sets x 10 reps
+4.  **Farmer's Walk:** 3 rounds x 30 meters (walking with weights)
+
+Simple, brutal, effective. This is all you need to fight sarcopenia.

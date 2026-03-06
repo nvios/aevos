@@ -33,20 +33,22 @@ Ecco la gerarchia dei bisogni biologici. Non passare al livello successivo finch
 Queste azioni sono non-negoziabili. Sono gratuite, ma richiedono disciplina.
 1.  **[Sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia):** 7-9 ore di qualità. È quando il cervello si pulisce (sistema glinfatico) e il corpo ripara i danni al DNA. Senza sonno, nessuna dieta o allenamento funziona al 100%.
 2.  **Nutrizione:** Cibo vero, non [processato](/articoli/nutrizione/cibi-processati-impatto). Controllo glicemico. Abbastanza [proteine](/articoli/nutrizione/miti-proteine). Idratazione.
-3.  **[Movimento](/articoli/esercizio/esercizio-massimizzare-risultati):** Non solo "palestra", ma evitare la sedentarietà. Camminare (8-10k passi), sollevare cose pesanti 2-3 volte a settimana, alzare il battito cardiaco ogni tanto.
+3.  **[Movimento](/articoli/esercizio/esercizio-massimizzare-risultati):** Non solo "palestra". Costruisci una base aerobica con la [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita) e combatti la [sarcopenia](/articoli/esercizio/sarcopenia-forza-over-50) con i pesi.
 4.  **Luce:** Sole di giorno, buio di notte. Regola il ritmo circadiano che orchestra ogni ormone nel corpo.
 
 ### Livello 2: L'Ottimizzazione (Il 15% dei Risultati)
 Una volta che dormi bene e mangi bene, puoi guardare qui.
-*   **[Integrazione](/articoli/nutrizione/guida-integratori):** Colmare le carenze (Vit D, Omega-3).
+*   **[Integrazione](/articoli/nutrizione/guida-integratori):** Colmare le carenze (Vit D, Omega-3). Solo dopo aver coperto le basi, considera molecole avanzate come i [senolitici](/articoli/nutrizione/integratori-senolitici-2026).
 *   **Digiuno Intermittente / TRE:** Per la salute metabolica e l'autofagia.
 *   **Gestione dello Stress:** Meditazione, respirazione, natura.
+*   **Ambiente:** Ridurre il carico tossico da [microplastiche](/articoli/longevita/microplastiche-detox-scientifico) e interferenti endocrini.
+*   **Salute Ormonale:** Monitorare i cambiamenti fisiologici, specialmente durante la [menopausa](/articoli/longevita/menopausa-longevita-guida).
 *   **Termoterapia:** Sauna (caldo) e docce fredde.
 
 ### Livello 3: Il Biohacking Avanzato (Il 5% dei Risultati)
 Solo per chi ha già tutto il resto perfetto e vuole quel vantaggio in più.
-*   **Gadget Costosi:** Anelli smart, materassi raffreddanti, luci infrarossi.
-*   **Nootropi Esotici:** Molecole per la concentrazione.
+*   **[Gadget Costosi](/articoli/tecnologie/gadget-sonno-tracker):** [Anelli smart](/articoli/tecnologie/gadget-sonno-tracker), [materassi raffreddanti](/articoli/tecnologie/materassi-termoregolazione-sonno), [luci infrarossi](/articoli/longevita/luce-rossa-fotobiomodulazione-generale).
+*   **[Nootropi Esotici](/articoli/longevita/nootropi-naturali-guida-focus):** Molecole per la concentrazione.
 *   **Protocolli Complessi:** Diete iper-specifiche, terapie endovenose.
 
 ### L'Errore Comune

@@ -29,7 +29,7 @@ cta:
 Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica e mentale. Eppure, l'insonnia e la scarsa qualità del sonno sono epidemiche. Questo protocollo non si basa su rimedi della nonna, ma sulla fisiologia del ritmo circadiano.
 
 1. **Regolarità: Il Re dei Fattori.**
-   Il tuo corpo ama la prevedibilità. Andare a letto e svegliarsi alla stessa ora, anche nel weekend, ancora il tuo ritmo circadiano. Questo "addestra" il cervello a rilasciare ormoni del sonno (come la melatonina) al momento giusto.
+   Il tuo corpo ama la prevedibilità. Andare a letto e svegliarsi alla stessa ora, anche nel weekend, ancora il tuo [ritmo circadiano](/articoli/sonno/ritmo-circadiano-master-clock). Questo "addestra" il cervello a rilasciare ormoni del sonno (come la melatonina) al momento giusto.
 
 2. **Luce Solare Mattutina.**
    Esponiti alla luce naturale entro 30-60 minuti dal risveglio. I fotoni colpiscono la retina e inviano un segnale al nucleo soprachiasmatico per interrompere la produzione di melatonina e avviare il timer per il sonno della notte successiva.

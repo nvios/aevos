@@ -9,7 +9,7 @@ type FaqItem = {
 };
 
 function baseUrl() {
-  return process.env.NEXT_PUBLIC_SITE_URL ?? "https://aevos.netfly.app";
+  return process.env.NEXT_PUBLIC_SITE_URL ?? "https://aevos.it";
 }
 
 export function breadcrumbJsonLd(items: BreadcrumbItem[]) {

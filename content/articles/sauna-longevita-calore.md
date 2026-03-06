@@ -34,6 +34,7 @@ La sauna è uno stress positivo (ormesi), simile all'[esercizio fisico](/articol
 1.  **Heat Shock Proteins (HSP):** Il calore attiva queste proteine "riparatrici" che prevengono il ripiegamento errato delle proteine nelle cellule (una causa dell'Alzheimer) e riducono l'infiammazione.
 2.  **Salute Cardiovascolare:** Il calore dilata i vasi sanguigni, abbassa la pressione arteriosa e migliora la funzione dell'endotelio. Il cuore lavora come in una sessione di cardio moderato (Zone 2).
 3.  **Ormone della Crescita (GH):** Sessioni intense di sauna possono aumentare temporaneamente il rilascio di GH fino al 200-300%, aiutando a preservare i muscoli.
+4.  **Detox:** La sudorazione profonda è uno dei pochi metodi efficaci per espellere alcune tossine ambientali persistenti, come le [microplastiche](/articoli/longevita/microplastiche-detox-scientifico) e i metalli pesanti.
 
 ### Protocollo di Longevità
 Per replicare i benefici degli studi:

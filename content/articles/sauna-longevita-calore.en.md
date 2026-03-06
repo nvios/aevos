@@ -34,6 +34,7 @@ Sauna is a positive stress (hormesis), similar to [physical exercise](/articoli/
 1.  **Heat Shock Proteins (HSP):** Heat activates these "repair" proteins that prevent misfolding of proteins in cells (a cause of Alzheimer's) and reduce inflammation.
 2.  **Cardiovascular Health:** Heat dilates blood vessels, lowers blood pressure and improves endothelial function. The heart works as if during a moderate cardio session (Zone 2).
 3.  **Growth Hormone (GH):** Intense sauna sessions can temporarily increase GH release by up to 200-300%, helping to preserve muscle mass.
+4.  **Detox:** Deep sweating is one of the few effective methods for excreting certain persistent environmental toxins, such as [microplastics](/articoli/longevita/microplastiche-detox-scientifico) and heavy metals.
 
 ### Longevity Protocol
 To replicate the benefits from the studies:

@@ -41,14 +41,22 @@ Non puoi vivere in una bolla, ma puoi ridurre drasticamente il carico.
 
 #### 1. Filtra l'Acqua e l'Aria
 È l'investimento più importante. Un filtro per l'acqua di qualità (non solo la caraffa base) e un purificatore d'aria HEPA in camera da letto riducono l'esposizione del 50-70%.
+*   **Azione:** Cerca filtri certificati per la rimozione di PFAS e microplastiche.
 
 #### 2. Sudare è Medicina
-Il fegato e i reni fanno un ottimo lavoro, ma per alcune tossine liposolubili, la pelle è una via di uscita cruciale. La **sauna** (tradizionale o infrarossi) mobilita le tossine immagazzinate nel grasso. Ricorda di usare un legante (come il carbone vegetale) se consigliato dal medico, e di reidratarti.
+Il fegato e i reni fanno un ottimo lavoro, ma per alcune tossine liposolubili, la pelle è una via di uscita cruciale. La **[sauna](/articoli/longevita/sauna-longevita-calore)** (tradizionale o infrarossi) mobilita le tossine immagazzinate nel grasso. Ricorda di usare un legante (come il carbone vegetale) se consigliato dal medico, e di reidratarti.
+*   **Protocollo:** 20 minuti di sauna a 80°C, seguiti da doccia fredda, 3 volte a settimana.
 
 #### 3. Scegli "Fragrance-Free"
 La parola "Profumo" o "Parfum" in etichetta è spesso un nascondiglio per ftalati. Scegli prodotti per la casa e la persona senza fragranze sintetiche.
+*   **Tip:** Usa oli essenziali naturali se vuoi profumare la casa.
 
 #### 4. Cibo Reale, Non Confezionato
 Meno imballaggi = meno plastica. Compra sfuso quando puoi. I cibi grassi (formaggi, carni) assorbono più facilmente le tossine dalla plastica, quindi conservali in vetro.
+*   **Cucina:** Sostituisci le padelle antiaderenti graffiate con acciaio inox o ghisa.
+
+#### 5. Abbigliamento Naturale
+Le fibre sintetiche (poliestere, nylon) rilasciano microplastiche ad ogni lavaggio e sono a contatto con la tua pelle tutto il giorno.
+*   **Scelta:** Preferisci cotone, lana, lino e canapa, specialmente per la biancheria intima.
 
 Non serve l'ossessione, basta la consapevolezza. Ogni passo conta.

@@ -40,14 +40,23 @@ Estrogens aren't just for fertility. They are a powerful anti-inflammatory shiel
 
 #### 1. Muscle as Absolute Priority
 Don't just do cardio. Strength training is the only way to stimulate bones and compensate for metabolic slowdown. Muscles improve insulin sensitivity that hormones no longer regulate as well as before.
+*   **Action:** Lift heavy weights (for you) 2-3 times a week. Aim for 3-5 reps with high loads to stimulate bone, not just "tone."
 
 #### 2. Protein at Every Meal
 "Anabolic resistance" increases. You need more protein (1.6-2g/kg) to maintain the same muscle mass as before.
+*   **Action:** Don't skip a protein breakfast. Ensure at least 30g of protein (e.g., eggs, Greek yogurt, whey) right upon waking to stop nocturnal catabolism.
 
 #### 3. Phytoestrogens and Adaptogens
-Foods like soy (edamame, tofu), flaxseeds, and legumes contain weak phytoestrogens that can modulate receptors. Adaptogens like Maca or Ashwagandha can help stabilize mood and energy.
+Foods like soy (edamame, tofu), flaxseeds, and legumes contain weak phytoestrogens that can modulate receptors.
+*   **Maca:** An Andean adaptogen that can help with energy and libido.
+*   **Black Cohosh:** Studied to reduce hot flashes.
+*   **Sage:** Useful for night sweats.
 
 #### 4. The HRT Question (Hormone Therapy)
-Don't demonize it. Bioidentical Hormone Replacement Therapy, if prescribed correctly in the right time window, is the most powerful tool for preserving long-term health. It's not "cheating," it's preventive medicine.
+Don't demonize it. Bioidentical Hormone Replacement Therapy, if prescribed correctly in the right time window (within 10 years of the last period), is the most powerful tool for preserving long-term health. It's not "cheating," it's preventive medicine.
+*   **Note:** Transdermal HRT (patches, gels) has a much lower thrombotic risk compared to oral.
 
-Menopause is a wake-up call: your body no longer tolerates the abuses of before (poor sleep, alcohol, sugar). Listen to it.
+### The Microbiome in Menopause (Estrobolome)
+There is a subset of gut bacteria called the "Estrobolome" that recycles estrogens. A healthy gut helps maintain more stable hormone levels. Eat fermentable fibers and probiotic foods.
+
+Menopause is a wake-up call: your body no longer tolerates the abuses of before (poor sleep, alcohol, sugar). Listen to it and adapt.

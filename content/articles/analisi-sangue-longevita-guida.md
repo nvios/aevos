@@ -30,7 +30,7 @@ Il check-up annuale standard è progettato per una cosa: diagnosticare malattie 
 
 Ma per la longevità, "normale" non è abbastanza. Vogliamo "ottimale".
 
-Ecco i biomarker che dovresti richiedere per avere un quadro reale della tua salute metabolica e cellulare.
+Ecco i [biomarker](/articoli/longevita/biomarker-longevita-guida) che dovresti richiedere per avere un quadro reale della tua salute metabolica e cellulare.
 
 ### 1. Salute Metabolica (Il Motore)
 Il metabolismo è la base di tutto. Se questo non funziona, il resto crolla.

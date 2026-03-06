@@ -30,7 +30,7 @@ The standard annual check-up is designed for one thing: diagnosing existing dise
 
 But for longevity, "normal" isn't enough. We want "optimal".
 
-Here are the biomarkers you should request to get a real picture of your metabolic and cellular health.
+Here are the [biomarkers](/articoli/longevita/biomarker-longevita-guida) you should request to get a real picture of your metabolic and cellular health.
 
 ### 1. Metabolic Health (The Engine)
 Metabolism is the foundation of everything. If this doesn't work, the rest crumbles.

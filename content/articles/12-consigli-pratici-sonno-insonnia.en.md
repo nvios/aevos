@@ -29,7 +29,7 @@ cta:
 Sleeping well is the most powerful action you can take for your physical and mental health. Yet insomnia and poor sleep quality are epidemic. This protocol is not based on old wives' tales, but on the physiology of the circadian rhythm.
 
 1. **Regularity: The King of Factors.**
-   Your body loves predictability. Going to bed and waking up at the same time, even on weekends, anchors your circadian rhythm. This "trains" the brain to release sleep hormones (like melatonin) at the right time.
+   Your body loves predictability. Going to bed and waking up at the same time, even on weekends, anchors your [circadian rhythm](/articoli/sonno/ritmo-circadiano-master-clock). This "trains" the brain to release sleep hormones (like melatonin) at the right time.
 
 2. **Morning Sunlight.**
    Expose yourself to natural light within 30-60 minutes of waking. Photons hit the retina and send a signal to the suprachiasmatic nucleus to stop melatonin production and start the timer for the next night's sleep.

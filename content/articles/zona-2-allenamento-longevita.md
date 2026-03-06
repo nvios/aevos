@@ -47,12 +47,16 @@ Allenarsi in Zona 2 insegna al tuo corpo a bruciare grassi in modo efficiente. S
 #### 3. Recupero e Cuore
 Migliora la gittata cardiaca (quanto sangue il cuore pompa a ogni battito) senza stressare eccessivamente il sistema nervoso simpatico. Anzi, aiuta a bilanciare lo stress.
 
+#### 4. Prevenzione delle Malattie Croniche
+La disfunzione mitocondriale è alla base di quasi tutte le malattie metaboliche, tra cui il diabete di tipo 2, l'obesità e le malattie cardiovascolari. La Zona 2 agisce direttamente sulla causa radice, migliorando la sensibilità all'insulina e riducendo l'infiammazione sistemica.
+
 ### Come Farlo (Protocollo Pratico)
 
 *   **Attività:** Corsa lenta, bicicletta (indoor o outdoor), nuoto, vogatore, camminata in salita.
 *   **Frequenza Cardiaca:** Circa il 60-70% della tua frequenza cardiaca massima.
     *   *Formula approssimativa:* 180 - la tua età.
 *   **Durata:** Le sessioni devono essere lunghe per essere efficaci. Almeno 45 minuti continuativi. I mitocondri iniziano a rispondere bene dopo i primi 30-40 minuti.
+*   **Frequenza:** 3-4 volte a settimana. La consistenza è più importante dell'intensità.
 
 ### L'Errore Comune: La "Zona Spazzatura"
 
@@ -60,3 +64,16 @@ Molte persone pensano di fare Zona 2, ma in realtà sono in **Zona 3** ("Moderat
 La Zona 3 è troppo intensa per i benefici mitocondriali puri della Zona 2, ma troppo leggera per i benefici cardiovascolari della Zona 5 (HIIT). È una "terra di mezzo" che accumula fatica senza massimizzare i risultati.
 
 **Regola d'oro:** Se hai dubbi, rallenta. Meglio essere un po' troppo lenti che troppo veloci.
+
+### Come Integrare la Zona 2 nella Tua Settimana
+
+Non devi stravolgere la tua vita. Ecco come inserire la Zona 2 in un programma equilibrato:
+*   **Lun:** Pesi (Forza)
+*   **Mar:** Zona 2 (45-60 min)
+*   **Mer:** Pesi (Forza)
+*   **Gio:** Zona 2 (45-60 min)
+*   **Ven:** HIIT (15-20 min) o Riposo
+*   **Sab:** Attività libera (escursione, sport di squadra) o Zona 2 lunga
+*   **Dom:** Riposo attivo (camminata)
+
+Ricorda: la Zona 2 è la base della piramide. Senza una base aerobica solida, non puoi costruire un picco di performance elevato.

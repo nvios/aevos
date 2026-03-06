@@ -36,7 +36,7 @@ Tuttavia, esistono molecole che, per la vita moderna o per l'impoverimento dei s
 1.  **Vitamina D3 (+ K2):**
     *   *Perché:* La maggior parte di noi passa la vita al chiuso. La carenza è endemica e legata a depressione, bassa immunità e fragilità ossea.
     *   *Consiglio:* Testare i livelli ematici. Spesso 2000-5000 UI al giorno sono necessarie in inverno. La K2 aiuta a dirigere il calcio nelle ossa e non nelle arterie.
-2.  **Magnesio (Bisglicinato o Citrato):**
+2.  **[Magnesio](/articoli/nutrizione/magnesio-guida) (Bisglicinato o Citrato):**
     *   *Perché:* Coinvolto in 300+ reazioni enzimatiche. Lo stress lo brucia rapidamente. Aiuta il [sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia) e il rilassamento muscolare.
     *   *Evitare:* Magnesio Ossido (poco assorbibile, effetto lassativo).
 3.  **Omega-3 (EPA/DHA):**

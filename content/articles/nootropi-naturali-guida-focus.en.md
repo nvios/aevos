@@ -50,9 +50,21 @@ A medicinal mushroom that looks like a white pom-pom.
 ### 4. Omega-3 (DHA)
 You don't "feel" it immediately like caffeine, but it's structural. Your brain is 60% fat. DHA is the fundamental building block of neuronal membranes. Without DHA, electrical signals travel slower.
 
+### 5. Rhodiola Rosea: The Stress-Buster
+An adaptogen used by Vikings. Reduces mental fatigue and burnout.
+*   **When to use it:** During periods of intense work or tight deadlines. It helps maintain clarity when the brain wants to shut down.
+
 ### Strategy, Not Magic
 Nootropics won't fix a brain broken by poor sleep and junk food. They are the turbo, not the engine.
 Before supplementing:
 1.  Optimize [sleep](/articoli/sonno/12-consigli-pratici-sonno-insonnia).
 2.  Reduce inflammation with diet.
 3.  Then, add nootropics for that extra 10% performance.
+
+### Example "Morning Stack" for Productivity
+*   Coffee (1 cup)
+*   L-Theanine (200mg)
+*   Creatine (5g)
+*   Omega-3 (1g DHA)
+
+Simple, safe, effective.
