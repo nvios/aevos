@@ -1,7 +1,7 @@
 ---
 title: "Analisi del Sangue per la Longevità: La Guida Completa ai Valori da Monitorare"
 description: "Non aspettare di stare male. Ecco i biomarker essenziali che il tuo medico di base potrebbe non prescriverti, ma che sono cruciali per la prevenzione."
-category: "salute"
+category: "longevita"
 author: "Aevos Health Medical Team"
 authorRole: "Team Medico"
 faq:

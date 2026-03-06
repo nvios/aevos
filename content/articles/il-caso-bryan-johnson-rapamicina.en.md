@@ -1,7 +1,7 @@
 ---
 title: "The Bryan Johnson Case: Why He Stopped Rapamycin?"
 description: "Analysis of the world's most famous biohacker's decision to stop taking rapamycin. What it teaches us about personalized medicine and the risks of DIY."
-category: "biohacking"
+category: "longevita"
 author: "Aevos Health Research"
 authorRole: "Research & Analysis"
 faq:

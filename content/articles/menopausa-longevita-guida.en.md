@@ -1,0 +1,53 @@
+---
+title: "Menopause and Longevity: The Window of Opportunity No One Tells You About"
+description: "Menopause is not the end of youth, but a critical metabolic transition. How to manage it to protect your bones, brain, and heart."
+category: "longevita"
+author: "Aevos Health Medical Team"
+authorRole: "Medical Team"
+faq:
+  - question: "Why do I gain weight even if I eat the same?"
+    answer: "The drop in estrogen reduces insulin sensitivity and basal metabolic rate. The body tends to accumulate visceral fat (belly) instead of subcutaneous fat."
+  - question: "Is HRT (Hormone Replacement Therapy) safe?"
+    answer: "Modern guidelines indicate that if started within 10 years of menopause (the 'window of opportunity'), cardiovascular and bone benefits often outweigh risks. Discuss with an updated gynecologist."
+  - question: "Which supplements really help?"
+    answer: "Magnesium for sleep, Vitamin D+K2 for bones, and phytoestrogens (like red clover) can help with mild symptoms."
+cta:
+  - text: "Women 40+ Protocol"
+    link: "/servizi/consulenze"
+    description: "Nutrition and training specific to your hormonal profile."
+tags:
+  - menopause
+  - women
+  - hormones
+  - osteoporosis
+  - metabolism
+resources:
+  - name: "The Menopause Society"
+    link: "https://www.menopause.org/"
+---
+
+For decades, medicine has treated menopause as a disease to be endured or hidden. In reality, it is a fundamental **biological remodeling event**.
+
+What you do in the 5-10 years around menopause (perimenopause) will determine your aging trajectory for the next 30 years.
+
+### The Collapse of Protective Barriers
+Estrogens aren't just for fertility. They are a powerful anti-inflammatory shield for:
+1.  **Brain:** They protect neurons. Estrogen decline is linked to "brain fog" and increased Alzheimer's risk.
+2.  **Bones:** They stimulate bone density. Without them, osteoporosis accelerates.
+3.  **Heart:** They keep arteries elastic. After menopause, women's cardiovascular risk catches up to men's.
+
+### Active Defense Strategies
+
+#### 1. Muscle as Absolute Priority
+Don't just do cardio. Strength training is the only way to stimulate bones and compensate for metabolic slowdown. Muscles improve insulin sensitivity that hormones no longer regulate as well as before.
+
+#### 2. Protein at Every Meal
+"Anabolic resistance" increases. You need more protein (1.6-2g/kg) to maintain the same muscle mass as before.
+
+#### 3. Phytoestrogens and Adaptogens
+Foods like soy (edamame, tofu), flaxseeds, and legumes contain weak phytoestrogens that can modulate receptors. Adaptogens like Maca or Ashwagandha can help stabilize mood and energy.
+
+#### 4. The HRT Question (Hormone Therapy)
+Don't demonize it. Bioidentical Hormone Replacement Therapy, if prescribed correctly in the right time window, is the most powerful tool for preserving long-term health. It's not "cheating," it's preventive medicine.
+
+Menopause is a wake-up call: your body no longer tolerates the abuses of before (poor sleep, alcohol, sugar). Listen to it.

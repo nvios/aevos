@@ -1,7 +1,7 @@
 ---
 title: "Il Caso Bryan Johnson: Perché ha smesso con la Rapamicina?"
 description: "Analisi della decisione del biohacker più famoso al mondo di interrompere l'assunzione di rapamicina. Cosa ci insegna sulla medicina personalizzata e i rischi del fai-da-te."
-category: "biohacking"
+category: "longevita"
 author: "Aevos Health Research"
 authorRole: "Ricerca & Analisi"
 faq:

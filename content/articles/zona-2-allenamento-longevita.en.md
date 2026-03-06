@@ -1,7 +1,7 @@
 ---
 title: "Zone 2 Training: The Foundation of Metabolic Longevity"
 description: "You don't have to run until you pass out. Discover why low-intensity training is the secret to healthy mitochondria and metabolic flexibility."
-category: "exercise"
+category: "esercizio"
 author: "Aevos Health Fitness Team"
 authorRole: "Fitness Team"
 faq:

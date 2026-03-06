@@ -1,7 +1,7 @@
 ---
 title: "Blood Work for Longevity: The Complete Guide to Biomarkers"
 description: "Don't wait until you're sick. Here are the essential biomarkers your GP might not order, but are crucial for prevention."
-category: "health"
+category: "longevita"
 author: "Aevos Health Medical Team"
 authorRole: "Medical Team"
 faq:

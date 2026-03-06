@@ -1,7 +1,7 @@
 ---
 title: "Integratori Senolitici 2026: Fisetina, Spermidina e Urolitina A"
 description: "Oltre il multivitaminico. Guida alla nuova generazione di molecole che puliscono le cellule 'zombie' e rigenerano i mitocondri."
-category: "integratori"
+category: "nutrizione"
 author: "Aevos Health Research"
 authorRole: "Ricerca & Analisi"
 faq:

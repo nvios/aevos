@@ -1,5 +1,5 @@
 ---
-title: "Zona 2 Training: La Base della Longevità Metabolica"
+title: "Allenamento Zona 2: La Base della Longevità Metabolica"
 description: "Non devi correre fino a svenire. Scopri perché l'allenamento a bassa intensità è il segreto per mitocondri sani e flessibilità metabolica."
 category: "esercizio"
 author: "Aevos Health Fitness Team"

@@ -1,7 +1,7 @@
 ---
 title: "Sarcopenia and Strength After 50: The Training Protocol"
 description: "Muscle loss is the #1 risk factor for frailty. Here's how to scientifically combat it with resistance training."
-category: "exercise"
+category: "esercizio"
 author: "Aevos Health Fitness Team"
 authorRole: "Fitness Team"
 faq:

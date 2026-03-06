@@ -1,7 +1,7 @@
 ---
 title: "Healthspan vs Lifespan in Italy: Living Long vs Living Well"
 description: "Italy is a world leader in life expectancy, but how many of those years are lived in good health? Analysis of the data and strategies to bridge the gap."
-category: "longevity"
+category: "longevita"
 author: "Aevos Health Research"
 authorRole: "Research & Analysis"
 faq:

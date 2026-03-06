@@ -1,7 +1,7 @@
 ---
 title: "Senolytic Supplements 2026: Fisetin, Spermidine, and Urolithin A"
 description: "Beyond the multivitamin. Guide to the new generation of molecules that clear 'zombie' cells and regenerate mitochondria."
-category: "supplements"
+category: "nutrizione"
 author: "Aevos Health Research"
 authorRole: "Research & Analysis"
 faq:
