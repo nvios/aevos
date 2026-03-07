@@ -30,7 +30,7 @@ In the world of extreme biohacking, Bryan Johnson is a polarizing but undeniably
 
 Recently, however, he announced that he has stopped taking it. Why? And what can we "mere mortals" learn from this decision?
 
-### The "Gold Standard" of Longevity - in mice
+### The "Gold Standard" of Longevity in Mice
 
 Rapamycin is perhaps the most promising molecule in longevity science. It inhibits **mTOR**, a metabolic pathway that regulates cell growth. When mTOR is inhibited (as in fasting), cells enter a "cleaning and repair" mode called **autophagy**.
 

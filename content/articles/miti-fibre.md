@@ -36,7 +36,7 @@ Per decenni, le fibre sono state considerate la parte "non digeribile" del cibo,
 ### Mito 3: "I succhi di frutta sono uguali alla frutta intera"
 **Realtà:** Quando si estrae il succo, si rimuove la matrice di fibre. Questo trasforma un frutto sano in una iniezione rapida di fruttosio che colpisce il fegato quasi come una bibita gassata. La fibra nella frutta intera agisce come un "freno" metabolico, modulando il rilascio di nutrienti nel sangue.
 
-### Come Integrare Più Fibre - Senza Gonfiore
+### Come Integrare Più Fibre Senza Gonfiore
 
 1.  **Regola della "Sostituzione Progressiva" (Crowding Out):** Invece di togliere cibi, aggiungi verdure a ogni pasto. Inizia il pranzo con un'insalata o verdure crude.
 2.  **Legumi a Rotazione:** Ceci, lenticchie e fagioli sono tra le fonti più dense di fibre e [proteine](/articoli/nutrizione/miti-proteine). Inizia con piccole porzioni se non sei abituato.

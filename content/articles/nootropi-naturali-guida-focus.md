@@ -42,7 +42,7 @@ Hai letto bene. La [creatina](/articoli/nutrizione/guida-integratori) non serve 
 Il cervello richiede una quantità enorme di energia. La creatina aumenta le riserve di fosfocreatina nel cervello, riciclando l'ATP più velocemente.
 *   **Effetto:** Migliora la memoria di lavoro e l'intelligenza fluida, specialmente quando sei stanco o stressato.
 
-### 3. Lion's Mane - Criniera di Leone
+### 3. Lion's Mane: La Criniera di Leone
 Un fungo medicinale che sembra un pompon bianco.
 *   **La Scienza:** Stimola la produzione di **NGF** (Nerve Growth Factor), una proteina che aiuta a far crescere nuovi neuroni e proteggere quelli esistenti.
 *   **Uso:** Ottimo per la memoria a lungo termine e la chiarezza mentale.

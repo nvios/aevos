@@ -29,14 +29,14 @@ cta:
 
 In the world of longevity, not all data is created equal. While weight and cholesterol are important, there are three metrics that offer a direct window into the efficiency of your biological engine and the resilience of your nervous system: **RHR**, **HRV** and **VO2 Max**.
 
-## 1. RHR - Resting Heart Rate: Engine Efficiency
+## 1. RHR: Resting Heart Rate: Engine Efficiency
 
 Resting heart rate is the number of times your heart beats per minute when you're completely relaxed (typically measured during sleep or right upon waking).
 
 *   **What it indicates:** It's a measure of cardiac efficiency and vagal tone. A strong heart pumps more blood per beat (stroke volume), so it needs to beat fewer times.
 *   **The Target:** For longevity, "less is more." Most endurance athletes have an RHR under 50 bpm. For the general population, aiming for **< 60 bpm** is an excellent goal. Values consistently above 70-80 bpm are associated with higher all-cause mortality risk.
 
-## 2. HRV - Heart Rate Variability: Stress Resilience
+## 2. HRV: Heart Rate Variability: Stress Resilience
 
 Contrary to popular belief, a healthy heart doesn't beat like a perfect metronome. The time interval between one beat and the next varies slightly (milliseconds). This variation is HRV.
 

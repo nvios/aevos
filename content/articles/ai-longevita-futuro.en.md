@@ -49,7 +49,7 @@ Imagine having a virtual copy of your metabolism on a computer. Want to know if 
 Instead of being a guinea pig, you test it on your **Digital Twin**.
 This technology ("In Silico Medicine") is already used to test virtual hearts, reducing the need for animal testing and accelerating personalized medicine.
 
-### The Great Hype - The Lies
+### The Great Hype: Separating Fact from Fiction
 
 Not all that glitters is silicon. There is a lot of background noise.
 

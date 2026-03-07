@@ -43,13 +43,13 @@ However, there are molecules that, due to modern life or soil depletion, can be 
     *   *Why:* Essential for brain and heart. They balance the excess of inflammatory Omega-6 in the modern diet.
     *   *Source:* High-quality fish oil (IFOS certified) or algal oil.
 
-### Those That Work - For Specific Goals
+### Those That Work: For Specific Goals
 
 *   **Creatine Monohydrate:** Not just for bodybuilders. It's one of the most studied supplements. Improves strength, but also cognitive ability and memory, especially in vegetarians and the elderly.
 *   **Protein Powder (Whey or Plant-based):** See [protein myths](/articoli/nutrizione/miti-proteine). Pure convenience. Useful for reaching protein quota when you have little time.
 *   **Hydrolyzed Collagen:** Emerging evidence shows benefits for skin elasticity and joint pain.
 
-### Those to Avoid - Or Use with Caution
+### Those to Avoid or Use with Caution
 
 *   **BCAAs:** If you eat enough protein, they're superfluous.
 *   **Fat Burners:** Often just expensive caffeine and herbs with negligible effects. The only real fat burner is a calorie deficit.

@@ -29,12 +29,12 @@ resources:
 
 Wim Hof ha reso il ghiaccio famoso, ma i benefici del freddo vanno oltre la respirazione. L'esposizione deliberata al freddo è uno stress acuto che innesca risposte ormonali potenti.
 
-### 1. La Scarica di Dopamina - Focus e Umore
+### 1. La Scarica di Dopamina: Focus e Umore
 L'immersione in acqua fredda aumenta la dopamina (l'ormone della motivazione) del 250%. A differenza di droghe o zuccheri, questo aumento non è un picco seguito da un crollo, ma un innalzamento sostenuto che dura ore.
 Questo effetto neurochimico è paragonabile a quello di sostanze stimolanti, ma senza gli effetti collaterali negativi o la dipendenza. La dopamina è il neurotrasmettitore che guida l'azione e la ricerca di obiettivi.
 **Risultato:** Focus mentale laser e umore migliorato per tutto il giorno, ideale per affrontare compiti difficili o procrastinati.
 
-### 2. Attivazione del Grasso Bruno - Metabolismo
+### 2. Attivazione del Grasso Bruno: Metabolismo
 Il tessuto adiposo bruno (BAT) è un tipo di grasso metabolicamente attivo, ricco di mitocondri, che brucia calorie per generare calore (termogenesi). Il freddo lo attiva e ne stimola la crescita attraverso un processo chiamato "browning" del grasso bianco.
 Più grasso bruno hai, migliore è la tua sensibilità all'[insulina](/articoli/longevita/insulina-resistenza-metabolismo) e il tuo metabolismo basale, proteggendoti dall'accumulo di grasso viscerale dannoso.
 

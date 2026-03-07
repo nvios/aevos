@@ -36,7 +36,7 @@ Le proteine sono i mattoni della vita, essenziali per costruire muscoli, ormoni,
 ### Mito 3: "Le proteine animali causano il cancro"
 **Realtà:** La questione è la *fonte* e la *lavorazione*. Studi epidemiologici associano il consumo elevato di carni rosse *[processate](/articoli/nutrizione/cibi-processati-impatto)* (salumi, wurstel) a un aumento del rischio di cancro al colon. Tuttavia, carni bianche, pesce, uova e latticini non mostrano la stessa associazione. Il contesto conta: una bistecca con insalata (ricca di [fibre](/articoli/nutrizione/miti-fibre)) è metabolicamente diversa da un hot dog con patatine fritte.
 
-### Il Paradosso della Longevità - mTOR
+### Il Paradosso della Longevità: mTOR
 Qui la scienza si fa interessante. Le proteine, specialmente l'aminoacido leucina, attivano un pathway chiamato mTOR, che stimola la crescita cellulare. Questo è ottimo per i muscoli ma, se perennemente attivato, può accelerare l'invecchiamento cellulare.
 Per la longevità, l'approccio ideale sembra essere:
 1.  **Adeguatezza, non eccesso:** Mangiare abbastanza proteine per prevenire la sarcopenia (perdita muscolare), che è un killer silenzioso negli anziani.

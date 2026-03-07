@@ -30,7 +30,7 @@ resources:
 
 Low-Level Laser Therapy (LLLT), or photobiomodulation, seems too good to be true: put a light cap on your head while watching TV and your hair grows back. Yet it's one of the few FDA-approved treatments for androgenetic alopecia.
 
-### How It Works - The Mechanism
+### How It Works: The Mechanism
 It's not magic, it's biochemistry. Red light (at specific wavelengths, typically 650-670 nm) penetrates the scalp and reaches the mitochondria of hair follicle cells.
 Here's the key reaction:
 1.  **ATP Stimulation:** Light stimulates the Cytochrome C Oxidase enzyme, increasing ATP (cellular energy) production.

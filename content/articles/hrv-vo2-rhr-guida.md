@@ -29,14 +29,14 @@ cta:
 
 Nel mondo della longevità, non tutti i dati sono creati uguali. Mentre il peso e il colesterolo sono importanti, esistono tre metriche che offrono una finestra diretta sull'efficienza del tuo motore biologico e sulla resilienza del tuo sistema nervoso: **RHR**, **HRV** e **VO2 Max**.
 
-## 1. RHR - Resting Heart Rate: L'Efficienza del Motore
+## 1. RHR: Resting Heart Rate: L'Efficienza del Motore
 
 La frequenza cardiaca a riposo è il numero di volte che il tuo cuore batte al minuto quando sei completamente rilassato (tipicamente misurato durante il sonno o appena svegli).
 
 *   **Cosa indica:** È una misura dell'efficienza cardiaca e del tono vagale. Un cuore forte pompa più sangue per battito (gittata sistolica), quindi ha bisogno di battere meno volte.
 *   **Il Target:** Per la longevità, "less is more". La maggior parte degli atleti di endurance ha un RHR sotto i 50 bpm. Per la popolazione generale, puntare a **< 60 bpm** è un ottimo obiettivo. Valori costantemente sopra i 70-80 bpm sono associati a un rischio maggiore di mortalità per tutte le cause.
 
-## 2. HRV - Heart Rate Variability: La Resilienza allo Stress
+## 2. HRV: Heart Rate Variability: La Resilienza allo Stress
 
 Contrariamente a quanto si pensa, un cuore sano non batte come un metronomo perfetto. L'intervallo di tempo tra un battito e l'altro varia leggermente (millisecondi). Questa variazione è l'HRV.
 

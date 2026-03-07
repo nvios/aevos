@@ -52,7 +52,7 @@ Alimenti come soia (edamame, tofu), semi di lino e legumi contengono fitoestroge
 *   **Cimicifuga (Black Cohosh):** Studiata per ridurre le vampate di calore.
 *   **Salvia:** Utile per la sudorazione notturna.
 
-#### 4. La Questione TOS - Terapia Ormonale
+#### 4. La Questione TOS: Terapia Ormonale
 Non demonizzarla. La Terapia Ormonale Sostitutiva bioidentica, se prescritta correttamente nella finestra temporale giusta (entro 10 anni dall'ultimo ciclo), è lo strumento più potente per preservare la salute a lungo termine. Non è "barare", è medicina preventiva.
 *   **Nota:** La TOS transdermica (cerotti, gel) ha un rischio trombotico molto inferiore rispetto a quella orale.
 

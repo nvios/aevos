@@ -1,7 +1,9 @@
 ---
 title: "Protein Powders: A Real Cost-Benefit Guide"
 description: "Whey, casein, plant-based, collagen: what's actually worth your money? A brutally honest analysis of quality, absorption, and price per gram."
-category: "nutrizione"
+categories:
+  - nutrizione
+  - esercizio
 author: "Aevos Health Research"
 authorRole: "Research & Analysis"
 faq:
@@ -38,7 +40,7 @@ Before you open your wallet: do you actually need protein powder? If you're [eat
 
 The protein powder market is worth billions. That means one thing: marketing is aggressive and confusion is intentional. Let's break down the main options for what they actually are.
 
-### Whey Protein: The Undisputed King - For Good Reason
+### Whey Protein: The Undisputed King
 
 Whey (milk serum) dominates the market and, for once, the marketing isn't entirely lying. It has the most complete amino acid profile, the highest leucine content (the key amino acid for muscle protein synthesis), and optimal absorption speed.
 

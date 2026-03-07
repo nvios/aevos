@@ -32,7 +32,7 @@ But for longevity, "normal" isn't enough. We want "optimal".
 
 Here are the [biomarkers](/articoli/longevita/biomarker-longevita-guida) you should request to get a real picture of your metabolic and cellular health.
 
-### 1. Metabolic Health - The Engine
+### 1. Metabolic Health: The Engine
 Metabolism is the foundation of everything. If this doesn't work, the rest crumbles. The secret to boosting this engine is [zone 2](/articoli/esercizio/zona-2-allenamento-longevita) exercise. The key markers for metabolic health are:
 *   **Glycated Hemoglobin (HbA1c):** Key indicator of [insulin resistance](/articoli/nutrizione/insulina-resistenza-metabolismo), measures average blood [sugar](/articoli/nutrizione/miti-zuccheri) over the last 3 months.
     *   *Longevity Target:* < 5.4% (below 5.0% is excellent).
@@ -41,7 +41,7 @@ Metabolism is the foundation of everything. If this doesn't work, the rest crumb
 *   **Triglycerides/HDL Ratio:** A powerful predictor of cardiovascular risk (along with [HRV and RHR](/articoli/longevita/hrv-vo2-rhr-guida)).
     *   *Longevity Target:* < 1.0 (if triglycerides are lower than HDL, you're in great shape).
 
-### 2. Inflammation - The Hidden Fire
+### 2. Inflammation: The Hidden Fire
 Chronic low-grade inflammation ("inflammaging") is at the root of almost all aging diseases, often caused by [ultra-processed foods](/articoli/nutrizione/cibi-processati-impatto).
 *   **High-Sensitivity C-Reactive Protein (hs-CRP):** Not standard CRP.
     *   *Longevity Target:* < 1.0 mg/L (ideally < 0.5).

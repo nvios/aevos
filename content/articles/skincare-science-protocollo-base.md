@@ -28,17 +28,17 @@ resources:
 L'industria della bellezza vende sogni e packaging costosi. La dermatologia vende molecole. Se vuoi risultati reali e misurabili, devi ignorare il marketing e guardare gli ingredienti attivi.
 Ecco la "Santa Trinità" della skincare basata sulle evidenze.
 
-### 1. SPF - Protezione Solare - La Mattina
+### 1. SPF: Protezione Solare al Mattino
 È il prodotto anti-aging numero uno, senza rivali. Il 90% dell'invecchiamento visibile della pelle (rughe, macchie, lassità) non è dovuto all'età, ma al **foto-danneggiamento** (danni da raggi UV).
 *   **La Scienza:** I raggi UV distruggono il collagene e l'elastina. Nessuna crema riparatrice può compensare il danno se non blocchi la causa.
 *   **Azione:** SPF 30 o 50, ogni singola mattina, tutto l'anno.
 
-### 2. Retinoidi - Retinolo / Tretinoina - La Sera
+### 2. Retinoidi: Retinolo e Tretinoina alla Sera
 Derivati della Vitamina A. Sono l'unica classe di ingredienti topici con decenni di studi clinici che provano la loro capacità di **invertire** (non solo prevenire) i segni dell'invecchiamento.
 *   **La Scienza:** I retinoidi accelerano il turnover cellulare (che rallenta con l'età) e stimolano i fibroblasti a produrre nuovo collagene.
 *   **Azione:** Inizia con un Retinolo da banco a bassa concentrazione (0.2-0.5%) o chiedi al dermatologo la Tretinoina (farmaco). Attenzione: irritano inizialmente. Usali 2 volte a settimana e aumenta piano. Mai di giorno (sono fotosensibilizzanti).
 
-### 3. Vitamina C - Acido Ascorbico - La Mattina
+### 3. Vitamina C: Acido Ascorbico al Mattino
 Un potente antiossidante che potenzia l'effetto dell'SPF.
 *   **La Scienza:** Neutralizza i radicali liberi generati da UV e inquinamento. Illumina l'incarnato e riduce le macchie scure inibendo la produzione di melanina.
 *   **Azione:** Siero al 10-15% di Acido L-Ascorbico al mattino, prima dell'SPF.

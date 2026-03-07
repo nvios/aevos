@@ -38,7 +38,7 @@ These devices measure [heart rate variability](/articoli/longevita/hrv-vo2-rhr-g
 The simplest and most effective technology. They filter the blue light from screens that suppresses melatonin.
 *   **Tip:** Look for orange/red lenses for the evening (they block 99% of blue). The transparent "computer" ones only block 10-20% and are useless for sleep.
 
-### 3. Neurostimulation Devices - Optional
+### 3. Neurostimulation Devices: Useful Extras?
 Tools like **Apollo Neuro** or vagal stimulation devices emit imperceptible vibrations that "reassure" the nervous system, shifting it from "fight or flight" (sympathetic) mode to "rest and digest" (parasympathetic). Useful for those with pre-sleep anxiety.
 
 ### 4. Smart Masks

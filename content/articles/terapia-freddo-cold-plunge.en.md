@@ -29,12 +29,12 @@ resources:
 
 Wim Hof made ice famous, but the benefits of cold go beyond breathing. Deliberate cold exposure is acute stress that triggers powerful hormonal responses.
 
-### 1. The Dopamine Surge - Focus and Mood
+### 1. The Dopamine Surge: Focus and Mood
 Immersion in cold water increases dopamine (the motivation hormone) by 250%. Unlike drugs or sugar, this increase is not a spike followed by a crash, but a sustained elevation that lasts for hours.
 This neurochemical effect is comparable to that of stimulant substances, but without the negative side effects or addiction. Dopamine is the neurotransmitter that drives action and goal-seeking behavior.
 **Result:** Laser mental focus and improved mood all day long, ideal for tackling difficult or procrastinated tasks.
 
-### 2. Brown Fat Activation - Metabolism
+### 2. Brown Fat Activation: Metabolism
 Brown adipose tissue (BAT) is a type of metabolically active fat, rich in mitochondria, that burns calories to generate heat (thermogenesis). Cold activates it and stimulates its growth through a process called "browning" of white fat.
 The more brown fat you have, the better your [insulin](/articoli/longevita/insulina-resistenza-metabolismo) sensitivity and basal metabolism, protecting you from harmful visceral fat accumulation.
 

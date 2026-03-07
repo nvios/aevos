@@ -32,7 +32,7 @@ Ma per la longevità, "normale" non è abbastanza. Vogliamo "ottimale".
 
 Ecco i [biomarker](/articoli/longevita/biomarker-longevita-guida) che dovresti richiedere per avere un quadro reale della tua salute metabolica e cellulare.
 
-### 1. Salute Metabolica - Il Motore
+### 1. Salute Metabolica: Il Motore
 Il metabolismo è la base di tutto. Se questo non funziona, il resto crolla. Questo motore è potenziato potenziato da esercizi in [zona 2](/articoli/esercizio/zona-2-allenamento-longevita). La salute metabolica si misura tramite:
 *   **Emoglobina Glicata (HbA1c):** Indicatore chiave di [insulino-resistenza](/articoli/nutrizione/insulina-resistenza-metabolismo), misura la media degli [zuccheri](/articoli/nutrizione/miti-zuccheri) negli ultimi 3 mesi.
     *   *Target Longevità:* < 5.4% (sotto il 5.0% è eccellente).
@@ -41,7 +41,7 @@ Il metabolismo è la base di tutto. Se questo non funziona, il resto crolla. Que
 *   **Rapporto Trigliceridi/HDL:** Un potente predittore di rischio cardiovascolare (insieme a [HRV e RHR](/articoli/longevita/hrv-vo2-rhr-guida)).
     *   *Target Longevità:* < 1.0 (se i trigliceridi sono più bassi dell'HDL, sei in ottima forma).
 
-### 2. Infiammazione - Il Fuoco Nascosto
+### 2. Infiammazione: Il Fuoco Nascosto
 L'infiammazione cronica di basso grado ("inflammaging") è alla base di quasi tutte le malattie dell'invecchiamento, spesso causata da [cibi ultra-processati](/articoli/nutrizione/cibi-processati-impatto).
 *   **Proteina C Reattiva ad alta sensibilità (hs-CRP):** Non la CRP standard.
     *   *Target Longevità:* < 1.0 mg/L (idealmente < 0.5).

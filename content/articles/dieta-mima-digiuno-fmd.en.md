@@ -32,11 +32,11 @@ resources:
 Prolonged [water fasting](/articoli/nutrizione/digiuno-intermittente-autofagia) (3-5 days) is extremely powerful for health, but it is difficult, socially isolating, and potentially risky if unsupervised.
 Prof. Valter Longo (University of Southern California) has developed the **Fasting Mimicking Diet (FMD)**: a 5-day protocol that "tricks" the body into believing it is fasting, while allowing you to eat approximately 800-1100 calories per day.
 
-### How It Works - The Metabolic Trick
+### How It Works: The Metabolic Trick
 The body doesn't have a calorie counter; it has nutrient sensors (insulin, IGF-1, mTOR).
 The FMD is specifically designed to **not activate** these sensors. It is very low in protein and sugars, but provides vegetable fats and micronutrients to nourish the body without interrupting the cellular fasting state.
 
-### Clinical Benefits - Proven
+### Clinical Benefits: Proven
 1.  **Stem Cell Regeneration:** During the FMD, the body eliminates old immune cells (autophagy). When you start eating again (refeeding), stem cells activate to produce new, young white blood cells. It's an immune system "reset."
 2.  **Visceral Fat:** The FMD selectively targets abdominal fat while preserving lean mass (unlike chronic calorie-restricted diets).
 3.  **Longevity Markers:** It drastically reduces IGF-1 (growth factor linked to aging and cancer), C-reactive protein (inflammation), and cholesterol.

@@ -43,13 +43,13 @@ Tuttavia, esistono molecole che, per la vita moderna o per l'impoverimento dei s
     *   *Perché:* Essenziali per cervello e cuore. Bilanciano l'eccesso di Omega-6 infiammatori della dieta moderna.
     *   *Fonte:* Olio di pesce di alta qualità (certificato IFOS) o olio algale.
 
-### Quelli che Funzionano - Per Obiettivi Specifici
+### Quelli che Funzionano: Per Obiettivi Specifici
 
 *   **Creatina Monoidrato:** Non solo per culturisti. È uno degli integratori più studiati. Migliora la forza, ma anche le capacità cognitive e la memoria, specialmente in vegetariani e anziani.
 *   **Proteine in Polvere (Whey o Vegetali):** Vedi i [miti sulle proteine](/articoli/nutrizione/miti-proteine). Comodità pura. Utili per raggiungere la quota proteica se si ha poco tempo.
 *   **Collagene Idrolizzato:** Evidenze emergenti mostrano benefici per l'elasticità della pelle e i dolori articolari.
 
-### Quelli da Evitare - O Usare con Cautela
+### Quelli da Evitare o Usare con Cautela
 
 *   **BCAA:** Se mangi abbastanza proteine, sono superflui.
 *   **Fat Burners:** Spesso solo caffeina costosa e erbe con effetti trascurabili. L'unico vero brucia-grassi è il deficit calorico.

@@ -62,14 +62,14 @@ Breathing is the fastest way to communicate with the vagus nerve, the main highw
 
 You don't need to meditate for hours. Here are three science-based interventions to change state in minutes:
 
-#### 4-7-8 Breathing - For Sleep and Calming Anxiety
+#### 4-7-8 Breathing: For Sleep and Calming Anxiety
 Developed by Dr. Andrew Weil, it's a natural tranquilizer for the nervous system.
 1.  Inhale through the nose for **4** seconds.
 2.  Hold your breath for **7** seconds.
 3.  Exhale through the mouth (making a *whoosh* sound) for **8** seconds.
 Repeat for 4 cycles. The prolonged exhalation deeply activates the parasympathetic system.
 
-#### Box Breathing - For Focus and Clarity
+#### Box Breathing: For Focus and Clarity
 Used by Navy SEALs to stay calm under pressure.
 1.  Inhale (4s)
 2.  Hold at full lungs (4s)
@@ -77,7 +77,7 @@ Used by Navy SEALs to stay calm under pressure.
 4.  Hold at empty lungs (4s)
 Stabilizes CO2 and calms the mind without making you drowsy.
 
-#### Mouth Taping - For Deep Sleep
+#### Mouth Taping: For Deep Sleep
 Nighttime mouth breathing is devastating for sleep: it causes snoring, apnea, dry mouth, and frequent awakenings. Using a small piece of microporous tape (designed for skin) to keep the lips closed forces nasal breathing, improving nighttime oxygenation and recovery.
 
 ### Conclusion

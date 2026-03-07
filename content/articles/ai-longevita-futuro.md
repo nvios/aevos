@@ -44,12 +44,12 @@ L'intelligenza artificiale eccelle nel *pattern recognition*. Vede cose che l'oc
 *   **Scansioni Retiniche:** Un algoritmo di Google può predire il rischio cardiovascolare guardando solo una foto del fondo dell'occhio, con la stessa precisione di un prelievo di sangue.
 *   **Radiologia:** L'AI sta già rilevando tumori al seno e ai polmoni anni prima che diventino visibili ai radiologi umani, permettendo interventi quando la malattia è ancora curabile al 100%. Questo si integra perfettamente con i [biomarker](/articoli/longevita/biomarker-longevita-guida) tradizionali.
 
-### 3. Digital Twins 
+### 3. Digital Twins: I Gemelli Digitali 
 Immagina di avere una copia virtuale del tuo metabolismo sul computer. Vuoi sapere se il digiuno intermittente funziona per te? O se quel farmaco ti darà effetti collaterali?
 Invece di fare da cavia, lo testi sul tuo **Digital Twin**.
 Questa tecnologia ("In Silico Medicine") è già usata per testare cuori virtuali, riducendo la necessità di test sugli animali e accelerando la medicina personalizzata.
 
-### Il Grande Hype - Le Bugie
+### Il Grande Hype: Le False Promesse
 
 Non tutto ciò che luccica è silicio. C'è molto rumore di fondo.
 

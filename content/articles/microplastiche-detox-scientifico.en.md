@@ -35,7 +35,7 @@ The problem is not just pollution, but the effect on our hormones. Many plastics
 2.  **Phthalates (Cosmetics, perfumes, soft plastic):** Block testosterone. Harmful to male fertility.
 3.  **PFAS (Non-stick pans, waterproof clothing):** The "forever chemicals." They accumulate in the liver and never degrade.
 
-### The Defense Protocol - Scientific Detox
+### The Defense Protocol: Scientific Detox
 
 You can't live in a bubble, but you can drastically reduce the load.
 
