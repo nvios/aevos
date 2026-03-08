@@ -688,6 +688,20 @@ function pickRecommendations(d: AssessmentData, pillars: PillarScore[]): ActionR
     result.push(r);
   }
 
+  const w = d.profile.weightKg;
+  if (w && w > 0) {
+    const lo = Math.round(w * 1.6);
+    const hi = Math.round(w * 2.2);
+    for (const r of result) {
+      if (r.id === "protein") {
+        r.title = {
+          it: `Proteine: ${lo}-${hi}g al giorno`,
+          en: `Protein: ${lo}-${hi}g per day`,
+        };
+      }
+    }
+  }
+
   return result;
 }
 
