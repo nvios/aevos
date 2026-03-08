@@ -1,20 +1,33 @@
 ---
-title: "Analisi del Sangue per la Longevità: La Guida Completa ai Valori da Monitorare"
-description: "Non aspettare di stare male. Ecco i biomarker essenziali che il tuo medico di base potrebbe non prescriverti, ma che sono cruciali per la prevenzione."
-category: "longevita"
-author: "Aevos Health Medical Team"
-authorRole: "Team Medico"
+title: 'Analisi del Sangue per la Longevità: La Guida Completa ai Valori da Monitorare'
+description: >-
+  Non aspettare di stare male. Ecco i biomarker essenziali che il tuo medico di
+  base potrebbe non prescriverti, ma che sono cruciali per la prevenzione.
+author: Aevos Health Medical Team
+authorRole: Team Medico
 faq:
-  - question: "Ogni quanto dovrei fare le analisi?"
-    answer: "Per un monitoraggio preventivo ottimale, consigliamo ogni 6-12 mesi. Se stai intervenendo su valori specifici, ogni 3 mesi."
-  - question: "Il mio medico dice che i valori sono 'nella norma', ma io non mi sento bene."
-    answer: "I range di riferimento standard sono basati sulla media della popolazione (spesso malata). Noi puntiamo ai valori 'ottimali' per la longevità, che sono molto più ristretti."
-  - question: "Qual è il test più importante per il metabolismo?"
-    answer: "L'emoglobina glicata (HbA1c) e l'insulina a digiuno sono fondamentali per vedere la direzione del tuo metabolismo mesi prima che la glicemia si alzi."
+  - question: Ogni quanto dovrei fare le analisi?
+    answer: >-
+      Per un monitoraggio preventivo ottimale, consigliamo ogni 6-12 mesi. Se
+      stai intervenendo su valori specifici, ogni 3 mesi.
+  - question: >-
+      Il mio medico dice che i valori sono 'nella norma', ma io non mi sento
+      bene.
+    answer: >-
+      I range di riferimento standard sono basati sulla media della popolazione
+      (spesso malata). Noi puntiamo ai valori 'ottimali' per la longevità, che
+      sono molto più ristretti.
+  - question: Qual è il test più importante per il metabolismo?
+    answer: >-
+      L'emoglobina glicata (HbA1c) e l'insulina a digiuno sono fondamentali per
+      vedere la direzione del tuo metabolismo mesi prima che la glicemia si
+      alzi.
 cta:
-  - text: "Interpreta i tuoi esami"
-    link: "/servizi/consulenze"
-    description: "Prenota una video-chiamata con i nostri esperti per un'analisi approfondita dei tuoi biomarker."
+  - text: Interpreta i tuoi esami
+    link: /servizi/consulenze
+    description: >-
+      Prenota una video-chiamata con i nostri esperti per un'analisi
+      approfondita dei tuoi biomarker.
 tags:
   - analisi del sangue
   - biomarker
@@ -22,8 +35,10 @@ tags:
   - infiammazione
   - metabolismo
 resources:
-  - name: "InsideTracker - Biomarkers Guide"
-    link: "https://www.insidetracker.com/"
+  - name: InsideTracker - Biomarkers Guide
+    link: 'https://www.insidetracker.com/'
+categories:
+  - longevita
 ---
 
 Il check-up annuale standard è progettato per una cosa: diagnosticare malattie già presenti. Se i tuoi valori non sono "fuori range" (spesso range molto ampi), ti viene detto che "tutto va bene".

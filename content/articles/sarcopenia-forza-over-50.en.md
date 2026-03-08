@@ -1,20 +1,30 @@
 ---
-title: "Sarcopenia and Strength After 50: The Training Protocol"
-description: "Muscle loss is the #1 risk factor for frailty. Here's how to scientifically combat it with resistance training."
-category: "esercizio"
-author: "Aevos Health Fitness Team"
-authorRole: "Fitness Team"
+title: 'Sarcopenia and Strength After 50: The Training Protocol'
+description: >-
+  Muscle loss is the #1 risk factor for frailty. Here's how to scientifically
+  combat it with resistance training.
+author: Aevos Health Fitness Team
+authorRole: Fitness Team
 faq:
-  - question: "Is it too late to start lifting weights at 60?"
-    answer: "Absolutely not. Studies show that even ninety-year-olds can gain strength and muscle mass with proper training."
-  - question: "How often should I train?"
-    answer: "For strength, the ideal is 3-4 times a week, with rest days to allow muscle recovery."
-  - question: "Do I have to go to the gym?"
-    answer: "Free weights and machines are optimal, but great results can also be achieved with bodyweight exercises (calisthenics) or resistance bands, as long as the intensity is high."
+  - question: Is it too late to start lifting weights at 60?
+    answer: >-
+      Absolutely not. Studies show that even ninety-year-olds can gain strength
+      and muscle mass with proper training.
+  - question: How often should I train?
+    answer: >-
+      For strength, the ideal is 3-4 times a week, with rest days to allow
+      muscle recovery.
+  - question: Do I have to go to the gym?
+    answer: >-
+      Free weights and machines are optimal, but great results can also be
+      achieved with bodyweight exercises (calisthenics) or resistance bands, as
+      long as the intensity is high.
 cta:
-  - text: "Personalized Training Plan"
-    link: "/servizi/coaching"
-    description: "Our longevity-specialized coaches will create a safe and effective program for you."
+  - text: Personalized Training Plan
+    link: /servizi/coaching
+    description: >-
+      Our longevity-specialized coaches will create a safe and effective program
+      for you.
 tags:
   - sarcopenia
   - strength
@@ -22,8 +32,10 @@ tags:
   - aging
   - training
 resources:
-  - name: "Dr. Andy Galpin - Muscle Science"
-    link: "https://www.andygalpin.com/"
+  - name: Dr. Andy Galpin - Muscle Science
+    link: 'https://www.andygalpin.com/'
+categories:
+  - esercizio
 ---
 
 After age 30, we start losing about 1% of our muscle mass each year. After 60, this process accelerates drastically. It's called **Sarcopenia**, and it's the silent killer of independence.

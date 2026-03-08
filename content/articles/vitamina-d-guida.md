@@ -1,28 +1,40 @@
 ---
-title: "Vitamina D: Non è una Vitamina, è un Pro-Ormone Essenziale"
-description: "Perché quasi tutti sono carenti, perché il sole non basta e come integrarla in sicurezza per immunità e ossa."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Vitamina D: Non è una Vitamina, è un Pro-Ormone Essenziale'
+description: >-
+  Perché quasi tutti sono carenti, perché il sole non basta e come integrarla in
+  sicurezza per immunità e ossa.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Quanto sole serve per la Vitamina D?"
-    answer: "Dipende dalla latitudine, dall'orario e dalla melanina. In inverno, sopra certe latitudini (come l'Italia del Nord), i raggi UV non sono sufficienti per produrla, anche stando fuori tutto il giorno."
-  - question: "Qual è il livello ottimale nel sangue?"
-    answer: "Le linee guida ufficiali dicono >20-30 ng/mL, ma molti esperti di longevità suggeriscono 40-60 ng/mL per ottimizzare la funzione immunitaria."
-  - question: "Devo prenderla con la K2?"
-    answer: "Sì. La Vitamina D aumenta l'assorbimento del calcio. La K2 assicura che quel calcio vada nelle ossa e non si depositi nelle arterie (calcificazione)."
+  - question: Quanto sole serve per la Vitamina D?
+    answer: >-
+      Dipende dalla latitudine, dall'orario e dalla melanina. In inverno, sopra
+      certe latitudini (come l'Italia del Nord), i raggi UV non sono sufficienti
+      per produrla, anche stando fuori tutto il giorno.
+  - question: Qual è il livello ottimale nel sangue?
+    answer: >-
+      Le linee guida ufficiali dicono >20-30 ng/mL, ma molti esperti di
+      longevità suggeriscono 40-60 ng/mL per ottimizzare la funzione
+      immunitaria.
+  - question: Devo prenderla con la K2?
+    answer: >-
+      Sì. La Vitamina D aumenta l'assorbimento del calcio. La K2 assicura che
+      quel calcio vada nelle ossa e non si depositi nelle arterie
+      (calcificazione).
 cta:
-  - text: "Verifica le tue abitudini"
-    link: "/calcolo-longevita"
-    description: "Il tuo stile di vita ti espone al rischio di carenza?"
+  - text: Verifica le tue abitudini
+    link: /calcolo-longevita
+    description: Il tuo stile di vita ti espone al rischio di carenza?
 tags:
   - vitamina d
   - integratori
   - sistema immunitario
   - ossa
 resources:
-  - name: "Vitamin D Society"
-    link: "https://www.vitamindsociety.org/"
+  - name: Vitamin D Society
+    link: 'https://www.vitamindsociety.org/'
+categories:
+  - nutrizione
 ---
 
 La chiamiamo Vitamina D per errore storico. In realtà, è un ormone steroideo che controlla l'espressione di oltre 1.000 geni (circa il 5% del genoma umano).

@@ -1,20 +1,29 @@
 ---
-title: "AI and Longevity: Between Real Science and Silicon Valley Hype"
-description: "From drug discovery with AlphaFold to digital twins. What is really happening at the frontier between biology and artificial intelligence."
-category: "tecnologie"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'AI and Longevity: Between Real Science and Silicon Valley Hype'
+description: >-
+  From drug discovery with AlphaFold to digital twins. What is really happening
+  at the frontier between biology and artificial intelligence.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Can AI cure aging?"
-    answer: "Not directly. AI is a tool that accelerates research. It can analyze billions of molecules to find drug candidates in weeks instead of years, but human biology remains complex and requires clinical trials."
-  - question: "What are 'Digital Twins'?"
-    answer: "They are virtual replicas of a patient's physiology. They allow simulating the effect of a drug or lifestyle 'in silico' (on a computer) before testing it on the real body."
-  - question: "Is uploading the mind to the cloud possible?"
-    answer: "At the moment, it's pure science fiction. We haven't even fully mapped the connectome (neural connections) of a mouse, let alone human consciousness."
+  - question: Can AI cure aging?
+    answer: >-
+      Not directly. AI is a tool that accelerates research. It can analyze
+      billions of molecules to find drug candidates in weeks instead of years,
+      but human biology remains complex and requires clinical trials.
+  - question: What are 'Digital Twins'?
+    answer: >-
+      They are virtual replicas of a patient's physiology. They allow simulating
+      the effect of a drug or lifestyle 'in silico' (on a computer) before
+      testing it on the real body.
+  - question: Is uploading the mind to the cloud possible?
+    answer: >-
+      At the moment, it's pure science fiction. We haven't even fully mapped the
+      connectome (neural connections) of a mouse, let alone human consciousness.
 cta:
-  - text: "Measure your biological age today"
-    link: "/calcolo-longevita"
-    description: "While waiting for AI, use the data we have today to optimize your health."
+  - text: Measure your biological age today
+    link: /calcolo-longevita
+    description: 'While waiting for AI, use the data we have today to optimize your health.'
 tags:
   - artificial intelligence
   - tech-bio
@@ -22,10 +31,12 @@ tags:
   - digital twins
   - future
 resources:
-  - name: "DeepMind - AlphaFold"
-    link: "https://www.deepmind.com/research/highlighted-research/alphafold"
-  - name: "Insilico Medicine"
-    link: "https://insilico.com/"
+  - name: DeepMind - AlphaFold
+    link: 'https://www.deepmind.com/research/highlighted-research/alphafold'
+  - name: Insilico Medicine
+    link: 'https://insilico.com/'
+categories:
+  - tecnologie
 ---
 
 We are in the era of **TechBio**. For the first time in history, biology is no longer just a laboratory science (test tubes and microscopes), but an information science (data and algorithms).

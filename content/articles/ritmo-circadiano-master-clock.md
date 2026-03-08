@@ -1,28 +1,38 @@
 ---
-title: "Ritmo Circadiano: Sincronizza il Tuo Orologio Biologico per Energia Infinita"
-description: "Non è solo questione di sonno. La luce regola ogni ormone nel tuo corpo. Impara a gestire la luce come se fosse un farmaco."
-category: "sonno"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Ritmo Circadiano: Sincronizza il Tuo Orologio Biologico per Energia Infinita'
+description: >-
+  Non è solo questione di sonno. La luce regola ogni ormone nel tuo corpo.
+  Impara a gestire la luce come se fosse un farmaco.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Cosa succede se lavoro su turni?"
-    answer: "Il lavoro a turni è classificato come probabile cancerogeno. Se inevitabile, è cruciale manipolare artificialmente luce e buio e mangiare solo durante le ore di veglia biologica."
-  - question: "Gli occhiali anti-luce blu funzionano?"
-    answer: "Sì, se bloccano le frequenze giuste. Usali 2-3 ore prima di dormire per prevenire la soppressione della melatonina."
-  - question: "Perché ho fame di notte?"
-    answer: "Il disallineamento circadiano altera la leptina (sazietà) e la grelina (fame), spingendoti verso cibi ipercalorici quando dovresti digiunare."
+  - question: Cosa succede se lavoro su turni?
+    answer: >-
+      Il lavoro a turni è classificato come probabile cancerogeno. Se
+      inevitabile, è cruciale manipolare artificialmente luce e buio e mangiare
+      solo durante le ore di veglia biologica.
+  - question: Gli occhiali anti-luce blu funzionano?
+    answer: >-
+      Sì, se bloccano le frequenze giuste. Usali 2-3 ore prima di dormire per
+      prevenire la soppressione della melatonina.
+  - question: Perché ho fame di notte?
+    answer: >-
+      Il disallineamento circadiano altera la leptina (sazietà) e la grelina
+      (fame), spingendoti verso cibi ipercalorici quando dovresti digiunare.
 cta:
-  - text: "Check-up del sonno"
-    link: "/calcolo-longevita"
-    description: "Il tuo ritmo sonno-veglia è ottimizzato o ti sta invecchiando?"
+  - text: Check-up del sonno
+    link: /calcolo-longevita
+    description: Il tuo ritmo sonno-veglia è ottimizzato o ti sta invecchiando?
 tags:
   - ritmo circadiano
   - luce
   - sonno
   - ormoni
 resources:
-  - name: "Salk Institute - Light and Health"
-    link: "https://www.salk.edu/scientist/satchidananda-panda/"
+  - name: Salk Institute - Light and Health
+    link: 'https://www.salk.edu/scientist/satchidananda-panda/'
+categories:
+  - sonno
 ---
 
 Nel tuo cervello, c'è un "Orologio Mastro" (Master Clock) chiamato Nucleo Soprachiasmatico (SCN). Questo orologio non sa che ore sono guardando l'orologio; lo sa guardando la **luce**.

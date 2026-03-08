@@ -1,20 +1,29 @@
 ---
-title: "Healthspan vs Lifespan in Italy: Living Long vs Living Well"
-description: "Italy is a world leader in life expectancy, but how many of those years are lived in good health? Analysis of the data and strategies to bridge the gap."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Healthspan vs Lifespan in Italy: Living Long vs Living Well'
+description: >-
+  Italy is a world leader in life expectancy, but how many of those years are
+  lived in good health? Analysis of the data and strategies to bridge the gap.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What is the difference between Healthspan and Lifespan?"
-    answer: "Lifespan is the total length of life. Healthspan is the period lived in good health, free from chronic diseases or severe disabilities."
-  - question: "How long do Italians live on average?"
-    answer: "Life expectancy at birth is approximately 83.4 years, one of the highest in the world."
-  - question: "How many healthy years do we live in Italy?"
-    answer: "According to recent data, healthy life expectancy is about 58-60 years, leaving a gap of over 20 years of potential decline."
+  - question: What is the difference between Healthspan and Lifespan?
+    answer: >-
+      Lifespan is the total length of life. Healthspan is the period lived in
+      good health, free from chronic diseases or severe disabilities.
+  - question: How long do Italians live on average?
+    answer: >-
+      Life expectancy at birth is approximately 83.4 years, one of the highest
+      in the world.
+  - question: How many healthy years do we live in Italy?
+    answer: >-
+      According to recent data, healthy life expectancy is about 58-60 years,
+      leaving a gap of over 20 years of potential decline.
 cta:
-  - text: "Bridge your gap"
-    link: "/calcolo-longevita"
-    description: "Discover how many healthy years you really have left with our predictive test."
+  - text: Bridge your gap
+    link: /calcolo-longevita
+    description: >-
+      Discover how many healthy years you really have left with our predictive
+      test.
 tags:
   - healthspan
   - lifespan
@@ -22,8 +31,10 @@ tags:
   - statistics
   - healthy aging
 resources:
-  - name: "ISTAT - Mortality Indicators"
-    link: "https://www.istat.it/"
+  - name: ISTAT - Mortality Indicators
+    link: 'https://www.istat.it/'
+categories:
+  - longevita
 ---
 
 Italy is famous worldwide for its longevity. We are consistently at the top of global rankings for life expectancy, often exceeding 83 years. But there is a hidden statistic that worries experts: the quality of those gained years.

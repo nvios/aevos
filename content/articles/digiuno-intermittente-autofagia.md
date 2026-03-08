@@ -1,28 +1,40 @@
 ---
-title: "Digiuno Intermittente e Autofagia: Pulizia Cellulare o Moda del Momento?"
-description: "Oltre la perdita di peso: come il digiuno attiva i meccanismi di riparazione del DNA e perché non è per tutti."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Digiuno Intermittente e Autofagia: Pulizia Cellulare o Moda del Momento?'
+description: >-
+  Oltre la perdita di peso: come il digiuno attiva i meccanismi di riparazione
+  del DNA e perché non è per tutti.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Il digiuno fa perdere muscoli?"
-    answer: "Non necessariamente. Se l'apporto proteico nelle finestre di alimentazione è adeguato e si fa allenamento di resistenza, la massa muscolare viene preservata. L'ormone della crescita aumenta durante il digiuno per proteggere i muscoli."
-  - question: "Cosa posso bere durante il digiuno?"
-    answer: "Acqua, caffè nero, tè non zuccherato. Qualsiasi caloria (zucchero, latte, olio) rompe il digiuno metabolico."
-  - question: "Le donne possono digiunare?"
-    answer: "Sì, ma con cautela. Le donne sono più sensibili allo stress ormonale della restrizione calorica. Spesso protocolli più morbidi (14:10 o 12:12) sono preferibili per non alterare il ciclo mestruale."
+  - question: Il digiuno fa perdere muscoli?
+    answer: >-
+      Non necessariamente. Se l'apporto proteico nelle finestre di alimentazione
+      è adeguato e si fa allenamento di resistenza, la massa muscolare viene
+      preservata. L'ormone della crescita aumenta durante il digiuno per
+      proteggere i muscoli.
+  - question: Cosa posso bere durante il digiuno?
+    answer: >-
+      Acqua, caffè nero, tè non zuccherato. Qualsiasi caloria (zucchero, latte,
+      olio) rompe il digiuno metabolico.
+  - question: Le donne possono digiunare?
+    answer: >-
+      Sì, ma con cautela. Le donne sono più sensibili allo stress ormonale della
+      restrizione calorica. Spesso protocolli più morbidi (14:10 o 12:12) sono
+      preferibili per non alterare il ciclo mestruale.
 cta:
-  - text: "Valuta il tuo timing"
-    link: "/calcolo-longevita"
-    description: "Mangi negli orari giusti per il tuo metabolismo?"
+  - text: Valuta il tuo timing
+    link: /calcolo-longevita
+    description: Mangi negli orari giusti per il tuo metabolismo?
 tags:
   - digiuno
   - autofagia
   - longevità
   - metabolismo
 resources:
-  - name: "Nobel Prize in Medicine 2016 - Autophagy"
-    link: "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
+  - name: Nobel Prize in Medicine 2016 - Autophagy
+    link: 'https://www.nobelprize.org/prizes/medicine/2016/press-release/'
+categories:
+  - nutrizione
 ---
 
 Il digiuno intermittente (IF) non è una dieta, è un pattern alimentare. La nostra specie si è evoluta in contesti di scarsità, non di abbondanza costante. Mangiare 6 volte al giorno è un'invenzione moderna e metabolicamente costosa.

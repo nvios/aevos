@@ -1,28 +1,38 @@
 ---
-title: "Circadian Rhythm: Sync Your Biological Clock for Infinite Energy"
-description: "It's not just about sleep. Light regulates every hormone in your body. Learn to manage light as if it were a drug."
-category: "sonno"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Circadian Rhythm: Sync Your Biological Clock for Infinite Energy'
+description: >-
+  It's not just about sleep. Light regulates every hormone in your body. Learn
+  to manage light as if it were a drug.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What happens if I work shifts?"
-    answer: "Shift work is classified as a probable carcinogen. If unavoidable, it is crucial to artificially manipulate light and darkness and eat only during biological waking hours."
-  - question: "Do blue light blocking glasses work?"
-    answer: "Yes, if they block the right frequencies. Use them 2-3 hours before bed to prevent melatonin suppression."
-  - question: "Why am I hungry at night?"
-    answer: "Circadian misalignment alters leptin (satiety) and ghrelin (hunger), pushing you toward high-calorie foods when you should be fasting."
+  - question: What happens if I work shifts?
+    answer: >-
+      Shift work is classified as a probable carcinogen. If unavoidable, it is
+      crucial to artificially manipulate light and darkness and eat only during
+      biological waking hours.
+  - question: Do blue light blocking glasses work?
+    answer: >-
+      Yes, if they block the right frequencies. Use them 2-3 hours before bed to
+      prevent melatonin suppression.
+  - question: Why am I hungry at night?
+    answer: >-
+      Circadian misalignment alters leptin (satiety) and ghrelin (hunger),
+      pushing you toward high-calorie foods when you should be fasting.
 cta:
-  - text: "Sleep check-up"
-    link: "/calcolo-longevita"
-    description: "Is your sleep-wake rhythm optimized or is it aging you?"
+  - text: Sleep check-up
+    link: /calcolo-longevita
+    description: Is your sleep-wake rhythm optimized or is it aging you?
 tags:
   - ritmo circadiano
   - luce
   - sonno
   - ormoni
 resources:
-  - name: "Salk Institute - Light and Health"
-    link: "https://www.salk.edu/scientist/satchidananda-panda/"
+  - name: Salk Institute - Light and Health
+    link: 'https://www.salk.edu/scientist/satchidananda-panda/'
+categories:
+  - sonno
 ---
 
 In your brain, there is a "Master Clock" called the Suprachiasmatic Nucleus (SCN). This clock doesn't know what time it is by looking at a watch; it knows by looking at **light**.

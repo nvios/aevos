@@ -1,22 +1,41 @@
 ---
-title: "Respirazione: Come Cambiare la Tua Biologia con un Respiro"
-description: "Non è solo ossigeno. Scopri come la respirazione nasale, la tolleranza alla CO2 e il nervo vago possono riprogrammare il tuo sistema nervoso e migliorare la longevità."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Respirazione: Come Cambiare la Tua Biologia con un Respiro'
+description: >-
+  Non è solo ossigeno. Scopri come la respirazione nasale, la tolleranza alla
+  CO2 e il nervo vago possono riprogrammare il tuo sistema nervoso e migliorare
+  la longevità.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Perché è importante respirare dal naso?"
-    answer: "Il naso filtra, riscalda e umidifica l'aria, ma soprattutto produce ossido nitrico, una molecola vasodilatatrice che migliora l'assorbimento di ossigeno e ha proprietà antimicrobiche."
-  - question: "Cos'è la tolleranza alla CO2?"
-    answer: "È la capacità del corpo di gestire livelli più alti di anidride carbonica. Una bassa tolleranza porta a respirare troppo (iperventilazione), riducendo paradossalmente l'ossigenazione dei tessuti (Effetto Bohr)."
-  - question: "Il mouth taping notturno è sicuro?"
-    answer: "Per la maggior parte delle persone sì, ed è molto efficace per prevenire la respirazione orale notturna, il russamento e migliorare la qualità del sonno profondo. Consulta un medico se hai patologie respiratorie gravi."
-  - question: "Ho il setto deviato o le tonsille ingrossate, posso respirare dal naso?"
-    answer: "Le ostruzioni fisiche possono rendere difficile la respirazione nasale, ma spesso non la impediscono del tutto. L'uso di cerotti nasali o dilatatori può aiutare ad aprire le vie aeree. In molti casi, la respirazione nasale costante può ridurre l'infiammazione dei tessuti molli nel tempo. Tuttavia, per deviazioni severe o tonsille ipertrofiche che causano apnee, è fondamentale consultare un otorinolaringoiatra."
+  - question: Perché è importante respirare dal naso?
+    answer: >-
+      Il naso filtra, riscalda e umidifica l'aria, ma soprattutto produce ossido
+      nitrico, una molecola vasodilatatrice che migliora l'assorbimento di
+      ossigeno e ha proprietà antimicrobiche.
+  - question: Cos'è la tolleranza alla CO2?
+    answer: >-
+      È la capacità del corpo di gestire livelli più alti di anidride carbonica.
+      Una bassa tolleranza porta a respirare troppo (iperventilazione),
+      riducendo paradossalmente l'ossigenazione dei tessuti (Effetto Bohr).
+  - question: Il mouth taping notturno è sicuro?
+    answer: >-
+      Per la maggior parte delle persone sì, ed è molto efficace per prevenire
+      la respirazione orale notturna, il russamento e migliorare la qualità del
+      sonno profondo. Consulta un medico se hai patologie respiratorie gravi.
+  - question: 'Ho il setto deviato o le tonsille ingrossate, posso respirare dal naso?'
+    answer: >-
+      Le ostruzioni fisiche possono rendere difficile la respirazione nasale, ma
+      spesso non la impediscono del tutto. L'uso di cerotti nasali o dilatatori
+      può aiutare ad aprire le vie aeree. In molti casi, la respirazione nasale
+      costante può ridurre l'infiammazione dei tessuti molli nel tempo.
+      Tuttavia, per deviazioni severe o tonsille ipertrofiche che causano apnee,
+      è fondamentale consultare un otorinolaringoiatra.
 cta:
-  - text: "Misura la tua HRV"
-    link: "/articoli/longevita/hrv-vo2-rhr-guida"
-    description: "Scopri come la respirazione influenza la Variabilità della Frequenza Cardiaca, un biomarker chiave di longevità."
+  - text: Misura la tua HRV
+    link: /articoli/longevita/hrv-vo2-rhr-guida
+    description: >-
+      Scopri come la respirazione influenza la Variabilità della Frequenza
+      Cardiaca, un biomarker chiave di longevità.
 tags:
   - respirazione
   - sistema nervoso
@@ -24,10 +43,13 @@ tags:
   - ossido nitrico
   - nervo vago
 resources:
-  - name: "Breath: The New Science of a Lost Art - James Nestor"
-    link: "https://www.mrjamesnestor.com/breath"
-  - name: "Huberman Lab: How to Breathe Correctly"
-    link: "https://www.hubermanlab.com/episode/how-to-breathe-correctly-for-optimal-health-mood-learning-and-performance"
+  - name: 'Breath: The New Science of a Lost Art - James Nestor'
+    link: 'https://www.mrjamesnestor.com/breath'
+  - name: 'Huberman Lab: How to Breathe Correctly'
+    link: >-
+      https://www.hubermanlab.com/episode/how-to-breathe-correctly-for-optimal-health-mood-learning-and-performance
+categories:
+  - longevita
 ---
 
 Respiriamo circa 25.000 volte al giorno. Per la maggior parte di noi, è un atto automatico e inconsapevole. Eppure, la scienza moderna sta riscoprendo ciò che le tradizioni antiche sapevano da millenni: il modo in cui respiri modella la tua biologia, istante per istante.

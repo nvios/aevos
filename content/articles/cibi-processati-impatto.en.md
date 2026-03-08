@@ -1,30 +1,42 @@
 ---
-title: "Ultra-Processed Foods: How Food Engineering Hacks Your Brain"
-description: "It's not just about calories. Discover how additives, textures and hyper-palatability are rewriting your biology and shortening your life."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Ultra-Processed Foods: How Food Engineering Hacks Your Brain'
+description: >-
+  It's not just about calories. Discover how additives, textures and
+  hyper-palatability are rewriting your biology and shortening your life.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What exactly is meant by 'ultra-processed'?"
-    answer: "According to the NOVA classification, they are industrial formulations with 5 or more ingredients, often containing additives not used in home cooking (e.g. corn syrup, protein isolates, flavor enhancers)."
-  - question: "Are ready-made vegan foods healthy?"
-    answer: "Often no. Many plant-based burgers or vegan cheeses are ultra-processed, rich in refined seed oils, starches and additives to simulate the texture of meat/cheese."
-  - question: "Do I have to eliminate everything?"
-    answer: "The goal is drastic reduction, not perfection. Aim for a diet composed of 80-90% whole or minimally processed foods."
+  - question: What exactly is meant by 'ultra-processed'?
+    answer: >-
+      According to the NOVA classification, they are industrial formulations
+      with 5 or more ingredients, often containing additives not used in home
+      cooking (e.g. corn syrup, protein isolates, flavor enhancers).
+  - question: Are ready-made vegan foods healthy?
+    answer: >-
+      Often no. Many plant-based burgers or vegan cheeses are ultra-processed,
+      rich in refined seed oils, starches and additives to simulate the texture
+      of meat/cheese.
+  - question: Do I have to eliminate everything?
+    answer: >-
+      The goal is drastic reduction, not perfection. Aim for a diet composed of
+      80-90% whole or minimally processed foods.
 cta:
-  - text: "Discover your nutritional score"
-    link: "/calcolo-longevita"
-    description: "How much do your food choices affect your biological age?"
+  - text: Discover your nutritional score
+    link: /calcolo-longevita
+    description: How much do your food choices affect your biological age?
 tags:
   - cibi processati
   - obesità
   - infiammazione
   - industria alimentare
 resources:
-  - name: "NOVA Classification System"
-    link: "https://edgn.ouropenhub.com/files/5s/nova-classification-system-modified.pdf"
-  - name: "Kevin Hall NIH Study"
-    link: "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(19)30248-7"
+  - name: NOVA Classification System
+    link: >-
+      https://edgn.ouropenhub.com/files/5s/nova-classification-system-modified.pdf
+  - name: Kevin Hall NIH Study
+    link: 'https://www.cell.com/cell-metabolism/fulltext/S1550-4131(19)30248-7'
+categories:
+  - nutrizione
 ---
 
 Imagine a food designed in a lab not to nourish you, but to never let you stop eating. This isn't a conspiracy, it's the business model of the modern food industry. Ultra-processed foods (UPF) now make up over 50% of calories in the average Western diet.

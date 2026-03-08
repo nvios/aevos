@@ -1,20 +1,30 @@
 ---
-title: "Nootropi Naturali vs Smart Drugs: Guida al Focus Senza Crash"
-description: "Non serve la pillola di 'Limitless'. Scopri come potenziare la concentrazione e la memoria con molecole sicure e naturali."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Nootropi Naturali vs Smart Drugs: Guida al Focus Senza Crash'
+description: >-
+  Non serve la pillola di 'Limitless'. Scopri come potenziare la concentrazione
+  e la memoria con molecole sicure e naturali.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Il caffè è un nootropo?"
-    answer: "Sì, la caffeina è il nootropo più famoso. Ma funziona meglio se abbinata alla L-Teanina per evitare nervosismo e cali di energia."
-  - question: "La creatina serve solo per i muscoli?"
-    answer: "No. Il cervello consuma il 20% della tua energia. La creatina fornisce ATP rapido ai neuroni, migliorando memoria e ragionamento sotto stress."
-  - question: "Le 'Smart Drugs' farmaceutiche sono sicure?"
-    answer: "Farmaci come il Modafinil o l'Adderall hanno effetti collaterali pesanti e creano dipendenza. Noi ci concentriamo su alternative sostenibili a lungo termine."
+  - question: Il caffè è un nootropo?
+    answer: >-
+      Sì, la caffeina è il nootropo più famoso. Ma funziona meglio se abbinata
+      alla L-Teanina per evitare nervosismo e cali di energia.
+  - question: La creatina serve solo per i muscoli?
+    answer: >-
+      No. Il cervello consuma il 20% della tua energia. La creatina fornisce ATP
+      rapido ai neuroni, migliorando memoria e ragionamento sotto stress.
+  - question: Le 'Smart Drugs' farmaceutiche sono sicure?
+    answer: >-
+      Farmaci come il Modafinil o l'Adderall hanno effetti collaterali pesanti e
+      creano dipendenza. Noi ci concentriamo su alternative sostenibili a lungo
+      termine.
 cta:
-  - text: "Costruisci il tuo Stack"
-    link: "/servizi/consulenze"
-    description: "Prenota una consulenza per creare un protocollo di integrazione su misura per il tuo lavoro."
+  - text: Costruisci il tuo Stack
+    link: /servizi/consulenze
+    description: >-
+      Prenota una consulenza per creare un protocollo di integrazione su misura
+      per il tuo lavoro.
 tags:
   - nootropi
   - cervello
@@ -22,8 +32,10 @@ tags:
   - memoria
   - creatina
 resources:
-  - name: "Examine.com - Nootropics"
-    link: "https://examine.com/categories/nootropics/"
+  - name: Examine.com - Nootropics
+    link: 'https://examine.com/categories/nootropics/'
+categories:
+  - longevita
 ---
 
 Tutti vogliono il cervello di "Limitless". Ma nel mondo reale, la produttività non deve costare la tua salute mentale.

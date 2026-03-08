@@ -1,28 +1,39 @@
 ---
-title: "Hair Loss: Science, Myths and Treatments That Work"
-description: "Androgenic alopecia, DHT and stress. An honest guide on what can save your hair and what's just marketing."
-category: "capelli"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Hair Loss: Science, Myths and Treatments That Work'
+description: >-
+  Androgenic alopecia, DHT and stress. An honest guide on what can save your
+  hair and what's just marketing.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Does washing your hair too often make it fall out?"
-    answer: "False. The hair you see in the shower was already in the telogen (shedding) phase. Washing the scalp is essential to remove accumulated sebum and DHT."
-  - question: "Does wearing a hat cause hair loss?"
-    answer: "Myth. Unless it's so tight it blocks circulation (unlikely), it doesn't affect follicles."
-  - question: "Does stress make you go bald?"
-    answer: "Acute stress can cause Telogen Effluvium (temporary diffuse shedding), but it doesn't cause classic male pattern baldness (which is genetic/hormonal), although it can accelerate it."
+  - question: Does washing your hair too often make it fall out?
+    answer: >-
+      False. The hair you see in the shower was already in the telogen
+      (shedding) phase. Washing the scalp is essential to remove accumulated
+      sebum and DHT.
+  - question: Does wearing a hat cause hair loss?
+    answer: >-
+      Myth. Unless it's so tight it blocks circulation (unlikely), it doesn't
+      affect follicles.
+  - question: Does stress make you go bald?
+    answer: >-
+      Acute stress can cause Telogen Effluvium (temporary diffuse shedding), but
+      it doesn't cause classic male pattern baldness (which is
+      genetic/hormonal), although it can accelerate it.
 cta:
-  - text: "Stress and health check-up"
-    link: "/calcolo-longevita"
-    description: "Stress is a key factor in hair health. Measure yours."
+  - text: Stress and health check-up
+    link: /calcolo-longevita
+    description: Stress is a key factor in hair health. Measure yours.
 tags:
   - capelli
   - alopecia
   - dht
   - minoxidil
 resources:
-  - name: "American Hair Loss Association"
-    link: "https://www.americanhairloss.org/"
+  - name: American Hair Loss Association
+    link: 'https://www.americanhairloss.org/'
+categories:
+  - capelli
 ---
 
 For most men (and many women), hair loss isn't "bad luck," it's biology. It's called **Androgenic Alopecia**.

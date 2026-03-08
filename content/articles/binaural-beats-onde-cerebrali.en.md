@@ -1,20 +1,30 @@
 ---
-title: "Binaural Beats: Science, Brain Waves and Reality"
-description: "Does hacking the brain with sound really work? A critical analysis of Alpha, Theta, Delta waves and the effectiveness of binaural beats."
-category: "tecnologie"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Binaural Beats: Science, Brain Waves and Reality'
+description: >-
+  Does hacking the brain with sound really work? A critical analysis of Alpha,
+  Theta, Delta waves and the effectiveness of binaural beats.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What are binaural beats?"
-    answer: "They are an auditory illusion created by the brain when you listen to two tones with slightly different frequencies in each ear. The brain 'hears' the mathematical difference between the two tones."
-  - question: "Do they really work for anxiety?"
-    answer: "Research suggests a moderate effect in reducing acute anxiety, especially before stressful events. They don't replace medical therapies, but are a valid support tool."
-  - question: "Do you need special headphones?"
-    answer: "Yes, stereo headphones (earbuds or over-ear) are mandatory. Since each ear must receive a different frequency, listening through room speakers does not work."
+  - question: What are binaural beats?
+    answer: >-
+      They are an auditory illusion created by the brain when you listen to two
+      tones with slightly different frequencies in each ear. The brain 'hears'
+      the mathematical difference between the two tones.
+  - question: Do they really work for anxiety?
+    answer: >-
+      Research suggests a moderate effect in reducing acute anxiety, especially
+      before stressful events. They don't replace medical therapies, but are a
+      valid support tool.
+  - question: Do you need special headphones?
+    answer: >-
+      Yes, stereo headphones (earbuds or over-ear) are mandatory. Since each ear
+      must receive a different frequency, listening through room speakers does
+      not work.
 cta:
-  - text: "Improve your sleep"
-    link: "/articoli/sonno/12-consigli-pratici-sonno-insonnia"
-    description: "Discover other science-based strategies to optimize nighttime rest."
+  - text: Improve your sleep
+    link: /articoli/sonno/12-consigli-pratici-sonno-insonnia
+    description: Discover other science-based strategies to optimize nighttime rest.
 tags:
   - binaural beats
   - onde cerebrali
@@ -22,10 +32,14 @@ tags:
   - focus
   - meditazione
 resources:
-  - name: "Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis"
-    link: "https://pubmed.ncbi.nlm.nih.gov/30073406/"
-  - name: "Huberman Lab: Using Sound to Improve Brain Health"
-    link: "https://www.hubermanlab.com/"
+  - name: >-
+      Efficacy of binaural auditory beats in cognition, anxiety, and pain
+      perception: a meta-analysis
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30073406/'
+  - name: 'Huberman Lab: Using Sound to Improve Brain Health'
+    link: 'https://www.hubermanlab.com/'
+categories:
+  - tecnologie
 ---
 
 Put on your headphones, press play, and instantly change your mental state. That's the promise of "Binaural Beats," audio tracks that promise everything from laser focus to deep sleep, to near-psychedelic experiences.

@@ -1,28 +1,38 @@
 ---
-title: "Cortisol and Chronic Stress: The Silent Killer of Longevity"
-description: "Stress isn't just 'being nervous.' It's a hormonal mechanism that, when chronic, destroys muscles, accumulates visceral fat and ages the brain."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Cortisol and Chronic Stress: The Silent Killer of Longevity'
+description: >-
+  Stress isn't just 'being nervous.' It's a hormonal mechanism that, when
+  chronic, destroys muscles, accumulates visceral fat and ages the brain.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "How do I know if I have high cortisol?"
-    answer: "Common symptoms include: stubborn belly fat, nighttime awakenings (often at 3-4 AM), craving for sugar/salt, and 'brain fog.'"
-  - question: "Does exercise lower cortisol?"
-    answer: "It depends. Moderate exercise (Zone 2, weights) helps regulate it. Excessive or too intense exercise (daily HIIT) without recovery can raise it chronically."
-  - question: "Do adaptogens like Ashwagandha work?"
-    answer: "Yes, Ashwagandha (KSM-66) has solid clinical evidence for reducing serum cortisol by up to 30%, but it should be cycled."
+  - question: How do I know if I have high cortisol?
+    answer: >-
+      Common symptoms include: stubborn belly fat, nighttime awakenings (often
+      at 3-4 AM), craving for sugar/salt, and 'brain fog.'
+  - question: Does exercise lower cortisol?
+    answer: >-
+      It depends. Moderate exercise (Zone 2, weights) helps regulate it.
+      Excessive or too intense exercise (daily HIIT) without recovery can raise
+      it chronically.
+  - question: Do adaptogens like Ashwagandha work?
+    answer: >-
+      Yes, Ashwagandha (KSM-66) has solid clinical evidence for reducing serum
+      cortisol by up to 30%, but it should be cycled.
 cta:
-  - text: "Measure your stress load"
-    link: "/calcolo-longevita"
-    description: "Our algorithm evaluates how much stress is impacting your biological age."
+  - text: Measure your stress load
+    link: /calcolo-longevita
+    description: Our algorithm evaluates how much stress is impacting your biological age.
 tags:
   - stress
   - ormoni
   - salute mentale
   - grasso viscerale
 resources:
-  - name: "Stanford - Stress and the Brain"
-    link: "https://med.stanford.edu/news/all-news/2022/10/stress-brain.html"
+  - name: Stanford - Stress and the Brain
+    link: 'https://med.stanford.edu/news/all-news/2022/10/stress-brain.html'
+categories:
+  - longevita
 ---
 
 Cortisol isn't the "bad guy." It's the hormone that wakes you up in the morning and gives you energy to face challenges. The problem arises when the acute spike (useful) becomes a chronic plateau (toxic).

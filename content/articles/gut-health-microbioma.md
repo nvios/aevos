@@ -1,30 +1,43 @@
 ---
-title: "Microbioma Intestinale: Il 'Secondo Cervello' che Controlla la Tua Salute"
-description: "Come i batteri nel tuo intestino influenzano immunità, umore e longevità. Strategie pratiche per nutrire il tuo ecosistema interno."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Microbioma Intestinale: Il ''Secondo Cervello'' che Controlla la Tua Salute'
+description: >-
+  Come i batteri nel tuo intestino influenzano immunità, umore e longevità.
+  Strategie pratiche per nutrire il tuo ecosistema interno.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Cosa sono i probiotici e i prebiotici?"
-    answer: "I probiotici sono batteri vivi benefici (es. nello yogurt), mentre i prebiotici sono le fibre che nutrono questi batteri (es. in aglio, cipolla, carciofi)."
-  - question: "Gli antibiotici distruggono il microbioma per sempre?"
-    answer: "No, ma possono alterarlo significativamente. Un ciclo di antibiotici può richiedere mesi per il recupero completo della diversità batterica. È cruciale supportare l'intestino durante e dopo la terapia."
-  - question: "Esiste un test per il microbioma?"
-    answer: "Sì, esistono test di sequenziamento del DNA fecale che offrono una mappa dettagliata delle specie batteriche presenti, utili per interventi mirati."
+  - question: Cosa sono i probiotici e i prebiotici?
+    answer: >-
+      I probiotici sono batteri vivi benefici (es. nello yogurt), mentre i
+      prebiotici sono le fibre che nutrono questi batteri (es. in aglio,
+      cipolla, carciofi).
+  - question: Gli antibiotici distruggono il microbioma per sempre?
+    answer: >-
+      No, ma possono alterarlo significativamente. Un ciclo di antibiotici può
+      richiedere mesi per il recupero completo della diversità batterica. È
+      cruciale supportare l'intestino durante e dopo la terapia.
+  - question: Esiste un test per il microbioma?
+    answer: >-
+      Sì, esistono test di sequenziamento del DNA fecale che offrono una mappa
+      dettagliata delle specie batteriche presenti, utili per interventi mirati.
 cta:
-  - text: "Analizza la tua dieta"
-    link: "/calcolo-longevita"
-    description: "Scopri se le tue abitudini alimentari stanno supportando o danneggiando il tuo microbioma."
+  - text: Analizza la tua dieta
+    link: /calcolo-longevita
+    description: >-
+      Scopri se le tue abitudini alimentari stanno supportando o danneggiando il
+      tuo microbioma.
 tags:
   - microbioma
   - intestino
   - salute digestiva
   - probiotici
 resources:
-  - name: "Sonnenburg Lab - Stanford University"
-    link: "https://sonnenburglab.stanford.edu/"
-  - name: "Project Microbe"
-    link: "https://humanfoodproject.com/"
+  - name: Sonnenburg Lab - Stanford University
+    link: 'https://sonnenburglab.stanford.edu/'
+  - name: Project Microbe
+    link: 'https://humanfoodproject.com/'
+categories:
+  - nutrizione
 ---
 
 Il tuo corpo ospita circa 38 trilioni di batteri, la maggior parte dei quali risiede nel tuo intestino. Questo ecosistema, noto come microbioma, non è un semplice ospite passivo, ma un organo metabolico attivo che pesa circa 2 kg – quanto il tuo cervello.

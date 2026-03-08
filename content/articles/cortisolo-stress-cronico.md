@@ -1,28 +1,42 @@
 ---
-title: "Cortisolo e Stress Cronico: Il Killer Silenzioso della Longevità"
-description: "Lo stress non è solo 'essere nervosi'. È un meccanismo ormonale che, se cronicizzato, distrugge muscoli, accumula grasso viscerale e invecchia il cervello."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Cortisolo e Stress Cronico: Il Killer Silenzioso della Longevità'
+description: >-
+  Lo stress non è solo 'essere nervosi'. È un meccanismo ormonale che, se
+  cronicizzato, distrugge muscoli, accumula grasso viscerale e invecchia il
+  cervello.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Come so se ho il cortisolo alto?"
-    answer: "Sintomi comuni includono: grasso addominale ostinato, risvegli notturni (spesso alle 3-4 AM), voglia di zuccheri/sale, e 'brain fog' (nebbia mentale)."
-  - question: "L'esercizio fisico abbassa il cortisolo?"
-    answer: "Dipende. L'esercizio moderato (Zone 2, pesi) aiuta a regolarlo. L'esercizio eccessivo o troppo intenso (HIIT quotidiano) senza recupero può alzarlo cronicamente."
-  - question: "Gli adattogeni come l'Ashwagandha funzionano?"
-    answer: "Sì, l'Ashwagandha (KSM-66) ha solide evidenze cliniche per ridurre il cortisolo sierico fino al 30%, ma va ciclizzata."
+  - question: Come so se ho il cortisolo alto?
+    answer: >-
+      Sintomi comuni includono: grasso addominale ostinato, risvegli notturni
+      (spesso alle 3-4 AM), voglia di zuccheri/sale, e 'brain fog' (nebbia
+      mentale).
+  - question: L'esercizio fisico abbassa il cortisolo?
+    answer: >-
+      Dipende. L'esercizio moderato (Zone 2, pesi) aiuta a regolarlo.
+      L'esercizio eccessivo o troppo intenso (HIIT quotidiano) senza recupero
+      può alzarlo cronicamente.
+  - question: Gli adattogeni come l'Ashwagandha funzionano?
+    answer: >-
+      Sì, l'Ashwagandha (KSM-66) ha solide evidenze cliniche per ridurre il
+      cortisolo sierico fino al 30%, ma va ciclizzata.
 cta:
-  - text: "Misura il tuo carico di stress"
-    link: "/calcolo-longevita"
-    description: "Il nostro algoritmo valuta quanto lo stress sta impattando la tua età biologica."
+  - text: Misura il tuo carico di stress
+    link: /calcolo-longevita
+    description: >-
+      Il nostro algoritmo valuta quanto lo stress sta impattando la tua età
+      biologica.
 tags:
   - stress
   - ormoni
   - salute mentale
   - grasso viscerale
 resources:
-  - name: "Stanford - Stress and the Brain"
-    link: "https://med.stanford.edu/news/all-news/2022/10/stress-brain.html"
+  - name: Stanford - Stress and the Brain
+    link: 'https://med.stanford.edu/news/all-news/2022/10/stress-brain.html'
+categories:
+  - longevita
 ---
 
 Il cortisolo non è il "cattivo". È l'ormone che ti sveglia la mattina e ti dà energia per affrontare le sfide. Il problema nasce quando il picco acuto (utile) diventa un altopiano cronico (tossico).

@@ -1,20 +1,29 @@
 ---
-title: "Menopause and Longevity: The Window of Opportunity No One Tells You About"
-description: "Menopause is not the end of youth, but a critical metabolic transition. How to manage it to protect your bones, brain, and heart."
-category: "longevita"
-author: "Aevos Health Medical Team"
-authorRole: "Medical Team"
+title: 'Menopause and Longevity: The Window of Opportunity No One Tells You About'
+description: >-
+  Menopause is not the end of youth, but a critical metabolic transition. How to
+  manage it to protect your bones, brain, and heart.
+author: Aevos Health Medical Team
+authorRole: Medical Team
 faq:
-  - question: "Why do I gain weight even if I eat the same?"
-    answer: "The drop in estrogen reduces insulin sensitivity and basal metabolic rate. The body tends to accumulate visceral fat (belly), often aggravated by high [cortisol](/articoli/longevita/cortisolo-stress-cronico)."
-  - question: "Is HRT (Hormone Replacement Therapy) safe?"
-    answer: "Modern guidelines indicate that if started within 10 years of menopause (the 'window of opportunity'), cardiovascular and bone benefits often outweigh risks. Discuss with an updated gynecologist."
-  - question: "Which supplements really help?"
-    answer: "Magnesium for sleep, Vitamin D+K2 for bones, and phytoestrogens (like red clover) can help with mild symptoms."
+  - question: Why do I gain weight even if I eat the same?
+    answer: >-
+      The drop in estrogen reduces insulin sensitivity and basal metabolic rate.
+      The body tends to accumulate visceral fat (belly), often aggravated by
+      high [cortisol](/articoli/longevita/cortisolo-stress-cronico).
+  - question: Is HRT (Hormone Replacement Therapy) safe?
+    answer: >-
+      Modern guidelines indicate that if started within 10 years of menopause
+      (the 'window of opportunity'), cardiovascular and bone benefits often
+      outweigh risks. Discuss with an updated gynecologist.
+  - question: Which supplements really help?
+    answer: >-
+      Magnesium for sleep, Vitamin D+K2 for bones, and phytoestrogens (like red
+      clover) can help with mild symptoms.
 cta:
-  - text: "Women 40+ Protocol"
-    link: "/servizi/consulenze"
-    description: "Nutrition and training specific to your hormonal profile."
+  - text: Women 40+ Protocol
+    link: /servizi/consulenze
+    description: Nutrition and training specific to your hormonal profile.
 tags:
   - menopause
   - women
@@ -22,8 +31,10 @@ tags:
   - osteoporosis
   - metabolism
 resources:
-  - name: "The Menopause Society"
-    link: "https://www.menopause.org/"
+  - name: The Menopause Society
+    link: 'https://www.menopause.org/'
+categories:
+  - longevita
 ---
 
 For decades, medicine has treated menopause as a disease to be endured or hidden. In reality, it is a fundamental **biological remodeling event**.

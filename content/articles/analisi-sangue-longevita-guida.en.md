@@ -1,20 +1,29 @@
 ---
-title: "Blood Work for Longevity: The Complete Guide to Biomarkers"
-description: "Don't wait until you're sick. Here are the essential biomarkers your GP might not order, but are crucial for prevention."
-category: "longevita"
-author: "Aevos Health Medical Team"
-authorRole: "Medical Team"
+title: 'Blood Work for Longevity: The Complete Guide to Biomarkers'
+description: >-
+  Don't wait until you're sick. Here are the essential biomarkers your GP might
+  not order, but are crucial for prevention.
+author: Aevos Health Medical Team
+authorRole: Medical Team
 faq:
-  - question: "How often should I get tested?"
-    answer: "For optimal preventive monitoring, we recommend every 6-12 months. If you are intervening on specific values, every 3 months."
-  - question: "My doctor says my values are 'normal', but I don't feel well."
-    answer: "Standard reference ranges are based on the population average (often sick). We aim for 'optimal' values for longevity, which are much narrower."
-  - question: "What is the most important test for metabolism?"
-    answer: "Glycated hemoglobin (HbA1c) and fasting insulin are fundamental to seeing the direction of your metabolism months before blood sugar rises."
+  - question: How often should I get tested?
+    answer: >-
+      For optimal preventive monitoring, we recommend every 6-12 months. If you
+      are intervening on specific values, every 3 months.
+  - question: 'My doctor says my values are ''normal'', but I don''t feel well.'
+    answer: >-
+      Standard reference ranges are based on the population average (often
+      sick). We aim for 'optimal' values for longevity, which are much narrower.
+  - question: What is the most important test for metabolism?
+    answer: >-
+      Glycated hemoglobin (HbA1c) and fasting insulin are fundamental to seeing
+      the direction of your metabolism months before blood sugar rises.
 cta:
-  - text: "Interpret your tests"
-    link: "/servizi/consulenze"
-    description: "Book a video call with our experts for an in-depth analysis of your biomarkers."
+  - text: Interpret your tests
+    link: /servizi/consulenze
+    description: >-
+      Book a video call with our experts for an in-depth analysis of your
+      biomarkers.
 tags:
   - blood work
   - biomarkers
@@ -22,8 +31,10 @@ tags:
   - inflammation
   - metabolism
 resources:
-  - name: "InsideTracker - Biomarkers Guide"
-    link: "https://www.insidetracker.com/"
+  - name: InsideTracker - Biomarkers Guide
+    link: 'https://www.insidetracker.com/'
+categories:
+  - longevita
 ---
 
 The standard annual check-up is designed for one thing: diagnosing existing diseases. If your values aren't "out of range" (often very wide ranges), you're told "everything is fine".

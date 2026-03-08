@@ -53,6 +53,8 @@ export default async function GuideCategoryPage({
     const bViews = statsMap.get(b.slug)?.view_count ?? 0;
     return bViews - aViews;
   });
+  
+  // Calculate maxPopular based on article count
   const maxPopular = Math.max(1, Math.floor(articles.length * 0.3));
 
   const breadcrumb = breadcrumbJsonLd([
@@ -81,6 +83,7 @@ export default async function GuideCategoryPage({
         <div className="grid gap-6 md:grid-cols-2">
           {articles.map((article, index) => {
             const views = statsMap.get(article.slug)?.view_count ?? 0;
+            // Use index < maxPopular instead of topViewCount
             const isPopular = views > 0 && index < maxPopular;
             return (
               <Link

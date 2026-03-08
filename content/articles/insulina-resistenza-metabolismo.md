@@ -1,28 +1,39 @@
 ---
-title: "Insulina e Salute Metabolica: Il Vero Segreto del Peso Forma"
-description: "Perché contare le calorie non basta. Capire l'ormone dell'accumulo per sbloccare il metabolismo e prevenire le malattie croniche."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Insulina e Salute Metabolica: Il Vero Segreto del Peso Forma'
+description: >-
+  Perché contare le calorie non basta. Capire l'ormone dell'accumulo per
+  sbloccare il metabolismo e prevenire le malattie croniche.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Come misuro la mia salute metabolica?"
-    answer: "Oltre alla glicemia a digiuno, chiedi l'emoglobina glicata (HbA1c) e, idealmente, l'insulina a digiuno (HOMA-IR). Molti hanno glicemia normale ma insulina altissima."
-  - question: "I carboidrati sono il nemico?"
-    answer: "No, ma i carboidrati raffinati e isolati sì. I carboidrati complessi con [fibre](/articoli/nutrizione/miti-fibre) hanno un impatto molto diverso sull'insulina."
-  - question: "L'insulina alta causa solo diabete?"
-    answer: "No. L'iperinsulinemia è legata a ipertensione, PCOS, malattie cardiache, Alzheimer (spesso chiamato Diabete di Tipo 3) e alcuni tipi di cancro."
+  - question: Come misuro la mia salute metabolica?
+    answer: >-
+      Oltre alla glicemia a digiuno, chiedi l'emoglobina glicata (HbA1c) e,
+      idealmente, l'insulina a digiuno (HOMA-IR). Molti hanno glicemia normale
+      ma insulina altissima.
+  - question: I carboidrati sono il nemico?
+    answer: >-
+      No, ma i carboidrati raffinati e isolati sì. I carboidrati complessi con
+      [fibre](/articoli/nutrizione/miti-fibre) hanno un impatto molto diverso
+      sull'insulina.
+  - question: L'insulina alta causa solo diabete?
+    answer: >-
+      No. L'iperinsulinemia è legata a ipertensione, PCOS, malattie cardiache,
+      Alzheimer (spesso chiamato Diabete di Tipo 3) e alcuni tipi di cancro.
 cta:
-  - text: "Check-up metabolico"
-    link: "/calcolo-longevita"
-    description: "Hai i sintomi della resistenza all'insulina? Scoprilo ora."
+  - text: Check-up metabolico
+    link: /calcolo-longevita
+    description: Hai i sintomi della resistenza all'insulina? Scoprilo ora.
 tags:
   - insulina
   - metabolismo
   - diabete
   - perdita peso
 resources:
-  - name: "Why We Get Sick - Ben Bikman"
-    link: "https://www.benbikman.com/"
+  - name: Why We Get Sick - Ben Bikman
+    link: 'https://www.benbikman.com/'
+categories:
+  - longevita
 ---
 
 L'insulina è un ormone anabolico: il suo lavoro è **costruire e accumulare**. Quando mangi, l'insulina si alza per dire alle cellule: "Apritevi, c'è energia (glucosio) in arrivo!".

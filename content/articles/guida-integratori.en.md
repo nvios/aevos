@@ -1,30 +1,41 @@
 ---
-title: "Supplement Guide: What Works, What's Hype, and What to Avoid"
-description: "A rational approach to supplementation. Don't waste money on magic pills; invest in molecules supported by clinical trials."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Supplement Guide: What Works, What''s Hype, and What to Avoid'
+description: >-
+  A rational approach to supplementation. Don't waste money on magic pills;
+  invest in molecules supported by clinical trials.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Is a multivitamin necessary?"
-    answer: "For most people with a varied diet, it's ineffective insurance. Better to supplement specifically what you're deficient in (often Vitamin D, Magnesium, Omega-3)."
-  - question: "Are supplements regulated like drugs?"
-    answer: "No. The market is less controlled. It's essential to choose brands that perform third-party testing for purity and dosage."
-  - question: "Can I take everything together?"
-    answer: "Some compete for absorption (e.g. Zinc and Calcium). Others should be taken with food (fat-soluble vitamins A, D, E, K). Always read the instructions."
+  - question: Is a multivitamin necessary?
+    answer: >-
+      For most people with a varied diet, it's ineffective insurance. Better to
+      supplement specifically what you're deficient in (often Vitamin D,
+      Magnesium, Omega-3).
+  - question: Are supplements regulated like drugs?
+    answer: >-
+      No. The market is less controlled. It's essential to choose brands that
+      perform third-party testing for purity and dosage.
+  - question: Can I take everything together?
+    answer: >-
+      Some compete for absorption (e.g. Zinc and Calcium). Others should be
+      taken with food (fat-soluble vitamins A, D, E, K). Always read the
+      instructions.
 cta:
-  - text: "Personalized analysis"
-    link: "/calcolo-longevita"
-    description: "Discover which deficiencies might be limiting your potential."
+  - text: Personalized analysis
+    link: /calcolo-longevita
+    description: Discover which deficiencies might be limiting your potential.
 tags:
   - integratori
   - vitamine
   - omega-3
   - magnesio
 resources:
-  - name: "Examine.com - Supplement Research"
-    link: "https://examine.com/"
-  - name: "Labdoor - Supplement Testing"
-    link: "https://labdoor.com/"
+  - name: Examine.com - Supplement Research
+    link: 'https://examine.com/'
+  - name: Labdoor - Supplement Testing
+    link: 'https://labdoor.com/'
+categories:
+  - nutrizione
 ---
 
 The supplement world is a Wild West. Between miraculous promises and aggressive marketing, it's hard to tell science from science fiction. The golden rule is: **Food first, supplements second.** No pill can compensate for a terrible diet and sedentary lifestyle.

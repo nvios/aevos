@@ -1,20 +1,29 @@
 ---
-title: "Healthspan vs Lifespan in Italia: Vivere a lungo vs Vivere bene"
-description: "L'Italia è leader mondiale per aspettativa di vita, ma quanti di questi anni sono vissuti in salute? Analisi dei dati e strategie per colmare il gap."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Healthspan vs Lifespan in Italia: Vivere a lungo vs Vivere bene'
+description: >-
+  L'Italia è leader mondiale per aspettativa di vita, ma quanti di questi anni
+  sono vissuti in salute? Analisi dei dati e strategie per colmare il gap.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Qual è la differenza tra Healthspan e Lifespan?"
-    answer: "Lifespan è la durata totale della vita. Healthspan è il periodo vissuto in buona salute, senza malattie croniche o disabilità gravi."
-  - question: "Quanto vivono in media gli italiani?"
-    answer: "L'aspettativa di vita alla nascita è di circa 83,4 anni, una delle più alte al mondo."
-  - question: "Quanti anni viviamo in salute in Italia?"
-    answer: "Secondo i dati recenti, l'aspettativa di vita in buona salute è di circa 58-60 anni, lasciando un gap di oltre 20 anni di potenziale declino."
+  - question: Qual è la differenza tra Healthspan e Lifespan?
+    answer: >-
+      Lifespan è la durata totale della vita. Healthspan è il periodo vissuto in
+      buona salute, senza malattie croniche o disabilità gravi.
+  - question: Quanto vivono in media gli italiani?
+    answer: >-
+      L'aspettativa di vita alla nascita è di circa 83,4 anni, una delle più
+      alte al mondo.
+  - question: Quanti anni viviamo in salute in Italia?
+    answer: >-
+      Secondo i dati recenti, l'aspettativa di vita in buona salute è di circa
+      58-60 anni, lasciando un gap di oltre 20 anni di potenziale declino.
 cta:
-  - text: "Colma il tuo gap"
-    link: "/calcolo-longevita"
-    description: "Scopri quanti anni di salute ti restano realmente con il nostro test predittivo."
+  - text: Colma il tuo gap
+    link: /calcolo-longevita
+    description: >-
+      Scopri quanti anni di salute ti restano realmente con il nostro test
+      predittivo.
 tags:
   - healthspan
   - lifespan
@@ -22,8 +31,10 @@ tags:
   - statistiche
   - invecchiamento sano
 resources:
-  - name: "ISTAT - Indicatori di mortalità"
-    link: "https://www.istat.it/"
+  - name: ISTAT - Indicatori di mortalità
+    link: 'https://www.istat.it/'
+categories:
+  - longevita
 ---
 
 L'Italia è famosa nel mondo per la sua longevità. Siamo costantemente ai vertici delle classifiche globali per aspettativa di vita, spesso superando gli 83 anni. Ma c'è un dato nascosto che preoccupa gli esperti: la qualità di quegli anni guadagnati.

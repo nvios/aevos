@@ -1,28 +1,39 @@
 ---
-title: "Caduta dei Capelli: Scienza, Miti e Trattamenti che Funzionano"
-description: "Alopecia androgenetica, DHT e stress. Una guida onesta su cosa può salvare i tuoi capelli e cosa è solo marketing."
-category: "capelli"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Caduta dei Capelli: Scienza, Miti e Trattamenti che Funzionano'
+description: >-
+  Alopecia androgenetica, DHT e stress. Una guida onesta su cosa può salvare i
+  tuoi capelli e cosa è solo marketing.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Lavare i capelli troppo spesso li fa cadere?"
-    answer: "Falso. I capelli che vedi nella doccia erano già in fase telogen (caduta). Lavare il cuoio capelluto è essenziale per rimuovere sebo e DHT accumulato."
-  - question: "Il cappello fa cadere i capelli?"
-    answer: "Mito. A meno che non sia così stretto da bloccare la circolazione (improbabile), non influisce sui follicoli."
-  - question: "Lo stress fa diventare calvi?"
-    answer: "Lo stress acuto può causare Telogen Effluvium (caduta temporanea diffusa), ma non causa la calvizie maschile classica (che è genetica/ormonale), sebbene possa accelerarla."
+  - question: Lavare i capelli troppo spesso li fa cadere?
+    answer: >-
+      Falso. I capelli che vedi nella doccia erano già in fase telogen (caduta).
+      Lavare il cuoio capelluto è essenziale per rimuovere sebo e DHT
+      accumulato.
+  - question: Il cappello fa cadere i capelli?
+    answer: >-
+      Mito. A meno che non sia così stretto da bloccare la circolazione
+      (improbabile), non influisce sui follicoli.
+  - question: Lo stress fa diventare calvi?
+    answer: >-
+      Lo stress acuto può causare Telogen Effluvium (caduta temporanea diffusa),
+      ma non causa la calvizie maschile classica (che è genetica/ormonale),
+      sebbene possa accelerarla.
 cta:
-  - text: "Check-up stress e salute"
-    link: "/calcolo-longevita"
-    description: "Lo stress è un fattore chiave nella salute dei capelli. Misura il tuo."
+  - text: Check-up stress e salute
+    link: /calcolo-longevita
+    description: Lo stress è un fattore chiave nella salute dei capelli. Misura il tuo.
 tags:
   - capelli
   - alopecia
   - dht
   - minoxidil
 resources:
-  - name: "American Hair Loss Association"
-    link: "https://www.americanhairloss.org/"
+  - name: American Hair Loss Association
+    link: 'https://www.americanhairloss.org/'
+categories:
+  - capelli
 ---
 
 Per la maggior parte degli uomini (e molte donne), la perdita di capelli non è "sfortuna", è biologia. Si chiama **Alopecia Androgenetica**.

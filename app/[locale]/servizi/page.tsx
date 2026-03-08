@@ -27,7 +27,7 @@ export default async function ServiziPage({
 
   const services = [
     {
-      title: locale === 'en' ? "Advanced Digital Screening" : "Screening Digitale Avanzato",
+      title: locale === 'en' ? "Advanced Digital Assessment" : "Assessment Digitale Avanzato",
       description: locale === 'en'
         ? "A preliminary analysis of your aging profile based on blood biomarkers and lifestyle. The first step towards awareness."
         : "Un'analisi preliminare del tuo profilo di invecchiamento basata su biomarcatori ematici e stile di vita. Il primo passo verso la consapevolezza.",
@@ -35,10 +35,10 @@ export default async function ServiziPage({
       icon: Activity,
     },
     {
-      title: locale === 'en' ? "Clinical Protocol" : "Protocollo Clinico",
+      title: locale === 'en' ? "Personalised Plans" : "Percorsi Personalizzati",
       description: locale === 'en'
-        ? "The definitive experience. Direct monitoring at our center for functional tests, advanced imaging, and complete biological assessment."
-        : "L'esperienza definitiva. Monitoraggio diretto nel nostro centro per test funzionali, imaging avanzato e valutazione biologica completa.",
+        ? "In-person assessments tailored to your goals — from body composition and VO2 max to blood biomarkers, grip strength, and sleep quality analysis."
+        : "Valutazioni in sede su misura per i tuoi obiettivi — dalla composizione corporea e VO2 max ai biomarcatori ematici, forza di presa e analisi della qualità del sonno.",
       href: lp("/servizi/protocolli/longevita"),
       icon: Stethoscope,
     },
@@ -90,12 +90,12 @@ export default async function ServiziPage({
 
       <div className="mx-auto max-w-3xl space-y-8 border-t border-zinc-200 pt-12 text-center">
         <h2 className="text-3xl font-bold text-zinc-800">
-          {locale === 'en' ? 'Why choose the on-site protocol?' : 'Perché scegliere il protocollo in sede?'}
+          {locale === 'en' ? 'Why choose the in-person experience?' : 'Perché scegliere l\'esperienza in sede?'}
         </h2>
         <p className="text-lg text-zinc-600 leading-relaxed">
           {locale === 'en'
-            ? 'While digital screening offers a great starting point, visiting our clinic allows measurements impossible to do remotely: advanced body composition analysis, VO2 max tests, metabolic flexibility assessment, and in-depth cognitive screening.'
-            : 'Mentre lo screening digitale offre un ottimo punto di partenza, la visita presso la nostra clinica permette misurazioni impossibili da remoto: analisi della composizione corporea avanzata, test VO2 max, valutazione della flessibilità metabolica e screening cognitivo approfondito.'}
+            ? 'While the digital assessment offers a great starting point, visiting us in person unlocks measurements impossible to do remotely: precise body composition analysis, VO2 max testing, real-time blood biomarkers, and hands-on guidance from our team.'
+            : 'Mentre l\'assessment digitale offre un ottimo punto di partenza, la visita in sede sblocca misurazioni impossibili da remoto: analisi precisa della composizione corporea, test VO2 max, biomarcatori ematici in tempo reale e la guida diretta del nostro team.'}
         </p>
         <div className="pt-4">
           <Link

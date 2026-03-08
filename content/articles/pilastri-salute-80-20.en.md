@@ -1,26 +1,36 @@
 ---
-title: "The Pillars of Health (80/20 Rule): Foundations Before Details"
-description: "Why infrared saunas and nootropics are useless if you don't sleep. How to get 80% of results with 20% of effort focused on the fundamentals."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'The Pillars of Health (80/20 Rule): Foundations Before Details'
+description: >-
+  Why infrared saunas and nootropics are useless if you don't sleep. How to get
+  80% of results with 20% of effort focused on the fundamentals.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What is the Pareto principle in health?"
-    answer: "It's the idea that 80% of benefits come from 20% of actions. Focusing on sleep, movement, and real food yields enormously superior results compared to marginal details."
-  - question: "How much does genetics matter?"
-    answer: "Genetics is estimated to influence longevity by about 20-30%. The rest is epigenetics: how your lifestyle turns your genes on or off."
+  - question: What is the Pareto principle in health?
+    answer: >-
+      It's the idea that 80% of benefits come from 20% of actions. Focusing on
+      sleep, movement, and real food yields enormously superior results compared
+      to marginal details.
+  - question: How much does genetics matter?
+    answer: >-
+      Genetics is estimated to influence longevity by about 20-30%. The rest is
+      epigenetics: how your lifestyle turns your genes on or off.
 cta:
-  - text: "Assess your foundations"
-    link: "/calcolo-longevita"
-    description: "Our algorithm weighs fundamental pillars more than details. Discover your score."
+  - text: Assess your foundations
+    link: /calcolo-longevita
+    description: >-
+      Our algorithm weighs fundamental pillars more than details. Discover your
+      score.
 tags:
   - longevità
   - abitudini
   - mindset
   - pareto
 resources:
-  - name: "Blue Zones - Lessons for Living Longer"
-    link: "https://www.bluezones.com/"
+  - name: Blue Zones - Lessons for Living Longer
+    link: 'https://www.bluezones.com/'
+categories:
+  - longevita
 ---
 
 In the world of biohacking and wellness, it's easy to get lost. We see influencers taking ice baths, using €1000 red lights, taking 50 pills a day, and monitoring every heartbeat.

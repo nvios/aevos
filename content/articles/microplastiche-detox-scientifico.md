@@ -1,20 +1,29 @@
 ---
-title: "Microplastiche e Interferenti Endocrini: Il Detox Scientifico"
-description: "Non è paranoia, è biologia. Come ridurre il carico tossico quotidiano che altera i tuoi ormoni, senza impazzire."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Microplastiche e Interferenti Endocrini: Il Detox Scientifico'
+description: >-
+  Non è paranoia, è biologia. Come ridurre il carico tossico quotidiano che
+  altera i tuoi ormoni, senza impazzire.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "L'acqua in bottiglia è sicura?"
-    answer: "Spesso contiene più microplastiche di quella del rubinetto. L'ideale è acqua del rubinetto filtrata (carboni attivi o osmosi inversa) conservata in vetro."
-  - question: "La sauna aiuta a disintossicarsi?"
-    answer: "Sì. Studi (es. BUS study) mostrano che il sudore è una via preferenziale per espellere alcuni metalli pesanti e ftalati che le urine non eliminano efficacemente."
-  - question: "Devo buttare tutti i miei tupperware?"
-    answer: "Inizia con quelli vecchi e graffiati. Non scaldare MAI cibo nella plastica al microonde. Sostituisci gradualmente con vetro o acciaio."
+  - question: L'acqua in bottiglia è sicura?
+    answer: >-
+      Spesso contiene più microplastiche di quella del rubinetto. L'ideale è
+      acqua del rubinetto filtrata (carboni attivi o osmosi inversa) conservata
+      in vetro.
+  - question: La sauna aiuta a disintossicarsi?
+    answer: >-
+      Sì. Studi (es. BUS study) mostrano che il sudore è una via preferenziale
+      per espellere alcuni metalli pesanti e ftalati che le urine non eliminano
+      efficacemente.
+  - question: Devo buttare tutti i miei tupperware?
+    answer: >-
+      Inizia con quelli vecchi e graffiati. Non scaldare MAI cibo nella plastica
+      al microonde. Sostituisci gradualmente con vetro o acciaio.
 cta:
-  - text: "Analisi Carico Tossico"
-    link: "/servizi/assessment-online"
-    description: "Valuta la tua esposizione ambientale con il nostro questionario."
+  - text: Analisi Carico Tossico
+    link: /servizi/assessment-online
+    description: Valuta la tua esposizione ambientale con il nostro questionario.
 tags:
   - microplastiche
   - detox
@@ -22,8 +31,10 @@ tags:
   - ambiente
   - sauna
 resources:
-  - name: "Endocrine Society - EDCs"
-    link: "https://www.endocrine.org/topics/edc"
+  - name: Endocrine Society - EDCs
+    link: 'https://www.endocrine.org/topics/edc'
+categories:
+  - longevita
 ---
 
 Viviamo in un mondo di plastica. La mangiamo, la beviamo e la respiriamo. Si stima che ingeriamo circa 5 grammi di plastica a settimana (il peso di una carta di credito).

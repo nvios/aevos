@@ -1,20 +1,30 @@
 ---
-title: "Sarcopenia e Forza dopo i 50 anni: Il Protocollo di Allenamento"
-description: "La perdita di massa muscolare è il fattore di rischio #1 per la fragilità. Ecco come contrastarla scientificamente con l'allenamento di resistenza."
-category: "esercizio"
-author: "Aevos Health Fitness Team"
-authorRole: "Team Fitness"
+title: 'Sarcopenia e Forza dopo i 50 anni: Il Protocollo di Allenamento'
+description: >-
+  La perdita di massa muscolare è il fattore di rischio #1 per la fragilità.
+  Ecco come contrastarla scientificamente con l'allenamento di resistenza.
+author: Aevos Health Fitness Team
+authorRole: Team Fitness
 faq:
-  - question: "È troppo tardi per iniziare a sollevare pesi a 60 anni?"
-    answer: "Assolutamente no. Studi mostrano che anche i novantenni possono guadagnare forza e massa muscolare con l'allenamento adeguato."
-  - question: "Quanto spesso devo allenarmi?"
-    answer: "Per la forza, l'ideale è 3-4 volte a settimana, con giorni di riposo per permettere il recupero muscolare."
-  - question: "Devo per forza andare in palestra?"
-    answer: "I pesi liberi e le macchine sono ottimali, ma si possono ottenere grandi risultati anche con esercizi a corpo libero (calisthenics) o bande elastiche, purché l'intensità sia alta."
+  - question: È troppo tardi per iniziare a sollevare pesi a 60 anni?
+    answer: >-
+      Assolutamente no. Studi mostrano che anche i novantenni possono guadagnare
+      forza e massa muscolare con l'allenamento adeguato.
+  - question: Quanto spesso devo allenarmi?
+    answer: >-
+      Per la forza, l'ideale è 3-4 volte a settimana, con giorni di riposo per
+      permettere il recupero muscolare.
+  - question: Devo per forza andare in palestra?
+    answer: >-
+      I pesi liberi e le macchine sono ottimali, ma si possono ottenere grandi
+      risultati anche con esercizi a corpo libero (calisthenics) o bande
+      elastiche, purché l'intensità sia alta.
 cta:
-  - text: "Piano di Allenamento Personalizzato"
-    link: "/servizi/coaching"
-    description: "I nostri coach specializzati in longevità creeranno un programma sicuro ed efficace per te."
+  - text: Piano di Allenamento Personalizzato
+    link: /servizi/coaching
+    description: >-
+      I nostri coach specializzati in longevità creeranno un programma sicuro ed
+      efficace per te.
 tags:
   - sarcopenia
   - forza
@@ -22,8 +32,10 @@ tags:
   - invecchiamento
   - allenamento
 resources:
-  - name: "Dr. Andy Galpin - Muscle Science"
-    link: "https://www.andygalpin.com/"
+  - name: Dr. Andy Galpin - Muscle Science
+    link: 'https://www.andygalpin.com/'
+categories:
+  - esercizio
 ---
 
 Dopo i 30 anni, iniziamo a perdere circa l'1% della nostra massa muscolare ogni anno. Dopo i 60, questo processo accelera drasticamente. Si chiama **Sarcopenia**, ed è il killer silenzioso dell'indipendenza.

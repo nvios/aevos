@@ -1,28 +1,39 @@
 ---
-title: "Sugar: Public Enemy Number One? Let's Clarify"
-description: "Not all sugars are equal. Distinguishing between glucose, fructose, and added sugars to protect your metabolism."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Sugar: Public Enemy Number One? Let''s Clarify'
+description: >-
+  Not all sugars are equal. Distinguishing between glucose, fructose, and added
+  sugars to protect your metabolism.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Does fruit make you fat because it contains sugar?"
-    answer: "No. The sugar in fruit is 'packaged' with fiber and water, which slow its absorption. It's almost impossible to overconsume fructose by eating whole apples."
-  - question: "Is brown sugar better than white sugar?"
-    answer: "Metabolically, they're almost identical. Both are sucrose and have the same impact on blood sugar and insulin."
-  - question: "Are zero-calorie sweeteners safe?"
-    answer: "Although they don't raise blood sugar, some studies suggest they may alter the [gut microbiome](/articoli/nutrizione/microbioma) or maintain high dependence on sweet taste."
+  - question: Does fruit make you fat because it contains sugar?
+    answer: >-
+      No. The sugar in fruit is 'packaged' with fiber and water, which slow its
+      absorption. It's almost impossible to overconsume fructose by eating whole
+      apples.
+  - question: Is brown sugar better than white sugar?
+    answer: >-
+      Metabolically, they're almost identical. Both are sucrose and have the
+      same impact on blood sugar and insulin.
+  - question: Are zero-calorie sweeteners safe?
+    answer: >-
+      Although they don't raise blood sugar, some studies suggest they may alter
+      the [gut microbiome](/articoli/nutrizione/microbioma) or maintain high
+      dependence on sweet taste.
 cta:
-  - text: "Monitor your metabolic health"
-    link: "/calcolo-longevita"
-    description: "Discover how your diet is influencing your vital parameters."
+  - text: Monitor your metabolic health
+    link: /calcolo-longevita
+    description: Discover how your diet is influencing your vital parameters.
 tags:
   - zuccheri
   - insulina
   - metabolismo
   - diabete
 resources:
-  - name: "Sugar: The Bitter Truth - Robert Lustig"
-    link: "https://www.youtube.com/watch?v=dBnniua6-oM"
+  - name: 'Sugar: The Bitter Truth - Robert Lustig'
+    link: 'https://www.youtube.com/watch?v=dBnniua6-oM'
+categories:
+  - nutrizione
 ---
 
 "Sugar is poison." This phrase, popularized by experts like Dr. Robert Lustig, contains a fundamental truth but requires nuance. The problem is not the glucose molecule itself (which is the brain's primary fuel), but the dose, the speed of absorption, and the source.

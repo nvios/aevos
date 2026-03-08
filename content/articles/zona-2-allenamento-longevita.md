@@ -1,20 +1,27 @@
 ---
-title: "Allenamento Zona 2: La Base della Longevità Metabolica"
-description: "Non devi correre fino a svenire. Scopri perché l'allenamento a bassa intensità è il segreto per mitocondri sani e flessibilità metabolica."
-category: "esercizio"
-author: "Aevos Health Fitness Team"
-authorRole: "Team Fitness"
+title: 'Allenamento Zona 2: La Base della Longevità Metabolica'
+description: >-
+  Non devi correre fino a svenire. Scopri perché l'allenamento a bassa intensità
+  è il segreto per mitocondri sani e flessibilità metabolica.
+author: Aevos Health Fitness Team
+authorRole: Team Fitness
 faq:
-  - question: "Come so se sono in Zona 2 senza cardiofrequenzimetro?"
-    answer: "Usa il 'Talk Test': dovresti essere in grado di parlare fluentemente, ma non di cantare. Se devi prendere fiato tra le parole, sei andato oltre."
-  - question: "Quanto tempo devo dedicare alla Zona 2?"
-    answer: "L'ideale è accumulare 150-180 minuti a settimana. Puoi dividerli in sessioni da 45-60 minuti."
-  - question: "Posso fare Zona 2 camminando?"
-    answer: "Sì, se cammini in salita o molto velocemente (Rucking). Per la maggior parte delle persone, una camminata normale è Zona 1 (troppo leggera)."
+  - question: Come so se sono in Zona 2 senza cardiofrequenzimetro?
+    answer: >-
+      Usa il 'Talk Test': dovresti essere in grado di parlare fluentemente, ma
+      non di cantare. Se devi prendere fiato tra le parole, sei andato oltre.
+  - question: Quanto tempo devo dedicare alla Zona 2?
+    answer: >-
+      L'ideale è accumulare 150-180 minuti a settimana. Puoi dividerli in
+      sessioni da 45-60 minuti.
+  - question: Posso fare Zona 2 camminando?
+    answer: >-
+      Sì, se cammini in salita o molto velocemente (Rucking). Per la maggior
+      parte delle persone, una camminata normale è Zona 1 (troppo leggera).
 cta:
-  - text: "Misura il tuo VO2 Max"
-    link: "/calcolo-longevita"
-    description: "La Zona 2 è la base per costruire un motore aerobico potente."
+  - text: Misura il tuo VO2 Max
+    link: /calcolo-longevita
+    description: La Zona 2 è la base per costruire un motore aerobico potente.
 tags:
   - zona 2
   - cardio
@@ -22,8 +29,10 @@ tags:
   - metabolismo
   - fat burning
 resources:
-  - name: "Dr. Peter Attia - Zone 2 Training"
-    link: "https://peterattiamd.com/"
+  - name: Dr. Peter Attia - Zone 2 Training
+    link: 'https://peterattiamd.com/'
+categories:
+  - esercizio
 ---
 
 Per anni ci hanno detto "No Pain, No Gain". Ma la scienza della longevità ci dice l'opposto: per costruire una salute metabolica indistruttibile, devi allenarti piano.

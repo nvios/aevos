@@ -1,20 +1,31 @@
 ---
-title: "The Bryan Johnson Case: Why He Stopped Rapamycin?"
-description: "Analysis of the world's most famous biohacker's decision to stop taking rapamycin. What it teaches us about personalized medicine and the risks of DIY."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'The Bryan Johnson Case: Why He Stopped Rapamycin?'
+description: >-
+  Analysis of the world's most famous biohacker's decision to stop taking
+  rapamycin. What it teaches us about personalized medicine and the risks of
+  DIY.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Why did Bryan Johnson stop rapamycin?"
-    answer: "He experienced negative side effects, including elevated fasting glucose and impaired wound healing, without significant measurable benefits for his specific case."
-  - question: "Is rapamycin dangerous?"
-    answer: "It is a potent immunosuppressant drug. While promising for longevity in animal models, in humans it can have serious side effects like infections, metabolic issues, and ulcers."
-  - question: "Should I take rapamycin for longevity?"
-    answer: "It is currently not approved for anti-aging use. Off-label use should only happen under strict medical supervision and with constant blood monitoring."
+  - question: Why did Bryan Johnson stop rapamycin?
+    answer: >-
+      He experienced negative side effects, including elevated fasting glucose
+      and impaired wound healing, without significant measurable benefits for
+      his specific case.
+  - question: Is rapamycin dangerous?
+    answer: >-
+      It is a potent immunosuppressant drug. While promising for longevity in
+      animal models, in humans it can have serious side effects like infections,
+      metabolic issues, and ulcers.
+  - question: Should I take rapamycin for longevity?
+    answer: >-
+      It is currently not approved for anti-aging use. Off-label use should only
+      happen under strict medical supervision and with constant blood
+      monitoring.
 cta:
-  - text: "Don't guess, measure."
-    link: "/calcolo-longevita"
-    description: "Discover your real biological age before starting any advanced protocol."
+  - text: 'Don''t guess, measure.'
+    link: /calcolo-longevita
+    description: Discover your real biological age before starting any advanced protocol.
 tags:
   - bryan johnson
   - rapamycin
@@ -22,8 +33,10 @@ tags:
   - longevity
   - side effects
 resources:
-  - name: "Bryan Johnson - Project Blueprint"
-    link: "https://blueprint.bryanjohnson.co/"
+  - name: Bryan Johnson - Project Blueprint
+    link: 'https://blueprint.bryanjohnson.co/'
+categories:
+  - longevita
 ---
 
 In the world of extreme biohacking, Bryan Johnson is a polarizing but undeniably influential figure. With his *Blueprint* project, he spends millions of dollars a year to reverse his biological age. For a long time, **rapamycin** was a cornerstone of his protocol.

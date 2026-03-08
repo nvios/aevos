@@ -1,20 +1,27 @@
 ---
-title: "Zone 2 Training: The Foundation of Metabolic Longevity"
-description: "You don't have to run until you pass out. Discover why low-intensity training is the secret to healthy mitochondria and metabolic flexibility."
-category: "esercizio"
-author: "Aevos Health Fitness Team"
-authorRole: "Fitness Team"
+title: 'Zone 2 Training: The Foundation of Metabolic Longevity'
+description: >-
+  You don't have to run until you pass out. Discover why low-intensity training
+  is the secret to healthy mitochondria and metabolic flexibility.
+author: Aevos Health Fitness Team
+authorRole: Fitness Team
 faq:
-  - question: "How do I know if I'm in Zone 2 without a heart rate monitor?"
-    answer: "Use the 'Talk Test': you should be able to speak fluently, but not sing. If you have to gasp for air between words, you've gone too far."
-  - question: "How much time should I dedicate to Zone 2?"
-    answer: "The ideal is to accumulate 150-180 minutes per week. You can split this into 45-60 minute sessions."
-  - question: "Can I do Zone 2 by walking?"
-    answer: "Yes, if you walk uphill or very fast (Rucking). For most people, a normal walk is Zone 1 (too light)."
+  - question: How do I know if I'm in Zone 2 without a heart rate monitor?
+    answer: >-
+      Use the 'Talk Test': you should be able to speak fluently, but not sing.
+      If you have to gasp for air between words, you've gone too far.
+  - question: How much time should I dedicate to Zone 2?
+    answer: >-
+      The ideal is to accumulate 150-180 minutes per week. You can split this
+      into 45-60 minute sessions.
+  - question: Can I do Zone 2 by walking?
+    answer: >-
+      Yes, if you walk uphill or very fast (Rucking). For most people, a normal
+      walk is Zone 1 (too light).
 cta:
-  - text: "Measure your VO2 Max"
-    link: "/calcolo-longevita"
-    description: "Zone 2 is the foundation for building a powerful aerobic engine."
+  - text: Measure your VO2 Max
+    link: /calcolo-longevita
+    description: Zone 2 is the foundation for building a powerful aerobic engine.
 tags:
   - zone 2
   - cardio
@@ -22,8 +29,10 @@ tags:
   - metabolism
   - fat burning
 resources:
-  - name: "Dr. Peter Attia - Zone 2 Training"
-    link: "https://peterattiamd.com/"
+  - name: Dr. Peter Attia - Zone 2 Training
+    link: 'https://peterattiamd.com/'
+categories:
+  - esercizio
 ---
 
 For years we've been told "No Pain, No Gain". But longevity science tells us the opposite: to build indestructible metabolic health, you have to train slow.

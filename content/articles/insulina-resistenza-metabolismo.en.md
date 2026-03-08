@@ -1,28 +1,38 @@
 ---
-title: "Insulin and Metabolic Health: The Real Secret to Weight Management"
-description: "Why counting calories isn't enough. Understanding the storage hormone to unlock metabolism and prevent chronic disease."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Insulin and Metabolic Health: The Real Secret to Weight Management'
+description: >-
+  Why counting calories isn't enough. Understanding the storage hormone to
+  unlock metabolism and prevent chronic disease.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "How do I measure my metabolic health?"
-    answer: "Beyond fasting glucose, ask for glycated hemoglobin (HbA1c) and, ideally, fasting insulin (HOMA-IR). Many have normal glucose but very high insulin."
-  - question: "Are carbohydrates the enemy?"
-    answer: "No, but refined and isolated carbohydrates are. Complex carbohydrates with [fiber](/articoli/nutrizione/miti-fibre) have a very different impact on insulin."
-  - question: "Does high insulin only cause diabetes?"
-    answer: "No. Hyperinsulinemia is linked to hypertension, PCOS, heart disease, Alzheimer's (often called Type 3 Diabetes) and some types of cancer."
+  - question: How do I measure my metabolic health?
+    answer: >-
+      Beyond fasting glucose, ask for glycated hemoglobin (HbA1c) and, ideally,
+      fasting insulin (HOMA-IR). Many have normal glucose but very high insulin.
+  - question: Are carbohydrates the enemy?
+    answer: >-
+      No, but refined and isolated carbohydrates are. Complex carbohydrates with
+      [fiber](/articoli/nutrizione/miti-fibre) have a very different impact on
+      insulin.
+  - question: Does high insulin only cause diabetes?
+    answer: >-
+      No. Hyperinsulinemia is linked to hypertension, PCOS, heart disease,
+      Alzheimer's (often called Type 3 Diabetes) and some types of cancer.
 cta:
-  - text: "Metabolic check-up"
-    link: "/calcolo-longevita"
-    description: "Do you have symptoms of insulin resistance? Find out now."
+  - text: Metabolic check-up
+    link: /calcolo-longevita
+    description: Do you have symptoms of insulin resistance? Find out now.
 tags:
   - insulina
   - metabolismo
   - diabete
   - perdita peso
 resources:
-  - name: "Why We Get Sick - Ben Bikman"
-    link: "https://www.benbikman.com/"
+  - name: Why We Get Sick - Ben Bikman
+    link: 'https://www.benbikman.com/'
+categories:
+  - longevita
 ---
 
 Insulin is an anabolic hormone: its job is to **build and store**. When you eat, insulin rises to tell cells: "Open up, there's energy (glucose) coming!"

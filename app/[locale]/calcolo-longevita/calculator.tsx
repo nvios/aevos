@@ -116,11 +116,17 @@ export function LongevityCalculator() {
   const locale = useLocale();
   const isEn = locale === 'en';
   const lp = (path: string) => localePath(path, locale);
-  const [input, setInput] = useState<InputState>({
-    age: 40,
-    heightCm: 175,
-    weightKg: 75,
-    gender: "uomo",
+  const [input, setInput] = useState<InputState>(() => {
+    const defaults: InputState = { age: 40, heightCm: 175, weightKg: 75, gender: "uomo" };
+    if (typeof window === "undefined") return defaults;
+    try {
+      const raw = localStorage.getItem("aevos_calculator_data");
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        return { ...defaults, ...parsed };
+      }
+    } catch { /* ignore */ }
+    return defaults;
   });
 
   const [showAdvanced, setShowResult] = useState(false);
@@ -180,6 +186,17 @@ export function LongevityCalculator() {
   const gapPoints = 100 - score;
   const improvementMin = Math.max(1, Math.floor(gapPoints * 0.15));
   const improvementMax = Math.max(2, Math.ceil(gapPoints * 0.3));
+
+  useEffect(() => {
+    try {
+      localStorage.setItem("aevos_calculator_data", JSON.stringify({
+        age: input.age,
+        heightCm: input.heightCm,
+        weightKg: input.weightKg,
+        gender: input.gender,
+      }));
+    } catch { /* ignore */ }
+  }, [input.age, input.heightCm, input.weightKg, input.gender]);
 
   useEffect(() => {
     if (!supabase) return;
@@ -378,7 +395,7 @@ export function LongevityCalculator() {
                       : "Il calcolatore offre una stima statistica. Per un piano d'azione clinico e personalizzato, hai bisogno di misurazioni reali e di un team medico dedicato."}
                   </p>
                   <Link href={lp("/servizi")} onClick={() => analytics.calculatorCtaClicked("/servizi")} className="mt-4 inline-flex items-center rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white transition-all hover:bg-emerald-600 hover:shadow-[0_0_20px_rgba(16,185,129,0.4)]">
-                    {isEn ? 'Discover Our Clinical Protocol' : 'Scopri il Nostro Protocollo Clinico'}<ChevronRight className="ml-1 h-4 w-4" />
+                    {isEn ? 'Discover Our Personalised Plans' : 'Scopri i Nostri Percorsi Personalizzati'}<ChevronRight className="ml-1 h-4 w-4" />
                   </Link>
                 </div>
               </div>

@@ -1,20 +1,30 @@
 ---
-title: "Menopausa e Longevità: La Finestra di Opportunità che Nessuno ti Dice"
-description: "La menopausa non è la fine della giovinezza, ma una transizione metabolica critica. Come gestirla per proteggere ossa, cervello e cuore."
-category: "longevita"
-author: "Aevos Health Medical Team"
-authorRole: "Team Medico"
+title: 'Menopausa e Longevità: La Finestra di Opportunità che Nessuno ti Dice'
+description: >-
+  La menopausa non è la fine della giovinezza, ma una transizione metabolica
+  critica. Come gestirla per proteggere ossa, cervello e cuore.
+author: Aevos Health Medical Team
+authorRole: Team Medico
 faq:
-  - question: "Perché ingrasso anche se mangio uguale?"
-    answer: "Il calo degli estrogeni riduce la sensibilità all'insulina e il metabolismo basale. Il corpo tende ad accumulare grasso viscerale (pancia), spesso aggravato dal [cortisolo](/articoli/longevita/cortisolo-stress-cronico) alto."
-  - question: "La TOS (Terapia Ormonale Sostitutiva) è sicura?"
-    answer: "Le linee guida moderne indicano che, se iniziata entro 10 anni dalla menopausa (la 'finestra di opportunità'), i benefici cardiovascolari e ossei superano spesso i rischi. Parlane con un ginecologo aggiornato."
-  - question: "Quali integratori aiutano davvero?"
-    answer: "Magnesio per il sonno, Vitamina D+K2 per le ossa, e fitoestrogeni (come il trifoglio rosso) possono aiutare con i sintomi lievi."
+  - question: Perché ingrasso anche se mangio uguale?
+    answer: >-
+      Il calo degli estrogeni riduce la sensibilità all'insulina e il
+      metabolismo basale. Il corpo tende ad accumulare grasso viscerale
+      (pancia), spesso aggravato dal
+      [cortisolo](/articoli/longevita/cortisolo-stress-cronico) alto.
+  - question: La TOS (Terapia Ormonale Sostitutiva) è sicura?
+    answer: >-
+      Le linee guida moderne indicano che, se iniziata entro 10 anni dalla
+      menopausa (la 'finestra di opportunità'), i benefici cardiovascolari e
+      ossei superano spesso i rischi. Parlane con un ginecologo aggiornato.
+  - question: Quali integratori aiutano davvero?
+    answer: >-
+      Magnesio per il sonno, Vitamina D+K2 per le ossa, e fitoestrogeni (come il
+      trifoglio rosso) possono aiutare con i sintomi lievi.
 cta:
-  - text: "Protocollo Donna 40+"
-    link: "/servizi/consulenze"
-    description: "Nutrizione e allenamento specifici per il tuo assetto ormonale."
+  - text: Protocollo Donna 40+
+    link: /servizi/consulenze
+    description: Nutrizione e allenamento specifici per il tuo assetto ormonale.
 tags:
   - menopausa
   - donne
@@ -22,8 +32,10 @@ tags:
   - osteoporosi
   - metabolismo
 resources:
-  - name: "The Menopause Society"
-    link: "https://www.menopause.org/"
+  - name: The Menopause Society
+    link: 'https://www.menopause.org/'
+categories:
+  - longevita
 ---
 
 Per decenni, la medicina ha trattato la menopausa come una malattia da sopportare o nascondere. In realtà, è un **evento di rimodellamento biologico** fondamentale.

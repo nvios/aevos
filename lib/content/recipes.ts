@@ -49,17 +49,9 @@ export function getRecipeBySlug(slug: string, locale: string = 'it'): Recipe | n
     const { data, content } = matter(fileContents);
 
     // Handle category/categories normalization
-    let categories: string[] = [];
-    if (Array.isArray(data.categories)) {
-      categories = data.categories;
-    } else if (data.category) {
-      categories = [data.category];
-    }
-
-    // Ensure there is at least one category
-    if (categories.length === 0) {
-      categories = ["uncategorized"];
-    }
+    const categories: string[] = Array.isArray(data.categories) && data.categories.length > 0
+      ? data.categories
+      : ["uncategorized"];
 
     const primaryCategory = categories[0];
 

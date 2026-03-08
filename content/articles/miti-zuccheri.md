@@ -1,28 +1,39 @@
 ---
-title: "Zuccheri: Il Nemico Pubblico Numero Uno? Facciamo Chiarezza"
-description: "Non tutti gli zuccheri sono uguali. Distinguere tra glucosio, fruttosio e zuccheri aggiunti per proteggere il metabolismo."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Zuccheri: Il Nemico Pubblico Numero Uno? Facciamo Chiarezza'
+description: >-
+  Non tutti gli zuccheri sono uguali. Distinguere tra glucosio, fruttosio e
+  zuccheri aggiunti per proteggere il metabolismo.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "La frutta fa ingrassare perché contiene zucchero?"
-    answer: "No. Lo zucchero nella frutta è 'impacchettato' con fibre e acqua, che ne rallentano l'assorbimento. È quasi impossibile sovralimentarsi di fruttosio mangiando mele intere."
-  - question: "Lo zucchero di canna è meglio di quello bianco?"
-    answer: "Metabolicamente, sono quasi identici. Entrambi sono saccarosio e hanno lo stesso impatto su glicemia e insulina."
-  - question: "I dolcificanti zero calorie sono sicuri?"
-    answer: "Sebbene non alzino la glicemia, alcuni studi suggeriscono che possano alterare il [microbioma intestinale](/articoli/nutrizione/microbioma) o mantenere alta la dipendenza dal gusto dolce."
+  - question: La frutta fa ingrassare perché contiene zucchero?
+    answer: >-
+      No. Lo zucchero nella frutta è 'impacchettato' con fibre e acqua, che ne
+      rallentano l'assorbimento. È quasi impossibile sovralimentarsi di
+      fruttosio mangiando mele intere.
+  - question: Lo zucchero di canna è meglio di quello bianco?
+    answer: >-
+      Metabolicamente, sono quasi identici. Entrambi sono saccarosio e hanno lo
+      stesso impatto su glicemia e insulina.
+  - question: I dolcificanti zero calorie sono sicuri?
+    answer: >-
+      Sebbene non alzino la glicemia, alcuni studi suggeriscono che possano
+      alterare il [microbioma intestinale](/articoli/nutrizione/microbioma) o
+      mantenere alta la dipendenza dal gusto dolce.
 cta:
-  - text: "Monitora la tua salute metabolica"
-    link: "/calcolo-longevita"
-    description: "Scopri come la tua alimentazione sta influenzando i tuoi parametri vitali."
+  - text: Monitora la tua salute metabolica
+    link: /calcolo-longevita
+    description: Scopri come la tua alimentazione sta influenzando i tuoi parametri vitali.
 tags:
   - zuccheri
   - insulina
   - metabolismo
   - diabete
 resources:
-  - name: "Sugar: The Bitter Truth - Robert Lustig"
-    link: "https://www.youtube.com/watch?v=dBnniua6-oM"
+  - name: 'Sugar: The Bitter Truth - Robert Lustig'
+    link: 'https://www.youtube.com/watch?v=dBnniua6-oM'
+categories:
+  - nutrizione
 ---
 
 "Lo zucchero è veleno". Questa frase, resa popolare da esperti come il Dr. Robert Lustig, contiene una verità fondamentale ma richiede sfumature. Il problema non è la molecola di glucosio in sé (che è il carburante primario del cervello), ma la dose, la velocità di assorbimento e la fonte.

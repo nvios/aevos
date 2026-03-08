@@ -1,30 +1,41 @@
 ---
-title: "Gut Microbiome: The 'Second Brain' That Controls Your Health"
-description: "How the bacteria in your gut influence immunity, mood and longevity. Practical strategies to nourish your internal ecosystem."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Gut Microbiome: The ''Second Brain'' That Controls Your Health'
+description: >-
+  How the bacteria in your gut influence immunity, mood and longevity. Practical
+  strategies to nourish your internal ecosystem.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What are probiotics and prebiotics?"
-    answer: "Probiotics are beneficial live bacteria (e.g. in yogurt), while prebiotics are the fibers that feed these bacteria (e.g. in garlic, onion, artichokes)."
-  - question: "Do antibiotics destroy the microbiome forever?"
-    answer: "No, but they can alter it significantly. A course of antibiotics can take months for full recovery of bacterial diversity. It's crucial to support the gut during and after therapy."
-  - question: "Is there a test for the microbiome?"
-    answer: "Yes, fecal DNA sequencing tests exist that offer a detailed map of the bacterial species present, useful for targeted interventions."
+  - question: What are probiotics and prebiotics?
+    answer: >-
+      Probiotics are beneficial live bacteria (e.g. in yogurt), while prebiotics
+      are the fibers that feed these bacteria (e.g. in garlic, onion,
+      artichokes).
+  - question: Do antibiotics destroy the microbiome forever?
+    answer: >-
+      No, but they can alter it significantly. A course of antibiotics can take
+      months for full recovery of bacterial diversity. It's crucial to support
+      the gut during and after therapy.
+  - question: Is there a test for the microbiome?
+    answer: >-
+      Yes, fecal DNA sequencing tests exist that offer a detailed map of the
+      bacterial species present, useful for targeted interventions.
 cta:
-  - text: "Analyze your diet"
-    link: "/calcolo-longevita"
-    description: "Discover if your eating habits are supporting or damaging your microbiome."
+  - text: Analyze your diet
+    link: /calcolo-longevita
+    description: Discover if your eating habits are supporting or damaging your microbiome.
 tags:
   - microbioma
   - intestino
   - salute digestiva
   - probiotici
 resources:
-  - name: "Sonnenburg Lab - Stanford University"
-    link: "https://sonnenburglab.stanford.edu/"
-  - name: "Project Microbe"
-    link: "https://humanfoodproject.com/"
+  - name: Sonnenburg Lab - Stanford University
+    link: 'https://sonnenburglab.stanford.edu/'
+  - name: Project Microbe
+    link: 'https://humanfoodproject.com/'
+categories:
+  - nutrizione
 ---
 
 Your body hosts approximately 38 trillion bacteria, most of which reside in your gut. This ecosystem, known as the microbiome, is not a passive guest, but an active metabolic organ weighing about 2 kg – as much as your brain.

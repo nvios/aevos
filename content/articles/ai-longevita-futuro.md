@@ -1,20 +1,33 @@
 ---
-title: "AI e Longevità: Tra Scienza Reale e Hype da Silicon Valley"
-description: "Dalla scoperta di nuovi farmaci con AlphaFold ai gemelli digitali. Cosa sta succedendo davvero alla frontiera tra biologia e intelligenza artificiale."
-category: "tecnologie"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'AI e Longevità: Tra Scienza Reale e Hype da Silicon Valley'
+description: >-
+  Dalla scoperta di nuovi farmaci con AlphaFold ai gemelli digitali. Cosa sta
+  succedendo davvero alla frontiera tra biologia e intelligenza artificiale.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "L'AI può curare l'invecchiamento?"
-    answer: "Non direttamente. L'AI è uno strumento che accelera la ricerca. Può analizzare miliardi di molecole per trovare candidati farmaci in settimane invece che anni, ma la biologia umana resta complessa e richiede trial clinici."
-  - question: "Cosa sono i 'Digital Twins'?"
-    answer: "Sono repliche virtuali della fisiologia di un paziente. Permettono di simulare l'effetto di un farmaco o di uno stile di vita 'in silico' (al computer) prima di testarlo sul corpo reale."
-  - question: "Caricare la mente nel cloud è possibile?"
-    answer: "Al momento è pura fantascienza. Non abbiamo nemmeno mappato completamente il connettoma (le connessioni neuronali) di un topo, figuriamoci la coscienza umana."
+  - question: L'AI può curare l'invecchiamento?
+    answer: >-
+      Non direttamente. L'AI è uno strumento che accelera la ricerca. Può
+      analizzare miliardi di molecole per trovare candidati farmaci in settimane
+      invece che anni, ma la biologia umana resta complessa e richiede trial
+      clinici.
+  - question: Cosa sono i 'Digital Twins'?
+    answer: >-
+      Sono repliche virtuali della fisiologia di un paziente. Permettono di
+      simulare l'effetto di un farmaco o di uno stile di vita 'in silico' (al
+      computer) prima di testarlo sul corpo reale.
+  - question: Caricare la mente nel cloud è possibile?
+    answer: >-
+      Al momento è pura fantascienza. Non abbiamo nemmeno mappato completamente
+      il connettoma (le connessioni neuronali) di un topo, figuriamoci la
+      coscienza umana.
 cta:
-  - text: "Misura la tua età biologica oggi"
-    link: "/calcolo-longevita"
-    description: "In attesa dell'AI, usa i dati che abbiamo oggi per ottimizzare la tua salute."
+  - text: Misura la tua età biologica oggi
+    link: /calcolo-longevita
+    description: >-
+      In attesa dell'AI, usa i dati che abbiamo oggi per ottimizzare la tua
+      salute.
 tags:
   - intelligenza artificiale
   - tech-bio
@@ -22,10 +35,12 @@ tags:
   - digital twins
   - futuro
 resources:
-  - name: "DeepMind - AlphaFold"
-    link: "https://www.deepmind.com/research/highlighted-research/alphafold"
-  - name: "Insilico Medicine"
-    link: "https://insilico.com/"
+  - name: DeepMind - AlphaFold
+    link: 'https://www.deepmind.com/research/highlighted-research/alphafold'
+  - name: Insilico Medicine
+    link: 'https://insilico.com/'
+categories:
+  - tecnologie
 ---
 
 Siamo nell'era della **TechBio**. Per la prima volta nella storia, la biologia non è più solo una scienza di laboratorio (provette e microscopi), ma una scienza dell'informazione (dati e algoritmi).

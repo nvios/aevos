@@ -1,28 +1,38 @@
 ---
-title: "Magnesio: Il Minerale del Rilassamento che Manca a Tutti"
-description: "Stress, sonno scarso e crampi? Potrebbe essere carenza di magnesio. Guida alle forme migliori (bisglicinato, citrato, treonato)."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Magnesio: Il Minerale del Rilassamento che Manca a Tutti'
+description: >-
+  Stress, sonno scarso e crampi? Potrebbe essere carenza di magnesio. Guida alle
+  forme migliori (bisglicinato, citrato, treonato).
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Come capisco se sono carente?"
-    answer: "Gli esami del sangue standard sono poco utili perché il 99% del magnesio è nelle cellule, non nel siero. Sintomi come crampi, tic all'occhio, insonnia e ansia sono indicatori migliori."
-  - question: "Quale forma devo evitare?"
-    answer: "Il Magnesio Ossido. È economico, ma si assorbe pochissimo (4%) e ha un forte effetto lassativo."
-  - question: "Quando prenderlo?"
-    answer: "Generalmente la sera, circa 1 ora prima di dormire, per favorire il rilassamento muscolare e nervoso."
+  - question: Come capisco se sono carente?
+    answer: >-
+      Gli esami del sangue standard sono poco utili perché il 99% del magnesio è
+      nelle cellule, non nel siero. Sintomi come crampi, tic all'occhio,
+      insonnia e ansia sono indicatori migliori.
+  - question: Quale forma devo evitare?
+    answer: >-
+      Il Magnesio Ossido. È economico, ma si assorbe pochissimo (4%) e ha un
+      forte effetto lassativo.
+  - question: Quando prenderlo?
+    answer: >-
+      Generalmente la sera, circa 1 ora prima di dormire, per favorire il
+      rilassamento muscolare e nervoso.
 cta:
-  - text: "Analisi dei sintomi"
-    link: "/calcolo-longevita"
-    description: "I tuoi disturbi del sonno potrebbero dipendere da una carenza minerale?"
+  - text: Analisi dei sintomi
+    link: /calcolo-longevita
+    description: I tuoi disturbi del sonno potrebbero dipendere da una carenza minerale?
 tags:
   - magnesio
   - integratori
   - sonno
   - stress
 resources:
-  - name: "NIH - Magnesium Fact Sheet"
-    link: "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+  - name: NIH - Magnesium Fact Sheet
+    link: 'https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/'
+categories:
+  - nutrizione
 ---
 
 Il magnesio è il "master mineral". È cofattore in oltre 300 reazioni enzimatiche, inclusa la produzione di ATP (energia), la sintesi del DNA e la regolazione del sistema nervoso.

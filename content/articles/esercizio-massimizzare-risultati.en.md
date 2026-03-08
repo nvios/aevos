@@ -1,28 +1,38 @@
 ---
-title: "Exercise for Busy People: Maximizing Results in 30 Minutes"
-description: "You don't need to live in the gym. The science of intensity and consistency to build a strong, long-lived body with little time."
-category: "esercizio"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Exercise for Busy People: Maximizing Results in 30 Minutes'
+description: >-
+  You don't need to live in the gym. The science of intensity and consistency to
+  build a strong, long-lived body with little time.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Cardio or weights?"
-    answer: "For longevity, both. Weights maintain muscle mass (the longevity organ), cardio trains the heart. Ideally combine them."
-  - question: "Is HIIT dangerous?"
-    answer: "If done correctly and progressively, it's safe and very effective for the heart. You don't need to do it every day; 1-2 times a week is enough."
-  - question: "Does walking count as exercise?"
-    answer: "Absolutely yes. It's the foundation of the movement pyramid. It reduces cortisol and improves insulin sensitivity without stressing the body."
+  - question: Cardio or weights?
+    answer: >-
+      For longevity, both. Weights maintain muscle mass (the longevity organ),
+      cardio trains the heart. Ideally combine them.
+  - question: Is HIIT dangerous?
+    answer: >-
+      If done correctly and progressively, it's safe and very effective for the
+      heart. You don't need to do it every day; 1-2 times a week is enough.
+  - question: Does walking count as exercise?
+    answer: >-
+      Absolutely yes. It's the foundation of the movement pyramid. It reduces
+      cortisol and improves insulin sensitivity without stressing the body.
 cta:
-  - text: "Personalized plan"
-    link: "/servizi"
-    description: "Find a trainer or partner gym to optimize your time."
+  - text: Personalized plan
+    link: /servizi
+    description: Find a trainer or partner gym to optimize your time.
 tags:
   - allenamento
   - tempo
   - hiit
   - forza
 resources:
-  - name: "Minimum Effective Dose Training"
-    link: "https://tim.blog/2016/11/09/the-tim-ferriss-show-transcripts-pavel-tsatsouline/"
+  - name: Minimum Effective Dose Training
+    link: >-
+      https://tim.blog/2016/11/09/the-tim-ferriss-show-transcripts-pavel-tsatsouline/
+categories:
+  - esercizio
 ---
 
 "I don't have time." It's the number one excuse. But if Barack Obama, Elon Musk and countless CEOs find the time, you can too. The secret isn't finding more time, but using what you have better.

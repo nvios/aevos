@@ -1,22 +1,41 @@
 ---
-title: "Breathing: How to Change Your Biology with a Single Breath"
-description: "It's not just oxygen. Discover how nasal breathing, CO2 tolerance, and the vagus nerve can reprogram your nervous system and improve longevity."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Breathing: How to Change Your Biology with a Single Breath'
+description: >-
+  It's not just oxygen. Discover how nasal breathing, CO2 tolerance, and the
+  vagus nerve can reprogram your nervous system and improve longevity.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Why is it important to breathe through the nose?"
-    answer: "The nose filters, warms, and humidifies the air, but above all it produces nitric oxide, a vasodilator molecule that improves oxygen absorption and has antimicrobial properties."
-  - question: "What is CO2 tolerance?"
-    answer: "It is the body's ability to handle higher levels of carbon dioxide. Low tolerance leads to overbreathing (hyperventilation), paradoxically reducing tissue oxygenation (Bohr Effect)."
-  - question: "Is nighttime mouth taping safe?"
-    answer: "For most people yes, and it is very effective at preventing nighttime mouth breathing, snoring, and improving deep sleep quality. Consult a doctor if you have serious respiratory conditions."
-  - question: "I have a deviated septum or enlarged tonsils, can I breathe through my nose?"
-    answer: "Physical obstructions can make nasal breathing difficult, but often do not prevent it entirely. Using nasal strips or dilators can help open the airways. In many cases, consistent nasal breathing can reduce inflammation of soft tissues over time. However, for severe deviations or hypertrophic tonsils causing apnea, it is essential to consult an ENT specialist."
+  - question: Why is it important to breathe through the nose?
+    answer: >-
+      The nose filters, warms, and humidifies the air, but above all it produces
+      nitric oxide, a vasodilator molecule that improves oxygen absorption and
+      has antimicrobial properties.
+  - question: What is CO2 tolerance?
+    answer: >-
+      It is the body's ability to handle higher levels of carbon dioxide. Low
+      tolerance leads to overbreathing (hyperventilation), paradoxically
+      reducing tissue oxygenation (Bohr Effect).
+  - question: Is nighttime mouth taping safe?
+    answer: >-
+      For most people yes, and it is very effective at preventing nighttime
+      mouth breathing, snoring, and improving deep sleep quality. Consult a
+      doctor if you have serious respiratory conditions.
+  - question: >-
+      I have a deviated septum or enlarged tonsils, can I breathe through my
+      nose?
+    answer: >-
+      Physical obstructions can make nasal breathing difficult, but often do not
+      prevent it entirely. Using nasal strips or dilators can help open the
+      airways. In many cases, consistent nasal breathing can reduce inflammation
+      of soft tissues over time. However, for severe deviations or hypertrophic
+      tonsils causing apnea, it is essential to consult an ENT specialist.
 cta:
-  - text: "Measure your HRV"
-    link: "/articoli/longevita/hrv-vo2-rhr-guida"
-    description: "Discover how breathing influences Heart Rate Variability, a key longevity biomarker."
+  - text: Measure your HRV
+    link: /articoli/longevita/hrv-vo2-rhr-guida
+    description: >-
+      Discover how breathing influences Heart Rate Variability, a key longevity
+      biomarker.
 tags:
   - respirazione
   - sistema nervoso
@@ -24,10 +43,13 @@ tags:
   - ossido nitrico
   - nervo vago
 resources:
-  - name: "Breath: The New Science of a Lost Art - James Nestor"
-    link: "https://www.mrjamesnestor.com/breath"
-  - name: "Huberman Lab: How to Breathe Correctly"
-    link: "https://www.hubermanlab.com/episode/how-to-breathe-correctly-for-optimal-health-mood-learning-and-performance"
+  - name: 'Breath: The New Science of a Lost Art - James Nestor'
+    link: 'https://www.mrjamesnestor.com/breath'
+  - name: 'Huberman Lab: How to Breathe Correctly'
+    link: >-
+      https://www.hubermanlab.com/episode/how-to-breathe-correctly-for-optimal-health-mood-learning-and-performance
+categories:
+  - longevita
 ---
 
 We breathe approximately 25,000 times a day. For most of us, it's an automatic and unconscious act. Yet modern science is rediscovering what ancient traditions knew for millennia: the way you breathe shapes your biology, moment by moment.

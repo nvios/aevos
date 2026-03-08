@@ -215,43 +215,59 @@ const PROTOCOLS_IT: Record<string, Protocol> = {
   },
   'longevita': {
     slug: 'longevita',
-    title: 'Protocollo Longevità Completo',
-    subtitle: 'Il gold standard per l\'analisi dell\'età biologica e la prevenzione.',
-    description: 'Il nostro programma di punta. Una mappatura completa della tua salute attuale e futura, basata sulle più recenti scoperte della medicina della longevità.',
-    seoDescription: 'Protocollo Longevità Aevos: misura la tua età biologica e rallenta l\'invecchiamento. Check-up completo e strategia personalizzata.',
+    title: 'Percorso Longevità',
+    subtitle: 'Piani personalizzati per misurare, capire e migliorare la tua salute a lungo termine.',
+    description: 'Il nostro programma di punta. Dalla valutazione di base fino alla mappatura completa della tua salute, con percorsi su misura basati sulle più recenti scoperte della medicina della longevità.',
+    seoDescription: 'Percorso Longevità Aevos: misura la tua età biologica e rallenta l\'invecchiamento. Dall\'assessment di base al piano personalizzato completo.',
     features: [
-      'Analisi età biologica',
-      'Screening genetico (opzionale)',
-      'Valutazione cardiovascolare avanzata',
+      'Composizione corporea e forza di presa',
+      'Analisi ematica e biomarcatori longevità',
+      'VO2 max e capacità cardiovascolare',
       'Piano nutrizionale e di allenamento pro-longevità'
     ],
     pricing: [
       {
         tier: 'Silver',
-        price: '€800',
-        description: 'Check-up annuale completo.',
+        price: '€99',
+        description: 'Assessment di base: scopri dove sei oggi.',
         features: [
-          'Analisi ematica estesa (50+ marker)',
-          'Test epigenetico età biologica',
-          'Valutazione composizione corporea (DEXA/BIA)',
-          'Report dettagliato e piano d\'azione'
+          'Misurazione composizione corporea (BIA)',
+          'Test forza di presa (grip strength)',
+          'Stima VO2 max',
+          'Report con suggerimenti di base'
         ],
-        cta: 'Prenota Check-up',
+        cta: 'Prenota Assessment',
         ctaLink: '/contatti?protocollo=longevita-silver'
       },
       {
         tier: 'Gold',
-        price: '€2500',
+        price: '€699',
+        description: 'Valutazione completa con piano personalizzato.',
+        features: [
+          'Analisi ematica estesa (50+ marker)',
+          'Composizione corporea dettagliata (DEXA/BIA)',
+          'Misurazione VO2 max',
+          'Analisi qualità del sonno',
+          'Test forza di presa',
+          'Piano d\'azione personalizzato (nutrizione e allenamento)'
+        ],
+        cta: 'Prenota Percorso',
+        ctaLink: '/contatti?protocollo=longevita-gold'
+      },
+      {
+        tier: 'Platinum',
+        price: '€1999',
         description: 'La massima espressione della medicina preventiva.',
         features: [
-          'Tutto nel pacchetto Silver',
+          'Tutto nel pacchetto Gold',
+          'Test epigenetico età biologica',
           'Screening genomico completo',
           'Analisi microbioma intestinale',
           'Monitoraggio continuo con medico dedicato',
           'Accesso prioritario ai servizi'
         ],
         cta: 'Richiedi Informazioni',
-        ctaLink: '/contatti?protocollo=longevita-gold'
+        ctaLink: '/contatti?protocollo=longevita-platinum'
       }
     ],
     benefits: [
@@ -275,6 +291,10 @@ const PROTOCOLS_IT: Record<string, Protocol> = {
       {
         question: 'Cos\'è l\'età biologica?',
         answer: 'È la velocità a cui stai invecchiando internamente, che può essere diversa dalla tua età anagrafica. Possiamo misurarla e migliorarla.'
+      },
+      {
+        question: 'Qual è la differenza tra Silver e Gold?',
+        answer: 'Il Silver è un assessment singolo che ti dà un\'istantanea della tua salute con suggerimenti di base. Il Gold include tutto il Silver più misurazioni avanzate e un piano d\'azione personalizzato completo.'
       },
       {
         question: 'È detraibile?',

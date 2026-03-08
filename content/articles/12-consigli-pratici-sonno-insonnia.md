@@ -1,29 +1,41 @@
 ---
-title: "12 Consigli Pratici per Migliorare il Sonno e Combattere l'Insonnia"
-description: "Protocollo scientifico per ottimizzare la qualità del riposo. Strategie comportamentali, ambientali e nutrizionali per dormire meglio da stasera."
-category: "sonno"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 12 Consigli Pratici per Migliorare il Sonno e Combattere l'Insonnia
+description: >-
+  Protocollo scientifico per ottimizzare la qualità del riposo. Strategie
+  comportamentali, ambientali e nutrizionali per dormire meglio da stasera.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Quante ore di sonno servono davvero?"
-    answer: "La maggior parte degli adulti necessita tra le 7 e le 9 ore. Scendere sotto le 6 ore è associato a declino cognitivo e rischio metabolico."
-  - question: "La melatonina è sicura per l'uso quotidiano?"
-    answer: "Può essere utile per resettare il ritmo circadiano, ma non dovrebbe essere usata come 'sonnifero' cronico senza supervisione medica."
-  - question: "Perché mi sveglio sempre alle 3 di notte?"
-    answer: "Spesso è legato a cali glicemici notturni o picchi di cortisolo. Un piccolo snack [proteico](/articoli/nutrizione/miti-proteine) prima di dormire o la riduzione dell'alcol possono aiutare."
+  - question: Quante ore di sonno servono davvero?
+    answer: >-
+      La maggior parte degli adulti necessita tra le 7 e le 9 ore. Scendere
+      sotto le 6 ore è associato a declino cognitivo e rischio metabolico.
+  - question: La melatonina è sicura per l'uso quotidiano?
+    answer: >-
+      Può essere utile per resettare il ritmo circadiano, ma non dovrebbe essere
+      usata come 'sonnifero' cronico senza supervisione medica.
+  - question: Perché mi sveglio sempre alle 3 di notte?
+    answer: >-
+      Spesso è legato a cali glicemici notturni o picchi di cortisolo. Un
+      piccolo snack [proteico](/articoli/nutrizione/miti-proteine) prima di
+      dormire o la riduzione dell'alcol possono aiutare.
 tags:
   - sonno
   - insonnia
   - ritmo circadiano
 resources:
-  - name: "Why We Sleep - Matthew Walker"
-    link: "https://www.amazon.it/Why-We-Sleep-Unlocking-Dreams/dp/1501144316"
-  - name: "Huberman Lab - Sleep Toolkit"
-    link: "https://www.hubermanlab.com/newsletter/toolkit-for-sleep"
+  - name: Why We Sleep - Matthew Walker
+    link: 'https://www.amazon.it/Why-We-Sleep-Unlocking-Dreams/dp/1501144316'
+  - name: Huberman Lab - Sleep Toolkit
+    link: 'https://www.hubermanlab.com/newsletter/toolkit-for-sleep'
 cta:
-  - text: "Calcola la tua Età Biologica"
-    link: "/calcolo-longevita"
-    description: "Scopri quanto il tuo sonno sta influenzando la tua longevità con il nostro test gratuito."
+  - text: Calcola la tua Età Biologica
+    link: /calcolo-longevita
+    description: >-
+      Scopri quanto il tuo sonno sta influenzando la tua longevità con il nostro
+      test gratuito.
+categories:
+  - sonno
 ---
 
 Dormire bene è l'azione più potente che puoi compiere per la tua salute fisica e mentale. Eppure, l'[insonnia](/articoli/sonno/cbt-i-insonnia) e la scarsa qualità del sonno sono epidemiche. Questo protocollo non si basa su rimedi della nonna, ma sulla fisiologia del ritmo circadiano.

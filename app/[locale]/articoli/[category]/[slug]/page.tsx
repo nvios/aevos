@@ -32,12 +32,15 @@ export async function generateMetadata({
   const articleLocale = getArticleBySlug(slug, locale);
   if (!articleIt) return {};
 
+  // Use primary category for canonical URL to avoid duplicate content
+  const primaryCategory = articleIt.categories[0];
+
   return buildMetadata({
     title: articleIt.title,
     titleEn: locale === 'en' && articleLocale ? articleLocale.title : undefined,
     description: articleIt.description,
     descriptionEn: locale === 'en' && articleLocale ? articleLocale.description : undefined,
-    path: `/articoli/${category}/${slug}`,
+    path: `/articoli/${primaryCategory}/${slug}`,
     locale,
   });
 }

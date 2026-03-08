@@ -1,28 +1,38 @@
 ---
-title: "Magnesium: The Relaxation Mineral Everyone Is Missing"
-description: "Stress, poor sleep, and cramps? It could be magnesium deficiency. Guide to the best forms (bisglycinate, citrate, threonate)."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Magnesium: The Relaxation Mineral Everyone Is Missing'
+description: >-
+  Stress, poor sleep, and cramps? It could be magnesium deficiency. Guide to the
+  best forms (bisglycinate, citrate, threonate).
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "How do I know if I'm deficient?"
-    answer: "Standard blood tests are not very useful because 99% of magnesium is in cells, not in serum. Symptoms like cramps, eye twitching, insomnia, and anxiety are better indicators."
-  - question: "Which form should I avoid?"
-    answer: "Magnesium Oxide. It's cheap, but absorbs very poorly (4%) and has a strong laxative effect."
-  - question: "When should I take it?"
-    answer: "Generally in the evening, about 1 hour before bed, to support muscle and nervous system relaxation."
+  - question: How do I know if I'm deficient?
+    answer: >-
+      Standard blood tests are not very useful because 99% of magnesium is in
+      cells, not in serum. Symptoms like cramps, eye twitching, insomnia, and
+      anxiety are better indicators.
+  - question: Which form should I avoid?
+    answer: >-
+      Magnesium Oxide. It's cheap, but absorbs very poorly (4%) and has a strong
+      laxative effect.
+  - question: When should I take it?
+    answer: >-
+      Generally in the evening, about 1 hour before bed, to support muscle and
+      nervous system relaxation.
 cta:
-  - text: "Symptom analysis"
-    link: "/calcolo-longevita"
-    description: "Could your sleep issues depend on a mineral deficiency?"
+  - text: Symptom analysis
+    link: /calcolo-longevita
+    description: Could your sleep issues depend on a mineral deficiency?
 tags:
   - magnesio
   - integratori
   - sonno
   - stress
 resources:
-  - name: "NIH - Magnesium Fact Sheet"
-    link: "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+  - name: NIH - Magnesium Fact Sheet
+    link: 'https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/'
+categories:
+  - nutrizione
 ---
 
 Magnesium is often called the "master mineral" or the "original chill pill." It acts as a cofactor in over 300 enzymatic reactions in the body, including ATP (energy) production, DNA synthesis, protein synthesis, and nervous system regulation.

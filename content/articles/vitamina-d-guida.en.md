@@ -1,28 +1,38 @@
 ---
-title: "Vitamin D: It's Not a Vitamin, It's an Essential Pro-Hormone"
-description: "Why almost everyone is deficient, why the sun isn't enough, and how to supplement safely for immunity and bones."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Vitamin D: It''s Not a Vitamin, It''s an Essential Pro-Hormone'
+description: >-
+  Why almost everyone is deficient, why the sun isn't enough, and how to
+  supplement safely for immunity and bones.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "How much sun do you need for Vitamin D?"
-    answer: "It depends on latitude, time of day, and melanin. In winter, above certain latitudes (like Northern Italy), UV rays are insufficient to produce it, even if you're outside all day."
-  - question: "What is the optimal blood level?"
-    answer: "Official guidelines say >20-30 ng/mL, but many longevity experts suggest 40-60 ng/mL to optimize immune function."
-  - question: "Should I take it with K2?"
-    answer: "Yes. Vitamin D increases calcium absorption. K2 ensures that calcium goes to the bones and doesn't deposit in the arteries (calcification)."
+  - question: How much sun do you need for Vitamin D?
+    answer: >-
+      It depends on latitude, time of day, and melanin. In winter, above certain
+      latitudes (like Northern Italy), UV rays are insufficient to produce it,
+      even if you're outside all day.
+  - question: What is the optimal blood level?
+    answer: >-
+      Official guidelines say >20-30 ng/mL, but many longevity experts suggest
+      40-60 ng/mL to optimize immune function.
+  - question: Should I take it with K2?
+    answer: >-
+      Yes. Vitamin D increases calcium absorption. K2 ensures that calcium goes
+      to the bones and doesn't deposit in the arteries (calcification).
 cta:
-  - text: "Check your habits"
-    link: "/calcolo-longevita"
-    description: "Does your lifestyle put you at risk of deficiency?"
+  - text: Check your habits
+    link: /calcolo-longevita
+    description: Does your lifestyle put you at risk of deficiency?
 tags:
   - vitamina d
   - integratori
   - sistema immunitario
   - ossa
 resources:
-  - name: "Vitamin D Society"
-    link: "https://www.vitamindsociety.org/"
+  - name: Vitamin D Society
+    link: 'https://www.vitamindsociety.org/'
+categories:
+  - nutrizione
 ---
 
 We call it Vitamin D by historical mistake. In reality, it's a steroid hormone that controls the expression of over 1,000 genes (about 5% of the human genome).

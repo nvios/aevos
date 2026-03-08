@@ -1,20 +1,32 @@
 ---
-title: "Integratori Senolitici 2026: Fisetina, Spermidina e Urolitina A"
-description: "Oltre il multivitaminico. Guida alla nuova generazione di molecole che puliscono le cellule 'zombie' e rigenerano i mitocondri."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Integratori Senolitici 2026: Fisetina, Spermidina e Urolitina A'
+description: >-
+  Oltre il multivitaminico. Guida alla nuova generazione di molecole che
+  puliscono le cellule 'zombie' e rigenerano i mitocondri.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Cosa sono le cellule senescenti?"
-    answer: "Sono cellule vecchie che hanno smesso di dividersi ma non muoiono. Rimangono nel corpo secernendo sostanze infiammatorie che danneggiano le cellule sane vicine."
-  - question: "Posso prendere questi integratori tutti i giorni?"
-    answer: "Dipende. La Spermidina spesso si usa quotidianamente. La Fisetina, essendo un senolitico potente, si usa spesso con protocolli 'hit-and-run' (es. 2-3 giorni al mese)."
-  - question: "L'Urolitina A si trova nel cibo?"
-    answer: "Si trova nei precursori (ellagitannini) del melograno e delle noci, ma solo il 40% delle persone ha i batteri intestinali giusti per convertirli. L'integrazione diretta bypassa questo problema."
+  - question: Cosa sono le cellule senescenti?
+    answer: >-
+      Sono cellule vecchie che hanno smesso di dividersi ma non muoiono.
+      Rimangono nel corpo secernendo sostanze infiammatorie che danneggiano le
+      cellule sane vicine.
+  - question: Posso prendere questi integratori tutti i giorni?
+    answer: >-
+      Dipende. La Spermidina spesso si usa quotidianamente. La Fisetina, essendo
+      un senolitico potente, si usa spesso con protocolli 'hit-and-run' (es. 2-3
+      giorni al mese).
+  - question: L'Urolitina A si trova nel cibo?
+    answer: >-
+      Si trova nei precursori (ellagitannini) del melograno e delle noci, ma
+      solo il 40% delle persone ha i batteri intestinali giusti per convertirli.
+      L'integrazione diretta bypassa questo problema.
 cta:
-  - text: "Quali integratori servono a TE?"
-    link: "/servizi/consulenze"
-    description: "Evita il fai-da-te costoso e inutile. Costruiamo il tuo stack personalizzato."
+  - text: Quali integratori servono a TE?
+    link: /servizi/consulenze
+    description: >-
+      Evita il fai-da-te costoso e inutile. Costruiamo il tuo stack
+      personalizzato.
 tags:
   - senolitici
   - fisetina
@@ -23,8 +35,10 @@ tags:
   - mitocondri
   - anti-aging
 resources:
-  - name: "Mayo Clinic - Senolytics Research"
-    link: "https://www.mayoclinic.org/"
+  - name: Mayo Clinic - Senolytics Research
+    link: 'https://www.mayoclinic.org/'
+categories:
+  - nutrizione
 ---
 
 Dimentica il vecchio multivitaminico. La frontiera dell'integrazione nel 2026 non riguarda più "coprire le carenze", ma "attivare programmi genetici".

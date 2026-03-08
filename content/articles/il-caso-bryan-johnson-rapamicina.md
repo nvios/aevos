@@ -1,20 +1,33 @@
 ---
-title: "Il Caso Bryan Johnson: Perché ha smesso con la Rapamicina?"
-description: "Analisi della decisione del biohacker più famoso al mondo di interrompere l'assunzione di rapamicina. Cosa ci insegna sulla medicina personalizzata e i rischi del fai-da-te."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Il Caso Bryan Johnson: Perché ha smesso con la Rapamicina?'
+description: >-
+  Analisi della decisione del biohacker più famoso al mondo di interrompere
+  l'assunzione di rapamicina. Cosa ci insegna sulla medicina personalizzata e i
+  rischi del fai-da-te.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Perché Bryan Johnson ha smesso la rapamicina?"
-    answer: "Ha riscontrato effetti collaterali negativi, tra cui un aumento della glicemia a digiuno e una ridotta capacità di guarigione delle ferite, senza benefici misurabili significativi per il suo caso specifico."
-  - question: "La rapamicina è pericolosa?"
-    answer: "È un farmaco immunosoppressore potente. Sebbene promettente per la longevità in modelli animali, nell'uomo può avere effetti collaterali seri come infezioni, problemi metabolici e ulcere."
-  - question: "Dovrei prendere la rapamicina per la longevità?"
-    answer: "Attualmente non è approvata per l'uso anti-invecchiamento. L'uso off-label dovrebbe avvenire solo sotto stretta supervisione medica e con monitoraggio costante dei parametri ematici."
+  - question: Perché Bryan Johnson ha smesso la rapamicina?
+    answer: >-
+      Ha riscontrato effetti collaterali negativi, tra cui un aumento della
+      glicemia a digiuno e una ridotta capacità di guarigione delle ferite,
+      senza benefici misurabili significativi per il suo caso specifico.
+  - question: La rapamicina è pericolosa?
+    answer: >-
+      È un farmaco immunosoppressore potente. Sebbene promettente per la
+      longevità in modelli animali, nell'uomo può avere effetti collaterali seri
+      come infezioni, problemi metabolici e ulcere.
+  - question: Dovrei prendere la rapamicina per la longevità?
+    answer: >-
+      Attualmente non è approvata per l'uso anti-invecchiamento. L'uso off-label
+      dovrebbe avvenire solo sotto stretta supervisione medica e con
+      monitoraggio costante dei parametri ematici.
 cta:
-  - text: "Non indovinare, misura."
-    link: "/calcolo-longevita"
-    description: "Scopri la tua età biologica reale prima di iniziare qualsiasi protocollo avanzato."
+  - text: 'Non indovinare, misura.'
+    link: /calcolo-longevita
+    description: >-
+      Scopri la tua età biologica reale prima di iniziare qualsiasi protocollo
+      avanzato.
 tags:
   - bryan johnson
   - rapamicina
@@ -22,8 +35,10 @@ tags:
   - longevità
   - effetti collaterali
 resources:
-  - name: "Bryan Johnson - Project Blueprint"
-    link: "https://blueprint.bryanjohnson.co/"
+  - name: Bryan Johnson - Project Blueprint
+    link: 'https://blueprint.bryanjohnson.co/'
+categories:
+  - longevita
 ---
 
 Nel mondo del biohacking estremo, Bryan Johnson è una figura polarizzante ma innegabilmente influente. Con il suo progetto *Blueprint*, spende milioni di dollari all'anno per invertire la sua età biologica. Per molto tempo, la **rapamicina** è stata una pietra miliare del suo protocollo.

@@ -1,28 +1,38 @@
 ---
-title: "Fiber Myths: Why They're Not Just 'Ballast' for the Intestine"
-description: "Debunking common beliefs about dietary fiber. Discover why fiber is essential for longevity, glycemic control, and disease prevention."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Fiber Myths: Why They''re Not Just ''Ballast'' for the Intestine'
+description: >-
+  Debunking common beliefs about dietary fiber. Discover why fiber is essential
+  for longevity, glycemic control, and disease prevention.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Do fibers cause bloating?"
-    answer: "A sudden increase can cause temporary gas while the microbiome adapts. Gradual increase and hydration resolve the problem."
-  - question: "Do fibers interfere with mineral absorption?"
-    answer: "Although phytates can bind some minerals, a fiber-rich diet generally provides far more nutrients than it sequesters."
-  - question: "Can I take fiber supplements instead of eating them?"
-    answer: "Supplements (e.g., psyllium) are useful, but they don't replicate the complexity and co-nutrients of fiber in whole foods."
+  - question: Do fibers cause bloating?
+    answer: >-
+      A sudden increase can cause temporary gas while the microbiome adapts.
+      Gradual increase and hydration resolve the problem.
+  - question: Do fibers interfere with mineral absorption?
+    answer: >-
+      Although phytates can bind some minerals, a fiber-rich diet generally
+      provides far more nutrients than it sequesters.
+  - question: Can I take fiber supplements instead of eating them?
+    answer: >-
+      Supplements (e.g., psyllium) are useful, but they don't replicate the
+      complexity and co-nutrients of fiber in whole foods.
 cta:
-  - text: "Assess your intake"
-    link: "/calcolo-longevita"
-    description: "Does your current diet support longevity? Find out with our assessment."
+  - text: Assess your intake
+    link: /calcolo-longevita
+    description: Does your current diet support longevity? Find out with our assessment.
 tags:
   - fibre
   - nutrizione
   - digestione
   - miti alimentari
 resources:
-  - name: "The Lancet - Fiber Meta-analysis"
-    link: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31809-9/fulltext"
+  - name: The Lancet - Fiber Meta-analysis
+    link: >-
+      https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31809-9/fulltext
+categories:
+  - nutrizione
 ---
 
 For decades, fiber has been considered the "indigestible" part of food, useful only for intestinal regularity. This reductive view has led to chronic deficiency in modern diets. The scientific reality is that fiber is a complex signaling molecule, essential for survival.

@@ -1,28 +1,40 @@
 ---
-title: "Miti sulle Proteine: Quante ne Servono Davvero?"
-description: "Dalla paura dei danni renali all'ossessione per i 30g a pasto. Facciamo chiarezza sul macronutriente più discusso con dati alla mano."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Miti sulle Proteine: Quante ne Servono Davvero?'
+description: >-
+  Dalla paura dei danni renali all'ossessione per i 30g a pasto. Facciamo
+  chiarezza sul macronutriente più discusso con dati alla mano.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Troppe proteine fanno male ai reni?"
-    answer: "In persone con reni sani, non ci sono evidenze che un apporto proteico elevato (fino a 2g/kg) causi danni. Il problema esiste solo per chi ha già patologie renali preesistenti."
-  - question: "Devo mangiare proteine subito dopo l'allenamento?"
-    answer: "La 'finestra anabolica' è più ampia di quanto si pensasse (3-5 ore). L'importante è l'apporto proteico totale giornaliero, non l'immediata assunzione post-workout."
-  - question: "Le proteine vegetali sono incomplete?"
-    answer: "È vero che alcune mancano di certi aminoacidi, ma mangiando una varietà di fonti vegetali durante la giornata si ottiene un profilo aminoacidico completo."
+  - question: Troppe proteine fanno male ai reni?
+    answer: >-
+      In persone con reni sani, non ci sono evidenze che un apporto proteico
+      elevato (fino a 2g/kg) causi danni. Il problema esiste solo per chi ha già
+      patologie renali preesistenti.
+  - question: Devo mangiare proteine subito dopo l'allenamento?
+    answer: >-
+      La 'finestra anabolica' è più ampia di quanto si pensasse (3-5 ore).
+      L'importante è l'apporto proteico totale giornaliero, non l'immediata
+      assunzione post-workout.
+  - question: Le proteine vegetali sono incomplete?
+    answer: >-
+      È vero che alcune mancano di certi aminoacidi, ma mangiando una varietà di
+      fonti vegetali durante la giornata si ottiene un profilo aminoacidico
+      completo.
 cta:
-  - text: "Calcola il tuo fabbisogno"
-    link: "/calcolo-longevita"
-    description: "Il tuo apporto proteico è adeguato alla tua età e attività fisica?"
+  - text: Calcola il tuo fabbisogno
+    link: /calcolo-longevita
+    description: Il tuo apporto proteico è adeguato alla tua età e attività fisica?
 tags:
   - proteine
   - nutrizione
   - muscoli
   - miti alimentari
 resources:
-  - name: "Examine.com - Protein Guide"
-    link: "https://examine.com/guides/protein-intake/"
+  - name: Examine.com - Protein Guide
+    link: 'https://examine.com/guides/protein-intake/'
+categories:
+  - nutrizione
 ---
 
 Le proteine sono i mattoni della vita, essenziali per costruire muscoli, ormoni, enzimi e tessuti. Tuttavia, il marketing del fitness e le diete trend hanno creato una confusione enorme. Analizziamo i miti più persistenti.

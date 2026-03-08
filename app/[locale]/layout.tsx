@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       template: "%s | Aevos Health",
     },
     description: isEn
-      ? "Italy's reference point for the science of longevity. Online guides and clinical center in Milan for VO2 Max, DEXA and personalized protocols."
-      : "Il punto di riferimento in Italia per la scienza della longevità. Guide online e centro clinico a Milano per test VO2 Max, DEXA e protocolli personalizzati.",
+      ? "Italy's reference point for the science of longevity. Online guides and personalised plans in Milan for VO2 Max, DEXA and longevity assessments."
+      : "Il punto di riferimento in Italia per la scienza della longevità. Guide online e percorsi personalizzati a Milano per test VO2 Max, DEXA e valutazioni longevità.",
     keywords: isEn
       ? ["Longevity", "Milan", "Performance Medicine", "VO2 Max", "Check-up", "Anti-aging", "Biohacking", "Health"]
       : ["Longevità", "Milano", "Medicina Potenziativa", "VO2 Max", "Check-up", "Lombardia", "Anti-aging", "Biohacking", "Salute"],

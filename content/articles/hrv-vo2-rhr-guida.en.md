@@ -1,30 +1,41 @@
 ---
-title: "HRV, VO2 Max and RHR: The Three Pillars of Cardiometabolic Longevity"
-description: "Understanding and optimizing the three most powerful indicators of your cardiovascular health and autonomic nervous system."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'HRV, VO2 Max and RHR: The Three Pillars of Cardiometabolic Longevity'
+description: >-
+  Understanding and optimizing the three most powerful indicators of your
+  cardiovascular health and autonomic nervous system.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What is a good HRV value?"
-    answer: "HRV is highly individual. More than the absolute value, the trend over time matters. In general, higher values indicate better adaptability to stress."
-  - question: "How can I measure VO2 Max without a lab?"
-    answer: "Many modern smartwatches offer a reasonable estimate. Alternatively, tests like the Cooper Test (run as far as possible in 12 minutes) can give an indirect estimate."
-  - question: "Why does my RHR increase?"
-    answer: "Stress, alcohol, heavy evening meals, overtraining or incoming illness can raise resting heart rate."
+  - question: What is a good HRV value?
+    answer: >-
+      HRV is highly individual. More than the absolute value, the trend over
+      time matters. In general, higher values indicate better adaptability to
+      stress.
+  - question: How can I measure VO2 Max without a lab?
+    answer: >-
+      Many modern smartwatches offer a reasonable estimate. Alternatively, tests
+      like the Cooper Test (run as far as possible in 12 minutes) can give an
+      indirect estimate.
+  - question: Why does my RHR increase?
+    answer: >-
+      Stress, alcohol, heavy evening meals, overtraining or incoming illness can
+      raise resting heart rate.
 tags:
-  - "biomarker"
-  - "cuore"
-  - "wearable"
-  - "stress"
+  - biomarker
+  - cuore
+  - wearable
+  - stress
 resources:
-  - name: "Peter Attia - VO2 Max Deep Dive"
-    link: "https://peterattiamd.com/category/exercise/vo2-max/"
-  - name: "Whoop - Ultimate Guide to HRV"
-    link: "https://www.whoop.com/us/en/thelocker/heart-rate-variability-hrv/"
+  - name: Peter Attia - VO2 Max Deep Dive
+    link: 'https://peterattiamd.com/category/exercise/vo2-max/'
+  - name: Whoop - Ultimate Guide to HRV
+    link: 'https://www.whoop.com/us/en/thelocker/heart-rate-variability-hrv/'
 cta:
-  - text: "Enter your data in the Calculator"
-    link: "/calcolo-longevita"
-    description: "Already have this data? Use it to get a more precise longevity profile."
+  - text: Enter your data in the Calculator
+    link: /calcolo-longevita
+    description: Already have this data? Use it to get a more precise longevity profile.
+categories:
+  - longevita
 ---
 
 In the world of longevity, not all data is created equal. While weight and cholesterol are important, there are three metrics that offer a direct window into the efficiency of your biological engine and the resilience of your nervous system: **RHR**, **HRV** and **VO2 Max**.

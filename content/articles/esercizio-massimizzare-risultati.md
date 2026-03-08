@@ -1,28 +1,39 @@
 ---
-title: "Esercizio per Persone Impegnate: Massimizzare i Risultati in 30 Minuti"
-description: "Non hai bisogno di vivere in palestra. La scienza dell'intensità e della consistenza per costruire un corpo forte e longevo con poco tempo."
-category: "esercizio"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Esercizio per Persone Impegnate: Massimizzare i Risultati in 30 Minuti'
+description: >-
+  Non hai bisogno di vivere in palestra. La scienza dell'intensità e della
+  consistenza per costruire un corpo forte e longevo con poco tempo.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Meglio cardio o pesi?"
-    answer: "Per la longevità, entrambi. I pesi mantengono la massa muscolare (organo della longevità), il cardio allena il cuore. L'ideale è combinarli."
-  - question: "L'HIIT è pericoloso?"
-    answer: "Se fatto correttamente e progressivamente, è sicuro e molto efficace per il cuore. Non è necessario farlo ogni giorno; 1-2 volte a settimana bastano."
-  - question: "Camminare conta come esercizio?"
-    answer: "Assolutamente sì. È la base della piramide del movimento. Riduce il cortisolo e migliora la sensibilità insulinica senza stressare il corpo."
+  - question: Meglio cardio o pesi?
+    answer: >-
+      Per la longevità, entrambi. I pesi mantengono la massa muscolare (organo
+      della longevità), il cardio allena il cuore. L'ideale è combinarli.
+  - question: L'HIIT è pericoloso?
+    answer: >-
+      Se fatto correttamente e progressivamente, è sicuro e molto efficace per
+      il cuore. Non è necessario farlo ogni giorno; 1-2 volte a settimana
+      bastano.
+  - question: Camminare conta come esercizio?
+    answer: >-
+      Assolutamente sì. È la base della piramide del movimento. Riduce il
+      cortisolo e migliora la sensibilità insulinica senza stressare il corpo.
 cta:
-  - text: "Piano personalizzato"
-    link: "/servizi"
-    description: "Trova un trainer o una palestra partner per ottimizzare il tuo tempo."
+  - text: Piano personalizzato
+    link: /servizi
+    description: Trova un trainer o una palestra partner per ottimizzare il tuo tempo.
 tags:
   - allenamento
   - tempo
   - hiit
   - forza
 resources:
-  - name: "Minimum Effective Dose Training"
-    link: "https://tim.blog/2016/11/09/the-tim-ferriss-show-transcripts-pavel-tsatsouline/"
+  - name: Minimum Effective Dose Training
+    link: >-
+      https://tim.blog/2016/11/09/the-tim-ferriss-show-transcripts-pavel-tsatsouline/
+categories:
+  - esercizio
 ---
 
 "Non ho tempo". È la scusa numero uno. Ma se Barack Obama, Elon Musk e innumerevoli CEO trovano il tempo, puoi farlo anche tu. Il segreto non è trovare più tempo, ma usare meglio quello che hai.

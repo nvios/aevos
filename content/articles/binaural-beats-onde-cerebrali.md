@@ -1,20 +1,32 @@
 ---
-title: "Binaural Beats: Scienza, Onde Cerebrali e Realtà"
-description: "Hackerare il cervello con il suono funziona davvero? Un'analisi critica su onde Alpha, Theta, Delta e l'efficacia dei battiti binaurali."
-category: "tecnologie"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Binaural Beats: Scienza, Onde Cerebrali e Realtà'
+description: >-
+  Hackerare il cervello con il suono funziona davvero? Un'analisi critica su
+  onde Alpha, Theta, Delta e l'efficacia dei battiti binaurali.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Cosa sono i battiti binaurali?"
-    answer: "Sono un'illusione uditiva creata dal cervello quando ascolti due toni con frequenze leggermente diverse in ogni orecchio. Il cervello 'sente' la differenza matematica tra i due toni."
-  - question: "Funzionano davvero per l'ansia?"
-    answer: "La ricerca suggerisce un effetto moderato nella riduzione dell'ansia acuta, specialmente prima di eventi stressanti. Non sostituiscono terapie mediche, ma sono un valido strumento di supporto."
-  - question: "Servono cuffie speciali?"
-    answer: "Sì, è obbligatorio usare cuffie stereo (auricolari o over-ear). Poiché ogni orecchio deve ricevere una frequenza diversa, l'ascolto tramite altoparlanti nell'ambiente non funziona."
+  - question: Cosa sono i battiti binaurali?
+    answer: >-
+      Sono un'illusione uditiva creata dal cervello quando ascolti due toni con
+      frequenze leggermente diverse in ogni orecchio. Il cervello 'sente' la
+      differenza matematica tra i due toni.
+  - question: Funzionano davvero per l'ansia?
+    answer: >-
+      La ricerca suggerisce un effetto moderato nella riduzione dell'ansia
+      acuta, specialmente prima di eventi stressanti. Non sostituiscono terapie
+      mediche, ma sono un valido strumento di supporto.
+  - question: Servono cuffie speciali?
+    answer: >-
+      Sì, è obbligatorio usare cuffie stereo (auricolari o over-ear). Poiché
+      ogni orecchio deve ricevere una frequenza diversa, l'ascolto tramite
+      altoparlanti nell'ambiente non funziona.
 cta:
-  - text: "Migliora il tuo sonno"
-    link: "/articoli/sonno/12-consigli-pratici-sonno-insonnia"
-    description: "Scopri altre strategie basate sulla scienza per ottimizzare il riposo notturno."
+  - text: Migliora il tuo sonno
+    link: /articoli/sonno/12-consigli-pratici-sonno-insonnia
+    description: >-
+      Scopri altre strategie basate sulla scienza per ottimizzare il riposo
+      notturno.
 tags:
   - binaural beats
   - onde cerebrali
@@ -22,10 +34,14 @@ tags:
   - focus
   - meditazione
 resources:
-  - name: "Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis"
-    link: "https://pubmed.ncbi.nlm.nih.gov/30073406/"
-  - name: "Huberman Lab: Using Sound to Improve Brain Health"
-    link: "https://www.hubermanlab.com/"
+  - name: >-
+      Efficacy of binaural auditory beats in cognition, anxiety, and pain
+      perception: a meta-analysis
+    link: 'https://pubmed.ncbi.nlm.nih.gov/30073406/'
+  - name: 'Huberman Lab: Using Sound to Improve Brain Health'
+    link: 'https://www.hubermanlab.com/'
+categories:
+  - tecnologie
 ---
 
 Metti le cuffie, premi play e cambia istantaneamente il tuo stato mentale. Questa è la promessa dei "Binaural Beats" (battiti binaurali), tracce audio che promettono di tutto, dalla concentrazione laser al sonno profondo, fino a esperienze quasi psichedeliche.

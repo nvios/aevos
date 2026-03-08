@@ -1,28 +1,40 @@
 ---
-title: "La Verità sul Collagene: Creme, Polveri o Marketing?"
-description: "Perché spalmarsi il collagene in faccia è inutile e cosa fare invece per mantenere la pelle elastica."
-category: "skin-care"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'La Verità sul Collagene: Creme, Polveri o Marketing?'
+description: >-
+  Perché spalmarsi il collagene in faccia è inutile e cosa fare invece per
+  mantenere la pelle elastica.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Il brodo di ossa funziona?"
-    answer: "È una buona fonte alimentare di aminoacidi precursori del collagene, ma la concentrazione è variabile e difficile da misurare rispetto a un integratore idrolizzato."
-  - question: "Esiste il collagene vegano?"
-    answer: "No. Il collagene è una proteina animale. Esistono 'booster' vegani (vitamine e aminoacidi) che supportano la produzione endogena, ma non sono collagene."
-  - question: "Fa bene anche alle articolazioni?"
-    answer: "Sì, ci sono buone evidenze che il collagene idrolizzato possa ridurre il dolore articolare negli atleti e in caso di osteoartrite."
+  - question: Il brodo di ossa funziona?
+    answer: >-
+      È una buona fonte alimentare di aminoacidi precursori del collagene, ma la
+      concentrazione è variabile e difficile da misurare rispetto a un
+      integratore idrolizzato.
+  - question: Esiste il collagene vegano?
+    answer: >-
+      No. Il collagene è una proteina animale. Esistono 'booster' vegani
+      (vitamine e aminoacidi) che supportano la produzione endogena, ma non sono
+      collagene.
+  - question: Fa bene anche alle articolazioni?
+    answer: >-
+      Sì, ci sono buone evidenze che il collagene idrolizzato possa ridurre il
+      dolore articolare negli atleti e in caso di osteoartrite.
 cta:
-  - text: "Analisi dello stile di vita"
-    link: "/calcolo-longevita"
-    description: "Fumo, sole e zucchero distruggono il tuo collagene. Fai il test."
+  - text: Analisi dello stile di vita
+    link: /calcolo-longevita
+    description: 'Fumo, sole e zucchero distruggono il tuo collagene. Fai il test.'
 tags:
   - collagene
   - skincare
   - integratori
   - miti
 resources:
-  - name: "Harvard Health - Collagen"
-    link: "https://www.health.harvard.edu/blog/considering-collagen-drinks-and-supplements-202304122911"
+  - name: Harvard Health - Collagen
+    link: >-
+      https://www.health.harvard.edu/blog/considering-collagen-drinks-and-supplements-202304122911
+categories:
+  - skin-care
 ---
 
 Il collagene è la proteina strutturale che tiene insieme il nostro corpo (pelle, ossa, tendini). Con l'età, ne produciamo meno e lo degradano più velocemente. Da qui, l'esplosione di prodotti al collagene. Ma cosa dice la scienza?

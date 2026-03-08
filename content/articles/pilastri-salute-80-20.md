@@ -1,26 +1,37 @@
 ---
-title: "I Pilastri della Salute (Regola 80/20): Le Basi Prima dei Dettagli"
-description: "Perché saune infrarossi e nootropi sono inutili se non dormi. Come ottenere l'80% dei risultati con il 20% dello sforzo focalizzato sulle fondamenta."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'I Pilastri della Salute (Regola 80/20): Le Basi Prima dei Dettagli'
+description: >-
+  Perché saune infrarossi e nootropi sono inutili se non dormi. Come ottenere
+  l'80% dei risultati con il 20% dello sforzo focalizzato sulle fondamenta.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Cos'è il principio di Pareto nella salute?"
-    answer: "È l'idea che l'80% dei benefici derivi dal 20% delle azioni. Focalizzarsi su sonno, movimento e cibo vero dà risultati enormemente superiori rispetto a dettagli marginali."
-  - question: "Quanto conta la genetica?"
-    answer: "Si stima che la genetica influenzi la longevità per circa il 20-30%. Il resto è epigenetica: come il tuo stile di vita accende o spegne i tuoi geni."
+  - question: Cos'è il principio di Pareto nella salute?
+    answer: >-
+      È l'idea che l'80% dei benefici derivi dal 20% delle azioni. Focalizzarsi
+      su sonno, movimento e cibo vero dà risultati enormemente superiori
+      rispetto a dettagli marginali.
+  - question: Quanto conta la genetica?
+    answer: >-
+      Si stima che la genetica influenzi la longevità per circa il 20-30%. Il
+      resto è epigenetica: come il tuo stile di vita accende o spegne i tuoi
+      geni.
 cta:
-  - text: "Valuta le tue fondamenta"
-    link: "/calcolo-longevita"
-    description: "Il nostro algoritmo pesa i pilastri fondamentali più dei dettagli. Scopri il tuo punteggio."
+  - text: Valuta le tue fondamenta
+    link: /calcolo-longevita
+    description: >-
+      Il nostro algoritmo pesa i pilastri fondamentali più dei dettagli. Scopri
+      il tuo punteggio.
 tags:
   - longevità
   - abitudini
   - mindset
   - pareto
 resources:
-  - name: "Blue Zones - Lessons for Living Longer"
-    link: "https://www.bluezones.com/"
+  - name: Blue Zones - Lessons for Living Longer
+    link: 'https://www.bluezones.com/'
+categories:
+  - longevita
 ---
 
 Nel mondo del biohacking e del benessere, è facile perdersi. Vediamo influencer che fanno bagni nel ghiaccio, usano luci rosse da 1000€, prendono 50 pillole al giorno e monitorano ogni battito cardiaco.

@@ -1,28 +1,38 @@
 ---
-title: "Protein Myths: How Much Do You Really Need?"
-description: "From fear of kidney damage to obsession with 30g per meal. Let's clear up the confusion about the most debated macronutrient with data in hand."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Protein Myths: How Much Do You Really Need?'
+description: >-
+  From fear of kidney damage to obsession with 30g per meal. Let's clear up the
+  confusion about the most debated macronutrient with data in hand.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Do too many proteins damage the kidneys?"
-    answer: "In people with healthy kidneys, there is no evidence that high protein intake (up to 2g/kg) causes damage. The problem exists only for those with pre-existing kidney conditions."
-  - question: "Do I need to eat protein right after training?"
-    answer: "The 'anabolic window' is wider than once thought (3-5 hours). What matters is total daily protein intake, not immediate post-workout consumption."
-  - question: "Are plant proteins incomplete?"
-    answer: "It's true that some lack certain amino acids, but eating a variety of plant sources throughout the day provides a complete amino acid profile."
+  - question: Do too many proteins damage the kidneys?
+    answer: >-
+      In people with healthy kidneys, there is no evidence that high protein
+      intake (up to 2g/kg) causes damage. The problem exists only for those with
+      pre-existing kidney conditions.
+  - question: Do I need to eat protein right after training?
+    answer: >-
+      The 'anabolic window' is wider than once thought (3-5 hours). What matters
+      is total daily protein intake, not immediate post-workout consumption.
+  - question: Are plant proteins incomplete?
+    answer: >-
+      It's true that some lack certain amino acids, but eating a variety of
+      plant sources throughout the day provides a complete amino acid profile.
 cta:
-  - text: "Calculate your needs"
-    link: "/calcolo-longevita"
-    description: "Is your protein intake adequate for your age and physical activity?"
+  - text: Calculate your needs
+    link: /calcolo-longevita
+    description: Is your protein intake adequate for your age and physical activity?
 tags:
   - proteine
   - nutrizione
   - muscoli
   - miti alimentari
 resources:
-  - name: "Examine.com - Protein Guide"
-    link: "https://examine.com/guides/protein-intake/"
+  - name: Examine.com - Protein Guide
+    link: 'https://examine.com/guides/protein-intake/'
+categories:
+  - nutrizione
 ---
 
 Proteins are the building blocks of life, essential for building muscles, hormones, enzymes, and tissues. However, fitness marketing and trend diets have created enormous confusion. Let's analyze the most persistent myths.

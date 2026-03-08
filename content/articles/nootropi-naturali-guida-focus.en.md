@@ -1,20 +1,29 @@
 ---
-title: "Natural Nootropics vs Smart Drugs: Guide to Crash-Free Focus"
-description: "You don't need the 'Limitless' pill. Discover how to boost concentration and memory with safe, natural molecules."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Natural Nootropics vs Smart Drugs: Guide to Crash-Free Focus'
+description: >-
+  You don't need the 'Limitless' pill. Discover how to boost concentration and
+  memory with safe, natural molecules.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Is coffee a nootropic?"
-    answer: "Yes, caffeine is the most famous nootropic. But it works best when paired with L-Theanine to avoid jitters and energy crashes."
-  - question: "Is creatine only for muscles?"
-    answer: "No. The brain consumes 20% of your energy. Creatine provides rapid ATP to neurons, improving memory and reasoning under stress."
-  - question: "Are pharmaceutical 'Smart Drugs' safe?"
-    answer: "Drugs like Modafinil or Adderall have heavy side effects and create dependency. We focus on sustainable long-term alternatives."
+  - question: Is coffee a nootropic?
+    answer: >-
+      Yes, caffeine is the most famous nootropic. But it works best when paired
+      with L-Theanine to avoid jitters and energy crashes.
+  - question: Is creatine only for muscles?
+    answer: >-
+      No. The brain consumes 20% of your energy. Creatine provides rapid ATP to
+      neurons, improving memory and reasoning under stress.
+  - question: Are pharmaceutical 'Smart Drugs' safe?
+    answer: >-
+      Drugs like Modafinil or Adderall have heavy side effects and create
+      dependency. We focus on sustainable long-term alternatives.
 cta:
-  - text: "Build your Stack"
-    link: "/servizi/consulenze"
-    description: "Book a consultation to create a tailored supplementation protocol for your work."
+  - text: Build your Stack
+    link: /servizi/consulenze
+    description: >-
+      Book a consultation to create a tailored supplementation protocol for your
+      work.
 tags:
   - nootropics
   - brain
@@ -22,8 +31,10 @@ tags:
   - memory
   - creatine
 resources:
-  - name: "Examine.com - Nootropics"
-    link: "https://examine.com/categories/nootropics/"
+  - name: Examine.com - Nootropics
+    link: 'https://examine.com/categories/nootropics/'
+categories:
+  - longevita
 ---
 
 Everyone wants the "Limitless" brain. But in the real world, productivity shouldn't cost your mental health.

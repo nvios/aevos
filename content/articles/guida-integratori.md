@@ -1,30 +1,41 @@
 ---
-title: "Guida agli Integratori: Cosa Funziona, Cosa è Hype e Cosa Evitare"
-description: "Un approccio razionale all'integrazione. Non sprecare soldi in pillole magiche; investi nelle molecole supportate da trial clinici."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Guida agli Integratori: Cosa Funziona, Cosa è Hype e Cosa Evitare'
+description: >-
+  Un approccio razionale all'integrazione. Non sprecare soldi in pillole
+  magiche; investi nelle molecole supportate da trial clinici.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Il multivitaminico serve?"
-    answer: "Per la maggior parte delle persone con una dieta varia, è un'assicurazione poco efficace. Meglio integrare specificamente ciò di cui si è carenti (spesso Vitamina D, Magnesio, Omega-3)."
-  - question: "Gli integratori sono regolamentati come i farmaci?"
-    answer: "No. Il mercato è meno controllato. È fondamentale scegliere marchi che effettuano test di terze parti per purezza e dosaggio."
-  - question: "Posso prendere tutto insieme?"
-    answer: "Alcuni competono per l'assorbimento (es. Zinco e Calcio). Altri vanno presi col cibo (vitamine liposolubili A, D, E, K). Leggi sempre le indicazioni."
+  - question: Il multivitaminico serve?
+    answer: >-
+      Per la maggior parte delle persone con una dieta varia, è un'assicurazione
+      poco efficace. Meglio integrare specificamente ciò di cui si è carenti
+      (spesso Vitamina D, Magnesio, Omega-3).
+  - question: Gli integratori sono regolamentati come i farmaci?
+    answer: >-
+      No. Il mercato è meno controllato. È fondamentale scegliere marchi che
+      effettuano test di terze parti per purezza e dosaggio.
+  - question: Posso prendere tutto insieme?
+    answer: >-
+      Alcuni competono per l'assorbimento (es. Zinco e Calcio). Altri vanno
+      presi col cibo (vitamine liposolubili A, D, E, K). Leggi sempre le
+      indicazioni.
 cta:
-  - text: "Analisi personalizzata"
-    link: "/calcolo-longevita"
-    description: "Scopri quali carenze potrebbero limitare il tuo potenziale."
+  - text: Analisi personalizzata
+    link: /calcolo-longevita
+    description: Scopri quali carenze potrebbero limitare il tuo potenziale.
 tags:
   - integratori
   - vitamine
   - omega-3
   - magnesio
 resources:
-  - name: "Examine.com - Supplement Research"
-    link: "https://examine.com/"
-  - name: "Labdoor - Supplement Testing"
-    link: "https://labdoor.com/"
+  - name: Examine.com - Supplement Research
+    link: 'https://examine.com/'
+  - name: Labdoor - Supplement Testing
+    link: 'https://labdoor.com/'
+categories:
+  - nutrizione
 ---
 
 Il mondo degli integratori è un Far West. Tra promesse miracolose e marketing aggressivo, è difficile distinguere la scienza dalla fantascienza. La regola d'oro è: **Cibo prima, integratori poi.** Nessuna pillola può compensare una dieta pessima e uno stile di vita sedentario.

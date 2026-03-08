@@ -1,28 +1,37 @@
 ---
-title: "Skincare Science: Il Protocollo Base (Senza Fronzoli) per l'Anti-Aging"
-description: "Dimentica le creme da 500€. La scienza dermatologica concorda su tre pilastri fondamentali: Protezione, Rinnovamento e Idratazione."
-category: "skin-care"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Skincare Science: Il Protocollo Base (Senza Fronzoli) per l''Anti-Aging'
+description: >-
+  Dimentica le creme da 500€. La scienza dermatologica concorda su tre pilastri
+  fondamentali: Protezione, Rinnovamento e Idratazione.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "A che età iniziare il retinolo?"
-    answer: "Generalmente dai 25-30 anni, quando la produzione naturale di collagene inizia a calare. Iniziare gradualmente è fondamentale."
-  - question: "L'SPF serve anche se sto in ufficio?"
-    answer: "Sì. I raggi UVA (invecchiamento) attraversano i vetri delle finestre e sono presenti anche nelle giornate nuvolose."
-  - question: "In che ordine applico i prodotti?"
-    answer: "Regola generale: dal più liquido al più denso. Pulizia -> Sieri (Vit C) -> Creme -> SPF (mattina) o Retinolo/Oli (sera)."
+  - question: A che età iniziare il retinolo?
+    answer: >-
+      Generalmente dai 25-30 anni, quando la produzione naturale di collagene
+      inizia a calare. Iniziare gradualmente è fondamentale.
+  - question: L'SPF serve anche se sto in ufficio?
+    answer: >-
+      Sì. I raggi UVA (invecchiamento) attraversano i vetri delle finestre e
+      sono presenti anche nelle giornate nuvolose.
+  - question: In che ordine applico i prodotti?
+    answer: >-
+      Regola generale: dal più liquido al più denso. Pulizia -> Sieri (Vit C) ->
+      Creme -> SPF (mattina) o Retinolo/Oli (sera).
 cta:
-  - text: "Valuta la tua pelle"
-    link: "/calcolo-longevita"
-    description: "La tua routine sta proteggendo o danneggiando la tua barriera cutanea?"
+  - text: Valuta la tua pelle
+    link: /calcolo-longevita
+    description: La tua routine sta proteggendo o danneggiando la tua barriera cutanea?
 tags:
   - skincare
   - retinolo
   - spf
   - anti-aging
 resources:
-  - name: "American Academy of Dermatology"
-    link: "https://www.aad.org/"
+  - name: American Academy of Dermatology
+    link: 'https://www.aad.org/'
+categories:
+  - skin-care
 ---
 
 L'industria della bellezza vende sogni e packaging costosi. La dermatologia vende molecole. Se vuoi risultati reali e misurabili, devi ignorare il marketing e guardare gli ingredienti attivi.

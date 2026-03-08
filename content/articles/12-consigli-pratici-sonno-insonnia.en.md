@@ -1,29 +1,41 @@
 ---
-title: "12 Practical Tips to Improve Sleep and Fight Insomnia"
-description: "Scientific protocol to optimize sleep quality. Behavioral, environmental, and nutritional strategies to sleep better tonight."
-category: "sonno"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 12 Practical Tips to Improve Sleep and Fight Insomnia
+description: >-
+  Scientific protocol to optimize sleep quality. Behavioral, environmental, and
+  nutritional strategies to sleep better tonight.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "How many hours of sleep do you really need?"
-    answer: "Most adults need between 7 and 9 hours. Falling below 6 hours is associated with cognitive decline and metabolic risk."
-  - question: "Is melatonin safe for daily use?"
-    answer: "It can be useful for resetting the circadian rhythm, but should not be used as a chronic 'sleeping pill' without medical supervision."
-  - question: "Why do I always wake up at 3 AM?"
-    answer: "It's often linked to nocturnal blood sugar drops or cortisol spikes. A small [protein](/articoli/nutrizione/miti-proteine) snack before bed or reducing alcohol can help."
+  - question: How many hours of sleep do you really need?
+    answer: >-
+      Most adults need between 7 and 9 hours. Falling below 6 hours is
+      associated with cognitive decline and metabolic risk.
+  - question: Is melatonin safe for daily use?
+    answer: >-
+      It can be useful for resetting the circadian rhythm, but should not be
+      used as a chronic 'sleeping pill' without medical supervision.
+  - question: Why do I always wake up at 3 AM?
+    answer: >-
+      It's often linked to nocturnal blood sugar drops or cortisol spikes. A
+      small [protein](/articoli/nutrizione/miti-proteine) snack before bed or
+      reducing alcohol can help.
 tags:
   - sonno
   - insonnia
   - ritmo circadiano
 resources:
-  - name: "Why We Sleep - Matthew Walker"
-    link: "https://www.amazon.it/Why-We-Sleep-Unlocking-Dreams/dp/1501144316"
-  - name: "Huberman Lab - Sleep Toolkit"
-    link: "https://www.hubermanlab.com/newsletter/toolkit-for-sleep"
+  - name: Why We Sleep - Matthew Walker
+    link: 'https://www.amazon.it/Why-We-Sleep-Unlocking-Dreams/dp/1501144316'
+  - name: Huberman Lab - Sleep Toolkit
+    link: 'https://www.hubermanlab.com/newsletter/toolkit-for-sleep'
 cta:
-  - text: "Calculate Your Biological Age"
-    link: "/calcolo-longevita"
-    description: "Discover how much your sleep is affecting your longevity with our free test."
+  - text: Calculate Your Biological Age
+    link: /calcolo-longevita
+    description: >-
+      Discover how much your sleep is affecting your longevity with our free
+      test.
+categories:
+  - sonno
 ---
 
 Sleeping well is the most powerful action you can take for your physical and mental health. Yet [insomnia](/articoli/sonno/cbt-i-insonnia) and poor sleep quality are epidemic. This protocol is not based on old wives' tales, but on the physiology of the circadian rhythm.

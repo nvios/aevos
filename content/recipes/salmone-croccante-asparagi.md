@@ -1,42 +1,59 @@
 ---
-title: "Salmone Croccante con Asparagi al Limone"
-description: "Un piatto ricco di Omega-3 e antiossidanti, perfetto per supportare la salute cardiovascolare e cerebrale. Pronto in meno di 30 minuti."
-category: "nutrizione"
-prepTime: "10 min"
-cookTime: "15 min"
+title: Salmone Croccante con Asparagi al Limone
+description: >-
+  Un piatto ricco di Omega-3 e antiossidanti, perfetto per supportare la salute
+  cardiovascolare e cerebrale. Pronto in meno di 30 minuti.
+prepTime: 10 min
+cookTime: 15 min
 servings: 2
 calories: 450
 ingredients:
-  - "2 filetti di salmone selvaggio (circa 150g l'uno)"
-  - "1 mazzo di asparagi freschi"
-  - "1 limone biologico (succo e scorza)"
-  - "2 cucchiai di olio extravergine d'oliva"
-  - "1 spicchio d'aglio tritato"
-  - "Sale marino integrale q.b."
-  - "Pepe nero macinato fresco q.b."
-  - "Erbe aromatiche fresche (timo o aneto)"
+  - 2 filetti di salmone selvaggio (circa 150g l'uno)
+  - 1 mazzo di asparagi freschi
+  - 1 limone biologico (succo e scorza)
+  - 2 cucchiai di olio extravergine d'oliva
+  - 1 spicchio d'aglio tritato
+  - Sale marino integrale q.b.
+  - Pepe nero macinato fresco q.b.
+  - Erbe aromatiche fresche (timo o aneto)
 instructions:
-  - "Preriscalda il forno a 200°C."
-  - "Lava gli asparagi e rimuovi la parte finale più dura del gambo."
-  - "In una ciotolina, mescola l'olio d'oliva, l'aglio tritato, la scorza di limone grattugiata, sale e pepe."
-  - "Disponi i filetti di salmone e gli asparagi su una teglia rivestita di carta forno."
-  - "Spennella generosamente il salmone e gli asparagi con l'emulsione preparata."
-  - "Cuoci in forno per 12-15 minuti, o finché il salmone non è cotto e si sfalda facilmente con una forchetta."
-  - "Sforna e irrora con il succo di limone fresco prima di servire."
+  - Preriscalda il forno a 200°C.
+  - Lava gli asparagi e rimuovi la parte finale più dura del gambo.
+  - >-
+    In una ciotolina, mescola l'olio d'oliva, l'aglio tritato, la scorza di
+    limone grattugiata, sale e pepe.
+  - >-
+    Disponi i filetti di salmone e gli asparagi su una teglia rivestita di carta
+    forno.
+  - Spennella generosamente il salmone e gli asparagi con l'emulsione preparata.
+  - >-
+    Cuoci in forno per 12-15 minuti, o finché il salmone non è cotto e si sfalda
+    facilmente con una forchetta.
+  - Sforna e irrora con il succo di limone fresco prima di servire.
 benefits:
-  - title: "Cuore & Circolazione"
-    description: "Gli Omega-3 del salmone aiutano a mantenere sani i livelli di colesterolo e la pressione sanguigna, riducendo il rischio di malattie cardiache."
-  - title: "Cervello & Focus"
-    description: "I grassi sani (DHA) sono il carburante preferito del tuo cervello, migliorando memoria e concentrazione."
-  - title: "Detox & Fegato"
-    description: "Gli asparagi sono ricchi di glutatione, un potente antiossidante che supporta i processi di pulizia del fegato."
-  - title: "Metabolismo"
-    description: "L'alto contenuto proteico e le fibre degli asparagi stabilizzano la glicemia, prevenendo i picchi di insulina."
+  - title: Cuore & Circolazione
+    description: >-
+      Gli Omega-3 del salmone aiutano a mantenere sani i livelli di colesterolo
+      e la pressione sanguigna, riducendo il rischio di malattie cardiache.
+  - title: Cervello & Focus
+    description: >-
+      I grassi sani (DHA) sono il carburante preferito del tuo cervello,
+      migliorando memoria e concentrazione.
+  - title: Detox & Fegato
+    description: >-
+      Gli asparagi sono ricchi di glutatione, un potente antiossidante che
+      supporta i processi di pulizia del fegato.
+  - title: Metabolismo
+    description: >-
+      L'alto contenuto proteico e le fibre degli asparagi stabilizzano la
+      glicemia, prevenendo i picchi di insulina.
 tags:
-  - "omega-3"
-  - "keto"
-  - "gluten-free"
-  - "cena-veloce"
+  - omega-3
+  - keto
+  - gluten-free
+  - cena-veloce
+categories:
+  - nutrizione
 ---
 
 Questa ricetta è un concentrato di nutrienti essenziali per la longevità. Il **salmone selvaggio** è una delle migliori fonti di acidi grassi Omega-3 (EPA e DHA), fondamentali per ridurre l'infiammazione sistemica e proteggere la salute del cervello.

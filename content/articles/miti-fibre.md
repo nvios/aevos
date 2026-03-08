@@ -1,28 +1,41 @@
 ---
-title: "Miti sulle Fibre: Perché Non Sono Solo 'Zavorra' per l'Intestino"
-description: "Sfatiamo le credenze comuni sulle fibre alimentari. Scopri perché sono essenziali per la longevità, il controllo glicemico e la prevenzione delle malattie."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'Miti sulle Fibre: Perché Non Sono Solo ''Zavorra'' per l''Intestino'
+description: >-
+  Sfatiamo le credenze comuni sulle fibre alimentari. Scopri perché sono
+  essenziali per la longevità, il controllo glicemico e la prevenzione delle
+  malattie.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Le fibre causano gonfiore?"
-    answer: "Un aumento improvviso può causare gas temporaneo mentre il microbioma si adatta. L'aumento graduale e l'idratazione risolvono il problema."
-  - question: "Le fibre interferiscono con l'assorbimento dei minerali?"
-    answer: "Sebbene i fitati possano legare alcuni minerali, una dieta ricca di fibre apporta complessivamente molti più nutrienti di quanti ne sequestri."
-  - question: "Posso prendere integratori di fibre invece di mangiarle?"
-    answer: "Gli integratori (es. psillio) sono utili, ma non replicano la complessità e i co-nutrienti delle fibre presenti nei cibi integrali."
+  - question: Le fibre causano gonfiore?
+    answer: >-
+      Un aumento improvviso può causare gas temporaneo mentre il microbioma si
+      adatta. L'aumento graduale e l'idratazione risolvono il problema.
+  - question: Le fibre interferiscono con l'assorbimento dei minerali?
+    answer: >-
+      Sebbene i fitati possano legare alcuni minerali, una dieta ricca di fibre
+      apporta complessivamente molti più nutrienti di quanti ne sequestri.
+  - question: Posso prendere integratori di fibre invece di mangiarle?
+    answer: >-
+      Gli integratori (es. psillio) sono utili, ma non replicano la complessità
+      e i co-nutrienti delle fibre presenti nei cibi integrali.
 cta:
-  - text: "Valuta il tuo apporto"
-    link: "/calcolo-longevita"
-    description: "La tua dieta attuale supporta la longevità? Scoprilo con il nostro assessment."
+  - text: Valuta il tuo apporto
+    link: /calcolo-longevita
+    description: >-
+      La tua dieta attuale supporta la longevità? Scoprilo con il nostro
+      assessment.
 tags:
   - fibre
   - nutrizione
   - digestione
   - miti alimentari
 resources:
-  - name: "The Lancet - Fiber Meta-analysis"
-    link: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31809-9/fulltext"
+  - name: The Lancet - Fiber Meta-analysis
+    link: >-
+      https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31809-9/fulltext
+categories:
+  - nutrizione
 ---
 
 Per decenni, le fibre sono state considerate la parte "non digeribile" del cibo, utile solo per la regolarità intestinale. Questa visione riduttiva ha portato a una carenza cronica nelle diete moderne. La realtà scientifica è che le fibre sono molecole segnale complesse, essenziali per la sopravvivenza.

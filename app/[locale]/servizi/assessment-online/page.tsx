@@ -1,14 +1,14 @@
 import { Metadata } from "next";
-import { ScreeningWizard } from "@/components/screening/screening-wizard";
+import { AssessmentWizard } from "@/components/screening/assessment-wizard";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEn = locale === 'en';
   return {
-    title: isEn ? "Advanced Digital Screening | Aevos Health" : "Screening Digitale Avanzato | Aevos Health",
+    title: isEn ? "Lifestyle Assessment | Aevos Health" : "Assessment Lifestyle | Aevos Health",
     description: isEn
-      ? "In-depth analysis of your biomarkers and lifestyle to calculate your biological age and optimize your health."
-      : "Analisi approfondita dei tuoi biomarcatori e stile di vita per calcolare la tua età biologica e ottimizzare la tua salute.",
+      ? "Answer a few simple questions and get a personalised longevity report with science-backed actions to maximise your healthspan."
+      : "Rispondi a poche semplici domande e ricevi un report di longevità personalizzato con azioni basate sulla scienza per massimizzare il tuo healthspan.",
   } satisfies Metadata;
 }
 
@@ -21,19 +21,8 @@ export default async function AssessmentOnlinePage({
   const isEn = locale === 'en';
 
   return (
-    <div className="container max-w-4xl py-12">
-      <div className="mb-8 text-center">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-          {isEn ? 'Advanced Digital Screening' : 'Screening Digitale Avanzato'}
-        </h1>
-        <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-          {isEn
-            ? 'Discover your true biological age and receive a personalized plan based on your real clinical data.'
-            : 'Scopri la tua vera età biologica e ricevi un piano personalizzato basato sui tuoi dati clinici reali.'}
-        </p>
-      </div>
-
-      <ScreeningWizard />
+    <div className="container max-w-6xl py-12">
+      <AssessmentWizard locale={locale} />
     </div>
   );
 }

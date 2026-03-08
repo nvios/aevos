@@ -1,28 +1,37 @@
 ---
-title: "Skincare Science: The No-Frills Base Protocol for Anti-Aging"
-description: "Forget €500 creams. Dermatological science agrees on three fundamental pillars: Protection, Renewal, and Hydration."
-category: "skin-care"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Skincare Science: The No-Frills Base Protocol for Anti-Aging'
+description: >-
+  Forget €500 creams. Dermatological science agrees on three fundamental
+  pillars: Protection, Renewal, and Hydration.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "At what age should I start retinol?"
-    answer: "Generally from 25-30 years old, when natural collagen production begins to decline. Starting gradually is essential."
-  - question: "Do I need SPF even if I'm in the office?"
-    answer: "Yes. UVA rays (aging) pass through window glass and are present even on cloudy days."
-  - question: "In what order do I apply products?"
-    answer: "General rule: from thinnest to thickest. Cleanser -> Serums (Vit C) -> Moisturizers -> SPF (morning) or Retinol/Oils (evening)."
+  - question: At what age should I start retinol?
+    answer: >-
+      Generally from 25-30 years old, when natural collagen production begins to
+      decline. Starting gradually is essential.
+  - question: Do I need SPF even if I'm in the office?
+    answer: >-
+      Yes. UVA rays (aging) pass through window glass and are present even on
+      cloudy days.
+  - question: In what order do I apply products?
+    answer: >-
+      General rule: from thinnest to thickest. Cleanser -> Serums (Vit C) ->
+      Moisturizers -> SPF (morning) or Retinol/Oils (evening).
 cta:
-  - text: "Assess your skin"
-    link: "/calcolo-longevita"
-    description: "Is your routine protecting or damaging your skin barrier?"
+  - text: Assess your skin
+    link: /calcolo-longevita
+    description: Is your routine protecting or damaging your skin barrier?
 tags:
   - skincare
   - retinolo
   - spf
   - anti-aging
 resources:
-  - name: "American Academy of Dermatology"
-    link: "https://www.aad.org/"
+  - name: American Academy of Dermatology
+    link: 'https://www.aad.org/'
+categories:
+  - skin-care
 ---
 
 The beauty industry sells dreams and expensive packaging. Dermatology sells molecules. If you want real, measurable results, you need to ignore marketing and look at active ingredients.

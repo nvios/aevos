@@ -1,20 +1,28 @@
 ---
-title: "Microplastics and Endocrine Disruptors: The Scientific Detox"
-description: "It's not paranoia, it's biology. How to reduce the daily toxic load that alters your hormones, without going crazy."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Microplastics and Endocrine Disruptors: The Scientific Detox'
+description: >-
+  It's not paranoia, it's biology. How to reduce the daily toxic load that
+  alters your hormones, without going crazy.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Is bottled water safe?"
-    answer: "It often contains more microplastics than tap water. The ideal is filtered tap water (activated carbon or reverse osmosis) stored in glass."
-  - question: "Does sauna help detox?"
-    answer: "Yes. Studies (e.g., BUS study) show that sweat is a preferential route for excreting certain heavy metals and phthalates that urine doesn't eliminate effectively."
-  - question: "Do I have to throw away all my Tupperware?"
-    answer: "Start with the old and scratched ones. NEVER heat food in plastic in the microwave. Gradually replace with glass or stainless steel."
+  - question: Is bottled water safe?
+    answer: >-
+      It often contains more microplastics than tap water. The ideal is filtered
+      tap water (activated carbon or reverse osmosis) stored in glass.
+  - question: Does sauna help detox?
+    answer: >-
+      Yes. Studies (e.g., BUS study) show that sweat is a preferential route for
+      excreting certain heavy metals and phthalates that urine doesn't eliminate
+      effectively.
+  - question: Do I have to throw away all my Tupperware?
+    answer: >-
+      Start with the old and scratched ones. NEVER heat food in plastic in the
+      microwave. Gradually replace with glass or stainless steel.
 cta:
-  - text: "Toxic Load Analysis"
-    link: "/servizi/assessment-online"
-    description: "Evaluate your environmental exposure with our questionnaire."
+  - text: Toxic Load Analysis
+    link: /servizi/assessment-online
+    description: Evaluate your environmental exposure with our questionnaire.
 tags:
   - microplastics
   - detox
@@ -22,8 +30,10 @@ tags:
   - environment
   - sauna
 resources:
-  - name: "Endocrine Society - EDCs"
-    link: "https://www.endocrine.org/topics/edc"
+  - name: Endocrine Society - EDCs
+    link: 'https://www.endocrine.org/topics/edc'
+categories:
+  - longevita
 ---
 
 We live in a plastic world. We eat it, drink it, and breathe it. It is estimated that we ingest about 5 grams of plastic a week (the weight of a credit card).

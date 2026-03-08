@@ -104,13 +104,16 @@ function lintArticle(entry, glossary, allSlugs) {
     issues.push({ severity, rule, message });
 
   // ── 1. Valid category ────────────────────────────────────────────────────────
-  const categories = Array.isArray(fm.categories)
-    ? fm.categories
-    : [fm.category].filter(Boolean);
-
-  if (categories.length === 0) {
-    push("error", "missing-category", "No category defined in frontmatter.");
+  if (fm.category) {
+    push("error", "deprecated-category", "Use 'categories' (array) instead of 'category' (string).");
   }
+
+  if (!Array.isArray(fm.categories) || fm.categories.length === 0) {
+    push("error", "missing-categories", "No 'categories' array defined in frontmatter.");
+  }
+
+  const categories = fm.categories || [];
+
   for (const cat of categories) {
     if (!VALID_CATEGORIES.includes(cat)) {
       push(

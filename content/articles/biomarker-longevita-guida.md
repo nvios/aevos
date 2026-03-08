@@ -1,28 +1,39 @@
 ---
-title: "I 5 Biomarker Essenziali per la Longevità (e come misurarli)"
-description: "Oltre le analisi del sangue standard. Scopri i test fisici ed ematici che correlano maggiormente con una vita lunga e sana."
-category: "longevita"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: I 5 Biomarker Essenziali per la Longevità (e come misurarli)
+description: >-
+  Oltre le analisi del sangue standard. Scopri i test fisici ed ematici che
+  correlano maggiormente con una vita lunga e sana.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Ogni quanto dovrei misurare questi valori?"
-    answer: "Per i test fisici (Grip, VO2) ogni 3-6 mesi. Per gli esami del sangue (ApoB, HbA1c) ogni 6-12 mesi, o più spesso se stai intervenendo attivamente."
-  - question: "L'ApoB è meglio del colesterolo LDL?"
-    answer: "Sì, l'ApoB misura il numero totale di particelle aterogene, fornendo una stima più precisa del rischio cardiovascolare rispetto al solo LDL calcolato."
+  - question: Ogni quanto dovrei misurare questi valori?
+    answer: >-
+      Per i test fisici (Grip, VO2) ogni 3-6 mesi. Per gli esami del sangue
+      (ApoB, HbA1c) ogni 6-12 mesi, o più spesso se stai intervenendo
+      attivamente.
+  - question: L'ApoB è meglio del colesterolo LDL?
+    answer: >-
+      Sì, l'ApoB misura il numero totale di particelle aterogene, fornendo una
+      stima più precisa del rischio cardiovascolare rispetto al solo LDL
+      calcolato.
 tags:
-  - "biomarker"
-  - "prevenzione"
-  - "test-fisici"
-  - "sangue"
+  - biomarker
+  - prevenzione
+  - test-fisici
+  - sangue
 resources:
-  - name: "Dr. Gabrielle Lyon - Muscle-Centric Medicine"
-    link: "https://drgabriellelyon.com/"
-  - name: "InsideTracker - Biomarkers Guide"
-    link: "https://www.insidetracker.com/"
+  - name: Dr. Gabrielle Lyon - Muscle-Centric Medicine
+    link: 'https://drgabriellelyon.com/'
+  - name: InsideTracker - Biomarkers Guide
+    link: 'https://www.insidetracker.com/'
 cta:
-  - text: "Aggiorna il tuo Profilo Longevità"
-    link: "/calcolo-longevita"
-    description: "Inserisci i tuoi risultati di VO2 Max e Grip Strength per una stima più accurata."
+  - text: Aggiorna il tuo Profilo Longevità
+    link: /calcolo-longevita
+    description: >-
+      Inserisci i tuoi risultati di VO2 Max e Grip Strength per una stima più
+      accurata.
+categories:
+  - longevita
 ---
 
 La medicina tradizionale spesso si concentra sul diagnosticare malattie quando sono già presenti. La medicina della longevità (o medicina 3.0) si concentra sull'ottimizzare la salute per prevenire il declino. Ecco i 5 biomarker su cui dovresti concentrarti.

@@ -1,28 +1,39 @@
 ---
-title: "Intermittent Fasting and Autophagy: Cellular Cleanup or Passing Fad?"
-description: "Beyond weight loss: how fasting activates DNA repair mechanisms and why it's not for everyone."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Intermittent Fasting and Autophagy: Cellular Cleanup or Passing Fad?'
+description: >-
+  Beyond weight loss: how fasting activates DNA repair mechanisms and why it's
+  not for everyone.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Does fasting cause muscle loss?"
-    answer: "Not necessarily. If protein intake during eating windows is adequate and you do resistance training, muscle mass is preserved. Growth hormone increases during fasting to protect muscles."
-  - question: "What can I drink during fasting?"
-    answer: "Water, black coffee, unsweetened tea. Any calories (sugar, milk, oil) break metabolic fasting."
-  - question: "Can women fast?"
-    answer: "Yes, but with caution. Women are more sensitive to the hormonal stress of calorie restriction. Often softer protocols (14:10 or 12:12) are preferable to avoid altering the menstrual cycle."
+  - question: Does fasting cause muscle loss?
+    answer: >-
+      Not necessarily. If protein intake during eating windows is adequate and
+      you do resistance training, muscle mass is preserved. Growth hormone
+      increases during fasting to protect muscles.
+  - question: What can I drink during fasting?
+    answer: >-
+      Water, black coffee, unsweetened tea. Any calories (sugar, milk, oil)
+      break metabolic fasting.
+  - question: Can women fast?
+    answer: >-
+      Yes, but with caution. Women are more sensitive to the hormonal stress of
+      calorie restriction. Often softer protocols (14:10 or 12:12) are
+      preferable to avoid altering the menstrual cycle.
 cta:
-  - text: "Evaluate your timing"
-    link: "/calcolo-longevita"
-    description: "Are you eating at the right times for your metabolism?"
+  - text: Evaluate your timing
+    link: /calcolo-longevita
+    description: Are you eating at the right times for your metabolism?
 tags:
   - digiuno
   - autofagia
   - longevità
   - metabolismo
 resources:
-  - name: "Nobel Prize in Medicine 2016 - Autophagy"
-    link: "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
+  - name: Nobel Prize in Medicine 2016 - Autophagy
+    link: 'https://www.nobelprize.org/prizes/medicine/2016/press-release/'
+categories:
+  - nutrizione
 ---
 
 Intermittent fasting (IF) is not a diet; it's an eating pattern. Our species evolved in contexts of scarcity, not constant abundance. Eating 6 times a day is a modern invention and metabolically costly.

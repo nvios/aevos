@@ -101,6 +101,27 @@ export const analytics = {
     posthog.capture("screening_restarted");
   },
 
+  // ── Lifestyle Assessment ───────────────────────────────
+  assessmentStepCompleted(data: { step: number; total: number }) {
+    posthog.capture("assessment_step_completed", data);
+  },
+
+  assessmentCompleted(data: {
+    overall_score: number;
+    primary_goal: string;
+    activity_level: string;
+  }) {
+    posthog.capture("assessment_completed", data);
+  },
+
+  assessmentDeepScreeningClicked(destination: string) {
+    posthog.capture("assessment_deep_screening_clicked", { destination });
+  },
+
+  assessmentRestarted() {
+    posthog.capture("assessment_restarted");
+  },
+
   // ── Recipes ───────────────────────────────────────────
   recipeSearched(query: string, result_count: number) {
     posthog.capture("recipe_searched", { query, result_count });

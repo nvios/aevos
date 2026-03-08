@@ -1,30 +1,46 @@
 ---
-title: "CBT-I: La Terapia Cognitivo-Comportamentale per l'Insonnia"
-description: "Il gold standard scientifico per curare l'insonnia cronica senza farmaci. Come funziona e perché è più efficace dei sonniferi a lungo termine."
-category: "sonno"
-author: "Aevos Health Research"
-authorRole: "Ricerca & Analisi"
+title: 'CBT-I: La Terapia Cognitivo-Comportamentale per l''Insonnia'
+description: >-
+  Il gold standard scientifico per curare l'insonnia cronica senza farmaci. Come
+  funziona e perché è più efficace dei sonniferi a lungo termine.
+author: Aevos Health Research
+authorRole: Ricerca & Analisi
 faq:
-  - question: "Cos'è la CBT-I?"
-    answer: "La CBT-I (Cognitive Behavioral Therapy for Insomnia) è una terapia psicologica breve e strutturata che mira a modificare pensieri, abitudini e comportamenti che perpetuano l'insonnia."
-  - question: "Funziona davvero?"
-    answer: "Sì, è raccomandata come trattamento di prima linea dall'American College of Physicians e dall'European Sleep Research Society, dimostrandosi più efficace dei farmaci nel lungo periodo."
-  - question: "Quanto dura il trattamento?"
-    answer: "Solitamente un protocollo CBT-I dura dalle 4 alle 8 settimane, con miglioramenti significativi spesso visibili già dopo le prime 2-3 settimane."
+  - question: Cos'è la CBT-I?
+    answer: >-
+      La CBT-I (Cognitive Behavioral Therapy for Insomnia) è una terapia
+      psicologica breve e strutturata che mira a modificare pensieri, abitudini
+      e comportamenti che perpetuano l'insonnia.
+  - question: Funziona davvero?
+    answer: >-
+      Sì, è raccomandata come trattamento di prima linea dall'American College
+      of Physicians e dall'European Sleep Research Society, dimostrandosi più
+      efficace dei farmaci nel lungo periodo.
+  - question: Quanto dura il trattamento?
+    answer: >-
+      Solitamente un protocollo CBT-I dura dalle 4 alle 8 settimane, con
+      miglioramenti significativi spesso visibili già dopo le prime 2-3
+      settimane.
 tags:
   - cbt-i
   - insonnia
   - terapia cognitivo comportamentale
   - psicologia del sonno
 resources:
-  - name: "Sleep Foundation - CBT-I Guide"
-    link: "https://www.sleepfoundation.org/insomnia/treatment/cognitive-behavioral-therapy-insomnia"
-  - name: "Mayo Clinic - Insomnia Treatment"
-    link: "https://www.mayoclinic.org/diseases-conditions/insomnia/in-depth/insomnia-treatment/art-20046677"
+  - name: Sleep Foundation - CBT-I Guide
+    link: >-
+      https://www.sleepfoundation.org/insomnia/treatment/cognitive-behavioral-therapy-insomnia
+  - name: Mayo Clinic - Insomnia Treatment
+    link: >-
+      https://www.mayoclinic.org/diseases-conditions/insomnia/in-depth/insomnia-treatment/art-20046677
 cta:
-  - text: "Inizia il Check-up Gratuito"
-    link: "/calcolo-longevita"
-    description: "Vuoi sapere se il tuo profilo del sonno è a rischio? Fai il test in 2 minuti."
+  - text: Inizia il Check-up Gratuito
+    link: /calcolo-longevita
+    description: >-
+      Vuoi sapere se il tuo profilo del sonno è a rischio? Fai il test in 2
+      minuti.
+categories:
+  - sonno
 ---
 
 Se soffri di insonnia cronica, probabilmente hai provato di tutto: tisane, melatonina, sonniferi, meditazione. Eppure, il problema persiste. La ragione è che spesso questi rimedi trattano i sintomi, non le cause comportamentali e cognitive che mantengono l'insonnia. La CBT-I è diversa: non è una pillola, ma un allenamento per il cervello.

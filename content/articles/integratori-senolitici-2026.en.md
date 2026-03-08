@@ -1,20 +1,30 @@
 ---
-title: "Senolytic Supplements 2026: Fisetin, Spermidine, and Urolithin A"
-description: "Beyond the multivitamin. Guide to the new generation of molecules that clear 'zombie' cells and regenerate mitochondria."
-category: "nutrizione"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'Senolytic Supplements 2026: Fisetin, Spermidine, and Urolithin A'
+description: >-
+  Beyond the multivitamin. Guide to the new generation of molecules that clear
+  'zombie' cells and regenerate mitochondria.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "What are senescent cells?"
-    answer: "They are old cells that have stopped dividing but don't die. They linger in the body, secreting inflammatory substances that damage nearby healthy cells."
-  - question: "Can I take these supplements every day?"
-    answer: "It depends. Spermidine is often used daily. Fisetin, being a potent senolytic, is often used with 'hit-and-run' protocols (e.g., 2-3 days a month)."
-  - question: "Is Urolithin A found in food?"
-    answer: "It is found in precursors (ellagitannins) in pomegranates and walnuts, but only 40% of people have the right gut bacteria to convert them. Direct supplementation bypasses this issue."
+  - question: What are senescent cells?
+    answer: >-
+      They are old cells that have stopped dividing but don't die. They linger
+      in the body, secreting inflammatory substances that damage nearby healthy
+      cells.
+  - question: Can I take these supplements every day?
+    answer: >-
+      It depends. Spermidine is often used daily. Fisetin, being a potent
+      senolytic, is often used with 'hit-and-run' protocols (e.g., 2-3 days a
+      month).
+  - question: Is Urolithin A found in food?
+    answer: >-
+      It is found in precursors (ellagitannins) in pomegranates and walnuts, but
+      only 40% of people have the right gut bacteria to convert them. Direct
+      supplementation bypasses this issue.
 cta:
-  - text: "Which supplements do YOU need?"
-    link: "/servizi/consulenze"
-    description: "Avoid expensive and useless DIY. We build your personalized stack."
+  - text: Which supplements do YOU need?
+    link: /servizi/consulenze
+    description: Avoid expensive and useless DIY. We build your personalized stack.
 tags:
   - senolytics
   - fisetin
@@ -23,8 +33,10 @@ tags:
   - mitochondria
   - anti-aging
 resources:
-  - name: "Mayo Clinic - Senolytics Research"
-    link: "https://www.mayoclinic.org/"
+  - name: Mayo Clinic - Senolytics Research
+    link: 'https://www.mayoclinic.org/'
+categories:
+  - nutrizione
 ---
 
 Forget the old multivitamin. The frontier of supplementation in 2026 is no longer about "covering deficiencies", but "activating genetic programs".

@@ -1,28 +1,40 @@
 ---
-title: "The Truth About Collagen: Creams, Powders or Marketing?"
-description: "Why slathering collagen on your face is useless and what to do instead to keep your skin elastic."
-category: "skin-care"
-author: "Aevos Health Research"
-authorRole: "Research & Analysis"
+title: 'The Truth About Collagen: Creams, Powders or Marketing?'
+description: >-
+  Why slathering collagen on your face is useless and what to do instead to keep
+  your skin elastic.
+author: Aevos Health Research
+authorRole: Research & Analysis
 faq:
-  - question: "Does bone broth work?"
-    answer: "It's a good dietary source of amino acid precursors of collagen, but the concentration is variable and difficult to measure compared to a hydrolyzed supplement."
-  - question: "Does vegan collagen exist?"
-    answer: "No. Collagen is an animal protein. Vegan 'boosters' (vitamins and amino acids) that support endogenous production exist, but they are not collagen."
-  - question: "Is it good for joints too?"
-    answer: "Yes, there's good evidence that hydrolyzed collagen can reduce joint pain in athletes and in osteoarthritis."
+  - question: Does bone broth work?
+    answer: >-
+      It's a good dietary source of amino acid precursors of collagen, but the
+      concentration is variable and difficult to measure compared to a
+      hydrolyzed supplement.
+  - question: Does vegan collagen exist?
+    answer: >-
+      No. Collagen is an animal protein. Vegan 'boosters' (vitamins and amino
+      acids) that support endogenous production exist, but they are not
+      collagen.
+  - question: Is it good for joints too?
+    answer: >-
+      Yes, there's good evidence that hydrolyzed collagen can reduce joint pain
+      in athletes and in osteoarthritis.
 cta:
-  - text: "Lifestyle analysis"
-    link: "/calcolo-longevita"
-    description: "Smoking, sun and sugar destroy your collagen. Take the test."
+  - text: Lifestyle analysis
+    link: /calcolo-longevita
+    description: 'Smoking, sun and sugar destroy your collagen. Take the test.'
 tags:
   - collagene
   - skincare
   - integratori
   - miti
 resources:
-  - name: "Harvard Health - Collagen"
-    link: "https://www.health.harvard.edu/blog/considering-collagen-drinks-and-supplements-202304122911"
+  - name: Harvard Health - Collagen
+    link: >-
+      https://www.health.harvard.edu/blog/considering-collagen-drinks-and-supplements-202304122911
+categories:
+  - skin-care
 ---
 
 Collagen is the structural protein that holds our body together (skin, bones, tendons). With age, we produce less and degrade it faster. Hence the explosion of collagen products. But what does science say?
