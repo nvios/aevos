@@ -6,6 +6,7 @@ import { ChevronLeft, User, ExternalLink, ArrowRight } from "lucide-react";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { FaqSubmission } from "@/components/faq-submission";
 import { ArticleViewTracker, TrackedCTALink, TrackedRecommendationLink } from "@/components/article-tracking";
+import { ExpandableArticleList } from "@/components/expandable-article-list";
 
 import type { Article } from "@/lib/content/articles";
 import { localePath } from "@/lib/i18n/paths";
@@ -183,9 +184,11 @@ export function ArticleLayout({
             <section className="mt-16 border-t border-zinc-200 pt-10 xl:hidden">
               <h3 className="mb-6 text-2xl font-bold text-zinc-800">{locale === 'en' ? 'Related Articles' : 'Articoli Correlati'}</h3>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {relatedArticles.map((article, i) => (
-                  <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="related" position={i + 1} currentPage={currentPage} />
-                ))}
+                <ExpandableArticleList total={relatedArticles.length} locale={locale}>
+                  {relatedArticles.map((article, i) => (
+                    <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="related" position={i + 1} currentPage={currentPage} />
+                  ))}
+                </ExpandableArticleList>
               </div>
             </section>
           )}
@@ -234,9 +237,11 @@ export function ArticleLayout({
                   <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
                     {locale === 'en' ? 'Related Articles' : 'Articoli Correlati'}
                   </h3>
-                  {relatedArticles.map((article, i) => (
-                    <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="related" position={i + 1} currentPage={currentPage} />
-                  ))}
+                  <ExpandableArticleList total={relatedArticles.length} locale={locale}>
+                    {relatedArticles.map((article, i) => (
+                      <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="related" position={i + 1} currentPage={currentPage} />
+                    ))}
+                  </ExpandableArticleList>
                 </>
               )}
               {hasAlsoRead && (

@@ -263,9 +263,8 @@ function ActionRow({ action, index, locale }: { action: ActionRecommendation; in
             {isEn ? action.title.en : action.title.it}
           </h4>
           <span
-            className={`ml-auto shrink-0 rounded-full px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider ${
-              action.impact === "high" ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700"
-            }`}
+            className={`ml-auto shrink-0 rounded-full px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider ${action.impact === "high" ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700"
+              }`}
           >
             {action.impact === "high"
               ? (isEn ? "High impact" : "Alto impatto")
@@ -330,8 +329,8 @@ function BlueprintCTA({
   const improvement = result.potentialScore - result.overallScore;
 
   const headline = isEn
-    ? `Without real data, you're guessing`
-    : `Senza dati reali, stai andando alla cieca`;
+    ? `Without real data, you're gambling with your time`
+    : `Senza dati reali, stai scommettendo con il tuo tempo`;
 
   const body = isEn
     ? `Your ${weakLabel} scored low and your goal is to ${goalLabel} — but without measuring and monitoring, you risk putting effort into the wrong things. Everyone responds differently: what works for others may not work for you. A personalised plan based on your biomarkers can unlock up to ${improvement} more points with targeted, efficient changes.`
@@ -386,7 +385,7 @@ export function AssessmentReport({
       <div className="rounded-2xl border border-zinc-200 bg-white shadow-sm overflow-hidden">
         <div className="border-b border-zinc-100 bg-zinc-50/60 px-5 py-3">
           <h2 className="text-sm font-bold text-zinc-900">
-            {isEn ? "Your Healthspan Profile" : "Il Tuo Profilo Healthspan"}
+            {isEn ? "Your Healthspan Profile" : "Il Tuo Profilo"}
           </h2>
         </div>
 

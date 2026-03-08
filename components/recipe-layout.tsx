@@ -1,5 +1,6 @@
 import Script from "next/script";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronLeft, Clock, ArrowRight, ChefHat, Flame, Users, Zap } from "lucide-react";
 
 import type { Recipe } from "@/lib/content/recipes";
@@ -194,19 +195,32 @@ export function RecipeLayout({
               <Link
                 key={recipe.slug}
                 href={lp(`/ricette/${recipe.category}/${recipe.slug}`)}
-                className="group flex flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
+                className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition-all hover:border-zinc-300 hover:shadow-lg"
               >
-                <div className="space-y-3">
-                  <h4 className="text-lg font-bold text-zinc-800 group-hover:text-emerald-600 transition-colors line-clamp-2">
-                    {recipe.title}
-                  </h4>
-                  <div className="flex items-center gap-4 text-xs text-zinc-500">
-                    <span className="flex items-center gap-1"><Clock className="h-3 w-3" /> {recipe.prepTime}</span>
-                    <span className="flex items-center gap-1"><Flame className="h-3 w-3" /> {recipe.calories} kcal</span>
+                {recipe.image && (
+                  <div className="relative aspect-[3/2] w-full overflow-hidden bg-zinc-100">
+                    <Image
+                      src={recipe.image}
+                      alt={recipe.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
                   </div>
-                </div>
-                <div className="mt-4 flex items-center text-sm font-medium text-emerald-600">
-                  {locale === 'en' ? 'Discover' : 'Scopri'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                )}
+                <div className="flex flex-1 flex-col justify-between p-6">
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-bold text-zinc-800 group-hover:text-emerald-600 transition-colors line-clamp-2">
+                      {recipe.title}
+                    </h4>
+                    <div className="flex items-center gap-4 text-xs text-zinc-500">
+                      <span className="flex items-center gap-1"><Clock className="h-3 w-3" /> {recipe.prepTime}</span>
+                      <span className="flex items-center gap-1"><Flame className="h-3 w-3" /> {recipe.calories} kcal</span>
+                    </div>
+                  </div>
+                  <div className="mt-4 flex items-center text-sm font-medium text-emerald-600">
+                    {locale === 'en' ? 'Discover' : 'Scopri'} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </div>
                 </div>
               </Link>
             ))}

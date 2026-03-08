@@ -72,7 +72,7 @@ export default async function ArticlePage({
     getAlsoReadArticles(slug, 3, locale),
   ]);
 
-  const relatedArticles = getRelatedArticles(slug, category, article.tags, 3, locale, statsMap);
+  const relatedArticles = getRelatedArticles(slug, category, article.tags, 12, locale, statsMap);
 
   return (
     <>
