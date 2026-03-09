@@ -333,8 +333,8 @@ function BlueprintCTA({
     : `Senza dati reali, stai scommettendo con il tuo tempo`;
 
   const body = isEn
-    ? `Your ${weakLabel} scored low and your goal is to ${goalLabel} — but without measuring and monitoring, you risk putting effort into the wrong things. Everyone responds differently: what works for others may not work for you. A personalised plan based on your biomarkers can unlock up to ${improvement} more points with targeted, efficient changes.`
-    : `Il tuo ${weakLabel} ha un punteggio basso e il tuo obiettivo è ${goalLabel} — ma senza misurare e monitorare, rischi di investire energie nelle cose sbagliate. Ognuno risponde in modo diverso: ciò che funziona per altri potrebbe non funzionare per te. Un percorso personalizzato basato sui tuoi biomarcatori può sbloccare fino a ${improvement} punti in più con cambiamenti mirati ed efficienti.`;
+    ? `Your ${weakLabel} scored low and your goal is to ${goalLabel} - but without measuring and monitoring, you risk putting effort into the wrong things. Everyone responds differently, and a personalised plan based on your biomarkers is your best bet for targeted, efficient changes.`
+    : `Il tuo ${weakLabel} ha un punteggio basso e il tuo obiettivo è ${goalLabel} - ma senza misurare e monitorare, rischi di investire energie nelle cose sbagliate. Ognuno risponde in modo diverso. Un percorso personalizzato basato sui tuoi biomarcatori è la tua miglior scommessa per cambiamenti mirati ed efficienti.`;
 
   return (
     <div className="relative bg-zinc-900 px-5 py-5 text-white overflow-hidden">
