@@ -54,6 +54,7 @@ tags:
   - cena-veloce
 categories:
   - nutrizione
+image: /images/recipes/salmone-croccante-asparagi.webp
 ---
 
 Questa ricetta è un concentrato di nutrienti essenziali per la longevità. Il **salmone selvaggio** è una delle migliori fonti di acidi grassi Omega-3 (EPA e DHA), fondamentali per ridurre l'infiammazione sistemica e proteggere la salute del cervello.

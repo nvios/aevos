@@ -51,6 +51,7 @@ tags:
   - cena-veloce
 categories:
   - esercizio
+image: /images/recipes/pollo-curcuma-zucchine.webp
 ---
 
 Questo piatto è un vero e proprio **strumento di recupero** per chi si allena o soffre di dolori articolari. La combinazione di curcuma e pepe nero non è casuale: è biohacking culinario.

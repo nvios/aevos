@@ -54,6 +54,7 @@ tags:
   - senza-glutine
 categories:
   - nutrizione
+image: /images/recipes/mousse-avocado-cacao.webp
 ---
 
 Dimentica l'idea che il dessert debba essere un "peccato di gola". Questa mousse trasforma il dolce in un'opportunità nutrizionale.

@@ -65,6 +65,7 @@ tags:
   - tradizione
 categories:
   - primi
+image: /images/recipes/minestrone-longevita-sardo.webp
 ---
 
 Questo non è un semplice minestrone. È il piatto base che ha nutrito generazioni di centenari in Ogliastra, la Zona Blu della Sardegna.

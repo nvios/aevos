@@ -49,6 +49,7 @@ tags:
   - fibre
 categories:
   - nutrizione
+image: /images/recipes/insalata-ceci-avocado.webp
 ---
 
 This salad is the definition of healthy "fast food." Perfect for anyone short on time who wants to take care of their **microbiome**.

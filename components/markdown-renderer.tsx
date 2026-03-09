@@ -39,7 +39,7 @@ export async function MarkdownRenderer({ content, locale = 'it' }: MarkdownRende
         }
 
         const text = textNode.data;
-        
+
         if (!text || !text.trim()) {
           return;
         }
@@ -52,18 +52,18 @@ export async function MarkdownRenderer({ content, locale = 'it' }: MarkdownRende
           const regex = new RegExp(`\\b(${escapedTerm})\\b`, "gi");
 
           const newFragments: (string | React.ReactNode)[] = [];
-          
+
           for (const fragment of fragments) {
             if (typeof fragment === "string") {
               const parts = fragment.split(regex);
-              
+
               if (parts.length > 1) {
                 hasMatch = true;
-                
+
                 for (let i = 0; i < parts.length; i++) {
                   const part = parts[i];
                   if (part.toLowerCase() === term.term.toLowerCase()) {
-                     newFragments.push(
+                    newFragments.push(
                       <GlossaryPopover
                         key={`${term.slug}-${i}`}
                         term={term.term}

@@ -111,7 +111,7 @@ export function ArticleLayout({
         />
       )}
 
-        <ArticleViewTracker slug={slug} locale={locale} />
+      <ArticleViewTracker slug={slug} locale={locale} />
 
       <div className={hasSidebar ? "xl:flex xl:gap-10" : ""}>
         {/* Main article column */}

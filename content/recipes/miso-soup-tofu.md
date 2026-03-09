@@ -54,6 +54,7 @@ tags:
   - probiotici
 categories:
   - nutrizione
+image: /images/recipes/miso-soup-tofu.webp
 ---
 
 La zuppa di miso non è solo un antipasto da ristorante sushi, è una medicina quotidiana. Il **Miso** è una pasta di soia fermentata (spesso con riso o orzo) che contiene il fungo *Aspergillus oryzae*.

@@ -54,6 +54,7 @@ tags:
   - cena-veloce
 categories:
   - nutrizione
+image: /images/recipes/salmone-croccante-asparagi.webp
 ---
 
 This recipe is a concentrate of essential nutrients for longevity. **Wild salmon** is one of the best sources of Omega-3 fatty acids (EPA and DHA), crucial for reducing systemic inflammation and protecting brain health.

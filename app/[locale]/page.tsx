@@ -43,7 +43,7 @@ export default async function Home({
   const { locale } = await params;
   const t = await getTranslations('HomePage');
   const lp = (path: string) => localeHref(path, locale);
-  const trendingArticles = await getTrendingArticles(6, locale);
+  const trendingArticles = await getTrendingArticles(5, locale);
 
   const features = [
     {
@@ -120,7 +120,7 @@ export default async function Home({
         <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-[500px] h-[500px] rounded-full bg-cyan-500/10 blur-[100px]" />
       </section>
 
-      {/* Features Grid */}
+      {/* Section Heading */}
       <section className="mx-auto max-w-6xl px-4">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-600 sm:text-4xl">
@@ -130,30 +130,11 @@ export default async function Home({
             {locale === 'en' ? 'Curated resources to optimize every aspect of your health.' : 'Risorse curate per ottimizzare ogni aspetto della tua salute.'}
           </p>
         </div>
-
-        <div className="grid gap-8 md:grid-cols-2 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:w-1/2 [&>*:last-child:nth-child(odd)]:md:mx-auto">
-          {features.map((card) => {
-            const Icon = card.icon;
-            return (
-              <Link
-                key={card.href}
-                href={card.href}
-                className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:-translate-y-1 hover:border-zinc-300 hover:shadow-xl"
-              >
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-50 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-white transition-colors">
-                  <Icon className="h-6 w-6" />
-                </div>
-                <h3 className="mb-2 text-xl font-semibold text-zinc-800">{card.title}</h3>
-                <p className="text-sm text-zinc-600 leading-relaxed">{card.text}</p>
-              </Link>
-            );
-          })}
-        </div>
       </section>
 
       {/* Trending Articles Section */}
       {trendingArticles.length > 0 && (
-        <section className="mx-auto max-w-6xl px-4">
+        <section className="mx-auto max-w-6xl px-4 -mt-12">
           <div className="mb-8 flex items-center gap-3">
             <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-orange-50 text-orange-600">
               <Flame className="h-5 w-5" />
@@ -202,9 +183,52 @@ export default async function Home({
                 </div>
               </TrackedRecommendationLink>
             ))}
+
+            {/* Explore More CTA Card */}
+            <Link
+              href={lp("/articoli")}
+              className="group flex flex-col items-center justify-center rounded-2xl border border-dashed border-zinc-300 bg-zinc-50 p-6 transition-all hover:border-emerald-400 hover:bg-emerald-50 hover:shadow-lg"
+            >
+              <div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 group-hover:bg-emerald-200 transition-colors">
+                <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />
+              </div>
+              <h3 className="text-lg font-bold text-zinc-800 group-hover:text-emerald-600 transition-colors">
+                {locale === 'en' ? 'Explore All Articles' : 'Esplora tutti gli articoli'}
+              </h3>
+              <p className="mt-1 text-sm text-zinc-500 text-center">
+                {locale === 'en' ? 'Discover guides on nutrition, sleep, training and more' : 'Scopri guide su nutrizione, sonno, allenamento e altro'}
+              </p>
+            </Link>
           </div>
         </section>
       )}
+
+      {/* Features Grid */}
+      <section className="relative mx-auto max-w-6xl px-4">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 px-6 py-16 sm:px-12 sm:py-20">
+          <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/4 w-[400px] h-[400px] rounded-full bg-emerald-500/10 blur-[100px]" />
+          <div className="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/4 w-[300px] h-[300px] rounded-full bg-cyan-500/8 blur-[80px]" />
+
+          <div className="relative z-10 grid gap-6 md:grid-cols-2 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:w-1/2 [&>*:last-child:nth-child(odd)]:md:mx-auto">
+            {features.map((card) => {
+              const Icon = card.icon;
+              return (
+                <Link
+                  key={card.href}
+                  href={card.href}
+                  className="group relative overflow-hidden rounded-2xl border border-zinc-700/50 bg-zinc-800/60 backdrop-blur-sm p-6 transition-all hover:-translate-y-1 hover:border-zinc-600 hover:shadow-2xl hover:shadow-emerald-500/5"
+                >
+                  <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-700/50 text-zinc-300 group-hover:bg-emerald-500 group-hover:text-white transition-colors">
+                    <Icon className="h-6 w-6" />
+                  </div>
+                  <h3 className="mb-2 text-xl font-semibold text-zinc-100">{card.title}</h3>
+                  <p className="text-sm text-zinc-400 leading-relaxed">{card.text}</p>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
       {/* Newsletter Section */}
       <section className="mx-auto max-w-4xl px-4">

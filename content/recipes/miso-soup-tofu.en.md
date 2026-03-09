@@ -50,6 +50,7 @@ tags:
   - probiotici
 categories:
   - nutrizione
+image: /images/recipes/miso-soup-tofu.webp
 ---
 
 Miso soup isn't just a sushi restaurant appetizer—it's daily medicine. **Miso** is a fermented soybean paste (often with rice or barley) that contains the fungus *Aspergillus oryzae*.

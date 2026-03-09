@@ -8,8 +8,8 @@ import { localeHref } from "@/lib/i18n/paths";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 const CITIES: Record<string, { name: string; address?: string; partner?: string }> = {
-  milano: { 
-    name: "Milano", 
+  milano: {
+    name: "Milano",
     address: "Via della Spiga, 1 (Partner Location)",
     partner: "Elite Wellness Club"
   },

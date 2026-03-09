@@ -100,7 +100,7 @@ export default async function ProtocolPage({ params }: Props) {
               Soluzioni flessibili per ogni esigenza e obiettivo di salute.
             </p>
           </div>
-          
+
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:justify-center max-w-5xl mx-auto">
             {protocol.pricing.map((tier, index) => (
               <Card key={index} className="flex flex-col relative overflow-hidden border-2 hover:border-primary transition-colors">

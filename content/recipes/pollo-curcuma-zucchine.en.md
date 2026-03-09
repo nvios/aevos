@@ -47,6 +47,7 @@ tags:
   - cena-veloce
 categories:
   - esercizio
+image: /images/recipes/pollo-curcuma-zucchine.webp
 ---
 
 This dish is a true **recovery tool** for anyone who trains or suffers from joint pain. The combination of turmeric and black pepper is no accident: it's culinary biohacking.

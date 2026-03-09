@@ -48,7 +48,7 @@ export default async function RootLayout({
   if (!['en', 'it'].includes(locale)) {
     notFound();
   }
- 
+
   const messages = await getMessages();
   const navItems = navItemsByLocale[locale] ?? navItemsByLocale.it;
 

@@ -4,8 +4,9 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { Moon, Dumbbell, Utensils, Sparkles, Scissors, Activity, HeartPulse, Brain, Zap } from "lucide-react";
 import { getAllCategories } from "@/lib/content/categories";
-import { getArticlesByCategory } from "@/lib/content/articles";
+import { getArticlesByCategory, getAllArticles } from "@/lib/content/articles";
 import { localeHref } from "@/lib/i18n/paths";
+import { ArticleSearch } from "@/components/article-search";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -49,6 +50,11 @@ export default async function GuidePage({
     return articles.length > 0;
   });
 
+  const allArticles = getAllArticles(locale).map(article => {
+    const { content, ...rest } = article;
+    return rest;
+  });
+
   return (
     <section className="space-y-8 py-8">
       <Script
@@ -67,24 +73,26 @@ export default async function GuidePage({
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-        {activeCategories.map((item) => {
-          const Icon = iconMap[item.iconName] || Activity;
-          return (
-            <Link
-              key={item.slug}
-              href={lp(`/articoli/${item.slug}`)}
-              className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
-            >
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-50 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-white transition-colors">
-                <Icon className="h-6 w-6" />
-              </div>
-              <h2 className="mb-2 text-xl font-semibold text-zinc-900">{item.title}</h2>
-              <p className="text-sm text-zinc-600 leading-relaxed">{item.description}</p>
-            </Link>
-          );
-        })}
-      </div>
+      <ArticleSearch articles={allArticles} locale={locale}>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {activeCategories.map((item) => {
+            const Icon = iconMap[item.iconName] || Activity;
+            return (
+              <Link
+                key={item.slug}
+                href={lp(`/articoli/${item.slug}`)}
+                className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-6 transition-all hover:border-zinc-300 hover:shadow-lg"
+              >
+                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-50 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-white transition-colors">
+                  <Icon className="h-6 w-6" />
+                </div>
+                <h2 className="mb-2 text-xl font-semibold text-zinc-900">{item.title}</h2>
+                <p className="text-sm text-zinc-600 leading-relaxed">{item.description}</p>
+              </Link>
+            );
+          })}
+        </div>
+      </ArticleSearch>
     </section>
   );
 }

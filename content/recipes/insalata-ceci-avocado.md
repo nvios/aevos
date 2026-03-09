@@ -53,6 +53,7 @@ tags:
   - fibre
 categories:
   - nutrizione
+image: /images/recipes/insalata-ceci-avocado.webp
 ---
 
 Questa insalata è la definizione di "fast food" salutare. Perfetta per chi ha poco tempo ma vuole prendersi cura del proprio **microbioma**.

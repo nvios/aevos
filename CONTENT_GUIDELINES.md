@@ -5,7 +5,7 @@ Questo documento definisce lo stile, il tono e le regole linguistiche per tutti 
 ## 1. Tono di Voce
 *   **Autorevole ma Accessibile:** Parliamo come un medico esperto che spiega concetti complessi a un paziente intelligente. Non siamo accademici distaccati, ma nemmeno "amici da bar".
 *   **Scientifico:** Ogni affermazione forte deve essere supportata da logica biologica o riferimenti a studi.
-*   **Pragmatico:** Focus sulle azioni pratiche e sui risultati misurabili. Evitare la filosofia astratta.
+*   **Pragmatico:** Focus sulle azioni pratiche, ritorno sull'investimento, e sui risultati misurabili. Evitare la filosofia astratta.
 
 ## 2. Gestione della Lingua (Italiano vs Inglese)
 La regola d'oro è: **Se esiste una parola italiana efficace, usala.**
@@ -53,5 +53,5 @@ Per garantire la qualità e l'ottimizzazione SEO, tutti gli articoli vengono ana
 *   **Parentesi (AI Detection):**
     *   La densità delle parentesi nel corpo del testo non deve superare il **2.5%**. Un uso eccessivo è spesso indicatore di testo generato da AI.
     *   **Vietato** usare parentesi nei titoli (H1-H6), ad eccezione di numeri (es. anni) o acronimi in maiuscolo (es. "FMD", "HIIT").
-*   **Glossario:** Tutti gli acronimi utilizzati devono essere definiti nel glossario del sito.
+*   **Glossario:** Tutti gli acronimi e terminin scientifici utilizzati devono essere definiti nel glossario del sito.
 *   **Metadati:** La categoria indicata nel frontmatter deve corrispondere a una delle categorie valide del sito.

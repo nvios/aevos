@@ -61,6 +61,7 @@ tags:
   - meal-prep
 categories:
   - longevita
+image: /images/recipes/super-veggie-semplificato.webp
 ---
 
 Questa è una versione accessibile del famoso "Super Veggie" reso popolare da Bryan Johnson nel suo protocollo anti-aging. Abbiamo semplificato gli ingredienti mantenendo intatto il profilo nutrizionale.
