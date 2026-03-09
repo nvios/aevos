@@ -333,8 +333,8 @@ function BlueprintCTA({
     : `Senza dati reali, stai scommettendo con il tuo tempo`;
 
   const body = isEn
-    ? `Your ${weakLabel} scored low and your goal is to ${goalLabel} - but without measuring and monitoring, you risk putting effort into the wrong things. Everyone responds differently, and a personalised plan based on your biomarkers is your best bet for targeted, efficient changes.`
-    : `Il tuo ${weakLabel} ha un punteggio basso e il tuo obiettivo è ${goalLabel} - ma senza misurare e monitorare, rischi di investire energie nelle cose sbagliate. Ognuno risponde in modo diverso. Un percorso personalizzato basato sui tuoi biomarcatori è la tua miglior scommessa per cambiamenti mirati ed efficienti.`;
+    ? `Don't optimise the wrong things. Everyone responds differently, and a personalised plan based on your biomarkers is your best bet for targeted, efficient changes.`
+    : `Non focalizzarti sulle cose sbagliate. Ognuno risponde in modo diverso. Un percorso personalizzato basato sui tuoi biomarcatori è la tua miglior scommessa per cambiamenti mirati ed efficienti.`;
 
   return (
     <div className="relative bg-zinc-900 px-5 py-5 text-white overflow-hidden">
@@ -353,7 +353,7 @@ function BlueprintCTA({
           onClick={() => analytics.assessmentDeepScreeningClicked("blueprint_cta")}
           className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500 px-4 py-2 text-[12px] font-semibold text-white transition-all hover:bg-emerald-600 hover:shadow-[0_0_16px_rgba(16,185,129,0.3)]"
         >
-          {isEn ? "Build my personalised plan" : "Costruisci il mio percorso personalizzato"}
+          {isEn ? "Build a personalised plan" : "Costruisci un percorso personalizzato"}
           <ArrowRight className="h-3.5 w-3.5" />
         </Link>
       </div>
