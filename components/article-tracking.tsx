@@ -1,11 +1,29 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePostHog } from "posthog-js/react";
 import { trackArticleView, trackArticleCTAClick } from "@/app/[locale]/actions";
 import { analytics } from "@/lib/analytics/events";
 import { collectViewContext } from "@/lib/analytics/device-profile";
+import { getSupabaseClient } from "@/lib/auth/supabase";
+
+const SESSION_STORAGE_KEY = "aevos_session_id";
+
+function getStableSessionId(posthog: ReturnType<typeof usePostHog>): string {
+  const phId = posthog?.get_session_id?.();
+  if (phId) return phId;
+
+  if (typeof sessionStorage !== "undefined") {
+    const stored = sessionStorage.getItem(SESSION_STORAGE_KEY);
+    if (stored) return stored;
+    const id = crypto.randomUUID();
+    sessionStorage.setItem(SESSION_STORAGE_KEY, id);
+    return id;
+  }
+
+  return crypto.randomUUID();
+}
 
 export function ArticleViewTracker({
   slug,
@@ -16,14 +34,28 @@ export function ArticleViewTracker({
 }) {
   const posthog = usePostHog();
   const tracked = useRef(false);
+  const [userId, setUserId] = useState<string | null>(null);
+  const [authReady, setAuthReady] = useState(false);
 
   useEffect(() => {
-    if (tracked.current || !slug) return;
+    const supabase = getSupabaseClient();
+    if (!supabase) {
+      setAuthReady(true);
+      return;
+    }
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUserId(session?.user?.id ?? null);
+      setAuthReady(true);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!authReady || tracked.current || !slug) return;
     tracked.current = true;
-    const sessionId = posthog?.get_session_id?.() ?? crypto.randomUUID();
-    const context = collectViewContext(locale);
+    const sessionId = getStableSessionId(posthog);
+    const context = collectViewContext(locale, userId);
     trackArticleView(slug, sessionId, context);
-  }, [slug, locale, posthog]);
+  }, [slug, locale, posthog, userId, authReady]);
 
   return null;
 }

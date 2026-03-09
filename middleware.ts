@@ -35,6 +35,16 @@ const CATEGORY_SLUGS_EN_TO_IT: Record<string, string> = {
   'technology': 'tecnologie',
 };
 
+function parseNfGeoCountry(header: string | null): string | null {
+  if (!header) return null;
+  try {
+    const geo = JSON.parse(decodeURIComponent(header));
+    return geo?.country?.code ?? null;
+  } catch {
+    return null;
+  }
+}
+
 function translateEnglishPathToInternal(enPath: string): string {
   let result = enPath;
 
@@ -62,6 +72,24 @@ export default async function middleware(request: NextRequest) {
     return;
   }
 
+  // Resolve geo country from platform-specific sources:
+  // Vercel → x-vercel-ip-country, Netlify → request.geo / x-nf-geo, Cloudflare → cf-ipcountry
+  const geoCountry =
+    (request as NextRequest & { geo?: { country?: string } }).geo?.country ??
+    request.headers.get('x-vercel-ip-country') ??
+    request.headers.get('cf-ipcountry') ??
+    parseNfGeoCountry(request.headers.get('x-nf-geo')) ??
+    null;
+
+  // Next.js converts response headers prefixed with "x-middleware-request-"
+  // into request headers available via headers() in server actions/components.
+  function withGeo(response: NextResponse): NextResponse {
+    if (geoCountry) {
+      response.headers.set('x-middleware-request-x-geo-country', geoCountry);
+    }
+    return response;
+  }
+
   // English paths: rewrite translated slugs to internal Italian paths
   if (pathname.startsWith('/en')) {
     const pathWithoutLocale = pathname.slice(3) || '/';
@@ -86,10 +114,10 @@ export default async function middleware(request: NextRequest) {
         }
       });
 
-      return response;
+      return withGeo(response);
     }
 
-    return handleI18n(request);
+    return withGeo(await handleI18n(request));
   }
 
   // Explicit user choice via language switcher cookie — redirect to /en
@@ -114,12 +142,12 @@ export default async function middleware(request: NextRequest) {
     const translatedPath = translateEnglishPathToInternal(pathname);
     const rewriteUrl = request.nextUrl.clone();
     rewriteUrl.pathname = `/en${translatedPath}`;
-    return NextResponse.rewrite(rewriteUrl);
+    return withGeo(NextResponse.rewrite(rewriteUrl));
   }
 
   // All non-/en paths serve as Italian (default locale) — no redirect.
   // Search engines discover the English version via hreflang alternate links.
-  return handleI18n(request);
+  return withGeo(await handleI18n(request));
 }
 
 export const config = {

@@ -13,6 +13,7 @@ type ViewContext = {
   utm_medium: string | null;
   utm_campaign: string | null;
   is_entry: boolean;
+  user_id: string | null;
 };
 
 function getSupabase() {
@@ -31,10 +32,7 @@ export async function trackArticleView(
   if (!supabase || !slug || !sessionId) return;
 
   const hdrs = await headers();
-  const country_code =
-    hdrs.get("x-vercel-ip-country") ??
-    hdrs.get("cf-ipcountry") ??
-    null;
+  const country_code = hdrs.get("x-geo-country") ?? null;
 
   await Promise.all([
     supabase.rpc("increment_article_views", {
@@ -55,6 +53,7 @@ export async function trackArticleView(
         utm_medium: context.utm_medium,
         utm_campaign: context.utm_campaign,
         is_entry: context.is_entry,
+        user_id: context.user_id,
       },
       { onConflict: "session_id,article_slug", ignoreDuplicates: true }
     ),

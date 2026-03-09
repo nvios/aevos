@@ -21,6 +21,7 @@ export type ViewContext = {
   utm_medium: string | null;
   utm_campaign: string | null;
   is_entry: boolean;
+  user_id: string | null;
 };
 
 // ── OS detection ──────────────────────────────────────────────
@@ -213,7 +214,7 @@ export function isEntryPage(): boolean {
   }
 }
 
-export function collectViewContext(locale: string): ViewContext {
+export function collectViewContext(locale: string, userId: string | null = null): ViewContext {
   const { device_tier, os_name, is_mobile } = getDeviceProfile();
   const { utm_source, utm_medium, utm_campaign } = getUTMParams();
 
@@ -227,5 +228,6 @@ export function collectViewContext(locale: string): ViewContext {
     utm_medium,
     utm_campaign,
     is_entry: isEntryPage(),
+    user_id: userId,
   };
 }
