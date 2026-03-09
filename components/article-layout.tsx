@@ -247,7 +247,7 @@ export function ArticleLayout({
               {hasAlsoRead && (
                 <>
                   <h3 className="mt-6 text-sm font-semibold uppercase tracking-wider text-zinc-500">
-                    {locale === 'en' ? 'Readers Also Read' : 'Letti anche'}
+                    {locale === 'en' ? 'Readers Also Read' : 'Altri articoli'}
                   </h3>
                   {alsoReadArticles.map((article, i) => (
                     <RecommendationCard key={article.slug} article={article} locale={locale} lp={lp} source="also_read" position={i + 1} currentPage={currentPage} />
