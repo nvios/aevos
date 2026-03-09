@@ -3,7 +3,7 @@ import parse, { Element, Text, HTMLReactParserOptions } from "html-react-parser"
 import { marked } from "marked";
 import { getAllGlossaryTerms } from "@/lib/content/glossary";
 import { GlossaryPopover } from "@/components/glossary-popover";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 interface MarkdownRendererProps {
   content: string;
@@ -22,7 +22,7 @@ export async function MarkdownRenderer({ content, locale = 'it' }: MarkdownRende
       if (domNode instanceof Element && domNode.name === 'a' && domNode.attribs?.href) {
         const href = domNode.attribs.href;
         if (href.startsWith('/') && locale !== 'it') {
-          domNode.attribs.href = localePath(href, locale);
+          domNode.attribs.href = localeHref(href, locale);
         }
       }
 

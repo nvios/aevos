@@ -1,19 +1,20 @@
-import { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Activity, Scale, Dumbbell, ArrowRight } from "lucide-react";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
+import { buildMetadata } from "@/lib/seo/metadata";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const isEn = locale === 'en';
-  return {
-    title: isEn ? "Laboratory Tests & Diagnostics | Aevos Health" : "Test di Laboratorio e Diagnostica | Aevos Health",
-    description: isEn
-      ? "Advanced technologies to measure your health: BIA Analysis, Dynamometry and more."
-      : "Tecnologie avanzate per misurare la tua salute: Analisi BIA, Dinamometria e altro.",
-  } satisfies Metadata;
+  return buildMetadata({
+    title: "Test di Laboratorio e Diagnostica",
+    titleEn: "Laboratory Tests & Diagnostics",
+    description: "Tecnologie avanzate per misurare la tua salute: Analisi BIA, Dinamometria e altro.",
+    descriptionEn: "Advanced technologies to measure your health: BIA Analysis, Dynamometry and more.",
+    path: "/servizi/lab-tests",
+    locale,
+  });
 }
 
 export default async function LabTestsPage({
@@ -23,7 +24,7 @@ export default async function LabTestsPage({
 }) {
   const { locale } = await params;
   const isEn = locale === 'en';
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   return (
     <div className="container py-12 space-y-12">
       <div className="text-center space-y-4 max-w-3xl mx-auto">

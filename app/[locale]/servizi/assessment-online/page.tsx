@@ -1,15 +1,16 @@
-import { Metadata } from "next";
 import { AssessmentWizard } from "@/components/screening/assessment-wizard";
+import { buildMetadata } from "@/lib/seo/metadata";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const isEn = locale === 'en';
-  return {
-    title: isEn ? "Lifestyle Assessment | Aevos Health" : "Assessment Lifestyle | Aevos Health",
-    description: isEn
-      ? "Answer a few simple questions and get a personalised longevity report with science-backed actions to maximise your healthspan."
-      : "Rispondi a poche semplici domande e ricevi un report di longevità personalizzato con azioni basate sulla scienza per massimizzare il tuo healthspan.",
-  } satisfies Metadata;
+  return buildMetadata({
+    title: "Assessment Lifestyle",
+    titleEn: "Lifestyle Assessment",
+    description: "Rispondi a poche semplici domande e ricevi un report di longevità personalizzato con azioni basate sulla scienza per massimizzare il tuo healthspan.",
+    descriptionEn: "Answer a few simple questions and get a personalised longevity report with science-backed actions to maximise your healthspan.",
+    path: "/servizi/assessment-online",
+    locale,
+  });
 }
 
 export default async function AssessmentOnlinePage({

@@ -3,7 +3,7 @@ import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { Activity, Stethoscope } from "lucide-react";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -23,7 +23,7 @@ export default async function ServiziPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
 
   const services = [
     {

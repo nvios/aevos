@@ -2,29 +2,21 @@ import React from "react";
 import { getAllGlossaryTerms } from "@/lib/content/glossary";
 import { getArticleBySlug } from "@/lib/content/articles";
 import Link from "next/link";
-import type { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import Script from "next/script";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
+import { buildMetadata } from "@/lib/seo/metadata";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const isEn = locale === 'en';
-  return {
-    title: isEn ? "Health & Longevity Glossary | Aevos" : "Glossario della Salute e Longevità | Aevos",
-    description: isEn
-      ? "Clear and simple definitions of scientific terms related to health, longevity, nutrition and biohacking."
-      : "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking.",
-    alternates: { canonical: isEn ? "/en/glossary" : "/glossario" },
-    openGraph: {
-      title: isEn ? "Health & Longevity Glossary | Aevos" : "Glossario della Salute e Longevità | Aevos",
-      description: isEn
-        ? "Clear and simple definitions of scientific terms related to health, longevity, nutrition and biohacking."
-        : "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking.",
-      type: "website" as const,
-      url: isEn ? "/en/glossary" : "/glossario",
-    },
-  } satisfies Metadata;
+  return buildMetadata({
+    title: "Glossario della Salute e Longevità",
+    titleEn: "Health & Longevity Glossary",
+    description: "Definizioni chiare e semplici dei termini scientifici legati a salute, longevità, nutrizione e biohacking.",
+    descriptionEn: "Clear and simple definitions of scientific terms related to health, longevity, nutrition and biohacking.",
+    path: "/glossario",
+    locale,
+  });
 }
 
 export default async function GlossaryPage({
@@ -33,7 +25,7 @@ export default async function GlossaryPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const terms = getAllGlossaryTerms(locale);
 
   const enrichedTerms = terms.map((term) => {

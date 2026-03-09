@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle2, MapPin, ArrowRight } from "lucide-react";
+import { buildMetadata } from "@/lib/seo/metadata";
 
-// Whitelist of supported cities to avoid SEO spam/404s for random strings
 const CITIES: Record<string, { name: string; address?: string; partner?: string }> = {
   milano: {
     name: "Milano",
@@ -32,13 +32,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  return {
-    title: `Centro Longevità ${cityData.name} | Aevos Health`,
+  return buildMetadata({
+    title: `Centro Longevità ${cityData.name}`,
+    titleEn: `Longevity Center ${cityData.name}`,
     description: `Il primo centro per la medicina della longevità e l'ottimizzazione biologica a ${cityData.name}. Test VO2 Max, DEXA e protocolli personalizzati.`,
-    alternates: {
-      canonical: `https://aevos.netfly.app/sedi/${city.toLowerCase()}`,
-    },
-  };
+    descriptionEn: `The first center for longevity medicine and biological optimization in ${cityData.name}. VO2 Max, DEXA and personalised protocols.`,
+    path: `/sedi/${city.toLowerCase()}`,
+    locale: 'it',
+  });
 }
 
 export async function generateStaticParams() {

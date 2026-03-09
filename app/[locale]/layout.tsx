@@ -12,7 +12,7 @@ import { getArticlesByCategory } from "@/lib/content/articles";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { localePath, locales } from "@/lib/i18n/paths";
+import { localeHref, locales } from "@/lib/i18n/paths";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -106,7 +106,7 @@ export default async function RootLayout({
                           {activeCategories.map((cat) => (
                             <Link
                               key={cat.slug}
-                              href={localePath(`/articoli/${cat.slug}`, locale)}
+                              href={localeHref(`/articoli/${cat.slug}`, locale)}
                               className="block rounded-lg px-4 py-2 text-sm text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
                             >
                               {cat.title}

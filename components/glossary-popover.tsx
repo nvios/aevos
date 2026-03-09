@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
 import { Info } from "lucide-react";
 import { useLocale } from "next-intl";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 import { analytics } from "@/lib/analytics/events";
 
 const POPOVER_HEIGHT_ESTIMATE = 200;
@@ -31,7 +31,7 @@ export function GlossaryPopover({
   const contentRef = useRef<HTMLDivElement>(null);
   const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const locale = useLocale();
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
 
   useEffect(() => {
     function handleOutside(event: Event) {

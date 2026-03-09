@@ -21,28 +21,33 @@ export function generateStaticParams() {
   return Object.keys(provinceMap).map((province) => ({ province }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { province: string };
-}): Metadata {
-  const province = provinceMap[params.province];
+  params: Promise<{ province: string; locale: string }>;
+}): Promise<Metadata> {
+  const { province: slug, locale } = await params;
+  const province = provinceMap[slug];
   if (!province) {
     return {};
   }
   return buildMetadata({
-    title: `Servizi longevita in ${province.title}`,
-    description: `Offerte locali Aevos Health in ${province.title}: ${province.localFocus}.`,
-    path: `/servizi/lombardia/${params.province}`,
+    title: `Servizi longevità a ${province.title}`,
+    titleEn: `Longevity services in ${province.title}`,
+    description: `Offerte locali Aevos Health a ${province.title}: ${province.localFocus}.`,
+    descriptionEn: `Aevos Health local services in ${province.title}: ${province.localFocus}.`,
+    path: `/servizi/lombardia/${slug}`,
+    locale,
   });
 }
 
-export default function ProvinceServicePage({
+export default async function ProvinceServicePage({
   params,
 }: {
-  params: { province: string };
+  params: Promise<{ province: string; locale: string }>;
 }) {
-  const province = provinceMap[params.province];
+  const { province: slug } = await params;
+  const province = provinceMap[slug];
   if (!province) {
     notFound();
   }

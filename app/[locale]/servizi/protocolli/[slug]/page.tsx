@@ -2,12 +2,13 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Link from "next/link";
 import { PROTOCOLS } from "@/lib/content/protocols";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, ArrowRight, Zap, Brain, Activity, Sun, Clock, Shield, TrendingUp, Calendar, Smile, Heart } from "lucide-react";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 };
 
 // Map icon names to components
@@ -16,7 +17,7 @@ const IconMap: Record<string, React.ElementType> = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const protocol = PROTOCOLS[slug];
 
   if (!protocol) {
@@ -25,10 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  return {
-    title: `${protocol.title} | Aevos Health`,
+  return buildMetadata({
+    title: `${protocol.title}`,
     description: protocol.seoDescription,
-  };
+    path: `/servizi/protocolli/${slug}`,
+    locale,
+  });
 }
 
 export default async function ProtocolPage({ params }: Props) {

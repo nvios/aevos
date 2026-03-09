@@ -6,7 +6,7 @@ import { ChevronRight, Lock, Unlock, User, Activity, Scale, Ruler, Calendar, Hea
 import Link from "next/link";
 import clsx from "clsx";
 import { useLocale } from "next-intl";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 import { analytics } from "@/lib/analytics/events";
 
 type InputState = {
@@ -115,7 +115,7 @@ export function LongevityCalculator() {
   const supabase = useMemo(() => getSupabaseClient(), []);
   const locale = useLocale();
   const isEn = locale === 'en';
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const [input, setInput] = useState<InputState>(() => {
     const defaults: InputState = { age: 40, heightCm: 175, weightKg: 75, gender: "uomo" };
     if (typeof window === "undefined") return defaults;

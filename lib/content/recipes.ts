@@ -27,17 +27,17 @@ export type Recipe = {
 export function getRecipeBySlug(slug: string, locale: string = 'it'): Recipe | null {
   try {
     let fullPath = path.join(recipesDirectory, `${slug}.${locale}.md`);
-    
+
     if (!fs.existsSync(fullPath)) {
       if (locale === 'it') {
-         fullPath = path.join(recipesDirectory, `${slug}.md`);
+        fullPath = path.join(recipesDirectory, `${slug}.md`);
       } else {
-         const defaultPath = path.join(recipesDirectory, `${slug}.md`);
-         if (fs.existsSync(defaultPath)) {
-            fullPath = defaultPath;
-         } else {
-            return null;
-         }
+        const defaultPath = path.join(recipesDirectory, `${slug}.md`);
+        if (fs.existsSync(defaultPath)) {
+          fullPath = defaultPath;
+        } else {
+          return null;
+        }
       }
     }
 
@@ -86,7 +86,7 @@ export function getAllRecipes(locale: string = 'it'): Recipe[] {
   }
 
   const fileNames = fs.readdirSync(recipesDirectory);
-  
+
   const slugs = new Set<string>();
   fileNames.forEach(fileName => {
     if (fileName.endsWith(".md")) {

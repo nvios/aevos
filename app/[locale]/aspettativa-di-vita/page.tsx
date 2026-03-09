@@ -2,7 +2,7 @@ import Link from "next/link";
 import Script from "next/script";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo/schema";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -23,7 +23,7 @@ export default async function AspettativaDiVitaPage({
 }) {
   const { locale } = await params;
   const isEn = locale === 'en';
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },

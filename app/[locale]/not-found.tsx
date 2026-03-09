@@ -3,13 +3,13 @@ import { ArrowRight } from "lucide-react";
 import { getLocale } from "next-intl/server";
 import { getTrendingArticles } from "@/lib/content/recommendations";
 import { getCategoryBySlug } from "@/lib/content/categories";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 import { NotFoundRedirect } from "@/components/not-found-redirect";
 
 export default async function NotFound() {
   const locale = await getLocale();
   const isEn = locale === "en";
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
 
   const trendingArticles = await getTrendingArticles(6, locale);
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ChevronLeft, Clock, ArrowRight, ChefHat, Flame, Users, Zap } from "lucide-react";
 
 import type { Recipe } from "@/lib/content/recipes";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 type RecipeProps = {
   title: string;
@@ -41,7 +41,7 @@ export function RecipeLayout({
   relatedRecipes,
   children,
 }: RecipeProps) {
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
 
   // Basic Schema.org Recipe structured data
   const recipeSchema = {

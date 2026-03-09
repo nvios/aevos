@@ -11,7 +11,7 @@ import { Progress } from "@/components/ui/progress";
 import Link from "next/link";
 import { ArrowRight, AlertCircle } from "lucide-react";
 import { useLocale } from "next-intl";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 import { analytics } from "@/lib/analytics/events";
 
 type ScreeningData = {
@@ -36,7 +36,7 @@ export function ScreeningWizard() {
   const [step, setStep] = useState(0);
   const [data, setData] = useState<ScreeningData>({});
   const locale = useLocale();
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const [isMounted, setIsMounted] = useState(false);
 
   // Load from localStorage on mount

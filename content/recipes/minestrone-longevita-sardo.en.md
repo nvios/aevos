@@ -56,7 +56,7 @@ tags:
   - fiber
   - tradition
 categories:
-  - main
+  - primi
 ---
 
 This is not just a minestrone. It is the staple dish that has nourished generations of centenarians in Ogliastra, the Blue Zone of Sardinia.

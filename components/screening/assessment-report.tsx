@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 import { Button } from "@/components/ui/button";
 import { analytics } from "@/lib/analytics/events";
 import {
@@ -375,7 +375,7 @@ export function AssessmentReport({
   onRestart: () => void;
 }) {
   const isEn = locale === "en";
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const protocolHref = lp("/servizi/protocolli/longevita");
 
   return (

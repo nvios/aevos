@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import type { Metadata } from "next";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 import { getCategoryBySlug } from "@/lib/content/categories";
 
@@ -51,7 +51,7 @@ export default async function ArticlePage({
   params: Promise<{ category: string; slug: string; locale: string }>;
 }) {
   const { category, slug, locale } = await params;
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const article = getArticleBySlug(slug, locale);
   const categoryConfig = getCategoryBySlug(category, locale);
   const categoryTitle = categoryConfig?.title || category;

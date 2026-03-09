@@ -8,7 +8,7 @@ import { getTrendingArticles } from "@/lib/content/recommendations";
 import { getCategoryBySlug } from "@/lib/content/categories";
 import { ArrowRight, Activity, TrendingUp, Stethoscope, Flame } from "lucide-react";
 import { getTranslations } from 'next-intl/server';
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -42,7 +42,7 @@ export default async function Home({
 }) {
   const { locale } = await params;
   const t = await getTranslations('HomePage');
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const trendingArticles = await getTrendingArticles(6, locale);
 
   const features = [

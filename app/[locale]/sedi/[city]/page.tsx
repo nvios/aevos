@@ -4,9 +4,9 @@ import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle2, MapPin, ArrowRight } from "lucide-react";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
+import { buildMetadata } from "@/lib/seo/metadata";
 
-// Whitelist of supported cities to avoid SEO spam/404s for random strings
 const CITIES: Record<string, { name: string; address?: string; partner?: string }> = {
   milano: { 
     name: "Milano", 
@@ -24,7 +24,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { city } = await params;
+  const { city, locale } = await params;
   const cityData = CITIES[city.toLowerCase()];
 
   if (!cityData) {
@@ -33,13 +33,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  return {
-    title: `Centro Longevità ${cityData.name} | Aevos Health`,
+  return buildMetadata({
+    title: `Centro Longevità ${cityData.name}`,
+    titleEn: `Longevity Center ${cityData.name}`,
     description: `Il primo centro per la medicina della longevità e l'ottimizzazione biologica a ${cityData.name}. Test VO2 Max, DEXA e protocolli personalizzati.`,
-    alternates: {
-      canonical: `https://aevos.it/sedi/${city.toLowerCase()}`,
-    },
-  };
+    descriptionEn: `The first center for longevity medicine and biological optimization in ${cityData.name}. VO2 Max, DEXA and personalised protocols.`,
+    path: `/sedi/${city.toLowerCase()}`,
+    locale,
+  });
 }
 
 export async function generateStaticParams() {
@@ -50,7 +51,7 @@ export async function generateStaticParams() {
 
 export default async function LocalLandingPage({ params }: Props) {
   const { city, locale } = await params;
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const cityKey = city.toLowerCase();
   const cityData = CITIES[cityKey];
 

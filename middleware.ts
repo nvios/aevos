@@ -108,6 +108,15 @@ export default async function middleware(request: NextRequest) {
     }
   }
 
+  // English-translated paths without /en/ prefix (e.g. /articles/sleep/…)
+  // Rewrite transparently to /en/… so they resolve without a redirect.
+  if (PATH_SEGMENTS.some(([, en]) => pathname === en || pathname.startsWith(en + '/'))) {
+    const translatedPath = translateEnglishPathToInternal(pathname);
+    const rewriteUrl = request.nextUrl.clone();
+    rewriteUrl.pathname = `/en${translatedPath}`;
+    return NextResponse.rewrite(rewriteUrl);
+  }
+
   // All non-/en paths serve as Italian (default locale) — no redirect.
   // Search engines discover the English version via hreflang alternate links.
   return handleI18n(request);

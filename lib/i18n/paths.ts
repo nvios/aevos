@@ -41,6 +41,8 @@ function translateCategorySlugs(path: string, toEnglish: boolean): string {
 
 /**
  * Converts an internal (Italian) path to the locale-appropriate public path.
+ * Returns the translated path WITHOUT the locale prefix (e.g. `/articles/sleep/…`).
+ * Use `localeHref()` when you need a full navigable href with the prefix.
  */
 export function localePath(internalPath: string, locale: string): string {
   if (locale === 'it') return internalPath;
@@ -56,6 +58,17 @@ export function localePath(internalPath: string, locale: string): string {
   // Also translate category slugs in the path
   result = translateCategorySlugs(result, true);
   return result;
+}
+
+/**
+ * Returns a full navigable href with the locale prefix included.
+ * Italian (default): `/articoli/sonno/…`
+ * English: `/en/articles/sleep/…`
+ */
+export function localeHref(internalPath: string, locale: string): string {
+  const translated = localePath(internalPath, locale);
+  if (locale === defaultLocale) return translated;
+  return `/${locale}${translated}`;
 }
 
 /**

@@ -8,7 +8,7 @@ import { ArrowRight, Flame } from "lucide-react";
 import { getArticlesByCategory } from "@/lib/content/articles";
 import { categories, getCategoryBySlug } from "@/lib/content/categories";
 import { getArticleStatsMap } from "@/lib/content/recommendations";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 export function generateStaticParams() {
   return categories.map((category) => ({ category: category.slug }));
@@ -40,7 +40,7 @@ export default async function GuideCategoryPage({
   params: Promise<{ category: string; locale: string }>;
 }) {
   const { category, locale } = await params;
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const config = getCategoryBySlug(category, locale);
 
   if (!config) {
@@ -53,7 +53,7 @@ export default async function GuideCategoryPage({
     const bViews = statsMap.get(b.slug)?.view_count ?? 0;
     return bViews - aViews;
   });
-  
+
   // Calculate maxPopular based on article count
   const maxPopular = Math.max(1, Math.floor(articles.length * 0.3));
 

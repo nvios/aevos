@@ -171,7 +171,7 @@ function lintArticle(entry, glossary, allSlugs) {
             // 1. Content containing numbers (e.g. "Step 1", "30 minutes", "2024")
             // 2. Uppercase acronyms (e.g. "FMD", "LLLT", "UV-A", "NAD+")
             const isAllowed = /\d/.test(content) || /^[A-Z0-9\+\-\/]+$/.test(content);
-            
+
             if (!isAllowed) {
               push(
                 "error",

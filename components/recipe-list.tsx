@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Clock, Flame, Search, X, ChevronDown, ChevronUp } from "lucide-react";
 import { useLocale } from "next-intl";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 import type { Recipe } from "@/lib/content/recipes";
 import { analytics } from "@/lib/analytics/events";
 
@@ -50,7 +50,7 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [showAllFilters, setShowAllFilters] = useState(false);
   const locale = useLocale();
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
 
   // Extract unique benefits from recipes
   const allBenefits = useMemo(() => {
@@ -61,16 +61,16 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
         benefitsSet.add(normalized);
       });
     });
-    
+
     const sortedBenefits = Array.from(benefitsSet).sort();
-    
+
     // Reorder based on priority
     const priorityList = PRIORITY_FILTERS[locale as keyof typeof PRIORITY_FILTERS] || [];
     const prioritySet = new Set(priorityList);
-    
+
     const topBenefits = priorityList.filter(b => benefitsSet.has(b));
     const otherBenefits = sortedBenefits.filter(b => !prioritySet.has(b));
-    
+
     return [...topBenefits, ...otherBenefits];
   }, [initialRecipes, locale]);
 
@@ -148,8 +148,8 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
               analytics.recipeFilterApplied(null, initialRecipes.length);
             }}
             className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${selectedCategory === null
-                ? "bg-emerald-600 text-white shadow-md"
-                : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
+              ? "bg-emerald-600 text-white shadow-md"
+              : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
               }`}
           >
             {locale === 'en' ? 'All' : 'Tutti'}
@@ -163,14 +163,14 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
                 analytics.recipeFilterApplied(benefit, count);
               }}
               className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${selectedCategory === benefit
-                  ? "bg-emerald-600 text-white shadow-md"
-                  : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
+                ? "bg-emerald-600 text-white shadow-md"
+                : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
                 }`}
             >
               {benefit}
             </button>
           ))}
-          
+
           {hasMoreFilters && (
             <button
               onClick={() => setShowAllFilters(!showAllFilters)}

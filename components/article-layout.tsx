@@ -9,7 +9,7 @@ import { ArticleViewTracker, TrackedCTALink, TrackedRecommendationLink } from "@
 import { ExpandableArticleList } from "@/components/expandable-article-list";
 
 import type { Article } from "@/lib/content/articles";
-import { localePath } from "@/lib/i18n/paths";
+import { localeHref } from "@/lib/i18n/paths";
 
 type FaqItem = {
   question: string;
@@ -94,7 +94,7 @@ export function ArticleLayout({
   alsoReadArticles,
   children,
 }: ArticleProps) {
-  const lp = (path: string) => localePath(path, locale);
+  const lp = (path: string) => localeHref(path, locale);
   const faqSchema = faq ? faqJsonLd(faq) : null;
   const hasRelated = relatedArticles && relatedArticles.length > 0;
   const hasAlsoRead = alsoReadArticles && alsoReadArticles.length > 0;
