@@ -24,11 +24,11 @@ export default async function RecipesPage({
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-      <div className="mx-auto max-w-2xl text-center mb-16">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
+      <div className="mb-8">
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl">
           {locale === 'en' ? 'Longevity Recipes' : 'Ricette per la Longevità'}
         </h1>
-        <p className="mt-4 text-lg leading-8 text-zinc-600">
+        <p className="mt-2 text-base text-zinc-500">
           {locale === 'en'
             ? 'Targeted nutrition to optimize your metabolism. Each recipe is balanced to support your health goals.'
             : 'Nutrizione mirata per ottimizzare il tuo metabolismo. Ogni ricetta è bilanciata per supportare i tuoi obiettivi di salute.'}

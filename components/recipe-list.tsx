@@ -14,35 +14,47 @@ type RecipeListProps = {
 };
 
 const PRIORITY_FILTERS = {
-  en: [
-    "Longevity",
-    "Brain & Focus",
-    "Muscles & Recovery",
-    "Microbiome & Gut Health",
-    "Energy & Vitality",
-    "Sleep & Relaxation"
-  ],
-  it: [
-    "Longevità",
-    "Cervello & Focus",
-    "Muscoli & Recupero",
-    "Microbioma & Salute Intestinale",
-    "Energia & Vitalità",
-    "Sonno & Relax"
-  ]
+  en: ["Longevity", "Brain", "Muscles", "Microbiome", "Energy", "Sleep"],
+  it: ["Longevità", "Cervello", "Muscoli", "Microbioma", "Energia", "Sonno"],
+};
+
+const BENEFIT_MAP: Record<string, Record<string, string>> = {
+  en: {
+    "Brain & Focus": "Brain",
+    "Muscles & Recovery": "Muscles",
+    "Microbiome Health": "Microbiome",
+    "Gut Health": "Microbiome",
+    "Energy & Vitality": "Energy",
+    "Sleep & Relaxation": "Sleep",
+    "Heart & Circulation": "Heart",
+    "Detox & Liver": "Detox",
+    "Easy Digestion": "Digestion",
+    "Radiant Skin": "Skin",
+    "Antioxidant Power": "Antioxidants",
+    "Glycemic Control": "Blood Sugar",
+    "Immune System": "Immunity",
+    "Anti-Inflammatory": "Anti-Inflammatory",
+  },
+  it: {
+    "Cervello & Focus": "Cervello",
+    "Muscoli & Recupero": "Muscoli",
+    "Salute del Microbioma": "Microbioma",
+    "Salute Intestinale": "Microbioma",
+    "Energia & Vitalità": "Energia",
+    "Sonno & Relax": "Sonno",
+    "Cuore & Circolazione": "Cuore",
+    "Detox & Fegato": "Detox",
+    "Digestione Leggera": "Digestione",
+    "Pelle Radiosa": "Pelle",
+    "Potere Antiossidante": "Antiossidanti",
+    "Controllo Glicemico": "Glicemia",
+    "Sistema Immunitario": "Immunità",
+    "Antinfiammatorio": "Antinfiammatorio",
+  },
 };
 
 const normalizeBenefit = (title: string, locale: string) => {
-  if (locale === 'en') {
-    if (title === 'Microbiome Health' || title === 'Gut Health') return 'Microbiome & Gut Health';
-    if (title === 'Digestion' || title === 'Easy Digestion') return 'Digestion';
-    return title;
-  } else {
-    // Italian
-    if (title === 'Salute del Microbioma' || title === 'Salute Intestinale') return 'Microbioma & Salute Intestinale';
-    if (title === 'Digestione' || title === 'Digestione Leggera') return 'Digestione';
-    return title;
-  }
+  return BENEFIT_MAP[locale]?.[title] ?? title;
 };
 
 export function RecipeList({ initialRecipes }: RecipeListProps) {
@@ -119,14 +131,14 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
   return (
     <div className="space-y-8">
       {/* Search and Filter Controls */}
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-4">
         <div className="relative w-full">
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
             <Search className="h-5 w-5 text-zinc-400" aria-hidden="true" />
           </div>
           <input
             type="text"
-            className="block w-full rounded-2xl border-0 py-4 pl-12 pr-12 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-base sm:leading-6 bg-white"
+            className="block w-full rounded-xl border-0 py-3 pl-11 pr-10 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6 bg-white"
             placeholder={locale === 'en' ? "Search recipes, ingredients or benefits..." : "Cerca ricette, ingredienti o benefici..."}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -134,21 +146,21 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
           {searchQuery && (
             <button
               onClick={() => setSearchQuery("")}
-              className="absolute inset-y-0 right-0 flex items-center pr-4 text-zinc-400 hover:text-zinc-600"
+              className="absolute inset-y-0 right-0 flex items-center pr-3 text-zinc-400 hover:text-zinc-600"
             >
-              <X className="h-5 w-5" aria-hidden="true" />
+              <X className="h-4 w-4" aria-hidden="true" />
             </button>
           )}
         </div>
 
-        <div className="flex flex-wrap gap-2">
+        <div className={`flex gap-1.5 ${showAllFilters ? 'flex-wrap' : 'flex-wrap sm:flex-nowrap sm:overflow-hidden sm:max-h-8'}`}>
           <button
             onClick={() => {
               setSelectedCategory(null);
               analytics.recipeFilterApplied(null, initialRecipes.length);
             }}
-            className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${selectedCategory === null
-              ? "bg-emerald-600 text-white shadow-md"
+            className={`min-w-fit flex-1 rounded-full px-3 py-1 text-xs font-medium text-center transition-all ${selectedCategory === null
+              ? "bg-emerald-600 text-white shadow-sm"
               : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
               }`}
           >
@@ -162,8 +174,8 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
                 const count = initialRecipes.filter(r => r.benefits?.some(b => normalizeBenefit(b.title, locale) === benefit)).length;
                 analytics.recipeFilterApplied(benefit, count);
               }}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${selectedCategory === benefit
-                ? "bg-emerald-600 text-white shadow-md"
+              className={`min-w-fit flex-1 rounded-full px-3 py-1 text-xs font-medium text-center transition-all ${selectedCategory === benefit
+                ? "bg-emerald-600 text-white shadow-sm"
                 : "bg-white text-zinc-600 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:ring-zinc-300"
                 }`}
             >
@@ -174,15 +186,15 @@ export function RecipeList({ initialRecipes }: RecipeListProps) {
           {hasMoreFilters && (
             <button
               onClick={() => setShowAllFilters(!showAllFilters)}
-              className="flex items-center gap-1 rounded-full bg-white px-3 py-2 text-sm font-medium text-zinc-500 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:text-zinc-700 hover:ring-zinc-300 transition-all"
+              className="min-w-fit flex items-center justify-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-medium text-zinc-500 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-50 hover:text-zinc-700 hover:ring-zinc-300 transition-all"
             >
               {showAllFilters ? (
                 <>
-                  {locale === 'en' ? 'Less' : 'Meno'} <ChevronUp className="h-4 w-4" />
+                  {locale === 'en' ? 'Less' : 'Meno'} <ChevronUp className="h-3 w-3" />
                 </>
               ) : (
                 <>
-                  {locale === 'en' ? 'More' : 'Altro'} <ChevronDown className="h-4 w-4" />
+                  {locale === 'en' ? 'More' : 'Altro'} <ChevronDown className="h-3 w-3" />
                 </>
               )}
             </button>

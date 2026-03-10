@@ -41,13 +41,13 @@ export function ArticleSearch({ articles, locale, children, placeholder }: Artic
   return (
     <div className="space-y-8">
       {/* Search Input */}
-      <div className="relative w-full max-w-2xl mx-auto">
+      <div className="relative w-full">
         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
           <Search className="h-5 w-5 text-zinc-400" aria-hidden="true" />
         </div>
         <input
           type="text"
-          className="block w-full rounded-2xl border-0 py-4 pl-12 pr-12 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-base sm:leading-6 bg-white"
+          className="block w-full rounded-xl border-0 py-3 pl-11 pr-10 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6 bg-white"
           placeholder={placeholder || (locale === 'en' ? "Search articles..." : "Cerca articoli...")}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
@@ -55,9 +55,9 @@ export function ArticleSearch({ articles, locale, children, placeholder }: Artic
         {searchQuery && (
           <button
             onClick={() => setSearchQuery("")}
-            className="absolute inset-y-0 right-0 flex items-center pr-4 text-zinc-400 hover:text-zinc-600"
+            className="absolute inset-y-0 right-0 flex items-center pr-3 text-zinc-400 hover:text-zinc-600"
           >
-            <X className="h-5 w-5" aria-hidden="true" />
+            <X className="h-4 w-4" aria-hidden="true" />
           </button>
         )}
       </div>

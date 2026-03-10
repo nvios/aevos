@@ -62,11 +62,11 @@ export default async function GuidePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
-      <div className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-900">
+      <div className="space-y-2">
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl">
           {locale === 'en' ? 'Longevity Guides' : 'Guide alla Longevità'}
         </h1>
-        <p className="max-w-3xl text-lg text-zinc-600">
+        <p className="max-w-3xl text-base text-zinc-500">
           {locale === 'en'
             ? 'Practical and in-depth resources to take control of your health. Each guide offers actionable steps based on the latest scientific evidence.'
             : 'Risorse pratiche e approfondite per prendere il controllo della tua salute. Ogni guida è progettata per offrirti azioni concrete basate sulle ultime evidenze scientifiche.'}
