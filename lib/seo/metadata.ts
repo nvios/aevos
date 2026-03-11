@@ -36,7 +36,6 @@ export function buildMetadata({
       languages: {
         'it': canonical,
         'en': enUrl,
-        'x-default': canonical,
       },
     },
     openGraph: {
