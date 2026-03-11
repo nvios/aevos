@@ -5,7 +5,7 @@ categories:
   - longevita
   - tecnologie
   - skin-care
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Is it like tanning?"

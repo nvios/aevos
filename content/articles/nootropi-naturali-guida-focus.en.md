@@ -5,7 +5,7 @@ description: >-
   memory with safe, natural molecules.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Is coffee a nootropic?

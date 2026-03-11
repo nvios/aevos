@@ -5,7 +5,7 @@ categories:
   - sonno
   - longevita
   - nutrizione
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Quanto tempo prima di dormire dovrei smettere di mangiare?"

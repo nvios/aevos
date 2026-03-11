@@ -5,7 +5,7 @@ description: >-
   tuoi capelli e cosa è solo marketing.
 categories:
   - capelli
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Lavare i capelli troppo spesso li fa cadere?

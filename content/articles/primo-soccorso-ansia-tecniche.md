@@ -3,7 +3,7 @@ title: "Primo Soccorso per l'Ansia: Tecniche Somatiche per Calmare il Sistema Ne
 description: "Il cuore batte forte, il respiro è corto? Usa il corpo per calmare la mente. Sospiro fisiologico, acqua fredda e grounding."
 categories:
   - salute-mentale
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Cosa fare durante un attacco di panico?"

@@ -5,7 +5,7 @@ description: >-
   lived in good health? Analysis of the data and strategies to bridge the gap.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: What is the difference between Healthspan and Lifespan?

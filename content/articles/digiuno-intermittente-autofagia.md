@@ -5,7 +5,7 @@ description: >-
   del DNA e perché non è per tutti.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Il digiuno fa perdere muscoli?

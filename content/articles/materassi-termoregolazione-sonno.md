@@ -4,7 +4,7 @@ description: "La temperatura è il segnale numero uno per il sonno profondo. Com
 categories:
   - sonno
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Perché devo dormire al freddo?"

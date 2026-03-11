@@ -5,7 +5,7 @@ description: >-
   for longevity, glycemic control, and disease prevention.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Do fibers cause bloating?

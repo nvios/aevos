@@ -5,7 +5,7 @@ description: >-
   forme migliori (bisglicinato, citrato, treonato).
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Come capisco se sono carente?

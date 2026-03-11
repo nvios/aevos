@@ -4,7 +4,7 @@ description: >-
   Non è solo ossigeno. Scopri come la respirazione nasale, la tolleranza alla
   CO2 e il nervo vago possono riprogrammare il tuo sistema nervoso e migliorare
   la longevità.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Perché è importante respirare dal naso?

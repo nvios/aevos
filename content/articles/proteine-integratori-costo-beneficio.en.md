@@ -4,7 +4,7 @@ description: "Whey, casein, plant-based, collagen: what's actually worth your mo
 categories:
   - nutrizione
   - esercizio
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "What's the best protein powder overall?"

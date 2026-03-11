@@ -1,6 +1,6 @@
-# Linee Guida Editoriali Aevos Health
+# Linee Guida Editoriali Aevos
 
-Questo documento definisce lo stile, il tono e le regole linguistiche per tutti i contenuti di Aevos Health. L'obiettivo è mantenere un'identità autorevole, chiara e professionale, evitando l'uso eccessivo di anglicismi non necessari.
+Questo documento definisce lo stile, il tono e le regole linguistiche per tutti i contenuti di Aevos. L'obiettivo è mantenere un'identità autorevole, chiara e professionale, evitando l'uso eccessivo di anglicismi non necessari.
 
 ## 1. Tono di Voce
 *   **Autorevole ma Accessibile:** Parliamo come un medico esperto che spiega concetti complessi a un paziente intelligente. Non siamo accademici distaccati, ma nemmeno "amici da bar".

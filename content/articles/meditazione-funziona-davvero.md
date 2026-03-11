@@ -5,7 +5,7 @@ categories:
   - longevita
   - sonno
   - salute-mentale
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Devo svuotare la mente per meditare?"

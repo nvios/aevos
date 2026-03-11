@@ -4,7 +4,7 @@ description: "Non serve una palestra commerciale. Come costruire un setup essenz
 categories:
   - esercizio
   - tecnologie
-author: "Aevos Health Fitness Team"
+author: "Aevos Fitness Team"
 authorRole: "Team Fitness"
 faq:
   - question: "Quanto spazio serve davvero?"

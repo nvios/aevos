@@ -5,7 +5,7 @@ description: >-
   'zombie' cells and regenerate mitochondria.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: What are senescent cells?

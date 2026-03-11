@@ -5,7 +5,7 @@ description: >-
   zuccheri aggiunti per proteggere il metabolismo.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: La frutta fa ingrassare perché contiene zucchero?

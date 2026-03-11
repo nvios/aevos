@@ -3,7 +3,7 @@ title: 'Protein Myths: How Much Do You Really Need?'
 description: >-
   From fear of kidney damage to obsession with 30g per meal. Let's clear up the
   confusion about the most debated macronutrient with data in hand.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Do too many proteins damage the kidneys?

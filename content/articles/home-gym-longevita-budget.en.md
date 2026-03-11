@@ -4,7 +4,7 @@ description: "You don't need a commercial gym. How to build an essential setup f
 categories:
   - esercizio
   - tecnologie
-author: "Aevos Health Fitness Team"
+author: "Aevos Fitness Team"
 authorRole: "Fitness Team"
 faq:
   - question: "How much space do I really need?"

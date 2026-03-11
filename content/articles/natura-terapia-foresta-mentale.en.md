@@ -4,7 +4,7 @@ description: "It's not just 'getting fresh air'. Forest Bathing lowers cortisol 
 categories:
   - salute-mentale
   - longevita
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "What is Shinrin-Yoku?"

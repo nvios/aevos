@@ -5,7 +5,7 @@ description: >-
   sono vissuti in salute? Analisi dei dati e strategie per colmare il gap.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Qual è la differenza tra Healthspan e Lifespan?

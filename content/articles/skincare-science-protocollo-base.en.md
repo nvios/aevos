@@ -5,7 +5,7 @@ description: >-
   pillars: Protection, Renewal, and Hydration.
 categories:
   - skin-care
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: At what age should I start retinol?

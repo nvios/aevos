@@ -4,7 +4,7 @@ description: "Dopamina, grasso bruno e recupero. Quando il freddo è medicina e 
 categories:
   - longevita
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Quanto fredda deve essere l'acqua?"

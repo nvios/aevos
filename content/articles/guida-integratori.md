@@ -3,7 +3,7 @@ title: 'Guida agli Integratori: Cosa Funziona, Cosa è Hype e Cosa Evitare'
 description: >-
   Un approccio razionale all'integrazione. Non sprecare soldi in pillole
   magiche; investi nelle molecole supportate da trial clinici.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Il multivitaminico serve?

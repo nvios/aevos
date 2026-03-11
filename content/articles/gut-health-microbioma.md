@@ -5,7 +5,7 @@ description: >-
   Strategie pratiche per nutrire il tuo ecosistema interno.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cosa sono i probiotici e i prebiotici?

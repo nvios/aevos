@@ -4,7 +4,7 @@ description: "Whey, caseina, vegetali, collagene: cosa vale davvero i tuoi soldi
 categories:
   - nutrizione
   - esercizio
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Qual è la proteina in polvere migliore in assoluto?"

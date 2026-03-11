@@ -4,7 +4,7 @@ description: "90% of serotonin is produced in the gut. Discover how your microbi
 categories:
   - salute-mentale
   - nutrizione
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "What does the gut have to do with anxiety?"

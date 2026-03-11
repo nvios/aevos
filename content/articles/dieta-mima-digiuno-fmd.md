@@ -4,7 +4,7 @@ description: "Il protocollo del Prof. Valter Longo per rigenerare il sistema imm
 categories:
   - nutrizione
   - longevita
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Cosa posso mangiare nella FMD?"

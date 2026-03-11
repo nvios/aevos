@@ -3,7 +3,7 @@ title: 'Miti sulle Proteine: Quante ne Servono Davvero?'
 description: >-
   Dalla paura dei danni renali all'ossessione per i 30g a pasto. Facciamo
   chiarezza sul macronutriente più discusso con dati alla mano.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Troppe proteine fanno male ai reni?

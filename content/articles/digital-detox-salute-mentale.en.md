@@ -4,7 +4,7 @@ description: "Your attention is under siege. Discover how 'dopamine fasting' can
 categories:
   - salute-mentale
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Do I have to delete all social media?"

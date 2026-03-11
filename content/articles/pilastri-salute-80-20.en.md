@@ -5,7 +5,7 @@ description: >-
   80% of results with 20% of effort focused on the fundamentals.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: What is the Pareto principle in health?

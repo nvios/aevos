@@ -60,7 +60,7 @@ export default async function GlossaryPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
-    "name": isEn ? "Aevos Health Glossary" : "Glossario Aevos Health",
+    "name": isEn ? "Aevos Glossary" : "Glossario Aevos",
     "description": isEn
       ? "Definitions of terms related to health, longevity and biohacking."
       : "Definizioni di termini relativi a salute, longevità e biohacking.",

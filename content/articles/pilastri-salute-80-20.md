@@ -5,7 +5,7 @@ description: >-
   l'80% dei risultati con il 20% dello sforzo focalizzato sulle fondamenta.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cos'è il principio di Pareto nella salute?

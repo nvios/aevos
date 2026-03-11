@@ -3,7 +3,7 @@ title: 'Binaural Beats: Science, Brain Waves and Reality'
 description: >-
   Does hacking the brain with sound really work? A critical analysis of Alpha,
   Theta, Delta waves and the effectiveness of binaural beats.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: What are binaural beats?

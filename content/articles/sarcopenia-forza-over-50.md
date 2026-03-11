@@ -3,7 +3,7 @@ title: 'Sarcopenia e Forza dopo i 50 anni: Il Protocollo di Allenamento'
 description: >-
   La perdita di massa muscolare è il fattore di rischio #1 per la fragilità.
   Ecco come contrastarla scientificamente con l'allenamento di resistenza.
-author: Aevos Health Fitness Team
+author: Aevos Fitness Team
 authorRole: Team Fitness
 faq:
   - question: È troppo tardi per iniziare a sollevare pesi a 60 anni?

@@ -3,7 +3,7 @@ title: 'HRV, VO2 Max e RHR: I Tre Pilastri della Longevità Cardiometabolica'
 description: >-
   Capire e ottimizzare i tre indicatori più potenti della tua salute
   cardiovascolare e del sistema nervoso autonomo.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Qual è un buon valore di HRV?

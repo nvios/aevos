@@ -3,7 +3,7 @@ title: 'CBT-I: Cognitive Behavioral Therapy for Insomnia'
 description: >-
   The scientific gold standard for treating chronic insomnia without medication.
   How it works and why it's more effective than sleeping pills in the long term.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: What is CBT-I?

@@ -4,7 +4,7 @@ description: "Do you want huge muscles or live to 100? The science of mTOR and I
 categories:
   - longevita
   - nutrizione
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Do proteins make you age?"

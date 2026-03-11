@@ -4,7 +4,7 @@ description: "Dopamine, brown fat, and recovery. When cold is medicine and when 
 categories:
   - longevita
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "How cold does the water need to be?"

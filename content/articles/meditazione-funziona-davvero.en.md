@@ -5,7 +5,7 @@ categories:
   - longevita
   - sonno
   - salute-mentale
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Do I have to empty my mind to meditate?"

@@ -3,7 +3,7 @@ title: 'AI and Longevity: Between Real Science and Silicon Valley Hype'
 description: >-
   From drug discovery with AlphaFold to digital twins. What is really happening
   at the frontier between biology and artificial intelligence.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Can AI cure aging?

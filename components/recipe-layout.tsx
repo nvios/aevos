@@ -51,7 +51,7 @@ export function RecipeLayout({
     "description": description,
     "author": {
       "@type": "Organization",
-      "name": "Aevos Health"
+      "name": "Aevos"
     },
     "prepTime": prepTime, // Note: Should be ISO 8601 duration format ideally
     "cookTime": cookTime, // Note: Should be ISO 8601 duration format ideally

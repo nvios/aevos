@@ -5,7 +5,7 @@ description: >-
   alters your hormones, without going crazy.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Is bottled water safe?

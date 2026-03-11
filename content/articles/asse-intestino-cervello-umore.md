@@ -4,7 +4,7 @@ description: "Il 90% della serotonina è prodotta nell'intestino. Scopri come il
 categories:
   - salute-mentale
   - nutrizione
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Cosa c'entra l'intestino con l'ansia?"

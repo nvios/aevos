@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildMetadata({
     title: "Longevità, prevenzione e performance quotidiana",
     titleEn: "Longevity, prevention and daily performance",
-    description: "Aevos Health aiuta adulti ambiziosi a migliorare sonno, nutrizione, allenamento e monitoraggio con un approccio pragmatico.",
-    descriptionEn: "Aevos Health helps ambitious adults improve sleep, nutrition, training and monitoring with a pragmatic approach.",
+    description: "Aevos aiuta adulti ambiziosi a migliorare sonno, nutrizione, allenamento e monitoraggio con un approccio pragmatico.",
+    descriptionEn: "Aevos helps ambitious adults improve sleep, nutrition, training and monitoring with a pragmatic approach.",
     path: "/",
     locale,
   });

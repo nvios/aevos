@@ -5,7 +5,7 @@ description: >-
   sicurezza per immunità e ossa.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Quanto sole serve per la Vitamina D?

@@ -7,7 +7,7 @@ description: >-
 categories:
   - longevita
   - salute-mentale
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Come so se ho il cortisolo alto?

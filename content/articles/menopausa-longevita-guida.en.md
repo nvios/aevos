@@ -3,7 +3,7 @@ title: 'Menopause and Longevity: The Window of Opportunity No One Tells You Abou
 description: >-
   Menopause is not the end of youth, but a critical metabolic transition. How to
   manage it to protect your bones, brain, and heart.
-author: Aevos Health Medical Team
+author: Aevos Medical Team
 authorRole: Medical Team
 faq:
   - question: Why do I gain weight even if I eat the same?

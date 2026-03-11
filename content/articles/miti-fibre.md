@@ -6,7 +6,7 @@ description: >-
   malattie.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Le fibre causano gonfiore?

@@ -4,7 +4,7 @@ description: "La tua attenzione è sotto assedio. Scopri come il 'digiuno di dop
 categories:
   - salute-mentale
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Devo cancellare tutti i social?"

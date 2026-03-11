@@ -34,8 +34,8 @@ export async function generateMetadata({
   return buildMetadata({
     title: `Servizi longevità a ${province.title}`,
     titleEn: `Longevity services in ${province.title}`,
-    description: `Offerte locali Aevos Health a ${province.title}: ${province.localFocus}.`,
-    descriptionEn: `Aevos Health local services in ${province.title}: ${province.localFocus}.`,
+    description: `Offerte locali Aevos a ${province.title}: ${province.localFocus}.`,
+    descriptionEn: `Aevos local services in ${province.title}: ${province.localFocus}.`,
     path: `/servizi/lombardia/${slug}`,
     locale,
   });
@@ -55,7 +55,7 @@ export default async function ProvinceServicePage({
   return (
     <section className="space-y-4">
       <h1 className="text-3xl font-semibold">
-        Servizi Aevos Health a {province.title}
+        Servizi Aevos a {province.title}
       </h1>
       <p className="max-w-3xl text-zinc-700">
         Landing locale conversion-focused per {province.localFocus}. Template

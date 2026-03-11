@@ -4,7 +4,7 @@ description: "Vuoi muscoli enormi o vivere fino a 100 anni? La scienza di mTOR e
 categories:
   - longevita
   - nutrizione
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Le proteine fanno invecchiare?"

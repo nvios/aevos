@@ -4,7 +4,7 @@ description: "Caschi laser e pettini LED promettono di far ricrescere i capelli.
 categories:
   - capelli
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Quanto tempo ci vuole per vedere i risultati?"

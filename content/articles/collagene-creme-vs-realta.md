@@ -5,7 +5,7 @@ description: >-
   mantenere la pelle elastica.
 categories:
   - skin-care
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Il brodo di ossa funziona?

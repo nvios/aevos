@@ -6,7 +6,7 @@ description: >-
   DIY.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Why did Bryan Johnson stop rapamycin?

@@ -5,7 +5,7 @@ categories:
   - sonno
   - longevita
   - nutrizione
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "How long before bed should I stop eating?"

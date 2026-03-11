@@ -4,7 +4,7 @@ description: "Non serve sempre una pillola. Scopri come luce, movimento e connes
 categories:
   - salute-mentale
   - longevita
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Queste abitudini sostituiscono i farmaci?"

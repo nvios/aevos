@@ -6,7 +6,7 @@ description: >-
   vita.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cosa si intende esattamente per 'ultra-processato'?

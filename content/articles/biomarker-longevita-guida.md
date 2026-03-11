@@ -3,7 +3,7 @@ title: I 5 Biomarker Essenziali per la Longevità (e come misurarli)
 description: >-
   Oltre le analisi del sangue standard. Scopri i test fisici ed ematici che
   correlano maggiormente con una vita lunga e sana.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Ogni quanto dovrei misurare questi valori?

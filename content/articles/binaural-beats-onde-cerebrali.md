@@ -3,7 +3,7 @@ title: 'Binaural Beats: Scienza, Onde Cerebrali e Realtà'
 description: >-
   Hackerare il cervello con il suono funziona davvero? Un'analisi critica su
   onde Alpha, Theta, Delta e l'efficacia dei battiti binaurali.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cosa sono i battiti binaurali?

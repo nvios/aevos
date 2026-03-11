@@ -5,7 +5,7 @@ description: >-
   consistenza per costruire un corpo forte e longevo con poco tempo.
 categories:
   - esercizio
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Meglio cardio o pesi?

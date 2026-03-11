@@ -4,7 +4,7 @@ description: "You don't always need a pill. Discover how light, movement, and so
 categories:
   - salute-mentale
   - longevita
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Do these habits replace medication?"

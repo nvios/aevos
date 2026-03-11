@@ -5,7 +5,7 @@ description: >-
   sbloccare il metabolismo e prevenire le malattie croniche.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Come misuro la mia salute metabolica?

@@ -1,4 +1,4 @@
-# Aevos Health
+# Aevos
 
 Guide pratiche su longevità, prevenzione e performance quotidiana con approccio evidence-based. Disponibile in italiano e inglese su [aevos.it](https://aevos.it).
 

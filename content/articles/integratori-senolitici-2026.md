@@ -5,7 +5,7 @@ description: >-
   puliscono le cellule 'zombie' e rigenerano i mitocondri.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cosa sono le cellule senescenti?

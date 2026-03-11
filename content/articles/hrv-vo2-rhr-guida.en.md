@@ -3,7 +3,7 @@ title: 'HRV, VO2 Max and RHR: The Three Pillars of Cardiometabolic Longevity'
 description: >-
   Understanding and optimizing the three most powerful indicators of your
   cardiovascular health and autonomic nervous system.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: What is a good HRV value?

@@ -5,7 +5,7 @@ description: >-
   base potrebbe non prescriverti, ma che sono cruciali per la prevenzione.
 categories:
   - longevita
-author: Aevos Health Medical Team
+author: Aevos Medical Team
 authorRole: Team Medico
 faq:
   - question: Ogni quanto dovrei fare le analisi?

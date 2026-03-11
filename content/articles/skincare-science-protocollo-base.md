@@ -5,7 +5,7 @@ description: >-
   fondamentali: Protezione, Rinnovamento e Idratazione.
 categories:
   - skin-care
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: A che età iniziare il retinolo?

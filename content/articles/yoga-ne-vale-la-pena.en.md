@@ -4,7 +4,7 @@ description: "Yoga is often sold as the solution to everything. But for longevit
 categories:
   - esercizio
   - longevita
-author: "Aevos Health Fitness Team"
+author: "Aevos Fitness Team"
 authorRole: "Fitness Team"
 faq:
   - question: "Does yoga count as strength training?"

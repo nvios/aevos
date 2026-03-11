@@ -3,7 +3,7 @@ title: "Anxiety First Aid: Somatic Techniques to Calm the Nervous System in 5 Mi
 description: "Heart racing, short breath? Use your body to calm your mind. Physiological sigh, cold water, and grounding."
 categories:
   - salute-mentale
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "What to do during a panic attack?"

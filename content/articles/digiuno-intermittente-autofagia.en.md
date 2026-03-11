@@ -5,7 +5,7 @@ description: >-
   not for everyone.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Does fasting cause muscle loss?

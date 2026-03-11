@@ -5,7 +5,7 @@ description: >-
   not order, but are crucial for prevention.
 categories:
   - longevita
-author: Aevos Health Medical Team
+author: Aevos Medical Team
 authorRole: Medical Team
 faq:
   - question: How often should I get tested?

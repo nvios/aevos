@@ -5,7 +5,7 @@ description: >-
   supplement safely for immunity and bones.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: How much sun do you need for Vitamin D?

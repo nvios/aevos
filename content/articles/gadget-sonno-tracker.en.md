@@ -4,7 +4,7 @@ description: "Oura Ring, Whoop, smart masks. A practical guide to the tools that
 categories:
   - sonno
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "How accurate are sleep trackers?"

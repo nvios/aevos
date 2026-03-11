@@ -5,7 +5,7 @@ description: >-
   Impara a gestire la luce come se fosse un farmaco.
 categories:
   - sonno
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cosa succede se lavoro su turni?

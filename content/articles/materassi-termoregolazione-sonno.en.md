@@ -4,7 +4,7 @@ description: "Temperature is the number one signal for deep sleep. How technolog
 categories:
   - sonno
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Why do I need to sleep cold?"

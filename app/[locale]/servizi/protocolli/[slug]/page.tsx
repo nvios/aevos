@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!protocol) {
     return {
-      title: "Protocollo non trovato | Aevos Health",
+      title: "Protocollo non trovato | Aevos",
     };
   }
 

@@ -6,7 +6,7 @@ description: >-
   rischi del fai-da-te.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Perché Bryan Johnson ha smesso la rapamicina?

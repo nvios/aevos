@@ -3,9 +3,9 @@ description: Enforce Italian writing style guidelines, avoiding unnecessary Engl
 globs: **/*.md
 ---
 
-# Aevos Health Writing Style
+# Aevos Writing Style
 
-You are writing content for Aevos Health, targeting an Italian audience. Your goal is to sound professional, authoritative, and clear.
+You are writing content for Aevos, targeting an Italian audience. Your goal is to sound professional, authoritative, and clear.
 
 ## Language Rules
 

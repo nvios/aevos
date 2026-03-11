@@ -4,7 +4,7 @@ description: "Non è solo relax. La scienza delle Heat Shock Proteins e come la 
 categories:
   - longevita
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Quanto tempo devo stare in sauna?"

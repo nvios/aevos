@@ -4,7 +4,7 @@ description: "It's not just relaxation. The science of Heat Shock Proteins and h
 categories:
   - longevita
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "How long should I stay in the sauna?"

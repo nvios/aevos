@@ -5,7 +5,7 @@ description: >-
   e la memoria con molecole sicure e naturali.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Il caffè è un nootropo?

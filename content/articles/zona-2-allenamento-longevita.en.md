@@ -3,7 +3,7 @@ title: 'Zone 2 Training: The Foundation of Metabolic Longevity'
 description: >-
   You don't have to run until you pass out. Discover why low-intensity training
   is the secret to healthy mitochondria and metabolic flexibility.
-author: Aevos Health Fitness Team
+author: Aevos Fitness Team
 authorRole: Fitness Team
 faq:
   - question: How do I know if I'm in Zone 2 without a heart rate monitor?

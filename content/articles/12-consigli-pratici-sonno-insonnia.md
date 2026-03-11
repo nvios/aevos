@@ -3,7 +3,7 @@ title: 12 Consigli Pratici per Migliorare il Sonno e Combattere l'Insonnia
 description: >-
   Protocollo scientifico per ottimizzare la qualità del riposo. Strategie
   comportamentali, ambientali e nutrizionali per dormire meglio da stasera.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Quante ore di sonno servono davvero?

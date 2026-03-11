@@ -5,7 +5,7 @@ description: >-
   best forms (bisglycinate, citrate, threonate).
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: How do I know if I'm deficient?

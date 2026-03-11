@@ -5,7 +5,7 @@ description: >-
   altera i tuoi ormoni, senza impazzire.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: L'acqua in bottiglia è sicura?

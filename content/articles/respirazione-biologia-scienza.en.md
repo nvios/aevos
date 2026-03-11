@@ -3,7 +3,7 @@ title: 'Breathing: How to Change Your Biology with a Single Breath'
 description: >-
   It's not just oxygen. Discover how nasal breathing, CO2 tolerance, and the
   vagus nerve can reprogram your nervous system and improve longevity.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Why is it important to breathe through the nose?

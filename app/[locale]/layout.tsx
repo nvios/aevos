@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? siteConfig.domain),
     title: {
-      default: isEn ? "Aevos Health | Longevity & Performance Medicine" : "Aevos Health | Longevità e Medicina Potenziativa",
-      template: "%s | Aevos Health",
+      default: isEn ? "Aevos | Longevity & Performance Medicine" : "Aevos | Longevità e Medicina Potenziativa",
+      template: "%s | Aevos",
     },
     description: isEn
       ? "Italy's reference point for the science of longevity. Online guides and personalised plans in Milan for VO2 Max, DEXA and longevity assessments."
@@ -75,7 +75,7 @@ export default async function RootLayout({
         <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 py-6 md:px-8">
           <header className="mb-6 md:mb-10 pb-5 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-zinc-300 after:[mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
             <div className="flex items-center justify-between">
-              <Link href="/" className="flex items-center gap-2" aria-label="Aevos Health — Home">
+              <Link href="/" className="flex items-center gap-2" aria-label="Aevos — Home">
                 <div className="h-6 w-6 text-zinc-400">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

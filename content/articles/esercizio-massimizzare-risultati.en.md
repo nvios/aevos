@@ -5,7 +5,7 @@ description: >-
   build a strong, long-lived body with little time.
 categories:
   - esercizio
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Cardio or weights?

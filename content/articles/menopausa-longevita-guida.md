@@ -3,7 +3,7 @@ title: 'Menopausa e Longevità: La Finestra di Opportunità che Nessuno ti Dice'
 description: >-
   La menopausa non è la fine della giovinezza, ma una transizione metabolica
   critica. Come gestirla per proteggere ossa, cervello e cuore.
-author: Aevos Health Medical Team
+author: Aevos Medical Team
 authorRole: Team Medico
 faq:
   - question: Perché ingrasso anche se mangio uguale?

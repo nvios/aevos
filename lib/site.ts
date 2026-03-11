@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Aevos Health",
+  name: "Aevos",
   description:
     "Guide pratiche su longevità, prevenzione e performance quotidiana con approccio evidence-based.",
   domain: "https://aevos.it",

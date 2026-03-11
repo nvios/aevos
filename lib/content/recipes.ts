@@ -70,7 +70,7 @@ export function getRecipeBySlug(slug: string, locale: string = 'it'): Recipe | n
       benefits: data.benefits || [],
       tags: data.tags,
       content,
-      author: data.author || "Aevos Health Team",
+      author: data.author || "Aevos Team",
       image: data.image,
       faq: data.faq,
     };

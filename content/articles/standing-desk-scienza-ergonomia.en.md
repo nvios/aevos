@@ -5,7 +5,7 @@ categories:
   - tecnologie
   - longevita
   - esercizio
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "Does standing help lose weight?"

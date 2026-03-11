@@ -5,7 +5,7 @@ description: >-
   unlock metabolism and prevent chronic disease.
 categories:
   - longevita
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: How do I measure my metabolic health?

@@ -4,7 +4,7 @@ description: "Oura Ring, Whoop, maschere intelligenti. Guida pratica agli strume
 categories:
   - sonno
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Quanto sono precisi i tracker del sonno?"

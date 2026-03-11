@@ -3,7 +3,7 @@ title: 'CBT-I: La Terapia Cognitivo-Comportamentale per l''Insonnia'
 description: >-
   Il gold standard scientifico per curare l'insonnia cronica senza farmaci. Come
   funziona e perché è più efficace dei sonniferi a lungo termine.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: Cos'è la CBT-I?

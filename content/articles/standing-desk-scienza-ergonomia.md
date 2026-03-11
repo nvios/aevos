@@ -5,7 +5,7 @@ categories:
   - tecnologie
   - longevita
   - esercizio
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Stare in piedi fa dimagrire?"

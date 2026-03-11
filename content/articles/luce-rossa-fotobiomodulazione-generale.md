@@ -5,7 +5,7 @@ categories:
   - longevita
   - tecnologie
   - skin-care
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "È come l'abbronzatura?"

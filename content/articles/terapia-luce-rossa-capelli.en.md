@@ -4,7 +4,7 @@ description: "Laser caps and LED combs promise to regrow hair. We analyze the bi
 categories:
   - capelli
   - tecnologie
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "How long does it take to see results?"

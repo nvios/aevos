@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!cityData) {
     return {
-      title: "Sedi Aevos Health",
+      title: "Sedi Aevos",
     };
   }
 

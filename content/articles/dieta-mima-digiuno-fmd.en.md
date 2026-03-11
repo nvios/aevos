@@ -4,7 +4,7 @@ description: "Prof. Valter Longo's protocol to regenerate the immune system and 
 categories:
   - nutrizione
   - longevita
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Research & Analysis"
 faq:
   - question: "What can I eat on the FMD?"

@@ -3,7 +3,7 @@ title: The 5 Essential Biomarkers for Longevity (and How to Measure Them)
 description: >-
   Beyond standard blood tests. Discover the physical and blood tests that
   correlate most with a long and healthy life.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: How often should I measure these values?

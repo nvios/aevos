@@ -5,7 +5,7 @@ description: >-
   sugars to protect your metabolism.
 categories:
   - nutrizione
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Does fruit make you fat because it contains sugar?

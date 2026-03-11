@@ -3,7 +3,7 @@ title: 'AI e Longevità: Tra Scienza Reale e Hype da Silicon Valley'
 description: >-
   Dalla scoperta di nuovi farmaci con AlphaFold ai gemelli digitali. Cosa sta
   succedendo davvero alla frontiera tra biologia e intelligenza artificiale.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Ricerca & Analisi
 faq:
   - question: L'AI può curare l'invecchiamento?

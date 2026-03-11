@@ -3,7 +3,7 @@ title: 12 Practical Tips to Improve Sleep and Fight Insomnia
 description: >-
   Scientific protocol to optimize sleep quality. Behavioral, environmental, and
   nutritional strategies to sleep better tonight.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: How many hours of sleep do you really need?

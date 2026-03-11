@@ -3,7 +3,7 @@ title: 'Supplement Guide: What Works, What''s Hype, and What to Avoid'
 description: >-
   A rational approach to supplementation. Don't waste money on magic pills;
   invest in molecules supported by clinical trials.
-author: Aevos Health Research
+author: Aevos Research
 authorRole: Research & Analysis
 faq:
   - question: Is a multivitamin necessary?

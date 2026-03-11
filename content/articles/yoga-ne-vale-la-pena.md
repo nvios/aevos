@@ -4,7 +4,7 @@ description: "Lo yoga è spesso venduto come la soluzione a tutto. Ma per la lon
 categories:
   - esercizio
   - longevita
-author: "Aevos Health Fitness Team"
+author: "Aevos Fitness Team"
 authorRole: "Team Fitness"
 faq:
   - question: "Lo yoga conta come allenamento di forza?"

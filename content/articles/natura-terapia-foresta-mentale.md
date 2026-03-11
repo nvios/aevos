@@ -4,7 +4,7 @@ description: "Non è solo 'prendere aria'. Il Forest Bathing abbassa il cortisol
 categories:
   - salute-mentale
   - longevita
-author: "Aevos Health Research"
+author: "Aevos Research"
 authorRole: "Ricerca & Analisi"
 faq:
   - question: "Cos'è lo Shinrin-Yoku?"
