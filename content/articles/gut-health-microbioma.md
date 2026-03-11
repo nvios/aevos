@@ -3,6 +3,8 @@ title: 'Microbioma Intestinale: Il ''Secondo Cervello'' che Controlla la Tua Sal
 description: >-
   Come i batteri nel tuo intestino influenzano immunità, umore e longevità.
   Strategie pratiche per nutrire il tuo ecosistema interno.
+categories:
+  - nutrizione
 author: Aevos Health Research
 authorRole: Ricerca & Analisi
 faq:
@@ -36,8 +38,6 @@ resources:
     link: 'https://sonnenburglab.stanford.edu/'
   - name: Project Microbe
     link: 'https://humanfoodproject.com/'
-categories:
-  - nutrizione
 ---
 
 Il tuo corpo ospita circa 38 trilioni di batteri, la maggior parte dei quali risiede nel tuo intestino. Questo ecosistema, noto come microbioma, non è un semplice ospite passivo, ma un organo metabolico attivo che pesa circa 2 kg – quanto il tuo cervello.
@@ -48,14 +48,21 @@ La ricerca degli ultimi due decenni ha rivelato che il microbioma influenza quas
 2.  **Salute Mentale (Asse Intestino-Cervello):** I batteri intestinali producono neurotrasmettitori come la serotonina (il 90% della serotonina corporea è prodotta nell'intestino) e il GABA. Disbiosi (squilibri batterici) sono state collegate a depressione, ansia e persino malattie neurodegenerative.
 3.  **Metabolismo e Peso:** Alcuni ceppi batterici sono più efficienti nell'estrarre calorie dal cibo. Studi sui gemelli hanno mostrato che la composizione del microbioma può determinare la predisposizione all'obesità indipendentemente dalla genetica umana.
 
-### Come Nutrire il Tuo Ecosistema
+### Segnali di Disbiosi: Squilibrio
+Come sai se il tuo microbioma è in difficoltà? Non è solo mal di pancia.
+*   **Gonfiore addominale cronico:** Specie dopo i pasti (fermentazione eccessiva).
+*   **Brain Fog:** Difficoltà di concentrazione dopo aver mangiato.
+*   **Voglie di zuccheri:** I batteri "cattivi" (come la Candida) si nutrono di zucchero e possono manipolare il tuo nervo vago per farti desiderare dolci.
+*   **Problemi della pelle:** Eczema, acne e rosacea sono spesso manifestazioni esterne di un'infiammazione intestinale.
+
+### Come Nutrire il Tuo Ecosistema: Strategie Pratiche
 
 La diversità è la chiave. Un microbioma sano è un microbioma diverso. Ecco come promuoverla:
 
-*   **Mangia 30 Piante a Settimana:** Uno studio del *American Gut Project* ha rilevato che le persone che mangiano più di 30 tipi diversi di piante a settimana hanno microbiomi significativamente più diversi rispetto a chi ne mangia meno di 10.
-*   **Fibre Fermentabili (MACs):** Leggi i [miti sulle fibre](/articoli/nutrizione/miti-fibre). I Carboidrati Accessibili al Microbiota (MACs) si trovano in legumi (come nel nostro [Minestrone della Longevità Sardo](/ricette/primi/minestrone-longevita-sardo) o nell'[insalata di ceci](/ricette/nutrizione/insalata-ceci-avocado)), cereali integrali, frutta e verdura. Sono il carburante preferito dai batteri benefici.
-*   **Cibi Fermentati:** Kefir, kimchi, crauti e [Miso](/ricette/nutrizione/miso-soup-tofu) introducono batteri vivi transitori che possono stimolare la flora residente.
-*   **Polifenoli:** Composti presenti in frutti di bosco, tè verde, cioccolato fondente e olio d'oliva extravergine, che agiscono come prebiotici selettivi.
+*   **Mangia 30 Piante a Settimana:** Uno studio del *American Gut Project* ha rilevato che le persone che mangiano più di 30 tipi diversi di piante a settimana hanno microbiomi significativamente più diversi rispetto a chi ne mangia meno di 10. Conta tutto: erbe aromatiche, spezie, semi, noci, frutta, verdura.
+*   **Fibre Fermentabili (MACs):** Leggi i [miti sulle fibre](/articoli/nutrizione/miti-fibre). I Carboidrati Accessibili al Microbiota (MACs) si trovano in legumi (come nel nostro [Minestrone della Longevità Sardo](/ricette/primi/minestrone-longevita-sardo) o nell'[insalata di ceci](/ricette/nutrizione/insalata-ceci-avocado)), cereali integrali, frutta e verdura. Sono il carburante preferito dai batteri benefici, che li trasformano in acidi grassi a catena corta (SCFA) come il butirrato, fondamentale per la salute del colon.
+*   **Cibi Fermentati:** Kefir, kimchi, crauti e [Miso](/ricette/nutrizione/miso-soup-tofu) introducono batteri vivi transitori che possono stimolare la flora residente. Cerca prodotti non pastorizzati nel banco frigo.
+*   **Polifenoli:** Composti colorati presenti in frutti di bosco, tè verde, cioccolato fondente e olio d'oliva extravergine. Agiscono come prebiotici selettivi, nutrendo specificamente ceppi benefici come *Akkermansia muciniphila*.
 
 ### I Nemici del Microbioma
 

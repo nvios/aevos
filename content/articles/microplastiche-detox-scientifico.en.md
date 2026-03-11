@@ -3,6 +3,8 @@ title: 'Microplastics and Endocrine Disruptors: The Scientific Detox'
 description: >-
   It's not paranoia, it's biology. How to reduce the daily toxic load that
   alters your hormones, without going crazy.
+categories:
+  - longevita
 author: Aevos Health Research
 authorRole: Research & Analysis
 faq:
@@ -32,12 +34,9 @@ tags:
 resources:
   - name: Endocrine Society - EDCs
     link: 'https://www.endocrine.org/topics/edc'
-categories:
-  - longevita
 ---
 
 We live in a plastic world. We eat it, drink it, and breathe it. It is estimated that we ingest about 5 grams of plastic a week (the weight of a credit card).
-
 The problem is not just pollution, but the effect on our hormones. Many plastics release **Endocrine Disrupting Chemicals (EDCs)**, substances that mimic or block our natural hormones.
 
 ### The Main Culprits
@@ -46,7 +45,6 @@ The problem is not just pollution, but the effect on our hormones. Many plastics
 3.  **PFAS (Non-stick pans, waterproof clothing):** The "forever chemicals." They accumulate in the liver and never degrade.
 
 ### The Defense Protocol: Scientific Detox
-
 You can't live in a bubble, but you can drastically reduce the load.
 
 #### 1. Filter Water and Air
@@ -68,5 +66,8 @@ Less packaging = less plastic. Buy bulk when you can. Fatty foods (cheese, meat)
 #### 5. Natural Clothing
 Synthetic fibers (polyester, nylon) release microplastics with every wash and are in contact with your skin all day.
 *   **Choice:** Prefer cotton, wool, linen, and hemp, especially for underwear.
+
+#### 6. Household Dust
+Household dust is a concentrate of microplastics and flame retardants. Vacuuming regularly (with a HEPA filter) and dusting with damp cloths significantly reduces inhalation.
 
 You don't need obsession, just awareness. Every step counts.

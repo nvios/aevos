@@ -3,6 +3,8 @@ title: 'Gut Microbiome: The ''Second Brain'' That Controls Your Health'
 description: >-
   How the bacteria in your gut influence immunity, mood and longevity. Practical
   strategies to nourish your internal ecosystem.
+categories:
+  - nutrizione
 author: Aevos Health Research
 authorRole: Research & Analysis
 faq:
@@ -34,8 +36,6 @@ resources:
     link: 'https://sonnenburglab.stanford.edu/'
   - name: Project Microbe
     link: 'https://humanfoodproject.com/'
-categories:
-  - nutrizione
 ---
 
 Your body hosts approximately 38 trillion bacteria, most of which reside in your gut. This ecosystem, known as the microbiome, is not a passive guest, but an active metabolic organ weighing about 2 kg – as much as your brain.
@@ -46,14 +46,21 @@ Research over the past two decades has revealed that the microbiome influences a
 2.  **Mental Health (Gut-Brain Axis):** Gut bacteria produce neurotransmitters like serotonin (90% of body serotonin is produced in the gut) and GABA. Dysbiosis (bacterial imbalances) has been linked to depression, anxiety and even neurodegenerative diseases.
 3.  **Metabolism and Weight:** Some bacterial strains are more efficient at extracting calories from food. Twin studies have shown that microbiome composition can determine predisposition to obesity regardless of human genetics.
 
-### How to Nourish Your Ecosystem
+### Signs of Dysbiosis: Imbalance
+How do you know if your microbiome is struggling? It's not just stomach aches.
+*   **Chronic Bloating:** Especially after meals (excessive fermentation).
+*   **Brain Fog:** Difficulty concentrating after eating.
+*   **Sugar Cravings:** "Bad" bacteria (like Candida) feed on sugar and can manipulate your vagus nerve to make you crave sweets.
+*   **Skin Issues:** Eczema, acne, and rosacea are often external manifestations of gut inflammation.
+
+### How to Nourish Your Ecosystem: Practical Strategies
 
 Diversity is key. A healthy microbiome is a diverse microbiome. Here's how to promote it:
 
-*   **Eat 30 Plants a Week:** An *American Gut Project* study found that people who eat more than 30 different types of plants per week have significantly more diverse microbiomes than those who eat fewer than 10.
-*   **Fermentable Fiber (MACs):** Microbiota-Accessible Carbohydrates (MACs) are [fibers](/articoli/nutrizione/miti-fibre) found in legumes (like in our [Sardinian Longevity Minestrone](/ricette/primi/minestrone-longevita-sardo) or [chickpea salad](/ricette/nutrizione/insalata-ceci-avocado)), whole grains, fruit and vegetables. They're the preferred fuel for beneficial bacteria.
-*   **Fermented Foods:** Kefir, kimchi, sauerkraut and [Miso](/ricette/nutrizione/miso-soup-tofu) introduce transient live bacteria that can stimulate resident flora.
-*   **Polyphenols:** Compounds found in berries, green tea, dark chocolate and extra virgin olive oil, which act as selective prebiotics.
+*   **Eat 30 Plants a Week:** An *American Gut Project* study found that people who eat more than 30 different types of plants per week have significantly more diverse microbiomes than those who eat fewer than 10. Everything counts: herbs, spices, seeds, nuts, fruit, vegetables.
+*   **Fermentable Fiber (MACs):** Microbiota-Accessible Carbohydrates (MACs) are [fibers](/articoli/nutrizione/miti-fibre) found in legumes (like in our [Sardinian Longevity Minestrone](/ricette/primi/minestrone-longevita-sardo) or [chickpea salad](/ricette/nutrizione/insalata-ceci-avocado)), whole grains, fruit and vegetables. They're the preferred fuel for beneficial bacteria, which transform them into short-chain fatty acids (SCFAs) like butyrate, crucial for colon health.
+*   **Fermented Foods:** Kefir, kimchi, sauerkraut and [Miso](/ricette/nutrizione/miso-soup-tofu) introduce transient live bacteria that can stimulate resident flora. Look for unpasteurized products in the refrigerated section.
+*   **Polyphenols:** Colorful compounds found in berries, green tea, dark chocolate and extra virgin olive oil. They act as selective prebiotics, specifically nourishing beneficial strains like *Akkermansia muciniphila*.
 
 ### The Enemies of the Microbiome
 

@@ -36,18 +36,20 @@ This neurochemical effect is comparable to that of stimulant substances, but wit
 
 ### 2. Brown Fat Activation: Metabolism
 Brown adipose tissue (BAT) is a type of metabolically active fat, rich in mitochondria, that burns calories to generate heat (thermogenesis). Cold activates it and stimulates its growth through a process called "browning" of white fat.
-The more brown fat you have, the better your [insulin](/articoli/longevita/insulina-resistenza-metabolismo) sensitivity and basal metabolism, protecting you from harmful visceral fat accumulation.
+The more brown fat you have, the better your [insulin](/articoli/longevita/insulina-resistenza-metabolismo) sensitivity and basal metabolism, protecting you from harmful visceral fat accumulation. It also improves post-meal glucose disposal.
 
-### 3. Immune System
-Acute thermal shock temporarily increases white blood cell count and helps reduce systemic chronic inflammation. It is a true "training" for the immune system, making it more reactive to external threats but less prone to chronic overactivation (autoimmunity).
-Additionally, cold exposure stimulates the release of norepinephrine, a neurotransmitter that has powerful anti-inflammatory effects, reducing joint and muscle pain.
+### 3. Immune System and Resilience
+Acute thermal shock temporarily increases white blood cell count and helps reduce systemic chronic inflammation. It is a true "training" for the immune system.
+**Mental Resilience:** Voluntarily doing something difficult and unpleasant trains the anterior cingulate cortex, the brain area linked to willpower. It teaches you to stay calm under stress.
+
+### Contrast Therapy
+Alternating heat (sauna) and cold is a powerful vascular "pump." Heat dilates, cold constricts. This improves blood vessel elasticity and lymphatic drainage.
 
 ### Base Protocol
 To get the benefits without the risks, follow these guidelines:
-
 *   **Temperature:** 10-15°C to start. You don't need absolute zero; the water just needs to be cold enough to make you want to get out, but safe.
 *   **Duration:** 1-3 minutes per session. No need to stay in for 10 minutes (it only increases hypothermia risk without significant added benefits).
 *   **Frequency:** 11 total minutes per week (split into 2-4 sessions) appears to be the minimum effective dose according to recent studies.
 *   **Breathing:** Try to calm your breath. The goal is to control the "fight or flight" response of the sympathetic nervous system.
 
-**Warning:** Cold is a powerful stressor (hormetic). If you are already exhausted, sick, or under high chronic stress, it can make things worse by adding too much allostatic load. Listen to your body and proceed gradually.
+**Warning:** Beware of the "after drop" (body temperature continues to fall after getting out). Warm up naturally (movement) and don't take scalding showers immediately after. If you have heart issues, consult a doctor.

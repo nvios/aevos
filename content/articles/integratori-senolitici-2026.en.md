@@ -3,6 +3,8 @@ title: 'Senolytic Supplements 2026: Fisetin, Spermidine, and Urolithin A'
 description: >-
   Beyond the multivitamin. Guide to the new generation of molecules that clear
   'zombie' cells and regenerate mitochondria.
+categories:
+  - nutrizione
 author: Aevos Health Research
 authorRole: Research & Analysis
 faq:
@@ -35,16 +37,13 @@ tags:
 resources:
   - name: Mayo Clinic - Senolytics Research
     link: 'https://www.mayoclinic.org/'
-categories:
-  - nutrizione
 ---
 
 Forget the old multivitamin. The frontier of supplementation in 2026 is no longer about "covering deficiencies", but "activating genetic programs".
-
 We are talking about **Senolytics** and **Geroprotectors**: molecules designed to act on the root causes of aging.
 
 ### 1. Fisetin: The Zombie Hunter
-Fisetin is a polyphenol (found in strawberries, also useful for [skin](/articoli/skin-care/skincare-science-protocollo-base)) that has shown a unique ability to eliminate **senescent cells** (or "zombies"). These cells accumulate damage and inflame surrounding tissues.
+Fisetin is a polyphenol (found in strawberries, also useful for [skin](/articoli/skin-care/skincare-science-protocollo-base)) that has shown a unique ability to eliminate **senescent cells** (or "zombies"). These cells accumulate damage and inflame surrounding tissues (SASP).
 *   **The Protocol:** Unlike vitamins, Fisetin is often cycled (e.g., high doses for 2-3 consecutive days, then a break for a month) to "clean" the body without interfering with healthy cell growth.
 
 ### 2. Spermidine: Autophagy in a Pill
@@ -55,9 +54,20 @@ Autophagy is the process by which cells "eat" their own waste to produce energy.
 Mitochondria (also boosted by [red light](/articoli/longevita/luce-rossa-fotobiomodulazione-generale) and [Zone 2](/articoli/esercizio/zona-2-allenamento-longevita)) are the power plants of cells. As we age, they become defective. Urolithin A activates **mitophagy**, destroying broken mitochondria and birthing new, powerful ones.
 *   **The Problem:** Even if you eat kilos of pomegranates, you might not produce it. It all depends on your microbiome. That's why direct supplementation has become a huge trend in 2025-2026.
 
+### 4. Quercetin: The Synergistic Ally
+Often overlooked, Quercetin (from onions and apples) is a "mild" senolytic that works in synergy with other compounds. It is often paired with the drug Dasatinib in clinical trials, but even alone it has potent natural anti-inflammatory and antihistamine effects.
+
+### Lifestyle Mimetics
+Remember that these supplements are "mimetics." They try to replicate what the body does naturally when subjected to positive stress (hormesis).
+*   Intense exercise is the best natural senolytic.
+*   Fasting is the best autophagy stimulator.
+Use supplements to amplify these signals, not to replace them.
+
+### Future Research
+The field of senolytics is evolving rapidly. New studies are investigating combinations of these molecules to maximize their efficacy. For example, the combination of Dasatinib and Quercetin is one of the most studied, but requires medical supervision. Natural alternatives like Fisetin offer a safer, albeit likely less potent, profile for the general public.
+
 ### Warning on Quality
 This field is the "Wild West". Many supplements contain negligible doses or non-absorbable forms.
 *   Look for **Liposomal** forms for Fisetin (poor bioavailability).
 *   Check for purity and third-party testing.
-
-Don't start taking everything at once. Introduce one molecule at a time and monitor how you feel.
+Don't start taking everything at once. Introduce one molecule at a time and monitor how you feel. Always consult with a healthcare professional before starting any new potent supplementation protocol.

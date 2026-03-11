@@ -36,14 +36,25 @@ Prof. Valter Longo (University of Southern California) has developed the **Fasti
 The body doesn't have a calorie counter; it has nutrient sensors (insulin, IGF-1, mTOR).
 The FMD is specifically designed to **not activate** these sensors. It is very low in protein and sugars, but provides vegetable fats and micronutrients to nourish the body without interrupting the cellular fasting state.
 
+### What Happens Day by Day
+*   **Day 1 (Transition):** 1100 kcal. The body consumes the last glycogen reserves (sugar in the liver).
+*   **Day 2 (Ketogenesis):** 800 kcal. Ketone production begins. Hunger can be high. Autophagy (cellular cleaning) starts.
+*   **Day 3 (Deep Cleaning):** 800 kcal. Peak autophagy. The body breaks down old and damaged immune cells to save energy.
+*   **Day 4 (Regeneration):** 800 kcal. Autophagy continues. Metabolism is completely shifted to fats.
+*   **Day 5 (Renewal):** 800 kcal. Preparation for refeeding.
+
 ### Clinical Benefits: Proven
-1.  **Stem Cell Regeneration:** During the FMD, the body eliminates old immune cells (autophagy). When you start eating again (refeeding), stem cells activate to produce new, young white blood cells. It's an immune system "reset."
+1.  **Stem Cell Regeneration:** This is where the magic is. When you start eating again (Day 6), stem cells activate massively to replace the eliminated cells. Result: a biologically younger immune system.
 2.  **Visceral Fat:** The FMD selectively targets abdominal fat while preserving lean mass (unlike chronic calorie-restricted diets).
 3.  **Longevity Markers:** It drastically reduces IGF-1 (growth factor linked to aging and cancer), C-reactive protein (inflammation), and cholesterol.
+
+### Refeeding: The Most Important Phase
+Day 6 is crucial. You can't celebrate with a pizza. Your body is in a delicate state of reconstruction. You must reintroduce food gradually: complex carbohydrates (vegetables, whole grains), healthy fats, and light proteins. It is in this phase that true regeneration occurs.
 
 ### DIY or Kit?
 There is a patented commercial kit (ProLon) that guarantees exact macros.
 It can be replicated "do-it-yourself" with real foods (soups, avocado, nuts), but it's complex to calculate the exact macros so as not to break the fasting-mimicking state. If you get it wrong and eat too much protein, you lose most of the regenerative benefits.
 
-### Who Is It For?
-It's a tool for "extraordinary maintenance." Think of it like a car tune-up. It's not a diet for everyday life, but a cyclical intervention to reset metabolism and clear cells of accumulated damage.
+### Contraindications
+It's not for everyone. Pregnant women, underweight people (BMI < 18.5), insulin-dependent diabetics, or people with eating disorders should not do it without strict medical supervision.
+For most healthy people, it is a tool for "extraordinary maintenance" to be done 2-3 times a year.

@@ -3,6 +3,8 @@ title: 'Natural Nootropics vs Smart Drugs: Guide to Crash-Free Focus'
 description: >-
   You don't need the 'Limitless' pill. Discover how to boost concentration and
   memory with safe, natural molecules.
+categories:
+  - longevita
 author: Aevos Health Research
 authorRole: Research & Analysis
 faq:
@@ -33,13 +35,13 @@ tags:
 resources:
   - name: Examine.com - Nootropics
     link: 'https://examine.com/categories/nootropics/'
-categories:
-  - longevita
 ---
 
 Everyone wants the "Limitless" brain. But in the real world, productivity shouldn't cost your mental health.
-
 Many managers and students turn to off-label drugs or heavy stimulants, paying the price with anxiety, insomnia, and energy crashes. There is a better way: **Natural Nootropics**.
+
+### 0. Hydration: The Forgotten Nootropic
+Before taking any pill, drink water. Even mild dehydration (1-2%) can impair cognitive performance, concentration, and short-term memory. Your brain is 75% water. If it's dry, it shrinks and works slower. Start with a large glass of water with a pinch of salt (electrolytes) immediately upon waking.
 
 ### 1. The "Dynamic Duo": Caffeine + L-Theanine
 It's the simplest and most effective stack.
@@ -64,6 +66,9 @@ You don't "feel" it immediately like caffeine, but it's structural. Your brain i
 ### 5. Rhodiola Rosea: The Stress-Buster
 An adaptogen used by Vikings. Reduces mental fatigue and burnout.
 *   **When to use it:** During periods of intense work or tight deadlines. It helps maintain clarity when the brain wants to shut down.
+
+### 6. Ginkgo Biloba and Bacopa Monnieri
+Two classics of traditional medicine. **Ginkgo** improves blood flow to the brain (more oxygen and nutrients). **Bacopa** has been used for centuries to improve memory and information processing speed, although it takes a few weeks to work.
 
 ### Strategy, Not Magic
 Nootropics won't fix a brain broken by poor sleep and junk food. They are the turbo, not the engine.

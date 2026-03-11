@@ -30,6 +30,10 @@ resources:
 Have you ever noticed that you sleep worse in summer? It's no coincidence. Evolution has programmed our brain to associate the evening temperature drop with falling asleep.
 The ideal room temperature for sleeping is surprisingly low: **between 16°C and 19°C**.
 
+### The Circadian Rhythm of Temperature
+Your body temperature is not constant. It has a circadian rhythm: it peaks in the late afternoon and reaches its minimum (nadir) about 2 hours before waking up.
+To fall asleep, the body must dissipate heat. If the environment is too warm, this process is blocked, delaying sleep onset and reducing deep sleep.
+
 ### The Problem with Modern Mattresses
 Modern memory foam mattresses are very comfortable for the back, but terrible for thermoregulation. They trap body heat, creating an "oven effect" that wakes you up or fragments REM sleep around 3-4 in the morning.
 
@@ -39,10 +43,14 @@ Advanced biohacking devices (similar to tech used by [Bryan Johnson](/articoli/l
 *   **Deep Sleep:** They keep it cold in the first part of the night to maximize Deep Sleep.
 *   **Waking:** They gradually warm up in the morning, waking you gently without the violence of an alarm (simulating thermal dawn). This pairs well with techniques like [binaural beats](/articoli/tecnologie/binaural-beats-onde-cerebrali).
 
+### The Science of Brown Fat (BAT)
+Sleeping cool not only improves sleep but can activate **Brown Adipose Tissue** (BAT). Unlike white fat which stores energy, brown fat burns calories to generate heat (thermogenesis). Chronic exposure to cool temperatures at night can increase basal metabolic rate and improve insulin sensitivity.
+
 ### Low-Tech Alternatives - Free
 You don't need to spend thousands of euros to get started (similar to the natural approach of [red light therapy](/articoli/capelli/terapia-luce-rossa-capelli)):
 1.  **Warm Shower:** Paradoxically, taking a warm shower 1 hour before bed helps. It dilates the blood vessels in the skin, allowing heat to escape from the body's core (radiator effect).
-2.  **Hands and Feet Out:** Extremities are our natural radiators. Sleeping with a foot outside the covers helps dissipate heat.
-3.  **Natural Fibers:** Use only cotton, linen, or bamboo sheets. Avoid polyester like the plague.
+2.  **Ventilation:** Open the window for 10 minutes before bed to exchange air and lower the temperature. High CO2 in the bedroom worsens sleep quality.
+3.  **Hands and Feet Out:** Extremities are our natural radiators. Sleeping with a foot outside the covers helps dissipate heat.
+4.  **Natural Fibers:** Use only cotton, linen, or bamboo sheets. Avoid polyester like the plague.
 
 Thermal control is the most underestimated lever for improving sleep quality. If darkness is the king, cold is the queen.

@@ -33,14 +33,24 @@ In Finland, sauna is not a luxury — it's a health necessity. And the data prov
 Sauna is a positive stress (hormesis), similar to [physical exercise](/articoli/esercizio/esercizio-massimizzare-risultati).
 1.  **Heat Shock Proteins (HSP):** Heat activates these "repair" proteins that prevent misfolding of proteins in cells (a cause of Alzheimer's) and reduce inflammation.
 2.  **Cardiovascular Health:** Heat dilates blood vessels, lowers blood pressure and improves endothelial function. The heart works as if during a moderate cardio session (Zone 2).
-3.  **Growth Hormone (GH):** Intense sauna sessions can temporarily increase GH release by up to 200-300%, helping to preserve muscle mass.
+3.  **Growth Hormone (GH):** Intense sauna sessions can temporarily increase GH release by up to 200-300%, helping to preserve muscle mass and prevent sarcopenia.
 4.  **Detox:** Deep sweating is one of the few effective methods for excreting certain persistent environmental toxins, such as [microplastics](/articoli/longevita/microplastiche-detox-scientifico) and heavy metals.
+
+### Mental Benefits
+Sauna increases beta-endorphins (the natural "drug" of well-being) and can increase the sensitivity of opioid receptors. Many use it as a natural antidepressant and anxiolytic.
+
+### Dry Sauna vs. Steam Room
+Most longevity studies involve the dry Finnish sauna. The steam room (wet) does not reach the same high temperatures (max 45-50°C), so while great for the respiratory system, it may not activate HSPs with the same intensity.
 
 ### Longevity Protocol
 To replicate the benefits from the studies:
 *   **Frequency:** 3-4 times per week.
 *   **Duration:** 20 minutes per session.
 *   **Temperature:** At least 80°C (Finnish Sauna).
+*   **Hydration:** Fundamental. Drink water and electrolytes before and after. Losing too much fluid without replenishing cancels the benefits and stresses the kidneys.
+
+### Contraindications
+Avoid sauna if you have been drinking alcohol (fainting risk), if you are pregnant (consult a doctor), or if you have unstable heart conditions. Listen to your body: if you feel dizzy, get out immediately.
 
 ### Infrared vs. Traditional Sauna
 Infrared sauna heats the body "from within" using light, at lower temperatures (50-60°C). It's more tolerable and great for sweating and relaxing, but it's unclear whether it offers the same extreme cardiovascular benefits as the traditional high-temperature sauna.

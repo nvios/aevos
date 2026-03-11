@@ -36,18 +36,20 @@ Questo effetto neurochimico è paragonabile a quello di sostanze stimolanti, ma 
 
 ### 2. Attivazione del Grasso Bruno: Metabolismo
 Il tessuto adiposo bruno (BAT) è un tipo di grasso metabolicamente attivo, ricco di mitocondri, che brucia calorie per generare calore (termogenesi). Il freddo lo attiva e ne stimola la crescita attraverso un processo chiamato "browning" del grasso bianco.
-Più grasso bruno hai, migliore è la tua sensibilità all'[insulina](/articoli/longevita/insulina-resistenza-metabolismo) e il tuo metabolismo basale, proteggendoti dall'accumulo di grasso viscerale dannoso.
+Più grasso bruno hai, migliore è la tua sensibilità all'[insulina](/articoli/longevita/insulina-resistenza-metabolismo) e il tuo metabolismo basale, proteggendoti dall'accumulo di grasso viscerale dannoso. Migliora anche lo smaltimento del glucosio post-pasto.
 
-### 3. Sistema Immunitario
-Lo shock termico acuto aumenta temporaneamente la conta dei globuli bianchi e riduce l'infiammazione cronica sistemica. È un vero e proprio "allenamento" per il sistema immunitario, rendendolo più reattivo alle minacce esterne ma meno propenso all'iperattivazione cronica (autoimmunità).
-Inoltre, l'esposizione al freddo stimola il rilascio di noradrenalina, un neurotrasmettitore che ha potenti effetti antinfiammatori, riducendo dolori articolari e muscolari.
+### 3. Sistema Immunitario e Resilienza
+Lo shock termico acuto aumenta temporaneamente la conta dei globuli bianchi e riduce l'infiammazione cronica sistemica. È un vero e proprio "allenamento" per il sistema immunitario.
+**Resilienza Mentale:** Fare volontariamente qualcosa di difficile e spiacevole allena la corteccia cingolata anteriore, la zona del cervello legata alla forza di volontà. Ti insegna a mantenere la calma sotto stress.
+
+### Terapia di Contrasto
+Alternare caldo (sauna) e freddo è un potente "pompaggio" vascolare. Il caldo dilata, il freddo costringe. Questo migliora l'elasticità dei vasi sanguigni e il drenaggio linfatico.
 
 ### Protocollo Base
 Per ottenere i benefici senza rischi, segui queste linee guida:
-
 *   **Temperatura:** 10-15°C per iniziare. Non è necessario arrivare allo zero assoluto; l'acqua deve essere abbastanza fredda da farti desiderare di uscire, ma sicura.
 *   **Durata:** 1-3 minuti per sessione. Non serve stare dentro 10 minuti (aumenta solo il rischio di ipotermia senza benefici aggiuntivi significativi).
 *   **Frequenza:** 11 minuti totali a settimana (suddivisi in 2-4 sessioni) sembrano essere la dose minima efficace secondo gli studi più recenti.
 *   **Respirazione:** Cerca di calmare il respiro. L'obiettivo è controllare la risposta di "lotta o fuga" del sistema nervoso simpatico.
 
-**Avvertenza:** Il freddo è uno stressor potente (ormetico). Se sei già esaurito, malato o sotto stress cronico elevato, può peggiorare le cose aggiungendo troppo carico allostatico. Ascolta il tuo corpo e procedi con gradualità.
+**Avvertenza:** Attenzione all'"after drop" (la temperatura corporea continua a scendere dopo essere usciti). Riscaldati naturalmente (movimento) e non fare docce bollenti subito dopo. Se hai problemi cardiaci, consulta un medico.

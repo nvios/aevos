@@ -48,10 +48,14 @@ Non aspettarti miracoli, ma aspettati un miglioramento misurabile:
 Molti dispositivi economici usano solo LED. I dispositivi medici usano diodi Laser.
 *   **Laser:** Luce coerente e focalizzata. Penetra più in profondità. È lo standard clinico.
 *   **LED:** Luce diffusa. Meno potente, ma copre aree più ampie.
-I dispositivi migliori ("caschi" o "cappellini") combinano spesso entrambi o usano un alto numero di diodi laser per garantire che l'energia arrivi al follicolo.
+I dispositivi migliori ("caschi" o "cappellini") combinano spesso entrambi o usano un alto numero di diodi laser per garantire che l'energia arrivi al follicolo. La densità di potenza ideale dovrebbe aggirarsi intorno ai 3-5 mW/cm².
 
 ### Come Integrarla nel Protocollo
 La LLLT non sostituisce i trattamenti farmacologici (Minoxidil/Finasteride) se soffri di alopecia androgenetica aggressiva, ma è un **potenziatore eccellente**.
 Usata in sinergia con il [Microneedling](/articoli/capelli/caduta-capelli-scienza), può massimizzare la salute del cuoio capelluto senza aggiungere farmaci al tuo sistema.
+La chiave è la **consistenza**: devi usarla 3-4 volte a settimana per sempre. Se smetti, i benefici energetici cessano e la genetica riprende il sopravvento.
+
+### Post-Trapianto e Salute dello Scalpo
+La LLLT è eccellente anche dopo un trapianto di capelli per accelerare la guarigione e ridurre lo shock loss. Inoltre, può aiutare a normalizzare la produzione di sebo e ridurre la forfora, migliorando la salute generale dello scalpo.
 
 **Verdetto:** Se hai budget e costanza, è un'aggiunta valida e scientificamente solida al tuo arsenale anti-caduta.

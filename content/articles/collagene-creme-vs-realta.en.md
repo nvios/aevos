@@ -3,6 +3,8 @@ title: 'The Truth About Collagen: Creams, Powders or Marketing?'
 description: >-
   Why slathering collagen on your face is useless and what to do instead to keep
   your skin elastic.
+categories:
+  - skin-care
 author: Aevos Health Research
 authorRole: Research & Analysis
 faq:
@@ -33,11 +35,16 @@ resources:
   - name: Harvard Health - Collagen
     link: >-
       https://www.health.harvard.edu/blog/considering-collagen-drinks-and-supplements-202304122911
-categories:
-  - skin-care
 ---
 
 Collagen is the structural protein that holds our body together (skin, bones, tendons). With age, we produce less and degrade it faster. Hence the explosion of collagen products. But what does science say?
+
+### Types of Collagen
+Not all collagen is created equal. There are 28 types in the body, but the main ones are:
+*   **Type I:** 90% of the body's collagen. Skin, tendons, bones, ligaments. This is what we look for in anti-aging.
+*   **Type II:** Cartilage. Crucial for joint health.
+*   **Type III:** Skin, muscles, and blood vessels. Often found alongside Type I.
+When buying a supplement, check the source: bovine collagen is often rich in Type I and III (skin), marine in Type I (rapid absorption), chicken in Type II (joints).
 
 ### The Collagen Cream Myth
 See a cream that says "with Collagen"? Save your money.
@@ -52,6 +59,21 @@ Recent studies (meta-analyses) show promising results:
 *   Reduction in fine wrinkles.
 
 **The Mechanism:** It's not that collagen peptides go directly to fill the wrinkle hole. Rather, the high concentration of specific amino acids (glycine, proline, hydroxyproline) in the blood signals the body that there's been "tissue destruction," stimulating fibroblasts to repair (produce new collagen).
+
+### Essential Cofactors
+Taking collagen without the right cofactors is useless. To assemble the collagen triple helix, the body needs:
+1.  **Vitamin C:** Indispensable. Without it, synthesis stops (see scurvy).
+2.  **Zinc and Copper:** Trace minerals essential for the enzyme lysyl oxidase that creates collagen cross-links.
+Make sure your diet or supplement contains them.
+
+### Bone Broth vs Supplements
+Bone broth is the ancestral source of collagen. It's fantastic, but it has a flaw: the concentration of active ingredients varies hugely depending on how it was made. Hydrolyzed supplements offer a standardized dose and pre-digested peptides for maximum absorption.
+
+### "Vegan Collagen" Does Not Exist
+Collagen is an exclusively animal protein. Products sold as "vegan collagen" are actually:
+1.  Mixes of plant amino acids that mimic the collagen profile.
+2.  Collagen produced by genetically modified yeast or bacteria (still rare and expensive).
+If you are vegan, focus on cofactors (Vitamin C, Lysine, Proline) to maximize your endogenous production.
 
 ### The Enemies of Collagen
 It's useless to supplement if you then destroy what you have.

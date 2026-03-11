@@ -3,6 +3,8 @@ title: 'Microplastiche e Interferenti Endocrini: Il Detox Scientifico'
 description: >-
   Non è paranoia, è biologia. Come ridurre il carico tossico quotidiano che
   altera i tuoi ormoni, senza impazzire.
+categories:
+  - longevita
 author: Aevos Health Research
 authorRole: Ricerca & Analisi
 faq:
@@ -33,12 +35,9 @@ tags:
 resources:
   - name: Endocrine Society - EDCs
     link: 'https://www.endocrine.org/topics/edc'
-categories:
-  - longevita
 ---
 
 Viviamo in un mondo di plastica. La mangiamo, la beviamo e la respiriamo. Si stima che ingeriamo circa 5 grammi di plastica a settimana (il peso di una carta di credito).
-
 Il problema non è solo l'inquinamento, ma l'effetto sui nostri ormoni. Molte plastiche rilasciano **Interferenti Endocrini (EDC)**, sostanze che mimano o bloccano i nostri ormoni naturali.
 
 ### I Colpevoli Principali
@@ -47,7 +46,6 @@ Il problema non è solo l'inquinamento, ma l'effetto sui nostri ormoni. Molte pl
 3.  **PFAS (Pentole antiaderenti, vestiti impermeabili):** Le "chimiche eterne". Si accumulano nel fegato e non si degradano mai.
 
 ### Il Protocollo di Difesa: Detox Scientifico
-
 Non puoi vivere in una bolla, ma puoi ridurre drasticamente il carico.
 
 #### 1. Filtra l'Acqua e l'Aria
@@ -69,5 +67,8 @@ Meno imballaggi = meno plastica. Compra sfuso quando puoi. I cibi grassi (formag
 #### 5. Abbigliamento Naturale
 Le fibre sintetiche (poliestere, nylon) rilasciano microplastiche ad ogni lavaggio e sono a contatto con la tua pelle tutto il giorno.
 *   **Scelta:** Preferisci cotone, lana, lino e canapa, specialmente per la biancheria intima.
+
+#### 6. Polvere Domestica
+La polvere di casa è un concentrato di microplastiche e ritardanti di fiamma. Passare l'aspirapolvere (con filtro HEPA) regolarmente e spolverare con panni umidi riduce significativamente l'inalazione.
 
 Non serve l'ossessione, basta la consapevolezza. Ogni passo conta.

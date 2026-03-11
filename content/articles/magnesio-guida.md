@@ -3,6 +3,8 @@ title: 'Magnesio: Il Minerale del Rilassamento che Manca a Tutti'
 description: >-
   Stress, sonno scarso e crampi? Potrebbe essere carenza di magnesio. Guida alle
   forme migliori (bisglicinato, citrato, treonato).
+categories:
+  - nutrizione
 author: Aevos Health Research
 authorRole: Ricerca & Analisi
 faq:
@@ -31,18 +33,16 @@ tags:
 resources:
   - name: NIH - Magnesium Fact Sheet
     link: 'https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/'
-categories:
-  - nutrizione
 ---
 
 Il magnesio è il "master mineral". È cofattore in oltre 300 reazioni enzimatiche, inclusa la produzione di ATP (energia), la sintesi del DNA e la regolazione del sistema nervoso.
 Purtroppo, i terreni moderni sono impoveriti, e le verdure contengono meno magnesio di 50 anni fa. Inoltre, lo [stress](/articoli/longevita/cortisolo-stress-cronico) e lo zucchero consumano le riserve di magnesio del corpo a velocità record.
 
 ### A Cosa Serve Davvero
-*   **Rilassamento:** Agisce come un freno naturale per il sistema nervoso, contrastando l'eccitazione eccessiva. Fondamentale per chi soffre di ansia o insonnia.
-*   **Sonno:** Regola la melatonina e il GABA.
-*   **Cuore:** Aiuta a mantenere il ritmo cardiaco stabile e la pressione sanguigna sotto controllo.
-*   **Muscoli:** Previene crampi e contratture.
+*   **Rilassamento:** Agisce come un freno naturale per il sistema nervoso, contrastando l'eccitazione eccessiva (bloccando i recettori NMDA). Fondamentale per chi soffre di ansia o insonnia.
+*   **Sonno:** Regola la melatonina e il GABA, il neurotrasmettitore della calma.
+*   **Cuore:** Aiuta a mantenere il ritmo cardiaco stabile e la pressione sanguigna sotto controllo, rilassando le pareti dei vasi sanguigni.
+*   **Muscoli:** Previene crampi e contratture regolando il trasporto del calcio.
 
 ### Guida alle Forme Chimiche
 Non tutti i magnesi sono uguali. L'atomo di magnesio deve essere legato a un trasportatore per essere assorbito.
@@ -51,6 +51,21 @@ Non tutti i magnesi sono uguali. L'atomo di magnesio deve essere legato a un tra
 3.  **Magnesio L-Treonato:** L'unico capace di attraversare efficacemente la barriera emato-encefalica. Studiato per memoria e funzioni cognitive (più costoso).
 4.  **Magnesio Malato:** Legato all'acido malico. Ottimo per l'energia muscolare e la fibromialgia.
 
+### Fonti Alimentari: Bastano?
+Sebbene l'integrazione sia spesso necessaria, il cibo dovrebbe venire prima. Le fonti migliori includono:
+*   Semi di zucca (i re assoluti).
+*   Spinaci e bietole (cotti).
+*   Cioccolato fondente (>85% cacao).
+*   Mandorle e anacardi.
+Tuttavia, dovresti mangiarne grandi quantità ogni giorno per raggiungere i 400mg raccomandati, motivo per cui l'integrazione colma il divario.
+
+### I "Ladri" di Magnesio
+Perché siamo carenti? Non è solo colpa della dieta. Alcuni fattori "rubano" il magnesio:
+*   **Stress:** Il cortisolo alto aumenta l'escrezione urinaria di magnesio. Meno magnesio hai, più sei stressato, creando un circolo vizioso.
+*   **Zucchero:** Per metabolizzare una molecola di glucosio servono molecole di magnesio. Una dieta ricca di zuccheri prosciuga le riserve.
+*   **Caffeina e Alcol:** Hanno un effetto diuretico che lava via i minerali.
+
 ### Strategia di Integrazione
 Inizia con 200-400mg di Magnesio Bisglicinato la sera. È una delle [strategie di integrazione](/articoli/nutrizione/guida-integratori) più sicure e con il miglior rapporto costo/beneficio per migliorare la qualità della vita immediata.
+La sinergia con la [Vitamina D](/articoli/nutrizione/vitamina-d-guida) è cruciale: la Vitamina D non funziona senza magnesio.
 Come sempre, consulta il medico, specialmente se hai problemi renali o cardiaci.

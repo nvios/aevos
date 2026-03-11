@@ -36,14 +36,25 @@ Il Prof. Valter Longo (Università della California) ha sviluppato la **Dieta Mi
 Il corpo non ha un contatore di calorie, ha sensori di nutrienti (insulina, IGF-1, mTOR).
 La FMD è progettata specificamente per **non attivare** questi sensori. È poverissima di proteine e zuccheri, ma fornisce grassi vegetali e micronutrienti per nutrire il corpo senza interrompere lo stato di digiuno cellulare.
 
+### Cosa Succede Giorno per Giorno
+*   **Giorno 1 (Transizione):** 1100 kcal. Il corpo consuma le ultime riserve di glicogeno (zucchero nel fegato).
+*   **Giorno 2 (Chetogenesi):** 800 kcal. Inizia la produzione di chetoni. La fame può essere alta. Inizia l'autofagia (pulizia cellulare).
+*   **Giorno 3 (Pulizia Profonda):** 800 kcal. Picco di autofagia. Il corpo distrugge le cellule immunitarie vecchie e danneggiate per risparmiare energia.
+*   **Giorno 4 (Rigenerazione):** 800 kcal. L'autofagia continua. Il metabolismo è completamente spostato sui grassi.
+*   **Giorno 5 (Rinnovamento):** 800 kcal. Preparazione al refeeding.
+
 ### I Benefici Clinici Dimostrati
-1.  **Rigenerazione Staminale:** Durante la FMD, il corpo elimina le cellule immunitarie vecchie (autofagia). Quando ricominci a mangiare (refeeding), le cellule staminali si attivano per produrre globuli bianchi nuovi e giovani. È un "reset" del sistema immunitario.
+1.  **Rigenerazione Staminale:** È qui la magia. Quando ricominci a mangiare (Giorno 6), le cellule staminali si attivano massicciamente per rimpiazzare le cellule eliminate. Risultato: un sistema immunitario biologicamente più giovane.
 2.  **Grasso Viscerale:** La FMD colpisce selettivamente il grasso addominale preservando la massa magra (a differenza delle diete ipocaloriche croniche).
 3.  **Marker di Longevità:** Riduce drasticamente IGF-1 (fattore di crescita legato all'invecchiamento e al cancro), proteina C-reattiva (infiammazione) e colesterolo.
+
+### Il Refeeding: La Fase Più Importante
+Il giorno 6 è cruciale. Non puoi festeggiare con una pizza. Il tuo corpo è in uno stato delicato di ricostruzione. Devi reintrodurre cibo gradualmente: carboidrati complessi (verdure, cereali integrali), grassi sani e proteine leggere. È in questa fase che avviene la vera rigenerazione.
 
 ### Fai da Te o Kit?
 Esiste un kit commerciale brevettato (ProLon) che garantisce i macro precisi.
 È possibile replicarla "fai da te" con cibi veri (zuppe, avocado, noci), ma è complesso calcolare i macro esatti per non rompere lo stato di mima-digiuno. Se sbagli e mangi troppe proteine, perdi gran parte dei benefici rigenerativi.
 
-### Per Chi è?
-È uno strumento di "manutenzione straordinaria". Pensalo come il tagliando dell'auto. Non è una dieta per la vita di tutti i giorni, ma un intervento ciclico per resettare il metabolismo e pulire le cellule dai danni accumulati.
+### Controindicazioni
+Non è per tutti. Donne in gravidanza, persone sottopeso (BMI < 18.5), diabetici insulino-dipendenti o persone con disturbi alimentari non dovrebbero farla senza stretta supervisione medica.
+Per la maggior parte delle persone sane, è uno strumento di "manutenzione straordinaria" da fare 2-3 volte l'anno.

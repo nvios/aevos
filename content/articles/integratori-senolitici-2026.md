@@ -3,6 +3,8 @@ title: 'Integratori Senolitici 2026: Fisetina, Spermidina e Urolitina A'
 description: >-
   Oltre il multivitaminico. Guida alla nuova generazione di molecole che
   puliscono le cellule 'zombie' e rigenerano i mitocondri.
+categories:
+  - nutrizione
 author: Aevos Health Research
 authorRole: Ricerca & Analisi
 faq:
@@ -37,16 +39,13 @@ tags:
 resources:
   - name: Mayo Clinic - Senolytics Research
     link: 'https://www.mayoclinic.org/'
-categories:
-  - nutrizione
 ---
 
 Dimentica il vecchio multivitaminico. La frontiera dell'integrazione nel 2026 non riguarda più "coprire le carenze", ma "attivare programmi genetici".
-
 Stiamo parlando di **Senolitici** e **Geroprotettori**: molecole progettate per agire sulle cause profonde dell'invecchiamento.
 
 ### 1. Fisetina: Il Cacciatore di Zombie
-La Fisetina è un polifenolo (presente nelle fragole, utile anche per la [pelle](/articoli/skin-care/skincare-science-protocollo-base)) che ha dimostrato una capacità unica di eliminare le **cellule senescenti** (o "zombie"). Queste cellule accumulano danni e infiammano i tessuti circostanti.
+La Fisetina è un polifenolo (presente nelle fragole, utile anche per la [pelle](/articoli/skin-care/skincare-science-protocollo-base)) che ha dimostrato una capacità unica di eliminare le **cellule senescenti** (o "zombie"). Queste cellule accumulano danni e infiammano i tessuti circostanti (SASP).
 *   **Il Protocollo:** A differenza delle vitamine, la Fisetina spesso si usa a cicli (es. dosi alte per 2-3 giorni consecutivi, poi pausa per un mese) per "pulire" il corpo senza interferire con la crescita cellulare sana.
 
 ### 2. Spermidina: L'Autofagia in Pillole
@@ -57,9 +56,17 @@ L'autofagia è il processo con cui le cellule "mangiano" i propri scarti per pro
 I mitocondri (potenziati anche dalla [luce rossa](/articoli/longevita/luce-rossa-fotobiomodulazione-generale) e dalla [Zona 2](/articoli/esercizio/zona-2-allenamento-longevita)) sono le centrali elettriche delle cellule. Invecchiando, diventano difettosi. L'Urolitina A attiva la **mitofagia**, distruggendo i mitocondri rotti e facendone nascere di nuovi e potenti.
 *   **Il Problema:** Anche se mangi chili di melograno, potresti non produrla. Dipende tutto dal tuo microbioma. Ecco perché l'integrazione diretta è diventata un trend enorme nel 2025-2026.
 
+### 4. Quercetina: L'Alleato Sinergico
+Spesso trascurata, la Quercetina (dalle cipolle e mele) è un senolitico "leggero" che lavora in sinergia con altri composti. Spesso viene abbinata al farmaco Dasatinib negli studi clinici, ma anche da sola ha potenti effetti antinfiammatori e antistaminici naturali.
+
+### Mimetici dello Stile di Vita
+Ricorda che questi integratori sono "mimetici". Cercano di replicare ciò che il corpo fa naturalmente quando è sottoposto a stress positivi (ormesi).
+*   L'esercizio fisico intenso è il miglior senolitico naturale.
+*   Il digiuno è il miglior stimolatore di autofagia.
+Usa gli integratori per amplificare questi segnali, non per sostituirli.
+
 ### Attenzione alla Qualità
 Questo è un campo "Far West". Molti integratori contengono dosi irrisorie o forme non assorbibili.
 *   Cerca forme **Liposomiali** per la Fisetina (scarsa biodisponibilità).
 *   Verifica la purezza e i test di terze parti.
-
 Non iniziare a prendere tutto insieme. Introduci una molecola alla volta e monitora come ti senti.

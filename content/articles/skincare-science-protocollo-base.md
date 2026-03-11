@@ -3,6 +3,8 @@ title: 'Skincare Science: Il Protocollo Base (Senza Fronzoli) per l''Anti-Aging'
 description: >-
   Dimentica le creme da 500€. La scienza dermatologica concorda su tre pilastri
   fondamentali: Protezione, Rinnovamento e Idratazione.
+categories:
+  - skin-care
 author: Aevos Health Research
 authorRole: Ricerca & Analisi
 faq:
@@ -30,12 +32,13 @@ tags:
 resources:
   - name: American Academy of Dermatology
     link: 'https://www.aad.org/'
-categories:
-  - skin-care
 ---
 
 L'industria della bellezza vende sogni e packaging costosi. La dermatologia vende molecole. Se vuoi risultati reali e misurabili, devi ignorare il marketing e guardare gli ingredienti attivi.
 Ecco la "Santa Trinità" della skincare basata sulle evidenze.
+
+### La Barriera Cutanea: La Tua Prima Difesa
+Prima di pensare agli attivi, devi pensare alla barriera. Una pelle sana ha un microbioma equilibrato e un film idrolipidico intatto. Se la tua pelle "tira", è rossa o brucia, la barriera è compromessa. In questo stato, qualsiasi prodotto anti-aging sarà irritante. Ripara prima la barriera con ceramidi e idratazione.
 
 ### 1. SPF: Protezione Solare al Mattino
 È il prodotto anti-aging numero uno, senza rivali. Il 90% dell'invecchiamento visibile della pelle (rughe, macchie, lassità) non è dovuto all'età, ma al **foto-danneggiamento** (danni da raggi UV).
@@ -52,7 +55,9 @@ Un potente antiossidante che potenzia l'effetto dell'SPF.
 *   **La Scienza:** Neutralizza i radicali liberi generati da UV e inquinamento. Illumina l'incarnato e riduce le macchie scure inibendo la produzione di melanina.
 *   **Azione:** Siero al 10-15% di Acido L-Ascorbico al mattino, prima dell'SPF.
 
-### Tutto il Resto è Contorno
-Acido Ialuronico? Ottimo idratante, ma non "anti-aging" nel senso strutturale. Peptidi? Promettenti, ma meno dati dei retinoidi.
-Se hai un budget limitato o poco tempo, concentrati su questi tre pilastri.
-E ricorda: la pelle riflette la salute interna. [Sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia), idratazione e [nutrizione](/articoli/nutrizione/miti-zuccheri) (lo zucchero causa glicazione e rughe) contano più di qualsiasi crema.
+### Esfoliazione: Chimica vs Fisica
+Evita gli scrub granulosi (fisici) che creano micro-lesioni. Preferisci esfolianti chimici delicati come l'Acido Salicilico (BHA) per i pori o l'Acido Glicolico (AHA) per la luminosità, da usare 1-2 volte a settimana.
+
+### Stile di Vita
+La pelle riflette la salute interna. [Sonno](/articoli/sonno/12-consigli-pratici-sonno-insonnia), idratazione e [nutrizione](/articoli/nutrizione/miti-zuccheri) (lo zucchero causa glicazione e rughe) contano più di qualsiasi crema. Il fumo è il nemico numero due dopo il sole: vasocostringe i capillari, affamando la pelle di ossigeno.
+La consistenza è tutto: una routine semplice fatta ogni giorno batte una routine complessa fatta ogni tanto.

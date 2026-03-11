@@ -34,15 +34,30 @@ Questi dispositivi misurano [variabilità cardiaca](/articoli/longevita/hrv-vo2-
 *   **A cosa servono:** Non a "dormire meglio" direttamente, ma a **capire le cause**.
 *   **Esempio:** Se vedi che il tuo sonno profondo crolla ogni volta che bevi un bicchiere di vino o mangi tardi, hai un dato su cui agire. È uno strumento di consapevolezza comportamentale.
 
+### HRV: La Metrica Regina
+Più che le ore di sonno, guarda l'HRV notturno. Un HRV alto indica che il tuo sistema nervoso parasimpatico ("riposa e digerisci") ha lavorato bene. Un HRV basso al mattino è un segnale di allarme: forse hai mangiato troppo tardi, sei stressato, o ti stai ammalando. È il "termometro" del recupero.
+
+### Le Fasi del Sonno: Cosa dicono i dati
+I tracker dividono il sonno in fasi, ma ricorda che sono stime basate sul battito cardiaco e movimento, non sulle onde cerebrali (EEG).
+*   **Sonno Profondo (Deep):** Il recupero fisico. Qui viene rilasciato l'ormone della crescita e il sistema glinfatico pulisce il cervello dalle tossine (beta-amiloide). Se è basso, sei fisicamente stanco.
+*   **Sonno REM:** Il recupero mentale ed emotivo. Qui sogni e consolidi la memoria. Se è basso, sei irritabile e poco concentrato.
+*   **Sonno Leggero:** La maggior parte della notte. È comunque riposante, ma meno "potente" delle altre due fasi.
+
+### Rilevamento Apnee Notturne
+Nuovi dispositivi (come Apple Watch o Withings Sleep Mat) possono rilevare disturbi respiratori. L'apnea notturna è un killer silenzioso che distrugge la qualità del sonno e aumenta il rischio cardiovascolare. Se il tuo dispositivo segnala frequenti cali di ossigeno (SpO2), parlane subito con un medico.
+
 ### 2. Occhiali Blue-Blocker
 La tecnologia più semplice ed efficace. Filtrano la luce blu degli schermi che sopprime la melatonina.
-*   **Consiglio:** Cerca lenti arancioni/rosse per la sera (bloccano il 99% del blu). Quelle trasparenti "da computer" bloccano solo il 10-20% e sono inutili per il sonno.
+*   **Consiglio:** Cerca lenti arancioni/rosse per la sera (bloccano il 99% del blu). Quelle trasparenti "da computer" bloccano solo il 10-20% e sono inutili per il sonno. Indossali 2 ore prima di dormire.
 
 ### 3. Dispositivi di Neurostimolazione: Un Extra Utile?
-Strumenti come **Apollo Neuro** o dispositivi di stimolazione vagale emettono vibrazioni impercettibili che "rassicurano" il sistema nervoso, spostandolo dalla modalità "combatti o fuggi" (simpatico) a "riposa e digerisci" (parasimpatico). Utili per chi ha ansia pre-sonno.
+Strumenti come **Apollo Neuro** o dispositivi di stimolazione vagale emettono vibrazioni impercettibili che "rassicurano" il sistema nervoso, spostandolo dalla modalità "combatti o fuggi" (simpatico) a "riposa e digerisci" (parasimpatico). Utili per chi ha ansia pre-sonno o fatica a spegnere il cervello ("racing mind").
 
-### 4. Mascherine Intelligenti
+### 4. Mascherine Intelligenti e Ambiente
 Mascherine oscuranti con cuffie integrate per ascoltare meditazioni o rumore bianco. Il buio totale è fondamentale. Se non puoi oscurare la stanza al 100%, una mascherina da 20€ vale più di un tracker da 300€.
+Anche il **rumore bianco** (o rosa/marrone) è utile: crea un tappeto sonoro costante che copre i rumori improvvisi (un cane che abbaia, una porta che sbatte), prevenendo i micro-risvegli corticali che frammentano il sonno.
 
 ### Attenzione all'Ortosomnia
-L'ossessione per il "punteggio del sonno" perfetto può causare ansia, che a sua volta peggiora il sonno. Usa la tecnologia come una bussola, non come un giudice. Se ti svegli riposato, hai dormito bene, indipendentemente da cosa dice l'anello.
+L'ossessione per il "punteggio del sonno" perfetto può causare ansia, che a sua volta peggiora il sonno. Questo fenomeno si chiama **ortosomnia**. Usa la tecnologia come una bussola, non come un giudice. Se ti svegli riposato, hai dormito bene, indipendentemente da cosa dice l'anello. Se il tracker ti dice che hai dormito male, non lasciarti condizionare ("effetto nocebo").
+### Privacy dei Dati
+Ricorda che questi dispositivi raccolgono dati biometrici intimi. Scegli aziende con policy di privacy trasparenti e considera di disattivare la condivisione dei dati con terze parti.

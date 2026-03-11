@@ -4,6 +4,8 @@ description: >-
   Sfatiamo le credenze comuni sulle fibre alimentari. Scopri perché sono
   essenziali per la longevità, il controllo glicemico e la prevenzione delle
   malattie.
+categories:
+  - nutrizione
 author: Aevos Health Research
 authorRole: Ricerca & Analisi
 faq:
@@ -34,8 +36,6 @@ resources:
   - name: The Lancet - Fiber Meta-analysis
     link: >-
       https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31809-9/fulltext
-categories:
-  - nutrizione
 ---
 
 Per decenni, le fibre sono state considerate la parte "non digeribile" del cibo, utile solo per la regolarità intestinale. Questa visione riduttiva ha portato a una carenza cronica nelle diete moderne. La realtà scientifica è che le fibre sono molecole segnale complesse, essenziali per la sopravvivenza.
@@ -49,8 +49,10 @@ Per decenni, le fibre sono state considerate la parte "non digeribile" del cibo,
 ### Mito 3: "I succhi di frutta sono uguali alla frutta intera"
 **Realtà:** Quando si estrae il succo, si rimuove la matrice di fibre. Questo trasforma un frutto sano in una iniezione rapida di fruttosio che colpisce il fegato quasi come una bibita gassata. La fibra nella frutta intera agisce come un "freno" metabolico, modulando il rilascio di nutrienti nel sangue.
 
-### Come Integrare Più Fibre Senza Gonfiore
+### Fibre e Perdita di Peso
+Le fibre sono il "farmaco" dimagrante naturale più potente. Aumentano la sazietà distendendo lo stomaco e stimolando il rilascio di ormoni della sazietà come GLP-1 e PYY. Inoltre, "intrappolano" alcune calorie, impedendone l'assorbimento. Mangiare più fibre significa assorbire meno calorie dallo stesso pasto.
 
+### Come Integrare Più Fibre Senza Gonfiore
 1.  **Regola della "Sostituzione Progressiva" (Crowding Out):** Invece di togliere cibi, aggiungi verdure a ogni pasto. Inizia il pranzo con un'insalata o verdure crude.
 2.  **Legumi a Rotazione:** Ceci, lenticchie e fagioli sono tra le fonti più dense di fibre e [proteine](/articoli/nutrizione/miti-proteine). Inizia con piccole porzioni se non sei abituato.
 3.  **Cereali Veramente Integrali:** Scegli chicchi interi (farro, orzo, quinoa) invece di farine "integrali" ricostituite.

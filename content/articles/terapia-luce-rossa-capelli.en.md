@@ -48,10 +48,14 @@ Don't expect miracles, but expect measurable improvement:
 Many budget devices use only LEDs. Medical devices use Laser diodes.
 *   **Laser:** Coherent and focused light. Penetrates deeper. It's the clinical standard.
 *   **LED:** Diffused light. Less powerful, but covers larger areas.
-The best devices ("caps" or "hats") often combine both or use a high number of laser diodes to ensure energy reaches the follicle.
+The best devices ("caps" or "hats") often combine both or use a high number of laser diodes to ensure energy reaches the follicle. The ideal power density should be around 3-5 mW/cm².
 
 ### How to Integrate It Into Your Protocol
 LLLT doesn't replace pharmacological treatments (Minoxidil/Finasteride) if you have aggressive androgenetic alopecia, but it's an **excellent enhancer**.
 Used in synergy with [Microneedling](/articoli/capelli/caduta-capelli-scienza), it can maximize scalp health without adding drugs to your system.
+The key is **consistency**: you must use it 3-4 times a week forever. If you stop, the energy benefits cease and genetics takes over again. It is a lifetime commitment, just like brushing your teeth.
+
+### Post-Transplant and Scalp Health
+LLLT is also excellent after a hair transplant to accelerate healing and reduce shock loss. Additionally, it can help normalize sebum production and reduce dandruff, improving overall scalp health.
 
 **Verdict:** If you have the budget and consistency, it's a valid and scientifically solid addition to your anti-hair-loss arsenal.
