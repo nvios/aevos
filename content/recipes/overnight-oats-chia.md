@@ -7,6 +7,11 @@ prepTime: 5 min
 cookTime: 0 min
 servings: 1
 calories: 420
+macros:
+  protein: 30
+  carbs: 45
+  fat: 12
+  fiber: 8
 ingredients:
   - 50g di fiocchi d'avena integrali
   - 150g di yogurt greco 0% o vegetale

@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 0 min
 servings: 1
 calories: 380
+macros:
+  protein: 12
+  carbs: 26
+  fat: 23
+  fiber: 12
 ingredients:
   - 200g di ceci precotti (sciacquati bene)
   - 1/2 avocado maturo a cubetti

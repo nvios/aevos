@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 0 min
 servings: 2
 calories: 280
+macros:
+  protein: 4
+  carbs: 12
+  fat: 22
+  fiber: 8
 ingredients:
   - 2 avocado maturi (morbidi al tatto)
   - 4-5 cucchiai di cacao amaro in polvere (meglio se crudo)

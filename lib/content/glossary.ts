@@ -55,6 +55,12 @@ const glossaryTermsIt: GlossaryTerm[] = [
     relatedArticles: ["esercizio-massimizzare-risultati"],
   },
   {
+    term: "EVO",
+    slug: "evo",
+    definition: "Extra Vergine di Oliva. L'olio d'oliva di qualità superiore, ottenuto unicamente mediante procedimenti meccanici. Ricco di polifenoli e grassi monoinsaturi benefici.",
+    relatedArticles: ["dieta-mima-digiuno-schema-5-giorni"],
+  },
+  {
     term: "FMD",
     slug: "fmd",
     definition: "Fasting Mimicking Diet (Dieta Mima Digiuno). Un protocollo alimentare a basso contenuto calorico e proteico progettato per indurre gli effetti benefici del digiuno (come l'autofagia) pur continuando a mangiare.",
@@ -560,6 +566,12 @@ const glossaryTermsEn: GlossaryTerm[] = [
     slug: "epoc",
     definition: "Excess Post-exercise Oxygen Consumption. The phenomenon where the body continues to burn calories at an elevated rate even after exercise ends, to restore physiological balance.",
     relatedArticles: ["esercizio-massimizzare-risultati"],
+  },
+  {
+    term: "EVOO",
+    slug: "evoo",
+    definition: "Extra Virgin Olive Oil. The highest quality olive oil, extracted without heat or chemicals. Rich in polyphenols and healthy monounsaturated fats.",
+    relatedArticles: ["dieta-mima-digiuno-schema-5-giorni"],
   },
   {
     term: "FMD",

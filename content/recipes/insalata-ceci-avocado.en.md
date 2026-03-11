@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 0 min
 servings: 1
 calories: 380
+macros:
+  protein: 12
+  carbs: 26
+  fat: 23
+  fiber: 12
 ingredients:
   - 200g precooked chickpeas (well rinsed)
   - '1/2 ripe avocado, diced'

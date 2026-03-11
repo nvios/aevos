@@ -7,9 +7,11 @@ prepTime: 20 min
 cookTime: 90 min
 servings: 6
 calories: 350
-protein: 15g
-carbs: 55g
-fat: 10g
+macros:
+  protein: 15
+  carbs: 55
+  fat: 10
+  fiber: 15
 ingredients:
   - 200g Dried Fava Beans (soaked)
   - 100g Chickpeas (soaked)

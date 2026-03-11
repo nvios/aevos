@@ -76,6 +76,7 @@ export default async function RecipePage({ params }: Props) {
       cookTime={recipe.cookTime}
       servings={recipe.servings}
       calories={recipe.calories}
+      macros={recipe.macros}
       ingredients={recipe.ingredients}
       instructions={recipe.instructions}
       benefits={recipe.benefits}

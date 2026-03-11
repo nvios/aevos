@@ -11,7 +11,9 @@
     "seo-check": "node scripts/seo-check.mjs",
     "audit-links": "node scripts/audit-links.mjs",
     "generate-thumbnails": "node scripts/generate-thumbnails.mjs",
-    "lint-content": "node scripts/lint-content.mjs"
+    "lint-content": "node scripts/lint-content.mjs",
+    "research": "node scripts/research/fetch-suggestions.mjs && node scripts/research/fetch-us-trends.mjs",
+    "gap-analysis": "node scripts/research/analyze-gaps.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

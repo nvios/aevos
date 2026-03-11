@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 0 min
 servings: 2
 calories: 280
+macros:
+  protein: 4
+  carbs: 12
+  fat: 22
+  fiber: 8
 ingredients:
   - 2 ripe avocados (soft to the touch)
   - 4-5 tablespoons unsweetened cocoa powder (raw preferred)

@@ -18,6 +18,12 @@ type RecipeProps = {
   cookTime: string;
   servings: number;
   calories?: number;
+  macros?: {
+    protein: number;
+    carbs: number;
+    fat: number;
+    fiber: number;
+  };
   ingredients: string[];
   instructions: string[];
   benefits?: Array<{ title: string; description: string }>;
@@ -34,6 +40,7 @@ export function RecipeLayout({
   cookTime,
   servings,
   calories,
+  macros,
   ingredients,
   instructions,
   benefits,
@@ -62,7 +69,18 @@ export function RecipeLayout({
       "text": step,
       "position": index + 1
     })),
-    ...(calories && { "nutrition": { "@type": "NutritionInformation", "calories": `${calories} calories` } }),
+    ...(calories && { 
+      "nutrition": { 
+        "@type": "NutritionInformation", 
+        "calories": `${calories} calories`,
+        ...(macros && {
+          "proteinContent": `${macros.protein} g`,
+          "fatContent": `${macros.fat} g`,
+          "carbohydrateContent": `${macros.carbs} g`,
+          "fiberContent": `${macros.fiber} g`
+        })
+      } 
+    }),
     ...(image && { "image": [image] }),
   };
 
@@ -171,6 +189,55 @@ export function RecipeLayout({
 
         {/* Sidebar */}
         <div className="space-y-8">
+          {/* Nutrition Card */}
+          {macros && calories && (
+            <div className="rounded-2xl md:rounded-3xl bg-white p-4 sm:p-6 ring-1 ring-zinc-200 shadow-sm">
+              <h3 className="text-xl font-bold text-zinc-800 mb-4">{locale === 'en' ? 'Nutrition Facts' : 'Valori Nutrizionali'}</h3>
+              
+              {/* Protein Lever Badge */}
+              <div className="mb-6 rounded-xl bg-emerald-50 p-4 border border-emerald-100">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-sm font-medium text-emerald-800">{locale === 'en' ? 'Protein Density' : 'Densità Proteica'}</span>
+                  <span className="text-lg font-bold text-emerald-700">
+                    {Math.round((macros.protein * 4 / calories) * 100)}%
+                  </span>
+                </div>
+                <div className="w-full bg-emerald-200 rounded-full h-2">
+                  <div 
+                    className="bg-emerald-500 h-2 rounded-full" 
+                    style={{ width: `${Math.min(Math.round((macros.protein * 4 / calories) * 100), 100)}%` }}
+                  ></div>
+                </div>
+                <p className="text-xs text-emerald-600 mt-2">
+                  {locale === 'en' ? 'of calories from protein' : 'delle calorie da proteine'}
+                </p>
+              </div>
+
+              <div className="space-y-3 text-sm">
+                <div className="flex justify-between py-2 border-b border-zinc-100">
+                  <span className="text-zinc-600">{locale === 'en' ? 'Calories' : 'Calorie'}</span>
+                  <span className="font-semibold text-zinc-900">{calories}</span>
+                </div>
+                <div className="flex justify-between py-2 border-b border-zinc-100">
+                  <span className="text-zinc-600">{locale === 'en' ? 'Protein' : 'Proteine'}</span>
+                  <span className="font-semibold text-zinc-900">{macros.protein}g</span>
+                </div>
+                <div className="flex justify-between py-2 border-b border-zinc-100">
+                  <span className="text-zinc-600">{locale === 'en' ? 'Carbs' : 'Carboidrati'}</span>
+                  <span className="font-semibold text-zinc-900">{macros.carbs}g</span>
+                </div>
+                <div className="flex justify-between py-2 border-b border-zinc-100">
+                  <span className="text-zinc-600">{locale === 'en' ? 'Fat' : 'Grassi'}</span>
+                  <span className="font-semibold text-zinc-900">{macros.fat}g</span>
+                </div>
+                <div className="flex justify-between py-2">
+                  <span className="text-zinc-600">{locale === 'en' ? 'Fiber' : 'Fibre'}</span>
+                  <span className="font-semibold text-zinc-900">{macros.fiber}g</span>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Ingredients Card */}
           <div className="rounded-2xl md:rounded-3xl bg-emerald-50/50 p-4 sm:p-6 ring-1 ring-emerald-100/50">
             <h3 className="text-xl font-bold text-emerald-900 mb-4">{locale === 'en' ? 'Ingredients' : 'Ingredienti'}</h3>

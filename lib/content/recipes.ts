@@ -14,6 +14,12 @@ export type Recipe = {
   cookTime: string;
   servings: number;
   calories?: number;
+  macros?: {
+    protein: number;
+    carbs: number;
+    fat: number;
+    fiber: number;
+  };
   ingredients: string[];
   instructions: string[];
   benefits: Array<{ title: string; description: string }>;
@@ -65,6 +71,7 @@ export function getRecipeBySlug(slug: string, locale: string = 'it'): Recipe | n
       cookTime: data.cookTime,
       servings: data.servings,
       calories: data.calories,
+      macros: data.macros,
       ingredients: data.ingredients || [],
       instructions: data.instructions || [],
       benefits: data.benefits || [],

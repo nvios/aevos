@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 15 min
 servings: 2
 calories: 420
+macros:
+  protein: 45
+  carbs: 8
+  fat: 20
+  fiber: 3
 ingredients:
   - 300g di petto di pollo a cubetti
   - 2 zucchine medie tagliate a rondelle

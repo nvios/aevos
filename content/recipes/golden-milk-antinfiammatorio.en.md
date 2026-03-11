@@ -7,6 +7,11 @@ prepTime: 5 min
 cookTime: 5 min
 servings: 1
 calories: 90
+macros:
+  protein: 1
+  carbs: 4
+  fat: 8
+  fiber: 1
 ingredients:
   - '250ml plant-based milk (coconut, almond or oat)'
   - 1 teaspoon turmeric powder

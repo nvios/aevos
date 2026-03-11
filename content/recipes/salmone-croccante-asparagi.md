@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 15 min
 servings: 2
 calories: 450
+macros:
+  protein: 32
+  carbs: 5
+  fat: 30
+  fiber: 3
 ingredients:
   - 2 filetti di salmone selvaggio (circa 150g l'uno)
   - 1 mazzo di asparagi freschi

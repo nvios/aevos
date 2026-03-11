@@ -8,6 +8,11 @@ prepTime: 15 min
 cookTime: 20 min
 servings: 2
 calories: 380
+macros:
+  protein: 20
+  carbs: 39
+  fat: 15
+  fiber: 16
 ingredients:
   - 150g cooked black lentils (or common lentils)
   - 200g broccoli florets

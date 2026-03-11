@@ -7,6 +7,11 @@ prepTime: 5 min
 cookTime: 10 min
 servings: 2
 calories: 120
+macros:
+  protein: 10
+  carbs: 7
+  fat: 6
+  fiber: 2
 ingredients:
   - 800ml di acqua (o brodo vegetale leggero)
   - 2-3 cucchiai di pasta di Miso (preferibilmente non pastorizzato)

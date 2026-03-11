@@ -7,6 +7,11 @@ prepTime: 5 min
 cookTime: 10 min
 servings: 2
 calories: 120
+macros:
+  protein: 10
+  carbs: 7
+  fat: 6
+  fiber: 2
 ingredients:
   - 800ml water (or light vegetable broth)
   - 2-3 tablespoons miso paste (preferably unpasteurized)

@@ -7,6 +7,11 @@ prepTime: 10 min
 cookTime: 15 min
 servings: 2
 calories: 450
+macros:
+  protein: 32
+  carbs: 5
+  fat: 30
+  fiber: 3
 ingredients:
   - 2 wild salmon fillets (about 150g each)
   - 1 bunch fresh asparagus
