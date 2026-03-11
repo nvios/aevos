@@ -33,10 +33,9 @@ export function buildMetadata({
     description: resolvedDesc,
     alternates: {
       canonical: locale === 'en' ? enUrl : canonical,
-      languages: {
-        'it': canonical,
-        'en': enUrl,
-      },
+      languages: locale === 'en'
+        ? { 'it': canonical }
+        : { 'en': enUrl },
     },
     openGraph: {
       title: resolvedTitle,
