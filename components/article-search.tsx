@@ -47,7 +47,7 @@ export function ArticleSearch({ articles, locale, children, placeholder }: Artic
         </div>
         <input
           type="text"
-          className="block w-full rounded-xl border-0 py-3 pl-11 pr-10 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6 bg-white"
+          className="block w-full rounded-xl border-0 py-3 pl-11 pr-10 text-zinc-900 shadow-sm ring-1 ring-inset ring-zinc-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 focus:outline-none sm:text-sm sm:leading-6 bg-white"
           placeholder={placeholder || (locale === 'en' ? "Search articles..." : "Cerca articoli...")}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}

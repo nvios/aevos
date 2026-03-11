@@ -133,6 +133,20 @@ export function RecipeLayout({
           )}
         </div>
 
+        {/* Hero Image */}
+        {image && (
+          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl bg-zinc-100 shadow-lg">
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px"
+            />
+          </div>
+        )}
+
         <div className="flex items-center gap-3 border-t border-zinc-100 pt-6">
 
         </div>
@@ -146,21 +160,26 @@ export function RecipeLayout({
 
           {/* Benefits Section - Prominent */}
           {benefits && benefits.length > 0 && (
-            <div className="rounded-2xl md:rounded-3xl bg-emerald-50 p-4 sm:p-6 lg:p-8 border border-emerald-100">
-              <h2 className="text-2xl font-bold text-emerald-900 mb-6 flex items-center gap-2">
-                <Zap className="h-6 w-6 text-emerald-600" />
-                {locale === 'en' ? 'Longevity Benefits' : 'Benefici per la Longevità'}
-              </h2>
-              <div className="grid gap-6 sm:grid-cols-2">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="space-y-2">
-                    <h3 className="font-bold text-emerald-800 text-lg">{benefit.title}</h3>
-                    <p className="text-emerald-700/80 leading-relaxed text-sm">
-                      {benefit.description}
-                    </p>
-                  </div>
-                ))}
+            <div className="relative overflow-hidden rounded-2xl md:rounded-3xl bg-zinc-900 p-6 sm:p-8 shadow-xl">
+              <div className="relative z-10">
+                <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                  <Zap className="h-6 w-6 text-emerald-400" />
+                  {locale === 'en' ? 'Longevity Benefits' : 'Benefici per la Longevità'}
+                </h2>
+                <div className="grid gap-6 sm:grid-cols-2">
+                  {benefits.map((benefit, index) => (
+                    <div key={index} className="space-y-2">
+                      <h3 className="font-bold text-emerald-400 text-lg">{benefit.title}</h3>
+                      <p className="text-zinc-300 leading-relaxed text-sm">
+                        {benefit.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
+              {/* Abstract Background Elements */}
+              <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-[300px] h-[300px] rounded-full bg-emerald-500/20 blur-[80px]" />
+              <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/3 w-[200px] h-[200px] rounded-full bg-cyan-500/20 blur-[60px]" />
             </div>
           )}
 
