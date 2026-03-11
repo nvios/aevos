@@ -4,6 +4,7 @@ description: "Non devi diventare un monaco. La scienza dietro la mindfulness, co
 categories:
   - longevita
   - sonno
+  - salute-mentale
 author: "Aevos Health Research"
 authorRole: "Ricerca & Analisi"
 faq:

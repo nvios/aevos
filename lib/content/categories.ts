@@ -58,6 +58,12 @@ const categoryTranslations: Record<string, CategoryTranslations> = {
       heroTitle: "Health Technologies",
       heroDescription: "Reviews and usage guides for wearables, therapeutic lights, and biohacking tools.",
     },
+    "salute-mentale": {
+      title: "Mental Health",
+      description: "A healthy mind in a healthy body. Evidence-based strategies to improve mental well-being through lifestyle and nutrition.",
+      heroTitle: "Mental Health Articles",
+      heroDescription: "Explore the connection between your habits and your mind. Practical guides for stress resilience and emotional balance.",
+    },
   },
 };
 
@@ -117,6 +123,14 @@ export const categories: CategoryConfig[] = [
     iconName: "Zap",
     heroTitle: "Tecnologie per la Salute",
     heroDescription: "Recensioni e guide all'uso di wearable, luci terapeutiche e strumenti di biohacking."
+  },
+  {
+    slug: "salute-mentale",
+    title: "Salute Mentale",
+    description: "Mente sana in corpo sano. Strategie basate sull'evidenza per migliorare il benessere mentale attraverso stile di vita e nutrizione.",
+    iconName: "Brain",
+    heroTitle: "Articoli Salute Mentale",
+    heroDescription: "Esplora la connessione tra le tue abitudini e la tua mente. Guide pratiche per la resilienza allo stress e l'equilibrio emotivo."
   }
 ];
 

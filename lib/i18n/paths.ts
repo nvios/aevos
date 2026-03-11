@@ -26,6 +26,7 @@ const CATEGORY_SLUGS: Record<string, string> = {
   'capelli': 'hair',
   'longevita': 'longevity',
   'tecnologie': 'technology',
+  'salute-mentale': 'mental-health',
   // skin-care stays the same
 };
 

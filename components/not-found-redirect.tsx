@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const SECTION_PREFIXES = [
   "/articoli",
@@ -49,10 +49,9 @@ function getParentSection(pathname: string): string {
 }
 
 export function NotFoundRedirect({ locale }: { locale: string }) {
-  const router = useRouter();
   const pathname = usePathname();
   const [seconds, setSeconds] = useState(5);
-  const isEn = locale === "en";
+  const isEn = pathname.startsWith("/en") || locale === "en";
 
   const target = getParentSection(pathname);
 
@@ -62,14 +61,14 @@ export function NotFoundRedirect({ locale }: { locale: string }) {
     }, 1000);
 
     const timeout = setTimeout(() => {
-      router.replace(target);
+      window.location.replace(target);
     }, 5000);
 
     return () => {
       clearInterval(interval);
       clearTimeout(timeout);
     };
-  }, [router, target]);
+  }, [target]);
 
   const label = target === "/" || target === "/en"
     ? "Home"

@@ -38,6 +38,7 @@ cta:
     description: Want to know if your sleep profile is at risk? Take the test in 2 minutes.
 categories:
   - sonno
+  - salute-mentale
 ---
 
 If you suffer from chronic insomnia, you've probably tried everything: herbal teas, melatonin, sleeping pills, meditation. Yet the problem persists. The reason is that these remedies often treat symptoms, not the behavioral and cognitive causes that maintain insomnia. CBT-I is different: it's not a pill, but brain training.

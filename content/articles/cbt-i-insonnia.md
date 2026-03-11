@@ -41,6 +41,7 @@ cta:
       minuti.
 categories:
   - sonno
+  - salute-mentale
 ---
 
 Se soffri di insonnia cronica, probabilmente hai provato di tutto: tisane, melatonina, sonniferi, meditazione. Eppure, il problema persiste. La ragione è che spesso questi rimedi trattano i sintomi, non le cause comportamentali e cognitive che mantengono l'insonnia. La CBT-I è diversa: non è una pillola, ma un allenamento per il cervello.

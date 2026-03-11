@@ -33,6 +33,7 @@ resources:
     link: 'https://med.stanford.edu/news/all-news/2022/10/stress-brain.html'
 categories:
   - longevita
+  - salute-mentale
 ---
 
 Cortisol isn't the "bad guy." It's the hormone that wakes you up in the morning and gives you energy to face challenges. The problem arises when the acute spike (useful) becomes a chronic plateau (toxic).

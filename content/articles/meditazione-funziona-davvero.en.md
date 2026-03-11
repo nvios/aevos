@@ -4,6 +4,7 @@ description: "You don't need to become a monk. The science behind mindfulness, h
 categories:
   - longevita
   - sonno
+  - salute-mentale
 author: "Aevos Health Research"
 authorRole: "Research & Analysis"
 faq:

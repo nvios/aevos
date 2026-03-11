@@ -159,12 +159,12 @@ export const ACTIVITY_LEVEL_OPTIONS: {
   en: string;
   icon: string;
 }[] = [
-  { value: "sedentary", it: "Sedentario", en: "Sedentary", icon: "Armchair" },
-  { value: "lightly_active", it: "Leggermente attivo", en: "Lightly active", icon: "Footprints" },
-  { value: "moderately_active", it: "Moderatamente attivo", en: "Moderately active", icon: "Bike" },
-  { value: "very_active", it: "Molto attivo", en: "Very active", icon: "Dumbbell" },
-  { value: "athlete", it: "Atleta", en: "Athlete", icon: "Trophy" },
-];
+    { value: "sedentary", it: "Sedentario", en: "Sedentary", icon: "Armchair" },
+    { value: "lightly_active", it: "Leggermente attivo", en: "Lightly active", icon: "Footprints" },
+    { value: "moderately_active", it: "Moderatamente attivo", en: "Moderately active", icon: "Bike" },
+    { value: "very_active", it: "Molto attivo", en: "Very active", icon: "Dumbbell" },
+    { value: "athlete", it: "Atleta", en: "Athlete", icon: "Trophy" },
+  ];
 
 export const GOAL_OPTIONS: {
   value: Goal;
@@ -173,67 +173,67 @@ export const GOAL_OPTIONS: {
   icon: string;
   description: { it: string; en: string };
 }[] = [
-  {
-    value: "longevity",
-    it: "Longevità e healthspan",
-    en: "Longevity & healthspan",
-    icon: "HeartPulse",
-    description: {
-      it: "Vivere più a lungo e meglio, rallentando l'invecchiamento biologico",
-      en: "Live longer and better by slowing biological aging",
+    {
+      value: "longevity",
+      it: "Longevità e healthspan",
+      en: "Longevity & healthspan",
+      icon: "HeartPulse",
+      description: {
+        it: "Vivere più a lungo e meglio, rallentando l'invecchiamento biologico",
+        en: "Live longer and better by slowing biological aging",
+      },
     },
-  },
-  {
-    value: "build_muscle",
-    it: "Costruire massa muscolare",
-    en: "Build muscle",
-    icon: "Dumbbell",
-    description: {
-      it: "Aumentare forza e massa magra per una base solida",
-      en: "Increase strength and lean mass for a solid foundation",
+    {
+      value: "build_muscle",
+      it: "Costruire massa muscolare",
+      en: "Build muscle",
+      icon: "Dumbbell",
+      description: {
+        it: "Aumentare forza e massa magra per una base solida",
+        en: "Increase strength and lean mass for a solid foundation",
+      },
     },
-  },
-  {
-    value: "lose_weight",
-    it: "Perdere peso",
-    en: "Lose weight",
-    icon: "TrendingDown",
-    description: {
-      it: "Ridurre grasso corporeo in modo sostenibile e salutare",
-      en: "Reduce body fat in a sustainable and healthy way",
+    {
+      value: "lose_weight",
+      it: "Perdere peso",
+      en: "Lose weight",
+      icon: "TrendingDown",
+      description: {
+        it: "Ridurre grasso corporeo in modo sostenibile e salutare",
+        en: "Reduce body fat in a sustainable and healthy way",
+      },
     },
-  },
-  {
-    value: "improve_energy",
-    it: "Migliorare l'energia",
-    en: "Improve energy",
-    icon: "Zap",
-    description: {
-      it: "Avere più energia durante il giorno e meno stanchezza cronica",
-      en: "Have more energy throughout the day and less chronic fatigue",
+    {
+      value: "improve_energy",
+      it: "Migliorare l'energia",
+      en: "Improve energy",
+      icon: "Zap",
+      description: {
+        it: "Avere più energia durante il giorno e meno stanchezza cronica",
+        en: "Have more energy throughout the day and less chronic fatigue",
+      },
     },
-  },
-  {
-    value: "better_sleep",
-    it: "Dormire meglio",
-    en: "Better sleep",
-    icon: "Moon",
-    description: {
-      it: "Migliorare qualità e durata del sonno per un recupero ottimale",
-      en: "Improve sleep quality and duration for optimal recovery",
+    {
+      value: "better_sleep",
+      it: "Dormire meglio",
+      en: "Better sleep",
+      icon: "Moon",
+      description: {
+        it: "Migliorare qualità e durata del sonno per un recupero ottimale",
+        en: "Improve sleep quality and duration for optimal recovery",
+      },
     },
-  },
-  {
-    value: "reduce_stress",
-    it: "Ridurre lo stress",
-    en: "Reduce stress",
-    icon: "Wind",
-    description: {
-      it: "Gestire meglio ansia e tensione per una vita più equilibrata",
-      en: "Better manage anxiety and tension for a more balanced life",
+    {
+      value: "reduce_stress",
+      it: "Ridurre lo stress",
+      en: "Reduce stress",
+      icon: "Wind",
+      description: {
+        it: "Gestire meglio ansia e tensione per una vita più equilibrata",
+        en: "Better manage anxiety and tension for a more balanced life",
+      },
     },
-  },
-];
+  ];
 
 export const EXERCISE_ACCESS_OPTIONS: {
   value: ExerciseAccess;
@@ -241,32 +241,32 @@ export const EXERCISE_ACCESS_OPTIONS: {
   en: string;
   icon: string;
 }[] = [
-  { value: "outdoors", it: "Corsa/attività all'aperto", en: "Running/outdoor activities", icon: "TreePine" },
-  { value: "gym", it: "Palestra", en: "Gym membership", icon: "Dumbbell" },
-  { value: "home_gym", it: "Home gym", en: "Home gym", icon: "Home" },
-  { value: "none", it: "Nessuno di questi", en: "None of these", icon: "X" },
-];
+    { value: "outdoors", it: "Corsa/attività all'aperto", en: "Running/outdoor activities", icon: "TreePine" },
+    { value: "gym", it: "Palestra", en: "Gym membership", icon: "Dumbbell" },
+    { value: "home_gym", it: "Home gym", en: "Home gym", icon: "Home" },
+    { value: "none", it: "Nessuno di questi", en: "None of these", icon: "X" },
+  ];
 
 export const TRAINING_TIME_OPTIONS: {
   value: TrainingTime;
   it: string;
   en: string;
 }[] = [
-  { value: "morning", it: "Mattina (prima del lavoro)", en: "Morning (before work)" },
-  { value: "lunch", it: "Pausa pranzo", en: "Lunch break" },
-  { value: "evening", it: "Sera (dopo il lavoro)", en: "Evening (after work)" },
-  { value: "flexible", it: "Flessibile", en: "Flexible" },
-];
+    { value: "morning", it: "Mattina (prima del lavoro)", en: "Morning (before work)" },
+    { value: "lunch", it: "Pausa pranzo", en: "Lunch break" },
+    { value: "evening", it: "Sera (dopo il lavoro)", en: "Evening (after work)" },
+    { value: "flexible", it: "Flessibile", en: "Flexible" },
+  ];
 
 export const SCHEDULE_CONSISTENCY_OPTIONS: {
   value: ScheduleConsistency;
   it: string;
   en: string;
 }[] = [
-  { value: "very_consistent", it: "Molto regolare", en: "Very consistent" },
-  { value: "somewhat_consistent", it: "Abbastanza regolare", en: "Somewhat consistent" },
-  { value: "unpredictable", it: "Imprevedibile", en: "Unpredictable" },
-];
+    { value: "very_consistent", it: "Molto regolare", en: "Very consistent" },
+    { value: "somewhat_consistent", it: "Abbastanza regolare", en: "Somewhat consistent" },
+    { value: "unpredictable", it: "Imprevedibile", en: "Unpredictable" },
+  ];
 
 export const SLEEP_QUALITY_OPTIONS: {
   value: SleepQuality;
@@ -274,32 +274,32 @@ export const SLEEP_QUALITY_OPTIONS: {
   en: string;
   icon: string;
 }[] = [
-  { value: "great", it: "Ottimo", en: "Great", icon: "Star" },
-  { value: "okay", it: "Discreto", en: "Okay", icon: "Minus" },
-  { value: "poor", it: "Scarso", en: "Poor", icon: "AlertTriangle" },
-];
+    { value: "great", it: "Ottimo", en: "Great", icon: "Star" },
+    { value: "okay", it: "Discreto", en: "Okay", icon: "Minus" },
+    { value: "poor", it: "Scarso", en: "Poor", icon: "AlertTriangle" },
+  ];
 
 export const MEAL_PREP_OPTIONS: {
   value: MealPrepCapacity;
   it: string;
   en: string;
 }[] = [
-  { value: "cook_daily", it: "Cucino ogni giorno", en: "Cook daily" },
-  { value: "meal_prep", it: "Meal prep settimanale", en: "Weekly meal prep" },
-  { value: "eat_out", it: "Mangio fuori spesso", en: "Mostly eat out" },
-  { value: "mixed", it: "Un mix di tutto", en: "A mix of everything" },
-];
+    { value: "cook_daily", it: "Cucino ogni giorno", en: "Cook daily" },
+    { value: "meal_prep", it: "Meal prep settimanale", en: "Weekly meal prep" },
+    { value: "eat_out", it: "Mangio fuori spesso", en: "Mostly eat out" },
+    { value: "mixed", it: "Un mix di tutto", en: "A mix of everything" },
+  ];
 
 export const WEEKLY_HOURS_OPTIONS: {
   value: WeeklyHours;
   it: string;
   en: string;
 }[] = [
-  { value: "lt3", it: "Meno di 3 ore", en: "Less than 3 hours" },
-  { value: "3to5", it: "3-5 ore", en: "3-5 hours" },
-  { value: "5to8", it: "5-8 ore", en: "5-8 hours" },
-  { value: "8plus", it: "8+ ore", en: "8+ hours" },
-];
+    { value: "lt3", it: "Meno di 3 ore", en: "Less than 3 hours" },
+    { value: "3to5", it: "3-5 ore", en: "3-5 hours" },
+    { value: "5to8", it: "5-8 ore", en: "5-8 hours" },
+    { value: "8plus", it: "8+ ore", en: "8+ hours" },
+  ];
 
 // ── Scoring engine ────────────────────────────────────────────────────────
 

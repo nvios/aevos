@@ -48,31 +48,31 @@ const STEP_META: {
   subtitle: { it: string; en: string };
   icon: typeof User;
 }[] = [
-  {
-    title: { it: "Il tuo profilo", en: "Your profile" },
-    subtitle: {
-      it: "Dicci chi sei per personalizzare l'analisi",
-      en: "Tell us about yourself to personalise the analysis",
+    {
+      title: { it: "Il tuo profilo", en: "Your profile" },
+      subtitle: {
+        it: "Dicci chi sei per personalizzare l'analisi",
+        en: "Tell us about yourself to personalise the analysis",
+      },
+      icon: User,
     },
-    icon: User,
-  },
-  {
-    title: { it: "Obiettivi e priorità", en: "Goals & priorities" },
-    subtitle: {
-      it: "Cosa vuoi ottenere? Ti guidiamo verso l'approccio con il miglior ROI",
-      en: "What do you want to achieve? We'll guide you to the highest-ROI approach",
+    {
+      title: { it: "Obiettivi e priorità", en: "Goals & priorities" },
+      subtitle: {
+        it: "Cosa vuoi ottenere? Ti guidiamo verso l'approccio con il miglior ROI",
+        en: "What do you want to achieve? We'll guide you to the highest-ROI approach",
+      },
+      icon: Target,
     },
-    icon: Target,
-  },
-  {
-    title: { it: "Stile di vita", en: "Lifestyle" },
-    subtitle: {
-      it: "Quanto tempo e risorse hai? Costruiamo un piano realistico",
-      en: "How much time and resources do you have? Let's build a realistic plan",
+    {
+      title: { it: "Stile di vita", en: "Lifestyle" },
+      subtitle: {
+        it: "Quanto tempo e risorse hai? Costruiamo un piano realistico",
+        en: "How much time and resources do you have? Let's build a realistic plan",
+      },
+      icon: Compass,
     },
-    icon: Compass,
-  },
-];
+  ];
 
 export function AssessmentWizard({ locale: localeProp }: { locale?: string } = {}) {
   const localeHook = useLocale();

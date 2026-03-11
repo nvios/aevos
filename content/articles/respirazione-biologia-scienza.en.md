@@ -50,6 +50,7 @@ resources:
       https://www.hubermanlab.com/episode/how-to-breathe-correctly-for-optimal-health-mood-learning-and-performance
 categories:
   - longevita
+  - salute-mentale
 ---
 
 We breathe approximately 25,000 times a day. For most of us, it's an automatic and unconscious act. Yet modern science is rediscovering what ancient traditions knew for millennia: the way you breathe shapes your biology, moment by moment.

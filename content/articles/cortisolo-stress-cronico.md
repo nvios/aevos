@@ -37,6 +37,7 @@ resources:
     link: 'https://med.stanford.edu/news/all-news/2022/10/stress-brain.html'
 categories:
   - longevita
+  - salute-mentale
 ---
 
 Il cortisolo non è il "cattivo". È l'ormone che ti sveglia la mattina e ti dà energia per affrontare le sfide. Il problema nasce quando il picco acuto (utile) diventa un altopiano cronico (tossico).

@@ -33,6 +33,7 @@ const CATEGORY_SLUGS_EN_TO_IT: Record<string, string> = {
   'hair': 'capelli',
   'longevity': 'longevita',
   'technology': 'tecnologie',
+  'mental-health': 'salute-mentale',
 };
 
 function parseNfGeoCountry(header: string | null): string | null {

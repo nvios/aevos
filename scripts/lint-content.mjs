@@ -12,10 +12,11 @@ const VALID_CATEGORIES = [
   "capelli",
   "longevita",
   "tecnologie",
+  "salute-mentale",
 ];
 
-const MIN_WORDS_ERROR = 250;
-const MIN_WORDS_WARN = 300;
+const MIN_WORDS_ERROR = 380;
+const MIN_WORDS_WARN = 450;
 const MAX_WORDS = 2500;
 const MAX_LINKS = 20;
 const MAX_LINK_DENSITY_PCT = 3.0;

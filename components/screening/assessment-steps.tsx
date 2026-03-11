@@ -79,19 +79,16 @@ function OptionCard({
     <button
       type="button"
       onClick={onClick}
-      className={`group relative flex items-start gap-3 rounded-xl border p-4 text-left transition-all ${
-        compact ? "py-3" : ""
-      } ${
-        selected
+      className={`group relative flex items-start gap-3 rounded-xl border p-4 text-left transition-all ${compact ? "py-3" : ""
+        } ${selected
           ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
           : "border-zinc-200 bg-white text-zinc-900 hover:border-zinc-400 hover:shadow-sm"
-      }`}
+        }`}
     >
       {Icon && (
         <div
-          className={`shrink-0 rounded-lg p-2 ${
-            selected ? "bg-white/15" : "bg-zinc-100 group-hover:bg-zinc-200"
-          }`}
+          className={`shrink-0 rounded-lg p-2 ${selected ? "bg-white/15" : "bg-zinc-100 group-hover:bg-zinc-200"
+            }`}
         >
           <Icon className="h-4 w-4" />
         </div>
@@ -102,20 +99,18 @@ function OptionCard({
         </p>
         {description && (
           <p
-            className={`text-xs leading-relaxed ${
-              selected ? "text-zinc-300" : "text-zinc-500"
-            }`}
+            className={`text-xs leading-relaxed ${selected ? "text-zinc-300" : "text-zinc-500"
+              }`}
           >
             {description}
           </p>
         )}
       </div>
       <div
-        className={`absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 rounded-full border-2 transition-colors ${
-          selected
+        className={`absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 rounded-full border-2 transition-colors ${selected
             ? "border-white bg-white"
             : "border-zinc-300 bg-transparent"
-        }`}
+          }`}
       >
         {selected && (
           <div className="absolute inset-[3px] rounded-full bg-zinc-900" />
@@ -141,26 +136,23 @@ function CheckboxCard({
     <button
       type="button"
       onClick={onClick}
-      className={`group flex items-center gap-3 rounded-xl border px-4 py-3 text-left transition-all ${
-        selected
+      className={`group flex items-center gap-3 rounded-xl border px-4 py-3 text-left transition-all ${selected
           ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
           : "border-zinc-200 bg-white text-zinc-900 hover:border-zinc-400 hover:shadow-sm"
-      }`}
+        }`}
     >
       {Icon && (
         <div
-          className={`shrink-0 rounded-lg p-2 ${
-            selected ? "bg-white/15" : "bg-zinc-100 group-hover:bg-zinc-200"
-          }`}
+          className={`shrink-0 rounded-lg p-2 ${selected ? "bg-white/15" : "bg-zinc-100 group-hover:bg-zinc-200"
+            }`}
         >
           <Icon className="h-4 w-4" />
         </div>
       )}
       <span className="text-sm font-semibold">{label}</span>
       <div
-        className={`ml-auto h-4 w-4 shrink-0 rounded border-2 transition-colors ${
-          selected ? "border-white bg-white" : "border-zinc-300"
-        }`}
+        className={`ml-auto h-4 w-4 shrink-0 rounded border-2 transition-colors ${selected ? "border-white bg-white" : "border-zinc-300"
+          }`}
       >
         {selected && (
           <svg viewBox="0 0 16 16" className="h-full w-full text-zinc-900">
@@ -226,11 +218,10 @@ export function ProfileStep({
               key={o.value}
               type="button"
               onClick={() => update("ageRange", o.value)}
-              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${
-                data.ageRange === o.value
+              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${data.ageRange === o.value
                   ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
                   : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-400"
-              }`}
+                }`}
             >
               {o.value}
             </button>
@@ -456,11 +447,10 @@ export function LifestyleStep({
               key={o.value}
               type="button"
               onClick={() => update("trainingTime", o.value)}
-              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${
-                data.trainingTime === o.value
+              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${data.trainingTime === o.value
                   ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
                   : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-400"
-              }`}
+                }`}
             >
               {isEn ? o.en : o.it}
             </button>
@@ -480,11 +470,10 @@ export function LifestyleStep({
               key={o.value}
               type="button"
               onClick={() => update("scheduleConsistency", o.value)}
-              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${
-                data.scheduleConsistency === o.value
+              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${data.scheduleConsistency === o.value
                   ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
                   : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-400"
-              }`}
+                }`}
             >
               {isEn ? o.en : o.it}
             </button>
@@ -520,11 +509,10 @@ export function LifestyleStep({
               key={o.value}
               type="button"
               onClick={() => update("mealPrep", o.value)}
-              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${
-                data.mealPrep === o.value
+              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${data.mealPrep === o.value
                   ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
                   : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-400"
-              }`}
+                }`}
             >
               {isEn ? o.en : o.it}
             </button>
@@ -544,11 +532,10 @@ export function LifestyleStep({
               key={o.value}
               type="button"
               onClick={() => update("weeklyHours", o.value)}
-              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${
-                data.weeklyHours === o.value
+              className={`rounded-lg border px-3 py-2.5 text-center text-sm font-medium transition-all ${data.weeklyHours === o.value
                   ? "border-zinc-900 bg-zinc-900 text-white shadow-md"
                   : "border-zinc-200 bg-white text-zinc-700 hover:border-zinc-400"
-              }`}
+                }`}
             >
               {isEn ? o.en : o.it}
             </button>

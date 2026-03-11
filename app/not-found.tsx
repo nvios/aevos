@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const SECTION_PREFIXES = [
   "/articoli",
@@ -12,6 +12,14 @@ const SECTION_PREFIXES = [
   "/services",
   "/sedi",
   "/locations",
+  "/glossario",
+  "/glossary",
+  "/calcolo-longevita",
+  "/longevity-calculator",
+  "/eta-biologica",
+  "/biological-age",
+  "/aspettativa-di-vita",
+  "/life-expectancy",
 ];
 
 function getParentSection(pathname: string): string {
@@ -28,18 +36,21 @@ function getParentSection(pathname: string): string {
     }
   }
 
-  if (segments.length === 1 && SECTION_PREFIXES.includes("/" + segments[0])) {
-    return prefix + "/" + segments[0];
+  if (segments.length === 1) {
+    const candidate = "/" + segments[0];
+    if (SECTION_PREFIXES.includes(candidate)) {
+      return prefix + candidate;
+    }
   }
 
   return prefix || "/";
 }
 
 export default function RootNotFound() {
-  const router = useRouter();
   const pathname = usePathname();
   const [seconds, setSeconds] = useState(5);
 
+  const isEn = pathname.startsWith("/en");
   const target = getParentSection(pathname);
 
   useEffect(() => {
@@ -48,14 +59,14 @@ export default function RootNotFound() {
     }, 1000);
 
     const timeout = setTimeout(() => {
-      router.replace(target);
+      window.location.replace(target);
     }, 5000);
 
     return () => {
       clearInterval(interval);
       clearTimeout(timeout);
     };
-  }, [router, target]);
+  }, [target]);
 
   const label = target === "/" || target === "/en"
     ? "Home"
@@ -82,10 +93,14 @@ export default function RootNotFound() {
           404
         </h1>
         <p className="text-lg text-zinc-600">
-          Questa pagina non ha superato il nostro screening di longevità.
+          {isEn
+            ? "This page didn't pass our longevity screening."
+            : "Questa pagina non ha superato il nostro screening di longevità."}
         </p>
         <p className="text-sm text-zinc-400">
-          Capita anche ai migliori URL.
+          {isEn
+            ? "It happens to the best URLs."
+            : "Capita anche ai migliori URL."}
         </p>
       </div>
 
@@ -109,10 +124,12 @@ export default function RootNotFound() {
             <path d="m12 19-7-7 7-7" />
             <path d="M19 12H5" />
           </svg>
-          Vai a {label}
+          {isEn ? `Go to ${label}` : `Vai a ${label}`}
         </a>
         <p className="text-xs text-zinc-400">
-          Redirect tra {Math.max(seconds, 0)}s...
+          {isEn
+            ? `Redirecting in ${Math.max(seconds, 0)}s...`
+            : `Redirect tra ${Math.max(seconds, 0)}s...`}
         </p>
       </div>
     </div>

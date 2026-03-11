@@ -50,6 +50,7 @@ resources:
       https://www.hubermanlab.com/episode/how-to-breathe-correctly-for-optimal-health-mood-learning-and-performance
 categories:
   - longevita
+  - salute-mentale
 ---
 
 Respiriamo circa 25.000 volte al giorno. Per la maggior parte di noi, è un atto automatico e inconsapevole. Eppure, la scienza moderna sta riscoprendo ciò che le tradizioni antiche sapevano da millenni: il modo in cui respiri modella la tua biologia, istante per istante.

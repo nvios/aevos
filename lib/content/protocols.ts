@@ -233,6 +233,7 @@ const PROTOCOLS_IT: Record<string, Protocol> = {
         features: [
           'Misurazione composizione corporea (BIA)',
           'Test forza di presa (grip strength)',
+          'Test tempi di reazione',
           'Stima VO2 max',
           'Report con suggerimenti di base'
         ],
@@ -249,6 +250,7 @@ const PROTOCOLS_IT: Record<string, Protocol> = {
           'Misurazione VO2 max',
           'Analisi qualità del sonno',
           'Test forza di presa',
+          'Test tempi di reazione',
           'Piano d\'azione personalizzato (nutrizione e allenamento)'
         ],
         cta: 'Prenota Percorso',
