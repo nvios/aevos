@@ -82,11 +82,17 @@ export default async function middleware(request: NextRequest) {
     parseNfGeoCountry(request.headers.get('x-nf-geo')) ??
     null;
 
-  // Next.js converts response headers prefixed with "x-middleware-request-"
-  // into request headers available via headers() in server actions/components.
   function withGeo(response: NextResponse): NextResponse {
     if (geoCountry) {
+      // Primary: internal header forwarding (works on Vercel, may work on Netlify)
       response.headers.set('x-middleware-request-x-geo-country', geoCountry);
+      // Fallback: cookie — always sent on subsequent requests including server actions
+      response.cookies.set('__geo', geoCountry, {
+        path: '/',
+        maxAge: 86400,
+        httpOnly: true,
+        sameSite: 'lax',
+      });
     }
     return response;
   }
